@@ -1,18 +1,15 @@
 ---
-title: "About"
+title: "Yu-You Liou"
+about:
+    template: trestles
+    image: pic.png
+    links:
+    - icon: github
+      text: Github
+      href: https://github.com/yyliou
 ---
 
-
-
-## Yu-You Liou
-
-::: {layout-nrow=1}
-I am Yu-You Liou, born in Taichung in 1997. I have been a PhD candidate in Agricultural Economics at National Taiwan University since 2023 and an adjunct lecturer at Shih Chien University since 2024. I primarily teach undergraduate courses in statistics, data analysis, and programming for applications. My research focuses on two main areas: (1) Agricultural, natural resource, environmental, and ecological economics, and (2) Urban, rural, regional, real estate, and transportation economics. Please find my [CV](https://filedn.com/lmmVdfTTpnYmuxVVpofv9Tb/cv/yylcv.pdf) and [Research Statement](https://filedn.com/lmmVdfTTpnYmuxVVpofv9Tb/cv/Research%20Statement.pdf).
-
-![](pic.png){width=2.75in}
-
-:::
-
+I am Yu-You Liou, born in Taichung in 1997. I have been a PhD candidate in Agricultural Economics at National Taiwan University since 2023 and an adjunct lecturer at Shih Chien University since 2024. I primarily teach undergraduate courses in statistics, data analysis, and programming for applications. My research focuses on two main areas: (1) Agricultural, natural resource, environmental, and ecological economics, and (2) Urban, rural, regional, real estate, and transportation economics. Please find my [CV](https://yyliou.github.io/yyliou/yyliou-cv/yyliou-cv.pdf).
 
 ## Education
 
@@ -24,8 +21,8 @@ I am Yu-You Liou, born in Taichung in 1997. I have been a PhD candidate in Agric
 
 ## Position
 
-- Lecturer, English Taught Program in International Business, Shih Chien University (2023–)
-- Research & Teaching Assistant, Department of Agricultural Economics, National Taiwan University (2019–)
+- **Lecturer**, English Taught Program in International Business, Shih Chien University (2023–)
+- **Research & Teaching Assistant**, Department of Agricultural Economics, National Taiwan University (2019–)
 
 ## Awards & Grants
 

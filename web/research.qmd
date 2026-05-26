@@ -2,7 +2,7 @@
 title: "Research"
 ---
 
-My publications have primarily appeared in international journals in regional studies and agricultural economics, including well-recognized outlets such as Journal of Transport Geography, Transportation Research Part A, Part D, and Forest Policy and Economics. A complete list of publications is available in my [CV](https://filedn.com/lmmVdfTTpnYmuxVVpofv9Tb/cv/yylcv.pdf) and [Research Statement](https://filedn.com/lmmVdfTTpnYmuxVVpofv9Tb/cv/Research%20Statement.pdf).
+My research has primarily appeared in international journals in regional studies and agricultural economics, including well-recognized outlets such as Journal of Transport Geography, Transportation Research Part A, Part D, and Forest Policy and Economics. A complete list of publications is available in my [CV](https://yyliou.github.io/yyliou/yyliou-cv/yyliou-cv.pdf).
 
 ## Selected Publications
 
@@ -15,7 +15,7 @@ My publications have primarily appeared in international journals in regional st
 - [Does COVID-19 affect metro use in Taipei?](http://doi.org/10.1016/j.jtrangeo.2021.102954) [**Journal of Transport Geography**](https://www.sciencedirect.com/journal/journal-of-transport-geography), 91, 102954, 2021 (with Chang, Lee, and Yang). †\^⁺
 
 
-**Note**: † Journals recommended by the NSTC, Division of Regional Studies and Geography; \* Journals recommended by the NSTC, Division of Economics. ^ Journals recommended by the NSTC, Division of Management II. ⁺ Journals ranked in the top 10% of their field based on the Journal Impact Factor.
+*Note*: † Journals recommended by the NSTC, Division of Regional Studies and Geography; \* Journals recommended by the NSTC, Division of Economics. ^ Journals recommended by the NSTC, Division of Management II. ⁺ Journals ranked in the top 10% of their field based on the Journal Impact Factor.
 
 ## Additional Publications
 
