@@ -7,6 +7,10 @@ about:
     - icon: github
       text: Github
       href: https://github.com/yyliou
+    - text: "{{< fa envelope >}} Email"
+      href: mailto:d10627008@ntu.edu.tw
+    - text: "<i class='bi bi-mortarboard-fill'></i> Google Sholar"
+      url: https://scholar.google.com/citations?user=PXyiL0oAAAAJ&hl=zh-TW
 ---
 
 I am Yu-You Liou, born in Taichung in 1997. I have been a PhD candidate in Agricultural Economics at National Taiwan University since 2023 and an adjunct lecturer at Shih Chien University since 2024. I primarily teach undergraduate courses in statistics, data analysis, and programming for applications. My research focuses on two main areas: (1) Agricultural, natural resource, environmental, and ecological economics, and (2) Urban, rural, regional, real estate, and transportation economics. Please find my [CV](https://yyliou.github.io/yyliou/yyliou-cv/yyliou-cv.pdf).
