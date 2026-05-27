@@ -154,5 +154,5 @@ pre {
 /* 1. 調整兩欄比例：將左欄寬度拉寬，使分隔線靠右 */
 .quarto-about-trestles {
   grid-template-columns: 42% 58% !important; /* 預設通常是 35/65，調成 42% 讓左欄更寬敞 */
-  gap: 3.5em !important;                     /* 增加左右兩欄的間距，看起來不擁擠 */
+  gap: 5em !important;                     /* 增加左右兩欄的間距，看起來不擁擠 */
 }
