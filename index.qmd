@@ -15,7 +15,7 @@ about:
 
 I am Yu-You Liou, a PhD candidate in Agricultural Economics at National Taiwan University (since 2023) and an adjunct lecturer at Shih Chien University (since 2024), where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics.
 
-[My CV](https://yyliou.github.io/yyliou/yyliou-cv/yyliou-cv.pdf).
+[My CV](https://yyliou.github.io/yyliou/yyliou-cv/yyliou-cv.pdf)
 
 ## Education
 
@@ -38,4 +38,4 @@ I am Yu-You Liou, a PhD candidate in Agricultural Economics at National Taiwan U
 
 ## Acknowledgement
 
-I am profoundly grateful to Professor [Hung-Hao Chang](https://sites.google.com/view/hh-chang) for his academic guidance and personal support throughout my master's and doctoral journey. His mentorship has left a lasting impact for which I will always be thankful.
+I am profoundly grateful to Professor [Hung-Hao Chang](https://sites.google.com/view/hh-chang) for his academic guidance and personal support throughout my master's and doctoral journey. His mentorship has left a lasting impact for which I will 
