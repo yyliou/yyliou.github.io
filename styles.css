@@ -1,34 +1,27 @@
 /* css styles */
 
-/* ==========================================================================
-   學術風格 CSS 樣式表 (Academic Style Sheet)
-   字體設定：Palatino / 比例與間距優化
-   ========================================================================== */
-
-/* 基礎設定與背景 */
 body {
     font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 16px;
     line-height: 1.7;
-    color: #222222; /* 避免純黑，使用深灰降低視覺疲勞 */
-    background-color: #fcfbf9; /* 暖白/象牙色背景，具備紙張質感 */
+    color: #222222; 
+    background-color: #fcfbf9; 
     margin: 0;
     padding: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
 
-/* 內容容器：限制最大寬度以利閱讀（黃金閱讀寬度） */
 .container {
     max-width: 740px; 
     margin: 0 auto;
     padding: 40px 20px;
 }
 
-/* 標題系統 */
+
 h1, h2, h3, h4 {
     font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
-    color: #1a2a3a; /* 學術深藍色，象徵嚴謹與權威 */
+    color: #1a2a3a; 
     font-weight: 600;
     line-height: 1.3;
     margin-top: 1.5em;
@@ -57,20 +50,19 @@ p {
     margin-bottom: 1.25em;
 }
 
-/* 超連結 */
 a {
     color: #1a2a3a;
     text-decoration: none;
-    border-bottom: 1px solid #1a2a3a; /* 用底線代替傳統下劃線，更優雅 */
+    border-bottom: 1px solid #1a2a3a; 
     transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 a:hover {
-    color: #8c1d40; /* 點閱或懸停時轉為經典學院紅（如哈佛/史丹佛紅） */
+    color: #8c1d40;
     border-bottom-color: #8c1d40;
 }
 
-/* 學術引言 (Blockquote) */
+
 blockquote {
     margin: 1.5em 0;
     padding-left: 20px;
@@ -79,7 +71,6 @@ blockquote {
     font-style: italic;
 }
 
-/* 列表設定 */
 ul, ol {
     margin-top: 0;
     margin-bottom: 1.25em;
@@ -90,7 +81,6 @@ li {
     margin-bottom: 0.5em;
 }
 
-/* 學術圖表與數據表格 */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -98,7 +88,6 @@ table {
     font-size: 0.95rem;
 }
 
-/* 經典的三線表設計 (Three-line Table) */
 table th, table td {
     padding: 10px 12px;
     text-align: left;
@@ -116,12 +105,11 @@ table td {
 }
 
 table tr:last-child td {
-    border-bottom: 2px solid #222; /* 底線加粗 */
+    border-bottom: 2px solid #222; 
 }
 
-/* 程式碼與公式區塊 */
 code, pre {
-    font-family: 'Courier New', Courier, monospace; /* 程式碼保持等寬字體 */
+    font-family: 'Courier New', Courier, monospace; 
     background-color: #f4f4f4;
     font-size: 0.9em;
 }
@@ -139,7 +127,6 @@ pre {
     margin: 1.5em 0;
 }
 
-/* 腳註或補充說明 (Meta/Footnote) */
 .footnote, .meta {
     font-size: 0.85rem;
     color: #777777;
@@ -147,12 +134,7 @@ pre {
 }
 
 
-/* ==========================================
-   自訂個人主頁 (index.qmd) 兩欄與照片特效
-   ========================================== */
-
-/* 1. 調整兩欄比例：將左欄寬度拉寬，使分隔線靠右 */
 .quarto-about-trestles {
-  grid-template-columns: 42% 58% !important; /* 預設通常是 35/65，調成 42% 讓左欄更寬敞 */
-  gap: 5em !important;                     /* 增加左右兩欄的間距，看起來不擁擠 */
+  grid-template-columns: 42% 58% !important; 
+  gap: 5em !important;                     
 }
