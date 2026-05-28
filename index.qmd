@@ -12,7 +12,7 @@ about:
     - text: "{{< fa envelope >}} Email"
       href: mailto:d10627008@ntu.edu.tw
     - text: "<i class='bi bi-file-earmark-person-fill'></i> CV"
-      href: https://yyliou.github.io/yyliou/yyliou-cv/yyliou-cv.pdf
+      href: https://yyliou.github.io/yyliou/cv/cv.pdf
     - text: "<i class='bi bi-mortarboard-fill'></i> Google Sholar"
       url: https://scholar.google.com/citations?user=PXyiL0oAAAAJ&hl=zh-TW
 ---
