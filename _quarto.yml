@@ -19,3 +19,5 @@ format:
     toc: true
 
 editor: visual
+
+# quarto render
