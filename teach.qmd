@@ -10,7 +10,7 @@ title: "Teaching"
 
 -   **Programming for Application**, Undergraduate, Spring, 2024, 2025, 2026.
 
--   [**Data Analysis**](https://yyliou.github.io/da/, Undergraduate, Fall, 2024, 2025.
+-   [**Data Analysis**](https://yyliou.github.io/da), Undergraduate, Fall, 2024, 2025.
 
 ## Anonymous Feedback from My Students
 
