@@ -6,8 +6,6 @@ website:
   title: "Liou"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: research.qmd
       - href: teach.qmd
 
