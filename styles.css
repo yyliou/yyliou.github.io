@@ -223,6 +223,133 @@ pre {
   margin-bottom: 0.2em;
 }
 
+/* Landing page */
+.landing {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8vh 6vw 6vh 6vw;
+    box-sizing: border-box;
+}
+
+.landing-name {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-30rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(-30rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.landing-en {
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(2rem, 5vw, 4.5rem);
+    color: #1a2a3a;
+    line-height: 1.0;
+    letter-spacing: -0.01em;
+    animation: drop-in 2s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.landing-zh {
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(1.4rem, 3.5vw, 3rem);
+    color: #4a5568;
+    line-height: 1.2;
+    margin-top: 0.8em;
+    letter-spacing: 0.05em;
+    animation: slide-in-left 2s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.landing-footer {
+    border-top: 1px solid #e0dbd4;
+    padding-top: 1.5em;
+}
+
+.landing-tagline {
+    font-size: 0.88rem;
+    color: #888;
+    letter-spacing: 0.02em;
+    margin-bottom: 1em;
+}
+
+.landing-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em 1.8em;
+}
+
+.landing-nav a {
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-weight: 600;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #1a2a3a;
+    border-bottom: none;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.landing-nav a:hover {
+    color: #2c5282;
+    border-bottom: none;
+}
+
+/* Bibliographic stats */
+.bib-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 0 2.2em 0;
+    padding: 1.4em 0 1.2em 0;
+    border-top: 1px solid #e8e4de;
+    border-bottom: 1px solid #e8e4de;
+}
+
+.bib-stat {
+    text-align: center;
+    flex: 1;
+}
+
+.bib-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 0.4em;
+}
+
+.bib-number {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1a2a3a;
+    line-height: 1;
+}
+
 /* Co-Authors two-column list */
 .coauthors-list {
     columns: 2;

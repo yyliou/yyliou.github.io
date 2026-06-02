@@ -93,6 +93,10 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
@@ -134,6 +138,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="bib-stats">
+  <div class="bib-stat">
+    <div class="bib-label">Publications</div>
+    <div class="bib-number" data-target="13">0</div>
+  </div>
+  <div class="bib-stat">
+    <div class="bib-label">Citations</div>
+    <div class="bib-number" data-target="87">0</div>
+  </div>
+  <div class="bib-stat">
+    <div class="bib-label">H Index</div>
+    <div class="bib-number" data-target="2">0</div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const counters = document.querySelectorAll('.bib-number');
+  const duration = 3500;
+
+  counters.forEach(function (el) {
+    const target = parseInt(el.getAttribute('data-target'), 10);
+    const start = performance.now();
+
+    function step(now) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      // ease-out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(eased * target);
+      if (progress < 1) requestAnimationFrame(step);
+    }
+
+    requestAnimationFrame(step);
+  });
+});
+</script>
 <p>My research has primarily been published in leading international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, and Forest Policy and Economics. An overview of these articles is detailed in my <a href="https://yyliou.github.io/yyliou/rs/rs.pdf">research statement</a>.</p>
 <section id="selected-publications" class="level2">
 <h2 class="anchored" data-anchor-id="selected-publications"><strong>Selected Publications</strong></h2>

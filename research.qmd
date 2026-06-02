@@ -2,6 +2,46 @@
 title: "Research"
 ---
 
+```{=html}
+<div class="bib-stats">
+  <div class="bib-stat">
+    <div class="bib-label">Publications</div>
+    <div class="bib-number" data-target="13">0</div>
+  </div>
+  <div class="bib-stat">
+    <div class="bib-label">Citations</div>
+    <div class="bib-number" data-target="87">0</div>
+  </div>
+  <div class="bib-stat">
+    <div class="bib-label">H Index</div>
+    <div class="bib-number" data-target="2">0</div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const counters = document.querySelectorAll('.bib-number');
+  const duration = 3500;
+
+  counters.forEach(function (el) {
+    const target = parseInt(el.getAttribute('data-target'), 10);
+    const start = performance.now();
+
+    function step(now) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      // ease-out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(eased * target);
+      if (progress < 1) requestAnimationFrame(step);
+    }
+
+    requestAnimationFrame(step);
+  });
+});
+</script>
+```
+
 My research has primarily been published in leading international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, and Forest Policy and Economics. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs/rs.pdf).
 
 ## **Selected Publications**

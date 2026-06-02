@@ -6,8 +6,12 @@ website:
   title: "Liou"
   navbar:
     left:
+      - href: about.qmd
+        text: About
       - href: research.qmd
+        text: Research
       - href: teach.qmd
+        text: Teaching
 
 format:
   html:
