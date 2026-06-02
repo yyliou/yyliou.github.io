@@ -4,43 +4,161 @@ title: "Research"
 
 My research has primarily been published in leading international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, and Forest Policy and Economics. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs/rs.pdf).
 
-## Selected Publications
+## **Selected Publications**
 
--   [The causal effects of removing hook-turn regulation on road safety](https://doi.org/10.1016/j.tra.2026.104860). [**Transportation Research Part A: Policy and Practice**](https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice), 205, 104860, 2026 (with Chang). †\*\^⁺
+:::::: paper-entry
+::: paper-title
+The causal effects of removing hook-turn regulation on road safety
+:::
 
-劉昱佑
+::: paper-meta
+***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Chang). †\*\^⁺
+:::
 
--   [The causal effect of monthly pass programs on public transportation and carbon emissions](http://doi.org/10.1016/j.trd.2025.104903). [**Transportation Research Part D: Transport and Environment**](https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment), 146, 104903, 2025 (with Kim, Chang, and Liou). †\^⁺
+::: paper-links
+[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn}
+:::
+::::::
 
--   [Forest diversity and the distribution of farm revenue - Empirical evidence from forest farms in Taiwan](http://doi.org/10.1016/j.forpol.2024.103411). [**Forest Policy and Economics**](https://www.sciencedirect.com/journal/forest-policy-and-economics), 171, 103411, 2025 (with Lee and Chang). ⁺
+:::::: paper-entry
+::: paper-title
+The causal effect of monthly pass programs on public transportation and carbon emissions
+:::
 
--   [Does COVID-19 affect metro use in Taipei?](http://doi.org/10.1016/j.jtrangeo.2021.102954) [**Journal of Transport Geography**](https://www.sciencedirect.com/journal/journal-of-transport-geography), 91, 102954, 2021 (with Chang, Lee, and Yang). †\^⁺
+::: paper-meta
+***Transportation Research Part D: Transport and Environment***, 146, 104903, 2025 (with Kim, Chang, and Liou). †\^⁺
+:::
+
+::: paper-links
+[Journal](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+Forest diversity and the distribution of farm revenue — Empirical evidence from forest farms in Taiwan
+:::
+
+::: paper-meta
+***Forest Policy and Economics***, 171, 103411, 2025 (with Lee and Chang). ⁺
+:::
+
+::: paper-links
+[Journal](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+Does COVID-19 affect metro use in Taipei?
+:::
+
+::: paper-meta
+***Journal of Transport Geography***, 91, 102954, 2021 (with Chang, Lee, and Yang). †\^⁺
+:::
+
+::: paper-links
+[Journal](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn}
+:::
+::::::
 
 *Note*: † Journals recommended by the NSTC, Division of Regional Studies and Geography; \* Journals recommended by the NSTC, Division of Economics. \^ Journals recommended by the NSTC, Division of Management II. ⁺ Journals ranked in the top 10% of their field based on the Journal Impact Factor.
 
-## Additional Publications
+## **Additional Publications**
 
--   [Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan](https://archive.conscientiabeam.com/index.php/31/article/view/4940/9198). [**Journal of Tourism Management Research**](https://www.conscientiabeam.com/journal/31), 13(1), 148–162, 2026 (with Kim and Chang).
+:::::: paper-entry
+::: paper-title
+Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan
+:::
 
--   [Traffic accidents of religious tourism](https://doi.org/10.1016/j.annale.2026.100209). [**Annals of Tourism Research Empirical Insights**](https://www.sciencedirect.com/journal/annals-of-tourism-research-empirical-insights), 7(1), 100209, 2026 (with Chang).
+::: paper-meta
+***Journal of Tourism Management Research***, 13(1), 148–162, 2026 (with Kim and Chang).
+:::
 
--   [Rooftop Solar Energy Adoption and Farm Revenue](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035). [**Agribusiness**](https://onlinelibrary.wiley.com/journal/15206297), 2025 (with Chang, Forthcoming).
+::: paper-links
+[Journal](https://archive.conscientiabeam.com/index.php/31/article/view/4940/9198){.paper-btn}
+:::
+::::::
 
--   [The impact of the carbon border adjustment mechanism policy on international trade and market competition – A theoretical justification](https://www.worldscientific.com/doi/10.1142/S0217590825500328). [**Singapore Economic Review**](https://www.worldscientific.com/worldscinet/ser), 2025 (with Chang and Begun, Forthcoming).
+:::::: paper-entry
+::: paper-title
+Traffic accidents of religious tourism
+:::
 
--   [Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Agriculture Census Data](https://www.mdpi.com/2077-0472/15/20/2124). [**Agriculture**](https://www.mdpi.com/journal/agriculture), 15(20), 2124, 2025 (with Lee and Chang).
+::: paper-meta
+***Annals of Tourism Research Empirical Insights***, 7(1), 100209, 2026 (with Chang).
+:::
 
--   [How do consumers respond to COVID-19? Application of Bayesian approach on credit card transaction data](https://link.springer.com/article/10.1007/s11135-024-01915-9). [**Quality & Quantity**](https://link.springer.com/journal/11135), 58(6), 5737–5754, 2024 (with Chang and Just).
+::: paper-links
+[Journal](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn}
+:::
+::::::
 
-## Work in Progress
+:::::: paper-entry
+::: paper-title
+Rooftop Solar Energy Adoption and Farm Revenue
+:::
 
-### Revision & Resubmission
+::: paper-meta
+***Agribusiness***, 2025 (with Chang, Forthcoming).
+:::
+
+::: paper-links
+[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+The impact of the carbon border adjustment mechanism policy on international trade and market competition — A theoretical justification
+:::
+
+::: paper-meta
+***Singapore Economic Review***, 2025 (with Chang and Begun, Forthcoming).
+:::
+
+::: paper-links
+[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Agriculture Census Data
+:::
+
+::: paper-meta
+***Agriculture***, 15(20), 2124, 2025 (with Lee and Chang).
+:::
+
+::: paper-links
+[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+How do consumers respond to COVID-19? Application of Bayesian approach on credit card transaction data
+:::
+
+::: paper-meta
+***Quality & Quantity***, 58(6), 5737–5754, 2024 (with Chang and Just).
+:::
+
+::: paper-links
+[Journal](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn}
+:::
+::::::
+
+## **Work in Progress**
+
+### **Revision & Resubmission**
 
 -   Food Traceability Systems and the Use of Chemical Fertilizers and Pesticides — Empirical Evidence Using Plot and Farm Household Data (with Chang).
 -   Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).
 -   Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).
 
-### Under Review
+### **Under Review**
 
 -   Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Chang).
 -   The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).
@@ -48,18 +166,20 @@ My research has primarily been published in leading international journals withi
 -   Air Quality vs. Fiscal Compensation: Evidence from Coal Reduction and Housing Markets (with Chang and Zilberman).
 -   Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).
 
-## Co-Authors
+## **Co-Authors**
 
--   [Begun, Jeffrey C.](https://jsis.washington.edu/emis/people/jeffrey-begun/), University of Washington.
--   [Chang, Hung-Hao](https://sites.google.com/view/hh-chang), National Taiwan University.
--   [Just, David R.](https://economics.cornell.edu/david-just), Cornell University.
--   [Kim, Man-Keun](https://qanr.usu.edu/directory/kim-man-keun), Utah State University.
--   [Lee, Brian](https://cpree.princeton.edu/people/brian-lee), Princeton University.
+::: coauthors-list
+-   [**Begun, Jeffrey C.**](https://jsis.washington.edu/emis/people/jeffrey-begun/), University of Washington.
+-   [**Chang, Hung-Hao**](https://sites.google.com/view/hh-chang), National Taiwan University.
+-   [**Just, David R.**](https://economics.cornell.edu/david-just), Cornell University.
+-   [**Kim, Man-Keun**](https://qanr.usu.edu/directory/kim-man-keun), Utah State University.
+-   [**Lee, Brian**](https://cpree.princeton.edu/people/brian-lee), Princeton University.
 -   Lee, Tzong-Haw, Xiamen University of Technology.
--   [Liou, Ruey-Wan](https://www.agec.ntu.edu.tw/en/teacher/teacher2/Ruey-Wan-Liou-30120496), National Taiwan University.
--   [Meyerhoefer, Chad D.](https://business.lehigh.edu/directory/chad-d-meyerhoefer), Lehigh University.
--   [Wu, Karin](https://www.agec.ntu.edu.tw/en/teacher/KARIN-WU-38174358), National Taiwan University.
--   [Yang, Feng-An](https://www.agec.ntu.edu.tw/en/teacher/Feng-An-Yang-84600801), National Taiwan University.
--   [Zilberman, David](https://professorzilberman.com), University of California, Berkeley.
+-   [**Liou, Ruey-Wan**](https://www.agec.ntu.edu.tw/en/teacher/teacher2/Ruey-Wan-Liou-30120496), National Taiwan University.
+-   [**Meyerhoefer, Chad D.**](https://business.lehigh.edu/directory/chad-d-meyerhoefer), Lehigh University.
+-   [**Wu, Karin**](https://www.agec.ntu.edu.tw/en/teacher/KARIN-WU-38174358), National Taiwan University.
+-   [**Yang, Feng-An**](https://www.agec.ntu.edu.tw/en/teacher/Feng-An-Yang-84600801), National Taiwan University.
+-   [**Zilberman, David**](https://professorzilberman.com), University of California, Berkeley.
+:::
 
 *Note*: Names are listed in alphabetical order.

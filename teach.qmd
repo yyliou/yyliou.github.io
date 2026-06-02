@@ -6,8 +6,45 @@ title: "Teaching"
 
 **English Taught Program in International Business**
 
--   [**Statistics I & II**](https://yyliou.github.io/stat), Undergraduate, Fall, 2024, 2025; Spring, 2025, 2026.
+:::::: paper-entry
+::: paper-title
+**Statistics I & II**
+:::
 
--   **Programming for Application**, Undergraduate, Spring, 2024, 2025, 2026.
+::: paper-meta
+Undergraduate, Fall, 2024, 2025; Spring, 2025, 2026.
+:::
 
--   [**Data Analysis**](https://yyliou.github.io/da), Undergraduate, Fall, 2024, 2025.
+::: paper-links
+[Course site](https://yyliou.github.io/stat){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+**Programming for Application**
+:::
+
+::: paper-meta
+Undergraduate, Spring, 2024, 2025, 2026.
+:::
+
+::: paper-links
+[Course site](https://yyliou.github.io/pa){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+**Data Analysis**
+:::
+
+::: paper-meta
+Undergraduate, Fall, 2024, 2025.
+:::
+
+::: paper-links
+[Course site](https://yyliou.github.io/da){.paper-btn}
+:::
+::::::
+
