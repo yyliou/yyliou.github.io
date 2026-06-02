@@ -1,7 +1,15 @@
 /* css styles */
 
+@font-face {
+  font-family: 'MyFont';
+  src: url('fonts/GenWanMin2TW-M.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
-    font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 16px;
     line-height: 1.7;
     color: #222222; 
@@ -20,7 +28,7 @@ body {
 
 
 h1, h2, h3, h4 {
-    font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
     color: #1a2a3a; 
     font-weight: 600;
     line-height: 1.3;
