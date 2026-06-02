@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Liou"
+  favicon: icon.png
   navbar:
     left:
       - href: about.qmd

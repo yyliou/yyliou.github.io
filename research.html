@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./icon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -130,6 +131,15 @@ function applyLangGlobal() {
   // Landing tagline
   var tl = document.querySelector('.landing-tagline');
   if (tl) tl.innerHTML = lang === 'zh' ? ZH_TAGLINE : EN_TAGLINE;
+
+  // Navbar links
+  var NAV_ZH = { 'About': '關於', 'Research': '研究', 'Teaching': '教學' };
+  var NAV_EN = { '關於': 'About', '研究': 'Research', '教學': 'Teaching' };
+  document.querySelectorAll('.navbar .nav-link').forEach(function (el) {
+    var t = el.textContent.trim();
+    if (lang === 'zh' && NAV_ZH[t]) el.textContent = NAV_ZH[t];
+    if (lang === 'en' && NAV_EN[t]) el.textContent = NAV_EN[t];
+  });
 }
 
 // ── Boot ──────────────────────────────────────────────
