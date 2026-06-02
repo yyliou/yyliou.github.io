@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teaching – Liou</title>
+<title>教學 – Liou</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teach.html" aria-current="page"> 
+    <a class="nav-link" href="./teach.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -274,7 +274,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching</h1>
+<h1 class="title">教學</h1>
 </div>
 
 
@@ -293,15 +293,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="bib-stats">
   <div class="bib-stat">
-    <div class="bib-label">Credits</div>
+    <div class="bib-label">總學分數</div>
     <div class="bib-number" data-target="18" data-decimals="0">0</div>
   </div>
   <div class="bib-stat">
-    <div class="bib-label">Enrollment</div>
+    <div class="bib-label">修課人次</div>
     <div class="bib-number" data-target="392" data-decimals="0">0</div>
   </div>
   <div class="bib-stat">
-    <div class="bib-label">Evaluation</div>
+    <div class="bib-label">教學評量</div>
     <div class="bib-number" data-target="4.56" data-decimals="2">0.00</div>
   </div>
 </div>
@@ -310,12 +310,10 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
   const counters = document.querySelectorAll('.bib-number');
   const duration = 2400;
-
   counters.forEach(function (el) {
     const target = parseFloat(el.getAttribute('data-target'));
     const decimals = parseInt(el.getAttribute('data-decimals') || '0', 10);
     const start = performance.now();
-
     function step(now) {
       const elapsed = now - start;
       const progress = Math.min(elapsed / duration, 1);
@@ -323,45 +321,44 @@ document.addEventListener('DOMContentLoaded', function () {
       el.textContent = (eased * target).toFixed(decimals);
       if (progress < 1) requestAnimationFrame(step);
     }
-
     requestAnimationFrame(step);
   });
 });
 </script>
-<section id="shih-chien-university" class="level2">
-<h2 class="anchored" data-anchor-id="shih-chien-university">Shih Chien University</h2>
-<p><strong>English Taught Program in International Business</strong></p>
+<section id="實踐大學" class="level2">
+<h2 class="anchored" data-anchor-id="實踐大學">實踐大學</h2>
+<p><strong>國際企業英語學位學程</strong></p>
 <div class="paper-entry">
 <div class="paper-title">
-<p><strong>Statistics I &amp; II</strong></p>
+<p><strong>統計學 (1) &amp; (2)</strong></p>
 </div>
 <div class="paper-meta">
-<p>Undergraduate, Fall, 2024, 2025; Spring, 2025, 2026.</p>
+<p>大學部，上學期：113學年、114學年；下學期：113學年、113學年</p>
 </div>
 <div class="paper-links">
-<p><a href="https://yyliou.github.io/stat" class="paper-btn">Course site</a></p>
-</div>
-</div>
-<div class="paper-entry">
-<div class="paper-title">
-<p><strong>Programming for Application</strong></p>
-</div>
-<div class="paper-meta">
-<p>Undergraduate, Spring, 2024, 2025, 2026.</p>
-</div>
-<div class="paper-links">
-<p><a href="https://yyliou.github.io/pa" class="paper-btn">Course site</a></p>
+<p><a href="https://yyliou.github.io/stat" class="paper-btn">課程網站</a></p>
 </div>
 </div>
 <div class="paper-entry">
 <div class="paper-title">
-<p><strong>Data Analysis</strong></p>
+<p><strong>應用程式設計</strong></p>
 </div>
 <div class="paper-meta">
-<p>Undergraduate, Fall, 2024, 2025.</p>
+<p>大學部，下學期：112學年、113學年、114學年</p>
 </div>
 <div class="paper-links">
-<p><a href="https://yyliou.github.io/da" class="paper-btn">Course site</a></p>
+<p><a href="https://yyliou.github.io/pa" class="paper-btn">課程網站</a></p>
+</div>
+</div>
+<div class="paper-entry">
+<div class="paper-title">
+<p><strong>資料分析</strong></p>
+</div>
+<div class="paper-meta">
+<p>大學部，上學期：113學年、114學年</p>
+</div>
+<div class="paper-links">
+<p><a href="https://yyliou.github.io/da" class="paper-btn">課程網站</a></p>
 </div>
 </div>
 

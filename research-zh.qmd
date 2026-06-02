@@ -1,0 +1,221 @@
+---
+title: "研究"
+---
+
+```{=html}
+<div class="bib-stats">
+  <div class="bib-stat">
+    <div class="bib-label">著作數</div>
+    <div class="bib-number" data-target="13">0</div>
+  </div>
+  <div class="bib-stat">
+    <div class="bib-label">被引次數</div>
+    <div class="bib-number" data-target="87">0</div>
+  </div>
+  <div class="bib-stat">
+    <div class="bib-label">H 指數</div>
+    <div class="bib-number" data-target="2">0</div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const counters = document.querySelectorAll('.bib-number');
+  const duration = 3500;
+  counters.forEach(function (el) {
+    const target = parseInt(el.getAttribute('data-target'), 10);
+    const start = performance.now();
+    function step(now) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(eased * target);
+      if (progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  });
+});
+</script>
+```
+
+本人研究成果主要發表於區域研究與農業經濟學領域之頂尖國際期刊，包括Journal of Transport Geography、Transportation Research Part A 及Part D，以及Forest Policy and Economics等具高度學術聲譽之刊物。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs.pdf)。
+
+## 精選著作
+
+:::::: paper-entry
+::: paper-title
+The causal effects of removing hook-turn regulation on road safety
+:::
+
+::: paper-meta
+***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Chang). †\*\^⁺
+:::
+
+::: paper-links
+[期刊全文](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+The causal effect of monthly pass programs on public transportation and carbon emissions
+:::
+
+::: paper-meta
+***Transportation Research Part D: Transport and Environment***, 146, 104903, 2025 (with Kim, Chang, and Liou). †\^⁺
+:::
+
+::: paper-links
+[期刊全文](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+Forest diversity and the distribution of farm revenue — Empirical evidence from forest farms in Taiwan
+:::
+
+::: paper-meta
+***Forest Policy and Economics***, 171, 103411, 2025 (with Lee and Chang). ⁺
+:::
+
+::: paper-links
+[期刊全文](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+Does COVID-19 affect metro use in Taipei?
+:::
+
+::: paper-meta
+***Journal of Transport Geography***, 91, 102954, 2021 (with Chang, Lee, and Yang). †\^⁺
+:::
+
+::: paper-links
+[期刊全文](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn}
+:::
+::::::
+
+*附註*：† 科技部區域研究與地理學門推薦期刊；\* 科技部經濟學門推薦期刊。\^ 科技部管理二學門推薦期刊。⁺ 期刊影響因子位於該領域前 10%。
+
+## 其他著作
+
+:::::: paper-entry
+::: paper-title
+Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan
+:::
+
+::: paper-meta
+***Journal of Tourism Management Research***, 13(1), 148–162, 2026 (with Kim and Chang).
+:::
+
+::: paper-links
+[期刊全文](https://archive.conscientiabeam.com/index.php/31/article/view/4940/9198){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+Traffic accidents of religious tourism
+:::
+
+::: paper-meta
+***Annals of Tourism Research Empirical Insights***, 7(1), 100209, 2026 (with Chang).
+:::
+
+::: paper-links
+[期刊全文](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+Rooftop Solar Energy Adoption and Farm Revenue
+:::
+
+::: paper-meta
+***Agribusiness***, 2025 (with Chang, Forthcoming).
+:::
+
+::: paper-links
+[期刊全文](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+The impact of the carbon border adjustment mechanism policy on international trade and market competition — A theoretical justification
+:::
+
+::: paper-meta
+***Singapore Economic Review***, 2025 (with Chang and Begun, Forthcoming).
+:::
+
+::: paper-links
+[期刊全文](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Agriculture Census Data
+:::
+
+::: paper-meta
+***Agriculture***, 15(20), 2124, 2025 (with Lee and Chang).
+:::
+
+::: paper-links
+[期刊全文](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn}
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+How do consumers respond to COVID-19? Application of Bayesian approach on credit card transaction data
+:::
+
+::: paper-meta
+***Quality & Quantity***, 58(6), 5737–5754, 2024 (with Chang and Just).
+:::
+
+::: paper-links
+[期刊全文](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn}
+:::
+::::::
+
+## 進行中研究
+
+### 修訂重投
+
+-   Food Traceability Systems and the Use of Chemical Fertilizers and Pesticides — Empirical Evidence Using Plot and Farm Household Data (with Chang).
+-   Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).
+-   Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).。
+
+### 審稿中
+
+-   Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Chang).
+-   The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).
+-   Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).
+-   Air Quality vs. Fiscal Compensation: Evidence from Coal Reduction and Housing Markets (with Chang and Zilberman).
+-   Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).
+
+## 合著者
+
+::: coauthors-list
+-   [**巫凱琳**](https://www.agec.ntu.edu.tw/en/teacher/KARIN-WU-38174358)，國立臺灣大學
+-   李宗皓，廈門理工學院
+-   [**張宏浩**](https://sites.google.com/view/hh-chang)，國立臺灣大學
+-   [**楊豐安**](https://www.agec.ntu.edu.tw/en/teacher/Feng-An-Yang-84600801)，國立臺灣大學
+-   [**劉瑞文**](https://www.agec.ntu.edu.tw/en/teacher/teacher2/Ruey-Wan-Liou-30120496)，國立臺灣大學
+-   [**Begun, Jeffrey C.**](https://jsis.washington.edu/emis/people/jeffrey-begun/)，華盛頓大學
+-   [**Just, David R.**](https://economics.cornell.edu/david-just)，康乃爾大學
+-   [**Kim, Man-Keun**](https://qanr.usu.edu/directory/kim-man-keun)，猶他州立大學
+-   [**Lee, Brian**](https://cpree.princeton.edu/people/brian-lee)，普林斯頓大學
+-   [**Meyerhoefer, Chad D.**](https://business.lehigh.edu/directory/chad-d-meyerhoefer)，理海大學
+-   [**Zilberman, David**](https://professorzilberman.com)，加州大學柏克萊分校
+:::
+
+*附註*：姓名依英文字母順序排列。

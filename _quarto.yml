@@ -19,6 +19,7 @@ format:
       - cosmo
     css: styles.css
     toc: false
+    include-in-header: _header.html
 
 editor: visual
 

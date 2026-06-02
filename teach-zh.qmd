@@ -1,19 +1,19 @@
 ---
-title: "Teaching"
+title: "教學"
 ---
 
 ```{=html}
 <div class="bib-stats">
   <div class="bib-stat">
-    <div class="bib-label">Credits</div>
+    <div class="bib-label">總學分數</div>
     <div class="bib-number" data-target="18" data-decimals="0">0</div>
   </div>
   <div class="bib-stat">
-    <div class="bib-label">Enrollment</div>
+    <div class="bib-label">修課人次</div>
     <div class="bib-number" data-target="392" data-decimals="0">0</div>
   </div>
   <div class="bib-stat">
-    <div class="bib-label">Evaluation</div>
+    <div class="bib-label">教學評量</div>
     <div class="bib-number" data-target="4.56" data-decimals="2">0.00</div>
   </div>
 </div>
@@ -22,12 +22,10 @@ title: "Teaching"
 document.addEventListener('DOMContentLoaded', function () {
   const counters = document.querySelectorAll('.bib-number');
   const duration = 2400;
-
   counters.forEach(function (el) {
     const target = parseFloat(el.getAttribute('data-target'));
     const decimals = parseInt(el.getAttribute('data-decimals') || '0', 10);
     const start = performance.now();
-
     function step(now) {
       const elapsed = now - start;
       const progress = Math.min(elapsed / duration, 1);
@@ -35,56 +33,54 @@ document.addEventListener('DOMContentLoaded', function () {
       el.textContent = (eased * target).toFixed(decimals);
       if (progress < 1) requestAnimationFrame(step);
     }
-
     requestAnimationFrame(step);
   });
 });
 </script>
 ```
 
-## Shih Chien University
+## 實踐大學
 
-**English Taught Program in International Business**
+**國際企業英語學位學程**
 
 :::::: paper-entry
 ::: paper-title
-**Statistics I & II**
+**統計學 (1) & (2)**
 :::
 
 ::: paper-meta
-Undergraduate, Fall, 2024, 2025; Spring, 2025, 2026.
+大學部，上學期：113學年、114學年；下學期：113學年、113學年
 :::
 
 ::: paper-links
-[Course site](https://yyliou.github.io/stat){.paper-btn}
+[課程網站](https://yyliou.github.io/stat){.paper-btn}
 :::
 ::::::
 
 :::::: paper-entry
 ::: paper-title
-**Programming for Application**
+**應用程式設計**
 :::
 
 ::: paper-meta
-Undergraduate, Spring, 2024, 2025, 2026.
+大學部，下學期：112學年、113學年、114學年
 :::
 
 ::: paper-links
-[Course site](https://yyliou.github.io/pa){.paper-btn}
+[課程網站](https://yyliou.github.io/pa){.paper-btn}
 :::
 ::::::
 
 :::::: paper-entry
 ::: paper-title
-**Data Analysis**
+**資料分析**
 :::
 
 ::: paper-meta
-Undergraduate, Fall, 2024, 2025.
+大學部，上學期：113學年、114學年
 :::
 
 ::: paper-links
-[Course site](https://yyliou.github.io/da){.paper-btn}
+[課程網站](https://yyliou.github.io/da){.paper-btn}
 :::
 ::::::
-
