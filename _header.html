@@ -61,13 +61,26 @@ function applyLangGlobal() {
   var tl = document.querySelector('.landing-tagline');
   if (tl) tl.innerHTML = lang === 'zh' ? ZH_TAGLINE : EN_TAGLINE;
 
-  // Navbar links
-  var NAV_ZH = { 'About': '關於', 'Research': '研究', 'Teaching': '教學' };
-  var NAV_EN = { '關於': 'About', '研究': 'Research', '教學': 'Teaching' };
+  // Navbar links — keyed by href filename (reliable)
+  var NAVBAR_ZH = {
+    'about.html':    { href: 'about-zh.html',    text: '關於' },
+    'research.html': { href: 'research-zh.html',  text: '研究' },
+    'teach.html':    { href: 'teach-zh.html',     text: '教學' },
+  };
+  var NAVBAR_EN = {
+    'about-zh.html':    { href: 'about.html',    text: 'About' },
+    'research-zh.html': { href: 'research.html', text: 'Research' },
+    'teach-zh.html':    { href: 'teach.html',    text: 'Teaching' },
+  };
+  var navTable = lang === 'zh' ? NAVBAR_ZH : NAVBAR_EN;
   document.querySelectorAll('.navbar .nav-link').forEach(function (el) {
-    var t = el.textContent.trim();
-    if (lang === 'zh' && NAV_ZH[t]) el.textContent = NAV_ZH[t];
-    if (lang === 'en' && NAV_EN[t]) el.textContent = NAV_EN[t];
+    var href = el.getAttribute('href') || '';
+    var base = href.split('/').pop().split('?')[0].split('#')[0];
+    var entry = navTable[base];
+    if (entry) {
+      el.setAttribute('href', href.replace(base, entry.href));
+      el.textContent = entry.text;
+    }
   });
 }
 
@@ -94,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
     themeBtn.textContent = next === 'dark' ? '☀' : '☾';
   };
 
-  btn.className = 'navbar-icon-btn';
+  btn.className = 'navbar-icon-btn global-lang-toggle';
 
   // Wrap both buttons together, insert right before search icon
   var wrap = document.createElement('div');
