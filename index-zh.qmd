@@ -1,0 +1,27 @@
+---
+title: ""
+page-layout: custom
+---
+
+```{=html}
+<div class="landing">
+
+  <div class="landing-name">
+    <div class="landing-en">Yu-You Liou</div>
+    <div class="landing-zh">劉昱佑</div>
+  </div>
+
+  <div class="landing-footer">
+    <p class="landing-tagline">
+      農業、環境與生態經濟學 &nbsp;·&nbsp; 都市、區域與交通經濟學
+    </p>
+    <nav class="landing-nav">
+      <a href="https://yyliou.github.io/yyliou/cv/cv.pdf" target="_blank">履歷</a>
+      <a href="mailto:d10627008@ntu.edu.tw">電郵</a>
+      <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&hl=zh-TW" target="_blank">Google 學術</a>
+      <a href="https://github.com/yyliou" target="_blank">GitHub</a>
+    </nav>
+  </div>
+
+</div>
+```
