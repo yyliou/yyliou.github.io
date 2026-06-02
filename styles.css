@@ -263,6 +263,17 @@ pre {
     }
 }
 
+@keyframes slide-in-right {
+    from {
+        opacity: 1;
+        transform: translateX(500vw);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .landing-en {
     font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
     font-weight: 600;
@@ -271,6 +282,19 @@ pre {
     line-height: 1.0;
     letter-spacing: -0.01em;
     animation: drop-in 2s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.landing-divider {
+    width: clamp(10rem, 30vw, 25rem);
+    height: 2px;
+    background-color: #1a2a3a;
+    margin: 0.8em 0;
+    animation: slide-in-right 2s cubic-bezier(0.22, 1, 0.36, 1) both;
+    overflow: hidden;
+}
+
+[data-theme="dark"] .landing-divider {
+    background-color: #dde3ec;
 }
 
 .landing-zh {
