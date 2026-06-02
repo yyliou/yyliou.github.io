@@ -38,9 +38,9 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 ```
 
-本人研究成果主要發表於區域研究與農業經濟學領域之頂尖國際期刊，包括Journal of Transport Geography、Transportation Research Part A 及Part D，以及Forest Policy and Economics等具高度學術聲譽之刊物。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs.pdf)。
+本人研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的Journal of Transport Geography、Transportation Research Part A 及Part D，以及Forest Policy and Economics等具高度學術聲譽之刊物。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs.pdf)。
 
-## 精選著作
+## **焦點著作**
 
 :::::: paper-entry
 ::: paper-title
@@ -98,9 +98,11 @@ Does COVID-19 affect metro use in Taipei?
 :::
 ::::::
 
+::: paper-note
 *附註*：† 科技部區域研究與地理學門推薦期刊；\* 科技部經濟學門推薦期刊。\^ 科技部管理二學門推薦期刊。⁺ 期刊影響因子位於該領域前 10%。
+:::
 
-## 其他著作
+## **其他著作**
 
 :::::: paper-entry
 ::: paper-title
@@ -186,7 +188,7 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 :::
 ::::::
 
-## 進行中研究
+## **進行中研究**
 
 ### 修訂重投
 
@@ -202,20 +204,22 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 -   Air Quality vs. Fiscal Compensation: Evidence from Coal Reduction and Housing Markets (with Chang and Zilberman).
 -   Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).
 
-## 合著者
+## **共同作者**
 
 ::: coauthors-list
--   [**巫凱琳**](https://www.agec.ntu.edu.tw/en/teacher/KARIN-WU-38174358)，國立臺灣大學
--   李宗皓，廈門理工學院
--   [**張宏浩**](https://sites.google.com/view/hh-chang)，國立臺灣大學
--   [**楊豐安**](https://www.agec.ntu.edu.tw/en/teacher/Feng-An-Yang-84600801)，國立臺灣大學
--   [**劉瑞文**](https://www.agec.ntu.edu.tw/en/teacher/teacher2/Ruey-Wan-Liou-30120496)，國立臺灣大學
 -   [**Begun, Jeffrey C.**](https://jsis.washington.edu/emis/people/jeffrey-begun/)，華盛頓大學
 -   [**Just, David R.**](https://economics.cornell.edu/david-just)，康乃爾大學
 -   [**Kim, Man-Keun**](https://qanr.usu.edu/directory/kim-man-keun)，猶他州立大學
 -   [**Lee, Brian**](https://cpree.princeton.edu/people/brian-lee)，普林斯頓大學
 -   [**Meyerhoefer, Chad D.**](https://business.lehigh.edu/directory/chad-d-meyerhoefer)，理海大學
 -   [**Zilberman, David**](https://professorzilberman.com)，加州大學柏克萊分校
+-   [**巫凱琳**](https://www.agec.ntu.edu.tw/en/teacher/KARIN-WU-38174358)，國立臺灣大學
+-   李宗皓，廈門理工學院
+-   [**張宏浩**](https://sites.google.com/view/hh-chang)，國立臺灣大學
+-   [**楊豐安**](https://www.agec.ntu.edu.tw/en/teacher/Feng-An-Yang-84600801)，國立臺灣大學
+-   [**劉瑞文**](https://www.agec.ntu.edu.tw/en/teacher/teacher2/Ruey-Wan-Liou-30120496)，國立臺灣大學
 :::
 
+::: paper-note
 *附註*：姓名依英文字母順序排列。
+:::

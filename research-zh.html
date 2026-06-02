@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-// Apply saved theme before paint
+// ── Theme (before-paint) ──────────────────────────────
 (function () {
   var t = localStorage.getItem('theme') || 'light';
   document.documentElement.setAttribute('data-theme', t);
@@ -78,57 +78,28 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 // ── Translation dictionary ────────────────────────────
-var DICT = {
-  // Navbar
-  'About':    '關於',
-  'Research': '研究',
-  'Teaching': '教學',
-  'Liou':     'Liou',
-  // Landing
-  'CV':             '履歷',
-  'Email':          '電郵',
-  'Google Scholar': 'Google 學術',
-  'Dark mode':      '深色模式',
-  'Light mode':     '淺色模式',
-  // About page headings
-  'Education':       '學歷',
-  'Position':        '職位',
-  'Awards & Grants': '獎助金',
-  'Acknowledgement': '致謝',
-  // Research page headings
-  'Selected Publications':  '精選著作',
-  'Additional Publications':'其他著作',
-  'Work in Progress':       '進行中研究',
-  'Revision & Resubmission':'修訂重投',
-  'Under Review':           '審稿中',
-  'Co-Authors':             '合著者',
-  // Teaching page headings
-  'Teaching': '教學',
-};
-
 var ZH_TAGLINE = '農業、環境與生態經濟學 &nbsp;·&nbsp; 都市、區域與交通經濟學';
 var EN_TAGLINE = 'Agricultural &amp; Environmental Economics &nbsp;·&nbsp; Urban &amp; Transportation Economics';
 
 // ── Lang helpers ──────────────────────────────────────
-function getLang()  { return localStorage.getItem('lang') || 'en'; }
-function setLang(l) { localStorage.setItem('lang', l); }
+function isZhPage() {
+  var page = location.pathname.split('/').pop() || '';
+  return page.indexOf('-zh') !== -1;
+}
+function getLang() { return isZhPage() ? 'zh' : 'en'; }
 
 // Page pairs: en ↔ zh
 var PAGE_PAIRS = {
-  'about.html':    'about-zh.html',
-  'about-zh.html': 'about.html',
+  'about.html':       'about-zh.html',
+  'about-zh.html':    'about.html',
   'research.html':    'research-zh.html',
   'research-zh.html': 'research.html',
-  'teach.html':    'teach-zh.html',
-  'teach-zh.html': 'teach.html',
-  'index.html':    'index.html',
+  'teach.html':       'teach-zh.html',
+  'teach-zh.html':    'teach.html',
+  'index.html':       'index.html',
 };
 
 function toggleLangGlobal() {
-  var newLang = getLang() === 'en' ? 'zh' : 'en';
-  setLang(newLang);
-
-  // redirect to paired page if one exists
   var page = location.pathname.split('/').pop() || 'index.html';
   if (!page.endsWith('.html')) page = page + '.html';
   var target = PAGE_PAIRS[page];
@@ -155,53 +126,13 @@ function applyLangGlobal() {
     }
   });
 
-  // Navbar links
-  document.querySelectorAll('.navbar-nav .nav-link').forEach(function (el) {
-    var en = el.getAttribute('data-orig') || el.textContent.trim();
-    el.setAttribute('data-orig', en);
-    el.textContent = lang === 'zh' ? (DICT[en] || en) : en;
-  });
-
-  // Page headings (h1 except site title, h2, h3)
-  document.querySelectorAll('h1.title, h2, h3').forEach(function (el) {
-    var en = el.getAttribute('data-orig') || el.textContent.trim();
-    el.setAttribute('data-orig', en);
-    if (lang === 'zh' && DICT[en]) {
-      el.textContent = DICT[en];
-    } else if (lang === 'en') {
-      el.textContent = en;
-    }
-  });
-
   // Landing tagline
   var tl = document.querySelector('.landing-tagline');
   if (tl) tl.innerHTML = lang === 'zh' ? ZH_TAGLINE : EN_TAGLINE;
 }
 
-// ── Theme helpers ─────────────────────────────────────
-function toggleTheme() {
-  var t = localStorage.getItem('theme') || 'light';
-  t = t === 'light' ? 'dark' : 'light';
-  localStorage.setItem('theme', t);
-  applyThemeGlobal();
-}
-
-function applyThemeGlobal() {
-  var t = localStorage.getItem('theme') || 'light';
-  document.documentElement.setAttribute('data-theme', t);
-  var icon  = document.getElementById('themeIcon');
-  var label = document.getElementById('themeLabel');
-  if (icon)  icon.textContent = t === 'dark' ? '○' : '☽';
-  if (label) {
-    label.setAttribute('data-en', t === 'dark' ? 'Light mode' : 'Dark mode');
-    label.setAttribute('data-zh', t === 'dark' ? '淺色模式'  : '深色模式');
-    applyLangGlobal();
-  }
-}
-
 // ── Boot ──────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function () {
-  // Inject button — right side of navbar, left of search
   var search = document.querySelector('#quarto-search');
   var btn = document.createElement('button');
   btn.id = 'globalLangToggle';
@@ -209,15 +140,35 @@ document.addEventListener('DOMContentLoaded', function () {
   btn.onclick = toggleLangGlobal;
   btn.textContent = getLang() === 'en' ? '中文' : 'English';
 
+  // Theme toggle button
+  var themeBtn = document.createElement('button');
+  themeBtn.id = 'themeToggleBtn';
+  themeBtn.className = 'navbar-icon-btn';
+  var currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+  themeBtn.textContent = currentTheme === 'dark' ? '☀' : '☾';
+  themeBtn.onclick = function () {
+    var t = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = t === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    themeBtn.textContent = next === 'dark' ? '☀' : '☾';
+  };
+
+  btn.className = 'navbar-icon-btn';
+
+  // Wrap both buttons together, insert right before search icon
+  var wrap = document.createElement('div');
+  wrap.className = 'navbar-btn-group';
+  wrap.appendChild(themeBtn);
+  wrap.appendChild(btn);
+
   if (search && search.parentNode) {
-    search.parentNode.insertBefore(btn, search);
+    search.parentNode.insertBefore(wrap, search);
   } else {
-    // fallback: append to navbar container
-    var nb = document.querySelector('.navbar > .container-fluid, .navbar > .container');
-    if (nb) nb.appendChild(btn);
+    var nb = document.querySelector('.navbar-collapse, .navbar > .container-fluid, .navbar > .container');
+    if (nb) nb.appendChild(wrap);
   }
 
-  applyThemeGlobal();
   applyLangGlobal();
 });
 </script>
@@ -324,9 +275,9 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
-<p>本人研究成果主要發表於區域研究與農業經濟學領域之頂尖國際期刊，包括Journal of Transport Geography、Transportation Research Part A 及Part D，以及Forest Policy and Economics等具高度學術聲譽之刊物。詳細研究成果請參閱<a href="https://yyliou.github.io/yyliou/rs/rs.pdf">研究自述</a>。</p>
-<section id="精選著作" class="level2">
-<h2 class="anchored" data-anchor-id="精選著作">精選著作</h2>
+<p>本人研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的Journal of Transport Geography、Transportation Research Part A 及Part D，以及Forest Policy and Economics等具高度學術聲譽之刊物。詳細研究成果請參閱<a href="https://yyliou.github.io/yyliou/rs/rs.pdf">研究自述</a>。</p>
+<section id="焦點著作" class="level2">
+<h2 class="anchored" data-anchor-id="焦點著作"><strong>焦點著作</strong></h2>
 <div class="paper-entry">
 <div class="paper-title">
 <p>The causal effects of removing hook-turn regulation on road safety</p>
@@ -371,10 +322,12 @@ document.addEventListener('DOMContentLoaded', function () {
 <p><a href="http://doi.org/10.1016/j.jtrangeo.2021.102954" class="paper-btn">期刊全文</a></p>
 </div>
 </div>
+<div class="paper-note">
 <p><em>附註</em>：† 科技部區域研究與地理學門推薦期刊；* 科技部經濟學門推薦期刊。^ 科技部管理二學門推薦期刊。⁺ 期刊影響因子位於該領域前 10%。</p>
+</div>
 </section>
 <section id="其他著作" class="level2">
-<h2 class="anchored" data-anchor-id="其他著作">其他著作</h2>
+<h2 class="anchored" data-anchor-id="其他著作"><strong>其他著作</strong></h2>
 <div class="paper-entry">
 <div class="paper-title">
 <p>Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan</p>
@@ -443,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 </section>
 <section id="進行中研究" class="level2">
-<h2 class="anchored" data-anchor-id="進行中研究">進行中研究</h2>
+<h2 class="anchored" data-anchor-id="進行中研究"><strong>進行中研究</strong></h2>
 <section id="修訂重投" class="level3">
 <h3 class="anchored" data-anchor-id="修訂重投">修訂重投</h3>
 <ul>
@@ -463,24 +416,26 @@ document.addEventListener('DOMContentLoaded', function () {
 </ul>
 </section>
 </section>
-<section id="合著者" class="level2">
-<h2 class="anchored" data-anchor-id="合著者">合著者</h2>
+<section id="共同作者" class="level2">
+<h2 class="anchored" data-anchor-id="共同作者"><strong>共同作者</strong></h2>
 <div class="coauthors-list">
 <ul>
-<li><a href="https://www.agec.ntu.edu.tw/en/teacher/KARIN-WU-38174358"><strong>巫凱琳</strong></a>，國立臺灣大學</li>
-<li>李宗皓，廈門理工學院</li>
-<li><a href="https://sites.google.com/view/hh-chang"><strong>張宏浩</strong></a>，國立臺灣大學</li>
-<li><a href="https://www.agec.ntu.edu.tw/en/teacher/Feng-An-Yang-84600801"><strong>楊豐安</strong></a>，國立臺灣大學</li>
-<li><a href="https://www.agec.ntu.edu.tw/en/teacher/teacher2/Ruey-Wan-Liou-30120496"><strong>劉瑞文</strong></a>，國立臺灣大學</li>
 <li><a href="https://jsis.washington.edu/emis/people/jeffrey-begun/"><strong>Begun, Jeffrey C.</strong></a>，華盛頓大學</li>
 <li><a href="https://economics.cornell.edu/david-just"><strong>Just, David R.</strong></a>，康乃爾大學</li>
 <li><a href="https://qanr.usu.edu/directory/kim-man-keun"><strong>Kim, Man-Keun</strong></a>，猶他州立大學</li>
 <li><a href="https://cpree.princeton.edu/people/brian-lee"><strong>Lee, Brian</strong></a>，普林斯頓大學</li>
 <li><a href="https://business.lehigh.edu/directory/chad-d-meyerhoefer"><strong>Meyerhoefer, Chad D.</strong></a>，理海大學</li>
 <li><a href="https://professorzilberman.com"><strong>Zilberman, David</strong></a>，加州大學柏克萊分校</li>
+<li><a href="https://www.agec.ntu.edu.tw/en/teacher/KARIN-WU-38174358"><strong>巫凱琳</strong></a>，國立臺灣大學</li>
+<li>李宗皓，廈門理工學院</li>
+<li><a href="https://sites.google.com/view/hh-chang"><strong>張宏浩</strong></a>，國立臺灣大學</li>
+<li><a href="https://www.agec.ntu.edu.tw/en/teacher/Feng-An-Yang-84600801"><strong>楊豐安</strong></a>，國立臺灣大學</li>
+<li><a href="https://www.agec.ntu.edu.tw/en/teacher/teacher2/Ruey-Wan-Liou-30120496"><strong>劉瑞文</strong></a>，國立臺灣大學</li>
 </ul>
 </div>
+<div class="paper-note">
 <p><em>附註</em>：姓名依英文字母順序排列。</p>
+</div>
 
 
 </section>

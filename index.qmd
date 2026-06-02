@@ -25,12 +25,9 @@ page-layout: custom
          data-en="Email" data-zh="電郵">Email</a>
       <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&hl=zh-TW" target="_blank"
          data-en="Google Scholar" data-zh="Google 學術">Google Scholar</a>
+      <a href="https://github.com/yyliou" target="_blank"
+         data-en="GitHub" data-zh="GitHub">GitHub</a>
     </nav>
-    <div class="theme-toggle" onclick="toggleTheme()">
-      <span class="theme-icon" id="themeIcon">☽</span>
-      <span class="theme-label" id="themeLabel"
-            data-en="Dark mode" data-zh="深色模式">Dark mode</span>
-    </div>
   </div>
 
 </div>

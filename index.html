@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-// Apply saved theme before paint
+// ── Theme (before-paint) ──────────────────────────────
 (function () {
   var t = localStorage.getItem('theme') || 'light';
   document.documentElement.setAttribute('data-theme', t);
@@ -78,57 +78,28 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 // ── Translation dictionary ────────────────────────────
-var DICT = {
-  // Navbar
-  'About':    '關於',
-  'Research': '研究',
-  'Teaching': '教學',
-  'Liou':     'Liou',
-  // Landing
-  'CV':             '履歷',
-  'Email':          '電郵',
-  'Google Scholar': 'Google 學術',
-  'Dark mode':      '深色模式',
-  'Light mode':     '淺色模式',
-  // About page headings
-  'Education':       '學歷',
-  'Position':        '職位',
-  'Awards & Grants': '獎助金',
-  'Acknowledgement': '致謝',
-  // Research page headings
-  'Selected Publications':  '精選著作',
-  'Additional Publications':'其他著作',
-  'Work in Progress':       '進行中研究',
-  'Revision & Resubmission':'修訂重投',
-  'Under Review':           '審稿中',
-  'Co-Authors':             '合著者',
-  // Teaching page headings
-  'Teaching': '教學',
-};
-
 var ZH_TAGLINE = '農業、環境與生態經濟學 &nbsp;·&nbsp; 都市、區域與交通經濟學';
 var EN_TAGLINE = 'Agricultural &amp; Environmental Economics &nbsp;·&nbsp; Urban &amp; Transportation Economics';
 
 // ── Lang helpers ──────────────────────────────────────
-function getLang()  { return localStorage.getItem('lang') || 'en'; }
-function setLang(l) { localStorage.setItem('lang', l); }
+function isZhPage() {
+  var page = location.pathname.split('/').pop() || '';
+  return page.indexOf('-zh') !== -1;
+}
+function getLang() { return isZhPage() ? 'zh' : 'en'; }
 
 // Page pairs: en ↔ zh
 var PAGE_PAIRS = {
-  'about.html':    'about-zh.html',
-  'about-zh.html': 'about.html',
+  'about.html':       'about-zh.html',
+  'about-zh.html':    'about.html',
   'research.html':    'research-zh.html',
   'research-zh.html': 'research.html',
-  'teach.html':    'teach-zh.html',
-  'teach-zh.html': 'teach.html',
-  'index.html':    'index.html',
+  'teach.html':       'teach-zh.html',
+  'teach-zh.html':    'teach.html',
+  'index.html':       'index.html',
 };
 
 function toggleLangGlobal() {
-  var newLang = getLang() === 'en' ? 'zh' : 'en';
-  setLang(newLang);
-
-  // redirect to paired page if one exists
   var page = location.pathname.split('/').pop() || 'index.html';
   if (!page.endsWith('.html')) page = page + '.html';
   var target = PAGE_PAIRS[page];
@@ -155,53 +126,13 @@ function applyLangGlobal() {
     }
   });
 
-  // Navbar links
-  document.querySelectorAll('.navbar-nav .nav-link').forEach(function (el) {
-    var en = el.getAttribute('data-orig') || el.textContent.trim();
-    el.setAttribute('data-orig', en);
-    el.textContent = lang === 'zh' ? (DICT[en] || en) : en;
-  });
-
-  // Page headings (h1 except site title, h2, h3)
-  document.querySelectorAll('h1.title, h2, h3').forEach(function (el) {
-    var en = el.getAttribute('data-orig') || el.textContent.trim();
-    el.setAttribute('data-orig', en);
-    if (lang === 'zh' && DICT[en]) {
-      el.textContent = DICT[en];
-    } else if (lang === 'en') {
-      el.textContent = en;
-    }
-  });
-
   // Landing tagline
   var tl = document.querySelector('.landing-tagline');
   if (tl) tl.innerHTML = lang === 'zh' ? ZH_TAGLINE : EN_TAGLINE;
 }
 
-// ── Theme helpers ─────────────────────────────────────
-function toggleTheme() {
-  var t = localStorage.getItem('theme') || 'light';
-  t = t === 'light' ? 'dark' : 'light';
-  localStorage.setItem('theme', t);
-  applyThemeGlobal();
-}
-
-function applyThemeGlobal() {
-  var t = localStorage.getItem('theme') || 'light';
-  document.documentElement.setAttribute('data-theme', t);
-  var icon  = document.getElementById('themeIcon');
-  var label = document.getElementById('themeLabel');
-  if (icon)  icon.textContent = t === 'dark' ? '○' : '☽';
-  if (label) {
-    label.setAttribute('data-en', t === 'dark' ? 'Light mode' : 'Dark mode');
-    label.setAttribute('data-zh', t === 'dark' ? '淺色模式'  : '深色模式');
-    applyLangGlobal();
-  }
-}
-
 // ── Boot ──────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function () {
-  // Inject button — right side of navbar, left of search
   var search = document.querySelector('#quarto-search');
   var btn = document.createElement('button');
   btn.id = 'globalLangToggle';
@@ -209,15 +140,35 @@ document.addEventListener('DOMContentLoaded', function () {
   btn.onclick = toggleLangGlobal;
   btn.textContent = getLang() === 'en' ? '中文' : 'English';
 
+  // Theme toggle button
+  var themeBtn = document.createElement('button');
+  themeBtn.id = 'themeToggleBtn';
+  themeBtn.className = 'navbar-icon-btn';
+  var currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+  themeBtn.textContent = currentTheme === 'dark' ? '☀' : '☾';
+  themeBtn.onclick = function () {
+    var t = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = t === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    themeBtn.textContent = next === 'dark' ? '☀' : '☾';
+  };
+
+  btn.className = 'navbar-icon-btn';
+
+  // Wrap both buttons together, insert right before search icon
+  var wrap = document.createElement('div');
+  wrap.className = 'navbar-btn-group';
+  wrap.appendChild(themeBtn);
+  wrap.appendChild(btn);
+
   if (search && search.parentNode) {
-    search.parentNode.insertBefore(btn, search);
+    search.parentNode.insertBefore(wrap, search);
   } else {
-    // fallback: append to navbar container
-    var nb = document.querySelector('.navbar > .container-fluid, .navbar > .container');
-    if (nb) nb.appendChild(btn);
+    var nb = document.querySelector('.navbar-collapse, .navbar > .container-fluid, .navbar > .container');
+    if (nb) nb.appendChild(wrap);
   }
 
-  applyThemeGlobal();
   applyLangGlobal();
 });
 </script>
@@ -288,11 +239,8 @@ document.addEventListener('DOMContentLoaded', function () {
       <a href="https://yyliou.github.io/yyliou/cv/cv.pdf" target="_blank" data-en="CV" data-zh="履歷">CV</a>
       <a href="mailto:d10627008@ntu.edu.tw" data-en="Email" data-zh="電郵">Email</a>
       <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&amp;hl=zh-TW" target="_blank" data-en="Google Scholar" data-zh="Google 學術">Google Scholar</a>
+      <a href="https://github.com/yyliou" target="_blank" data-en="GitHub" data-zh="GitHub">GitHub</a>
     </nav>
-    <div class="theme-toggle" onclick="toggleTheme()">
-      <span class="theme-icon" id="themeIcon">☽</span>
-      <span class="theme-label" id="themeLabel" data-en="Dark mode" data-zh="深色模式">Dark mode</span>
-    </div>
   </div>
 
 </div>

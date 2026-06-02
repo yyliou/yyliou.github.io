@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="我是國立臺灣大學農業經濟學系的博士候選人，同時在實踐大學擔任講師，教授大學部統計學、資料分析與應用程式設計等課程。研究領域涵蓋（1）農業、環境與生態經濟學，以及（2）都市、區域與交通經濟學。">
+<meta name="description" content="我是國立臺灣大學農業經濟學系的博士候選人，同時在實踐大學擔任講師，教授大學部統計學、資料分析與應用程式設計等課程。研究領域涵蓋（1）農業、環境與生態經濟學，以及（2）都市、區域與交通經濟學">
 
 <title>劉昱佑 – Liou</title>
 <style>
@@ -41,8 +41,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-// Apply saved theme before paint
+// ── Theme (before-paint) ──────────────────────────────
 (function () {
   var t = localStorage.getItem('theme') || 'light';
   document.documentElement.setAttribute('data-theme', t);
@@ -80,57 +78,28 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 // ── Translation dictionary ────────────────────────────
-var DICT = {
-  // Navbar
-  'About':    '關於',
-  'Research': '研究',
-  'Teaching': '教學',
-  'Liou':     'Liou',
-  // Landing
-  'CV':             '履歷',
-  'Email':          '電郵',
-  'Google Scholar': 'Google 學術',
-  'Dark mode':      '深色模式',
-  'Light mode':     '淺色模式',
-  // About page headings
-  'Education':       '學歷',
-  'Position':        '職位',
-  'Awards & Grants': '獎助金',
-  'Acknowledgement': '致謝',
-  // Research page headings
-  'Selected Publications':  '精選著作',
-  'Additional Publications':'其他著作',
-  'Work in Progress':       '進行中研究',
-  'Revision & Resubmission':'修訂重投',
-  'Under Review':           '審稿中',
-  'Co-Authors':             '合著者',
-  // Teaching page headings
-  'Teaching': '教學',
-};
-
 var ZH_TAGLINE = '農業、環境與生態經濟學 &nbsp;·&nbsp; 都市、區域與交通經濟學';
 var EN_TAGLINE = 'Agricultural &amp; Environmental Economics &nbsp;·&nbsp; Urban &amp; Transportation Economics';
 
 // ── Lang helpers ──────────────────────────────────────
-function getLang()  { return localStorage.getItem('lang') || 'en'; }
-function setLang(l) { localStorage.setItem('lang', l); }
+function isZhPage() {
+  var page = location.pathname.split('/').pop() || '';
+  return page.indexOf('-zh') !== -1;
+}
+function getLang() { return isZhPage() ? 'zh' : 'en'; }
 
 // Page pairs: en ↔ zh
 var PAGE_PAIRS = {
-  'about.html':    'about-zh.html',
-  'about-zh.html': 'about.html',
+  'about.html':       'about-zh.html',
+  'about-zh.html':    'about.html',
   'research.html':    'research-zh.html',
   'research-zh.html': 'research.html',
-  'teach.html':    'teach-zh.html',
-  'teach-zh.html': 'teach.html',
-  'index.html':    'index.html',
+  'teach.html':       'teach-zh.html',
+  'teach-zh.html':    'teach.html',
+  'index.html':       'index.html',
 };
 
 function toggleLangGlobal() {
-  var newLang = getLang() === 'en' ? 'zh' : 'en';
-  setLang(newLang);
-
-  // redirect to paired page if one exists
   var page = location.pathname.split('/').pop() || 'index.html';
   if (!page.endsWith('.html')) page = page + '.html';
   var target = PAGE_PAIRS[page];
@@ -157,53 +126,13 @@ function applyLangGlobal() {
     }
   });
 
-  // Navbar links
-  document.querySelectorAll('.navbar-nav .nav-link').forEach(function (el) {
-    var en = el.getAttribute('data-orig') || el.textContent.trim();
-    el.setAttribute('data-orig', en);
-    el.textContent = lang === 'zh' ? (DICT[en] || en) : en;
-  });
-
-  // Page headings (h1 except site title, h2, h3)
-  document.querySelectorAll('h1.title, h2, h3').forEach(function (el) {
-    var en = el.getAttribute('data-orig') || el.textContent.trim();
-    el.setAttribute('data-orig', en);
-    if (lang === 'zh' && DICT[en]) {
-      el.textContent = DICT[en];
-    } else if (lang === 'en') {
-      el.textContent = en;
-    }
-  });
-
   // Landing tagline
   var tl = document.querySelector('.landing-tagline');
   if (tl) tl.innerHTML = lang === 'zh' ? ZH_TAGLINE : EN_TAGLINE;
 }
 
-// ── Theme helpers ─────────────────────────────────────
-function toggleTheme() {
-  var t = localStorage.getItem('theme') || 'light';
-  t = t === 'light' ? 'dark' : 'light';
-  localStorage.setItem('theme', t);
-  applyThemeGlobal();
-}
-
-function applyThemeGlobal() {
-  var t = localStorage.getItem('theme') || 'light';
-  document.documentElement.setAttribute('data-theme', t);
-  var icon  = document.getElementById('themeIcon');
-  var label = document.getElementById('themeLabel');
-  if (icon)  icon.textContent = t === 'dark' ? '○' : '☽';
-  if (label) {
-    label.setAttribute('data-en', t === 'dark' ? 'Light mode' : 'Dark mode');
-    label.setAttribute('data-zh', t === 'dark' ? '淺色模式'  : '深色模式');
-    applyLangGlobal();
-  }
-}
-
 // ── Boot ──────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function () {
-  // Inject button — right side of navbar, left of search
   var search = document.querySelector('#quarto-search');
   var btn = document.createElement('button');
   btn.id = 'globalLangToggle';
@@ -211,15 +140,35 @@ document.addEventListener('DOMContentLoaded', function () {
   btn.onclick = toggleLangGlobal;
   btn.textContent = getLang() === 'en' ? '中文' : 'English';
 
+  // Theme toggle button
+  var themeBtn = document.createElement('button');
+  themeBtn.id = 'themeToggleBtn';
+  themeBtn.className = 'navbar-icon-btn';
+  var currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+  themeBtn.textContent = currentTheme === 'dark' ? '☀' : '☾';
+  themeBtn.onclick = function () {
+    var t = document.documentElement.getAttribute('data-theme') || 'light';
+    var next = t === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    themeBtn.textContent = next === 'dark' ? '☀' : '☾';
+  };
+
+  btn.className = 'navbar-icon-btn';
+
+  // Wrap both buttons together, insert right before search icon
+  var wrap = document.createElement('div');
+  wrap.className = 'navbar-btn-group';
+  wrap.appendChild(themeBtn);
+  wrap.appendChild(btn);
+
   if (search && search.parentNode) {
-    search.parentNode.insertBefore(btn, search);
+    search.parentNode.insertBefore(wrap, search);
   } else {
-    // fallback: append to navbar container
-    var nb = document.querySelector('.navbar > .container-fluid, .navbar > .container');
-    if (nb) nb.appendChild(btn);
+    var nb = document.querySelector('.navbar-collapse, .navbar > .container-fluid, .navbar > .container');
+    if (nb) nb.appendChild(wrap);
   }
 
-  applyThemeGlobal();
   applyLangGlobal();
 });
 </script>
@@ -282,31 +231,18 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 <div>
   <div class="description">
-    我是國立臺灣大學農業經濟學系的博士候選人，同時在實踐大學擔任講師，教授大學部統計學、資料分析與應用程式設計等課程。研究領域涵蓋（1）農業、環境與生態經濟學，以及（2）都市、區域與交通經濟學。
+    我是國立臺灣大學農業經濟學系的博士候選人，同時在實踐大學擔任講師，教授大學部統計學、資料分析與應用程式設計等課程。研究領域涵蓋（1）農業、環境與生態經濟學，以及（2）都市、區域與交通經濟學
   </div>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header>
     <div class="about-links">
-  <a href="https://github.com/yyliou" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:d10627008@ntu.edu.tw" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-envelope" aria-label="envelope"></i> 電郵</span>
-  </a>
-  <a href="https://yyliou.github.io/yyliou/cv/cv.pdf" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="bi bi-file-earmark-person-fill"></i> 履歷</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&amp;hl=zh-TW" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="bi bi-mortarboard-fill"></i> Google 學術</span>
-  </a>
 </div>
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
 <section id="學歷" class="level2">
-<h2 data-anchor-id="學歷">學歷</h2>
+<h2 data-anchor-id="學歷"><strong>學歷</strong></h2>
 <ul>
 <li>國立臺灣大學農業經濟學系博士候選人（2023–）</li>
 <li>國立臺灣大學統計碩士（2020–2021）</li>
@@ -315,15 +251,15 @@ document.addEventListener('DOMContentLoaded', function () {
 <li>國立臺灣大學農業經濟學學士（2015–2019）</li>
 </ul>
 </section>
-<section id="職位" class="level2">
-<h2 data-anchor-id="職位">職位</h2>
+<section id="現職" class="level2">
+<h2 data-anchor-id="現職"><strong>現職</strong></h2>
 <ul>
 <li><strong>講師</strong>，實踐大學國際企業英語學位學程（2023–）</li>
 <li><strong>研究暨教學助理</strong>，國立臺灣大學農業經濟學系（2019–）</li>
 </ul>
 </section>
-<section id="獎助金" class="level2">
-<h2 data-anchor-id="獎助金">獎助金</h2>
+<section id="獲獎" class="level2">
+<h2 data-anchor-id="獲獎"><strong>獲獎</strong></h2>
 <ul>
 <li>國科會博士生研究獎學金，2022–2026</li>
 <li>實踐大學全英教學獎勵，2025–2026</li>
@@ -331,8 +267,8 @@ document.addEventListener('DOMContentLoaded', function () {
 </ul>
 </section>
 <section id="致謝" class="level2">
-<h2 data-anchor-id="致謝">致謝</h2>
-<p>衷心感謝<a href="https://sites.google.com/view/hh-chang"><strong>張宏浩</strong></a>教授在我碩士與博士求學過程中給予的學術指導與個人支持，其諄諄教誨對我影響深遠，我將永懷感激。</p>
+<h2 data-anchor-id="致謝"><strong>致謝</strong></h2>
+<p>衷心感謝<a href="https://sites.google.com/view/hh-chang"><strong>張宏浩</strong></a>教授在我碩士與博士求學過程中給予的學術指導與個人支持，其教誨對我影響深遠，我將永懷感激。</p>
 
 
 </section>

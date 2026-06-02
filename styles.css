@@ -223,46 +223,6 @@ pre {
   margin-bottom: 0.2em;
 }
 
-/* ── Dark mode ─────────────────────────────────────── */
-[data-theme="dark"] {
-    --bg: #14181f;
-    --text: #e8e4dc;
-    --heading: #dde3ec;
-    --muted: #8a95a8;
-    --border: #2a3040;
-    --link: #dde3ec;
-}
-
-[data-theme="dark"] body {
-    background-color: var(--bg);
-    color: var(--text);
-}
-
-[data-theme="dark"] h1,
-[data-theme="dark"] h2,
-[data-theme="dark"] h3,
-[data-theme="dark"] h4 {
-    color: var(--heading);
-}
-
-[data-theme="dark"] a {
-    color: var(--link);
-    border-bottom-color: var(--muted);
-}
-
-[data-theme="dark"] a:hover {
-    color: #7eaadc;
-    border-bottom-color: #7eaadc;
-}
-
-[data-theme="dark"] .landing-en { color: var(--heading); }
-[data-theme="dark"] .landing-zh { color: var(--muted); }
-[data-theme="dark"] .landing-tagline { color: var(--muted); }
-[data-theme="dark"] .landing-footer { border-top-color: var(--border); }
-[data-theme="dark"] .landing-nav a { color: var(--heading); }
-[data-theme="dark"] .lang-toggle { color: var(--muted); border-color: var(--border); }
-[data-theme="dark"] .theme-toggle { color: var(--muted); }
-[data-theme="dark"] .navbar { background-color: var(--bg) !important; }
 
 /* ── Landing page ──────────────────────────────────── */
 .landing {
@@ -331,7 +291,8 @@ pre {
 }
 
 .lang-toggle,
-.global-lang-toggle {
+.global-lang-toggle,
+.navbar-icon-btn {
     background: none;
     border: 1px solid #c8c2ba;
     border-radius: 3px;
@@ -339,54 +300,29 @@ pre {
     font-size: 0.75rem;
     letter-spacing: 0.06em;
     color: #888;
-    padding: 3px 10px;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
     cursor: pointer;
     transition: color 0.2s, border-color 0.2s;
-    margin-right: 0.75em;
-    /* sit inline with navbar right-side items */
     display: inline-flex;
     align-items: center;
-    vertical-align: middle;
-    line-height: 1;
 }
 
 .lang-toggle:hover,
-.global-lang-toggle:hover {
+.global-lang-toggle:hover,
+.navbar-icon-btn:hover {
     color: #1a2a3a;
     border-color: #1a2a3a;
 }
 
-[data-theme="dark"] .global-lang-toggle {
-    color: var(--muted);
-    border-color: var(--border);
-}
-
-[data-theme="dark"] .global-lang-toggle:hover {
-    color: var(--heading);
-    border-color: var(--muted);
-}
-
-.theme-toggle {
-    display: flex;
+.navbar-btn-group {
+    display: inline-flex;
     align-items: center;
     gap: 0.5em;
-    margin-top: 1.2em;
-    cursor: pointer;
-    font-size: 0.78rem;
-    letter-spacing: 0.06em;
-    color: #aaa;
-    user-select: none;
-    width: fit-content;
-    transition: color 0.2s;
+    margin-right: 0.75em;
 }
 
-.theme-toggle:hover {
-    color: #555;
-}
-
-.theme-icon {
-    font-size: 0.9rem;
-}
 
 .landing-footer {
     border-top: 1px solid #e0dbd4;
@@ -455,12 +391,18 @@ pre {
     line-height: 1;
 }
 
-/* Co-Authors two-column list */
+/* Co-Authors list */
 .coauthors-list {
-    columns: 2;
-    column-gap: 2em;
     list-style: none;
     padding-left: 0;
+}
+
+/* Note / 附註 */
+.paper-note {
+    font-size: 0.82rem;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 0.8em;
 }
 
 /* Paper entries in research page */
@@ -512,4 +454,175 @@ pre {
     background-color: #2c5282;
     color: #fcfbf9 !important;
     border-color: #2c5282 !important;
+}
+
+/* ── Dark mode ─────────────────────────────────────── */
+[data-theme="dark"] {
+    --bg: #141824;
+    --fg: #cdd4e0;
+    --heading: #dde3ec;
+    --link: #8fafc8;
+    --border: #2a3040;
+    --muted: #8a95a8;
+}
+
+[data-theme="dark"] body {
+    background-color: #141824;
+    color: #cdd4e0;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4 {
+    color: #dde3ec;
+}
+
+[data-theme="dark"] a {
+    color: #8fafc8;
+    border-bottom-color: #8fafc8;
+}
+
+[data-theme="dark"] a:hover {
+    color: #b8d0e4;
+    border-bottom-color: #b8d0e4;
+}
+
+[data-theme="dark"] blockquote {
+    border-left-color: #8fafc8;
+    color: #8a95a8;
+}
+
+[data-theme="dark"] table th {
+    border-top-color: #8a95a8;
+    border-bottom-color: #8a95a8;
+    color: #dde3ec;
+}
+
+[data-theme="dark"] table td {
+    border-bottom-color: #2a3040;
+}
+
+[data-theme="dark"] table tr:last-child td {
+    border-bottom-color: #8a95a8;
+}
+
+[data-theme="dark"] .footnote,
+[data-theme="dark"] .meta {
+    color: #8a95a8;
+}
+
+/* About page */
+[data-theme="dark"] .quarto-about-trestles .about-entity .description {
+    color: #a8b4c4;
+}
+
+[data-theme="dark"] .quarto-about-trestles .about-entity .subtitle,
+[data-theme="dark"] .quarto-about-trestles p.subtitle {
+    color: #dde3ec;
+}
+
+/* Landing page */
+[data-theme="dark"] .landing {
+    background-color: #141824;
+}
+
+[data-theme="dark"] .landing-en {
+    color: #dde3ec;
+}
+
+[data-theme="dark"] .landing-zh {
+    color: #8a95a8;
+}
+
+[data-theme="dark"] .landing-footer {
+    border-top-color: #2a3040;
+}
+
+[data-theme="dark"] .landing-tagline {
+    color: #8a95a8;
+}
+
+[data-theme="dark"] .landing-nav a {
+    color: #cdd4e0;
+}
+
+[data-theme="dark"] .landing-nav a:hover {
+    color: #b8d0e4;
+}
+
+/* Bib stats */
+[data-theme="dark"] .bib-stats {
+    border-top-color: #2a3040;
+    border-bottom-color: #2a3040;
+}
+
+[data-theme="dark"] .bib-label {
+    color: #8a95a8;
+}
+
+[data-theme="dark"] .bib-number {
+    color: #dde3ec;
+}
+
+/* Paper entries */
+[data-theme="dark"] .paper-entry {
+    border-bottom-color: #2a3040;
+}
+
+[data-theme="dark"] .paper-title {
+    color: #dde3ec;
+}
+
+[data-theme="dark"] .paper-meta {
+    color: #8a95a8;
+}
+
+[data-theme="dark"] .paper-note {
+    color: #8a95a8;
+}
+
+[data-theme="dark"] .paper-btn {
+    color: #8fafc8 !important;
+    border-color: #8fafc8 !important;
+    border-bottom: 1px solid #8fafc8 !important;
+}
+
+[data-theme="dark"] .paper-btn:hover {
+    background-color: #8fafc8;
+    color: #141824 !important;
+    border-color: #8fafc8 !important;
+}
+
+/* Navbar buttons dark */
+[data-theme="dark"] .global-lang-toggle,
+[data-theme="dark"] .lang-toggle,
+[data-theme="dark"] .navbar-icon-btn {
+    color: #8a95a8;
+    border-color: #2a3040;
+}
+
+[data-theme="dark"] .global-lang-toggle:hover,
+[data-theme="dark"] .lang-toggle:hover,
+[data-theme="dark"] .navbar-icon-btn:hover {
+    color: #cdd4e0;
+    border-color: #cdd4e0;
+}
+
+/* Navbar dark */
+[data-theme="dark"] .navbar {
+    background-color: #0e1219 !important;
+}
+
+[data-theme="dark"] .navbar-brand,
+[data-theme="dark"] .navbar-title,
+[data-theme="dark"] .navbar .nav-link {
+    color: #dde3ec !important;
+}
+
+/* Quarto sidebar / TOC if present */
+[data-theme="dark"] .quarto-secondary-nav,
+[data-theme="dark"] .sidebar {
+    background-color: #1a2030;
+    color: #cdd4e0;
 }
