@@ -61,9 +61,13 @@ function applyLangGlobal() {
   var tl = document.querySelector('.landing-tagline');
   if (tl) tl.innerHTML = lang === 'zh' ? ZH_TAGLINE : EN_TAGLINE;
 
-  // Navbar brand (site title)
+  // Navbar brand (site title + link)
   var brand = document.querySelector('.navbar-title') || document.querySelector('.navbar-brand');
-  if (brand) brand.textContent = lang === 'zh' ? '劉' : 'Liou';
+  if (brand) {
+    brand.textContent = lang === 'zh' ? '劉' : 'Liou';
+    var brandLink = brand.closest('a') || (brand.tagName === 'A' ? brand : null);
+    if (brandLink) brandLink.setAttribute('href', lang === 'zh' ? 'index-zh.html' : 'index.html');
+  }
 
   // Navbar links — keyed by href filename (reliable)
   var NAVBAR_ZH = {
