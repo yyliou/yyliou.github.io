@@ -61,6 +61,10 @@ function applyLangGlobal() {
   var tl = document.querySelector('.landing-tagline');
   if (tl) tl.innerHTML = lang === 'zh' ? ZH_TAGLINE : EN_TAGLINE;
 
+  // Navbar brand (site title)
+  var brand = document.querySelector('.navbar-title') || document.querySelector('.navbar-brand');
+  if (brand) brand.textContent = lang === 'zh' ? '劉' : 'Liou';
+
   // Navbar links — keyed by href filename (reliable)
   var NAVBAR_ZH = {
     'about.html':    { href: 'about-zh.html',    text: '關於' },
