@@ -286,10 +286,10 @@ pre {
 }
 
 .landing-divider {
-    width: clamp(10rem, 30vw, 25rem);
+    width: 100%;
     height: 2px;
     background-color: #1a2a3a;
-    margin: 0.8em 0;
+    margin: 2em 0;
     animation: slide-in-right 2s cubic-bezier(0.22, 1, 0.36, 1) both;
     overflow: hidden;
 }
@@ -298,13 +298,21 @@ pre {
     background-color: #dde3ec;
 }
 
+.landing-name-block {
+    width: fit-content;
+}
+
+.landing-name-block .landing-en,
+.landing-name-block .landing-zh {
+    white-space: nowrap;
+}
+
 .landing-zh {
     font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
     font-weight: 600;
     font-size: clamp(1.4rem, 3.5vw, 3rem);
     color: #4a5568;
     line-height: 1.2;
-    margin-top: 0.8em;
     letter-spacing: 0.05em;
     animation: slide-in-left 2s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
@@ -650,4 +658,4 @@ pre {
 [data-theme="dark"] .sidebar {
     background-color: #1a2030;
     color: #cdd4e0;
-}                                                                                                                                                                                   
+}

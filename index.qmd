@@ -7,10 +7,12 @@ page-layout: custom
 <div class="landing">
 
   <div class="landing-name">
-    <div class="landing-en">Yu-You Liou</div>
-    <div class="landing-divider"></div>
-    <div class="landing-zh"
-         data-en="劉昱佑" data-zh="劉昱佑">劉昱佑</div>
+    <div class="landing-name-block">
+      <div class="landing-en">Yu-You Liou</div>
+      <div class="landing-divider"></div>
+      <div class="landing-zh"
+           data-en="劉昱佑" data-zh="劉昱佑">劉昱佑</div>
+    </div>
   </div>
 
   <div class="landing-footer">
