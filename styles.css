@@ -659,3 +659,8 @@ pre {
     background-color: #1a2030;
     color: #cdd4e0;
 }
+
+/* font subsetting（字型子集化） */
+/* 工具是 pyftsubset（fonttools 附帶的） */
+/* 收集所有頁面裡出現的字元 */
+/* 用那些字元做子集，輸出新的 woff2 */
