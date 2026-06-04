@@ -664,3 +664,173 @@ pre {
 /* 工具是 pyftsubset（fonttools 附帶的） */
 /* 收集所有頁面裡出現的字元 */
 /* 用那些字元做子集，輸出新的 woff2 */
+
+/* ── Site footer ───────────────────────────────────── */
+.site-footer {
+    margin-top: 4em;
+    border-top: 1px solid #e0dbd4;
+    background-color: #fcfbf9;
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+}
+
+/* Landing page has its own footer — never show this one there */
+body:has(.landing) .site-footer {
+    display: none;
+}
+
+.site-footer-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2.4em 1.6em 1.2em;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 1.6em 2.2em;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .site-footer-inner {
+        grid-template-columns: 1fr;
+        gap: 1.4em;
+    }
+    .site-footer-about,
+    .site-footer-col {
+        text-align: left;
+    }
+    .site-footer-links {
+        align-items: flex-start;
+    }
+}
+
+/* Name + experience: far left, left-aligned */
+.site-footer-about {
+    text-align: left;
+}
+
+/* Pages + Elsewhere: paired columns on the right, right-aligned */
+.site-footer-col {
+    text-align: right;
+}
+
+.site-footer-name {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #1a2a3a;
+    margin: 0 0 0.45em;
+}
+
+.site-footer-id {
+    font-size: 0.7rem;
+    color: #777;
+    line-height: 1.5;
+    margin: 0.15em 0;
+}
+
+.site-footer-contact {
+    margin-top: 0.7em;
+}
+
+.site-footer-id a {
+    color: #555;
+    border-bottom: none;
+}
+
+.site-footer-id a:hover {
+    color: #2c5282;
+}
+
+.footer-heading {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #999;
+    margin: 0 0 0.7em;
+}
+
+.site-footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    align-items: flex-end;
+}
+
+.site-footer a {
+    font-size: 0.74rem;
+    color: #1a2a3a;
+    text-decoration: none;
+    border-bottom: none;
+    transition: color 0.2s ease;
+}
+
+.site-footer a:hover {
+    color: #2c5282;
+    border-bottom: none;
+}
+
+.site-footer-legal {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.0em 1.6em 2.2em;
+    border-top: 1px solid #ece8e1;
+    text-align: center;
+    font-size: 0.66rem;
+    color: #888;
+    line-height: 1.7;
+}
+
+.site-footer-legal a {
+    font-size: inherit;
+    color: #666;
+    border-bottom: none;
+}
+
+.site-footer-legal a:hover {
+    color: #2c5282;
+}
+
+/* ── Site footer · dark mode ───────────────────────── */
+[data-theme="dark"] .site-footer {
+    background-color: #141824;
+    border-top-color: #2a3040;
+}
+
+[data-theme="dark"] .site-footer-name {
+    color: #dde3ec;
+}
+
+[data-theme="dark"] .site-footer-id {
+    color: #8a95a8;
+}
+
+[data-theme="dark"] .site-footer-id a {
+    color: #a8b4c4;
+}
+
+[data-theme="dark"] .site-footer-id a:hover {
+    color: #8fafc8;
+}
+
+[data-theme="dark"] .footer-heading {
+    color: #6b7689;
+}
+
+[data-theme="dark"] .site-footer a {
+    color: #cdd4e0;
+}
+
+[data-theme="dark"] .site-footer a:hover {
+    color: #8fafc8;
+}
+
+[data-theme="dark"] .site-footer-legal {
+    color: #8a95a8;
+    border-top-color: #2a3040;
+}
+
+[data-theme="dark"] .site-footer-legal a {
+    color: #8fafc8;
+}
+
+[data-theme="dark"] .site-footer-legal a:hover {
+    color: #b8d0e4;
+}

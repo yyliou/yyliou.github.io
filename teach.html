@@ -360,6 +360,79 @@ document.addEventListener('DOMContentLoaded', function () {
 </section>
 
 </main> <!-- /main -->
+<footer class="site-footer">
+  <div class="site-footer-inner">
+
+    <div class="site-footer-about">
+      <p class="site-footer-name" data-en="Yu-You Liou" data-zh="劉昱佑">Yu-You Liou</p>
+      <p class="site-footer-id" data-en="PhD Candidate, National Taiwan University" data-zh="國立臺灣大學 農業經濟學系 博士候選人">PhD Candidate, National Taiwan University</p>
+      <p class="site-footer-id" data-en="Lecturer, Shih Chien University" data-zh="實踐大學 國際企業英語學士學位學程 講師">Lecturer, Shih Chien University</p>
+      <div class="site-footer-contact">
+        <p class="site-footer-id"><a href="mailto:d10627008@ntu.edu.tw">d10627008@ntu.edu.tw</a></p>
+        <p class="site-footer-id" data-en="No. 1, Sec. 4, Roosevelt Rd., Da’an Dist., Taipei City 10617, Taiwan" data-zh="10617 臺北市大安區羅斯福路四段一號">No. 1, Sec. 4, Roosevelt Rd., Da’an Dist., Taipei City 10617, Taiwan</p>
+      </div>
+    </div>
+
+    <div class="site-footer-col">
+      <p class="footer-heading" data-en="Pages" data-zh="頁面">Pages</p>
+      <div class="site-footer-links">
+        <a href="about.html" data-page="" data-en="About" data-zh="關於">About</a>
+        <a href="research.html" data-page="" data-en="Research" data-zh="研究">Research</a>
+        <a href="teach.html" data-page="" data-en="Teaching" data-zh="教學">Teaching</a>
+      </div>
+    </div>
+
+    <div class="site-footer-col">
+      <p class="footer-heading" data-en="Elsewhere" data-zh="連結">Elsewhere</p>
+      <div class="site-footer-links">
+        <a href="https://yyliou.github.io/yyliou/cv/cv.pdf" target="_blank" rel="noopener" data-en="CV" data-zh="履歷">CV</a>
+        <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&amp;hl=zh-TW" target="_blank" rel="noopener" data-en="Google Scholar" data-zh="Google 學術">Google Scholar</a>
+        <a href="https://github.com/yyliou" target="_blank" rel="noopener" data-en="GitHub" data-zh="GitHub">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="site-footer-legal" data-en="© <span class=&quot;footer-year&quot;></span> Yu-You Liou &nbsp;·&nbsp; Built with <a href=&quot;https://quarto.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>Quarto</a> &nbsp;·&nbsp; Set in <a href=&quot;https://github.com/ButTaiwan/genwan-font&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>源雲明體 GenWanMin</a>, an open-source typeface under the SIL Open Font License 1.1" data-zh="© <span class=&quot;footer-year&quot;></span> 劉昱佑 &nbsp;·&nbsp; 以 <a href=&quot;https://quarto.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>Quarto</a> 製作 &nbsp;·&nbsp; 字體採用開源字型 <a href=&quot;https://github.com/ButTaiwan/genwan-font&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>源雲明體 GenWanMin</a>（SIL 開放字型授權 1.1）">
+    © <span class="footer-year"></span> Yu-You Liou &nbsp;·&nbsp; Built with <a href="https://quarto.org" target="_blank" rel="noopener">Quarto</a> &nbsp;·&nbsp; Set in <a href="https://github.com/ButTaiwan/genwan-font" target="_blank" rel="noopener">源雲明體 GenWanMin</a>, an open-source typeface under the SIL Open Font License 1.1
+  </p>
+</footer>
+
+<script>
+// ── Site footer: hide on landing, fill year, fix zh page links ──
+(function () {
+  function initFooter() {
+    var footer = document.querySelector('.site-footer');
+    if (!footer) return;
+
+    // Landing page already has its own footer — don't duplicate
+    if (document.querySelector('.landing')) {
+      footer.style.display = 'none';
+      return;
+    }
+
+    // Auto-updating copyright year
+    var y = String(new Date().getFullYear());
+    footer.querySelectorAll('.footer-year').forEach(function (el) { el.textContent = y; });
+
+    // On Chinese pages, point internal page links to their -zh version
+    var page = location.pathname.split('/').pop() || '';
+    if (page.indexOf('-zh') !== -1) {
+      footer.querySelectorAll('a[data-page]').forEach(function (a) {
+        var href = a.getAttribute('href') || '';
+        if (href.indexOf('-zh') === -1) {
+          a.setAttribute('href', href.replace('.html', '-zh.html'));
+        }
+      });
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFooter);
+  } else {
+    initFooter();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

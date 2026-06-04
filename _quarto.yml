@@ -21,6 +21,7 @@ format:
     css: styles.css
     toc: false
     include-in-header: _header.html
+    include-after-body: _footer.html
 
 editor: visual
 
