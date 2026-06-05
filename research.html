@@ -510,7 +510,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="site-footer-col">
       <p class="footer-heading" data-en="Elsewhere" data-zh="連結">Elsewhere</p>
       <div class="site-footer-links">
-        <a href="https://yyliou.github.io/yyliou/cv/cv.pdf" target="_blank" rel="noopener" data-en="CV" data-zh="履歷">CV</a>
+        <a href="https://yyliou.github.io/yyliou/cv/cv.pdf" data-href-zh="https://yyliou.github.io/yyliou/cv/cv_zh.pdf" target="_blank" rel="noopener" data-en="CV" data-zh="履歷">CV</a>
         <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&amp;hl=zh-TW" target="_blank" rel="noopener" data-en="Google Scholar" data-zh="Google 學術">Google Scholar</a>
         <a href="https://github.com/yyliou" target="_blank" rel="noopener" data-en="GitHub" data-zh="GitHub">GitHub</a>
       </div>
@@ -548,6 +548,10 @@ document.addEventListener('DOMContentLoaded', function () {
         if (href.indexOf('-zh') === -1) {
           a.setAttribute('href', href.replace('.html', '-zh.html'));
         }
+      });
+      // External links with a Chinese variant (e.g. CV)
+      footer.querySelectorAll('a[data-href-zh]').forEach(function (a) {
+        a.setAttribute('href', a.getAttribute('data-href-zh'));
       });
     }
   }
