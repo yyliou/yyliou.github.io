@@ -688,20 +688,6 @@ body:has(.landing) .site-footer {
     align-items: center;
 }
 
-@media (max-width: 600px) {
-    .site-footer-inner {
-        grid-template-columns: 1fr;
-        gap: 1.4em;
-    }
-    .site-footer-about,
-    .site-footer-col {
-        text-align: left;
-    }
-    .site-footer-links {
-        align-items: flex-start;
-    }
-}
-
 /* Name + experience: far left, left-aligned */
 .site-footer-about {
     text-align: left;
@@ -786,6 +772,32 @@ body:has(.landing) .site-footer {
 
 .site-footer-legal a:hover {
     color: #2c5282;
+}
+
+/* ── Site footer · mobile ──────────────────────────── */
+/* Must come AFTER the base rules above so it wins on source order */
+@media (max-width: 600px) {
+    .site-footer-inner {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.6em 1.4em;
+        align-items: start;
+        padding: 2em 1.4em 1em;
+    }
+    /* About block spans the full width on top */
+    .site-footer-about {
+        grid-column: 1 / -1;
+        text-align: left;
+    }
+    /* Pages + Elsewhere sit side by side below, left-aligned */
+    .site-footer-col {
+        text-align: left;
+    }
+    .site-footer-links {
+        align-items: flex-start;
+    }
+    .site-footer-legal {
+        padding: 1em 1.4em 1.8em;
+    }
 }
 
 /* ── Site footer · dark mode ───────────────────────── */
