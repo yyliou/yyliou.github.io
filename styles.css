@@ -185,6 +185,15 @@ pre {
   gap: 5em !important;
 }
 
+/* Desktop: left column (photo + description) floats while scrolling */
+@media (min-width: 768px) {
+  .quarto-about-trestles .about-entity {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+  }
+}
+
 /* Reorder about-page left column: links first, description below */
 .quarto-about-trestles .about-entity {
   display: flex;
