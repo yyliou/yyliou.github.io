@@ -21,7 +21,7 @@ title: "Teaching"
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const counters = document.querySelectorAll('.bib-number');
-  const duration = 2400;
+  const duration = 1000;
 
   counters.forEach(function (el) {
     const target = parseFloat(el.getAttribute('data-target'));
@@ -87,4 +87,3 @@ Undergraduate, Fall, 2024, 2025.
 [Course site](https://yyliou.github.io/da){.paper-btn}
 :::
 ::::::
-
