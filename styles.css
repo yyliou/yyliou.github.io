@@ -550,6 +550,97 @@ pre {
     padding-left: 0;
 }
 
+/* Journal covers strip */
+.journal-covers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.4em;
+    margin: 1.8em 0 2.2em;
+}
+
+.journal-covers .cover-item {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: none !important;
+}
+
+.journal-covers img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border: 1px solid #e8e4de;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.journal-covers .cover-name {
+    display: block;
+    margin-top: 0.55em;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    color: #666;
+}
+
+.journal-covers .cover-item:hover img {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.14);
+}
+
+@media (max-width: 576px) {
+    .journal-covers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Co-author map */
+.coauthor-map {
+    position: relative;
+    margin: 0.4em 0 1.6em;
+}
+
+.coauthor-map svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cmap-land {
+    fill: #e8e4de;
+}
+
+.cmap-dot {
+    fill: #2c5282;
+    cursor: pointer;
+    transition: r 0.15s ease, fill 0.15s ease;
+}
+
+.cmap-dot:hover {
+    fill: #1f3a5f;
+}
+
+.cmap-tip {
+    position: absolute;
+    max-width: 300px;
+    background: #2b2b2b;
+    color: #fcfbf9;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    padding: 0.45em 0.7em;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    z-index: 10;
+}
+
+.cmap-tip.is-visible {
+    opacity: 1;
+}
+
 /* Note / 附註 */
 .paper-note {
     font-size: 0.82rem;
@@ -881,6 +972,40 @@ pre {
 
 [data-theme="dark"] .cite-bar {
     background: #e6e9ef;
+}
+
+/* Journal covers strip */
+[data-theme="dark"] .journal-covers img {
+    border-color: #2a3040;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    filter: brightness(0.88);
+}
+
+[data-theme="dark"] .journal-covers .cover-item:hover img {
+    filter: brightness(1);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="dark"] .journal-covers .cover-name {
+    color: #8a95a8;
+}
+
+/* Co-author map */
+[data-theme="dark"] .cmap-land {
+    fill: #252c3c;
+}
+
+[data-theme="dark"] .cmap-dot {
+    fill: #f2c94c;
+}
+
+[data-theme="dark"] .cmap-dot:hover {
+    fill: #ffe08a;
+}
+
+[data-theme="dark"] .cmap-tip {
+    background: #e7edf5;
+    color: #141824;
 }
 
 /* Paper entries */
