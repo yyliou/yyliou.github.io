@@ -627,4 +627,11 @@ document.addEventListener('DOMContentLoaded', function () {
       '<span class="bk">$1</span>$2<span class="bc">$3</span>$4');
     t = t.replace(/^(\s+)([A-Za-z]+)(\s*=\s*)(.+?)(,?)\s*$/gm,
       function (m, ind, field, eq, val, comma) {
-        return ind + '<span class="bf">' + field + 
+        return ind + '<span class="bf">' + field + '</span>' + eq +
+               '<span class="bv">' + val + '</span>' + comma;
+      });
+    code.innerHTML = t;
+  });
+});
+</script>
+```

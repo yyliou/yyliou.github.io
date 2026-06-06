@@ -767,44 +767,97 @@ document.addEventListener('DOMContentLoaded', function () {
 <p><em>Note</em>: Names are listed in alphabetical order.</p>
 </div>
 <script>
-<p>document.addEventListener(‘DOMContentLoaded’, function () { var CLIP = ‘<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>’; var CHECK = ‘<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>’;</p>
-<p>function fallbackCopy(text) { var ta = document.createElement(‘textarea’); ta.value = text; ta.style.position = ‘fixed’; ta.style.opacity = ‘0’; document.body.appendChild(ta); ta.focus(); ta.select(); try { document.execCommand(‘copy’); } catch (e) {} document.body.removeChild(ta); }</p>
-<p>// Toggle BibTeX / Abstract boxes — one open at a time, // and clicking anywhere else closes them. function closeAllBoxes() { document.querySelectorAll(‘.bibtex-box.is-open, .abstract-box.is-open’).forEach(function (b) { b.classList.remove(‘is-open’); }); document.querySelectorAll(‘.bib-toggle.is-open, .abs-toggle.is-open’).forEach(function (t) { t.classList.remove(‘is-open’); }); } function bindToggle(btnSel, boxSel) { document.querySelectorAll(btnSel).forEach(function (btn) { btn.addEventListener(‘click’, function (e) { e.stopPropagation(); var entry = btn.closest(‘.paper-entry’); if (!entry) return; var box = entry.querySelector(boxSel); if (!box) return; var willOpen = !box.classList.contains(‘is-open’); closeAllBoxes(); if (willOpen) { box.classList.add(‘is-open’); btn.classList.add(‘is-open’); } }); }); } bindToggle(‘.bib-toggle’, ‘.bibtex-box’); bindToggle(‘.abs-toggle’, ‘.abstract-box’); document.addEventListener(‘click’, function (e) { if (e.target.closest(‘.bibtex-box, .abstract-box’)) return; closeAllBoxes(); });</p>
-<p>// Copy button + syntax highlighting document.querySelectorAll(‘.bibtex-box’).forEach(function (box) { var code = box.querySelector(‘code’); if (!code) return; var raw = code.textContent;</p>
-<pre><code>var btn = document.createElement(&#39;button&#39;);
-btn.type = &#39;button&#39;;
-btn.className = &#39;copy-bib&#39;;
-btn.setAttribute(&#39;aria-label&#39;, &#39;Copy BibTeX&#39;);
-btn.setAttribute(&#39;title&#39;, &#39;Copy BibTeX&#39;);
-btn.innerHTML = CLIP;
-btn.addEventListener(&#39;click&#39;, function (e) {
-  e.stopPropagation();
-  var done = function () {
-    btn.classList.add(&#39;copied&#39;);
-    btn.innerHTML = CHECK;
-    setTimeout(function () {
-      btn.classList.remove(&#39;copied&#39;);
-      btn.innerHTML = CLIP;
-    }, 1500);
-  };
-  if (navigator.clipboard &amp;&amp; navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(raw).then(done).catch(function () { fallbackCopy(raw); done(); });
-  } else { fallbackCopy(raw); done(); }
-});
-box.appendChild(btn);
+document.addEventListener('DOMContentLoaded', function () {
+  var CLIP = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+  var CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
 
-var t = raw.replace(/&amp;/g, &#39;&amp;amp;&#39;).replace(/&lt;/g, &#39;&amp;lt;&#39;).replace(/&gt;/g, &#39;&amp;gt;&#39;);
-t = t.replace(/^(@\w+)(\{)([^,\n]+)(,)/m,
-  &#39;&lt;span class=&quot;bk&quot;&gt;$1&lt;/span&gt;$2&lt;span class=&quot;bc&quot;&gt;$3&lt;/span&gt;$4&#39;);
-t = t.replace(/^(\s+)([A-Za-z]+)(\s*=\s*)(.+?)(,?)\s*$/gm,
-  function (m, ind, field, eq, val, comma) {
-    return ind + &#39;&lt;span class=&quot;bf&quot;&gt;&#39; + field + </code></pre>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Liou</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">Liou</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6QWJvdXQ=">About</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Fib3V0Lmh0bWw=">/about.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzZWFyY2g=">Research</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc2VhcmNoLmh0bWw=">/research.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VGVhY2hpbmc=">Teaching</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3RlYWNoLmh0bWw=">/teach.html</span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Research – Liou</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Research – Liou</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Research – Liou</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Liou</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
-</div>
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+
+  // Toggle BibTeX / Abstract boxes — one open at a time,
+  // and clicking anywhere else closes them.
+  function closeAllBoxes() {
+    document.querySelectorAll('.bibtex-box.is-open, .abstract-box.is-open').forEach(function (b) {
+      b.classList.remove('is-open');
+    });
+    document.querySelectorAll('.bib-toggle.is-open, .abs-toggle.is-open').forEach(function (t) {
+      t.classList.remove('is-open');
+    });
+  }
+  function bindToggle(btnSel, boxSel) {
+    document.querySelectorAll(btnSel).forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var entry = btn.closest('.paper-entry');
+        if (!entry) return;
+        var box = entry.querySelector(boxSel);
+        if (!box) return;
+        var willOpen = !box.classList.contains('is-open');
+        closeAllBoxes();
+        if (willOpen) {
+          box.classList.add('is-open');
+          btn.classList.add('is-open');
+        }
+      });
+    });
+  }
+  bindToggle('.bib-toggle', '.bibtex-box');
+  bindToggle('.abs-toggle', '.abstract-box');
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('.bibtex-box, .abstract-box')) return;
+    closeAllBoxes();
+  });
+
+  // Copy button + syntax highlighting
+  document.querySelectorAll('.bibtex-box').forEach(function (box) {
+    var code = box.querySelector('code');
+    if (!code) return;
+    var raw = code.textContent;
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'copy-bib';
+    btn.setAttribute('aria-label', 'Copy BibTeX');
+    btn.setAttribute('title', 'Copy BibTeX');
+    btn.innerHTML = CLIP;
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var done = function () {
+        btn.classList.add('copied');
+        btn.innerHTML = CHECK;
+        setTimeout(function () {
+          btn.classList.remove('copied');
+          btn.innerHTML = CLIP;
+        }, 1500);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(raw).then(done).catch(function () { fallbackCopy(raw); done(); });
+      } else { fallbackCopy(raw); done(); }
+    });
+    box.appendChild(btn);
+
+    var t = raw.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    t = t.replace(/^(@\w+)(\{)([^,\n]+)(,)/m,
+      '<span class="bk">$1</span>$2<span class="bc">$3</span>$4');
+    t = t.replace(/^(\s+)([A-Za-z]+)(\s*=\s*)(.+?)(,?)\s*$/gm,
+      function (m, ind, field, eq, val, comma) {
+        return ind + '<span class="bf">' + field + '</span>' + eq +
+               '<span class="bv">' + val + '</span>' + comma;
+      });
+    code.innerHTML = t;
+  });
+});
+</script>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -817,16 +870,16 @@ t = t.replace(/^(\s+)([A-Za-z]+)(\s*=\s*)(.+?)(,?)\s*$/gm,
       <p class="site-footer-id" data-en="Lecturer, Shih Chien University" data-zh="實踐大學國際企業英語學士學位學程講師">Lecturer, Shih Chien University</p>
       <div class="site-footer-contact">
         <p class="site-footer-id"><a href="mailto:d10627008@ntu.edu.tw">d10627008@ntu.edu.tw</a></p>
-        <p class="site-footer-id" data-en="No. 1, Sec. 4, Roosevelt Rd., Da&#8217;an Dist., Taipei City 10617, Taiwan" data-zh="10617 臺北市大安區羅斯福路四段一號">No. 1, Sec. 4, Roosevelt Rd., Da&#8217;an Dist., Taipei City 10617, Taiwan</p>
+        <p class="site-footer-id" data-en="No. 1, Sec. 4, Roosevelt Rd., Da’an Dist., Taipei City 10617, Taiwan" data-zh="10617 臺北市大安區羅斯福路四段一號">No. 1, Sec. 4, Roosevelt Rd., Da’an Dist., Taipei City 10617, Taiwan</p>
       </div>
     </div>
 
     <div class="site-footer-col">
       <p class="footer-heading" data-en="Pages" data-zh="頁面">Pages</p>
       <div class="site-footer-links">
-        <a href="about.html" data-page data-en="About" data-zh="關於">About</a>
-        <a href="research.html" data-page data-en="Research" data-zh="研究">Research</a>
-        <a href="teach.html" data-page data-en="Teaching" data-zh="教學">Teaching</a>
+        <a href="about.html" data-page="" data-en="About" data-zh="關於">About</a>
+        <a href="research.html" data-page="" data-en="Research" data-zh="研究">Research</a>
+        <a href="teach.html" data-page="" data-en="Teaching" data-zh="教學">Teaching</a>
       </div>
     </div>
 
@@ -834,17 +887,15 @@ t = t.replace(/^(\s+)([A-Za-z]+)(\s*=\s*)(.+?)(,?)\s*$/gm,
       <p class="footer-heading" data-en="Elsewhere" data-zh="連結">Elsewhere</p>
       <div class="site-footer-links">
         <a href="https://yyliou.github.io/yyliou/cv/cv.pdf" data-href-zh="https://yyliou.github.io/yyliou/cv/cv_zh.pdf" target="_blank" rel="noopener" data-en="Curriculum Vitae" data-zh="履歷">Curriculum Vitae</a>
-        <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&hl=zh-TW" target="_blank" rel="noopener" data-en="Google Scholar" data-zh="Google 學術">Google Scholar</a>
+        <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&amp;hl=zh-TW" target="_blank" rel="noopener" data-en="Google Scholar" data-zh="Google 學術">Google Scholar</a>
         <a href="https://github.com/yyliou" target="_blank" rel="noopener" data-en="GitHub" data-zh="GitHub">GitHub</a>
       </div>
     </div>
 
   </div>
 
-  <p class="site-footer-legal"
-     data-en='&copy; <span class="footer-year"></span> Yu-You Liou &nbsp;&middot;&nbsp; Built with <a href="https://quarto.org" target="_blank" rel="noopener">Quarto</a> &nbsp;&middot;&nbsp; Set in <a href="https://github.com/ButTaiwan/genwan-font" target="_blank" rel="noopener">&#28304;&#38642;&#26126;&#39636; GenWanMin</a>, an open-source typeface under the SIL Open Font License 1.1'
-     data-zh='&copy; <span class="footer-year"></span> &#21129;&#26161;&#20305; &nbsp;&middot;&nbsp; &#20197; <a href="https://quarto.org" target="_blank" rel="noopener">Quarto</a> &#35069;&#20316; &nbsp;&middot;&nbsp; &#23383;&#39636;採&#29992;&#38283;&#28304;&#23383;&#22411; <a href="https://github.com/ButTaiwan/genwan-font" target="_blank" rel="noopener">&#28304;&#38642;&#26126;&#39636; GenWanMin</a>&#65288;SIL &#38283;&#25918;&#23383;&#22411;&#25480;&#27402; 1.1&#65289;'>
-    &copy; <span class="footer-year"></span> Yu-You Liou &nbsp;&middot;&nbsp; Built with <a href="https://quarto.org" target="_blank" rel="noopener">Quarto</a> &nbsp;&middot;&nbsp; Set in <a href="https://github.com/ButTaiwan/genwan-font" target="_blank" rel="noopener">&#28304;&#38642;&#26126;&#39636; GenWanMin</a>, an open-source typeface under the SIL Open Font License 1.1
+  <p class="site-footer-legal" data-en="© <span class=&quot;footer-year&quot;></span> Yu-You Liou &nbsp;·&nbsp; Built with <a href=&quot;https://quarto.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>Quarto</a> &nbsp;·&nbsp; Set in <a href=&quot;https://github.com/ButTaiwan/genwan-font&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>源雲明體 GenWanMin</a>, an open-source typeface under the SIL Open Font License 1.1" data-zh="© <span class=&quot;footer-year&quot;></span> 劉昱佑 &nbsp;·&nbsp; 以 <a href=&quot;https://quarto.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>Quarto</a> 製作 &nbsp;·&nbsp; 字體採用開源字型 <a href=&quot;https://github.com/ButTaiwan/genwan-font&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>源雲明體 GenWanMin</a>（SIL 開放字型授權 1.1）">
+    © <span class="footer-year"></span> Yu-You Liou &nbsp;·&nbsp; Built with <a href="https://quarto.org" target="_blank" rel="noopener">Quarto</a> &nbsp;·&nbsp; Set in <a href="https://github.com/ButTaiwan/genwan-font" target="_blank" rel="noopener">源雲明體 GenWanMin</a>, an open-source typeface under the SIL Open Font License 1.1
   </p>
 </footer>
 
@@ -1287,7 +1338,7 @@ t = t.replace(/^(\s+)([A-Za-z]+)(\s*=\s*)(.+?)(,?)\s*$/gm,
     }
   });
   </script>
-</section></main></div> <!-- /content -->
+</div> <!-- /content -->
 
 
 
