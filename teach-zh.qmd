@@ -14,7 +14,7 @@ title: "教學"
   </div>
   <div class="bib-stat">
     <div class="bib-label">教學評量</div>
-    <div class="bib-number" data-target="4.55" data-decimals="2">0.00</div>
+    <div class="bib-number" data-target="4.6" data-decimals="2">0.0</div>
   </div>
 </div>
 

@@ -9,12 +9,12 @@ title: "Teaching"
     <div class="bib-number" data-target="22" data-decimals="0">0</div>
   </div>
   <div class="bib-stat">
-    <div class="bib-label">Enrollment</div>
+    <div class="bib-label">Enrolled</div>
     <div class="bib-number" data-target="488" data-decimals="0">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">Evaluation</div>
-    <div class="bib-number" data-target="4.55" data-decimals="2">0.00</div>
+    <div class="bib-number" data-target="4.6" data-decimals="1">0.0</div>
   </div>
 </div>
 
