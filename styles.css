@@ -24,9 +24,9 @@
 
 /* ── Adjustable base font size (controlled by font-size toggle) ── */
 html { font-size: 16px; }
-html[data-fontsize="small"]  { font-size: 12px; }
+html[data-fontsize="small"]  { font-size: 13px; }
 html[data-fontsize="medium"] { font-size: 16px; }
-html[data-fontsize="large"]  { font-size: 20px; }
+html[data-fontsize="large"]  { font-size: 19px; }
 
 body {
     font-family: 'MyFont', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
