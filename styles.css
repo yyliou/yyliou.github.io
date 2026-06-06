@@ -388,6 +388,26 @@ pre {
     font-weight: 600;
 }
 
+/* Mobile (<992px): Quarto gives the collapsing menu order:20, so the
+   button group (order:90) gets pushed below the expanded menu. Lower its
+   order so it stays in the top bar, immediately left of the search icon. */
+@media (max-width: 991.98px) {
+    .navbar-btn-group {
+        order: 3;
+        margin-left: auto;
+        margin-right: 0.4em;
+        gap: 0.35em;
+    }
+    .navbar #quarto-search {
+        order: 4;
+        margin-left: 0;
+    }
+    .navbar-btn-group .navbar-icon-btn {
+        width: 32px;
+        min-width: 32px;
+    }
+}
+
 
 .landing-footer {
     border-top: 1px solid #e0dbd4;
