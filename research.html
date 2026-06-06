@@ -339,6 +339,54 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+
+<div class="cite-chart">
+  <div class="cite-chart-title">Citations per year</div>
+  <div class="cite-bars">
+    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="35"><span class="cite-bar-val" data-val="7">0</span></div></div><span class="cite-bar-year">2021</span></div>
+    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="75"><span class="cite-bar-val" data-val="15">0</span></div></div><span class="cite-bar-year">2022</span></div>
+    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="100"><span class="cite-bar-val" data-val="20">0</span></div></div><span class="cite-bar-year">2023</span></div>
+    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="95"><span class="cite-bar-val" data-val="19">0</span></div></div><span class="cite-bar-year">2024</span></div>
+    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="80"><span class="cite-bar-val" data-val="16">0</span></div></div><span class="cite-bar-year">2025</span></div>
+    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="40"><span class="cite-bar-val" data-val="8">0</span></div></div><span class="cite-bar-year">2026</span></div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var chart = document.querySelector('.cite-chart');
+  if (!chart) return;
+  var duration = 1100;
+
+  function animate() {
+    chart.querySelectorAll('.cite-bar').forEach(function (bar) {
+      bar.style.height = (parseFloat(bar.getAttribute('data-h')) || 0) + '%';
+    });
+    chart.querySelectorAll('.cite-bar-val').forEach(function (el) {
+      var target = parseInt(el.getAttribute('data-val'), 10) || 0;
+      var start = performance.now();
+      function step(now) {
+        var p = Math.min((now - start) / duration, 1);
+        var eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(eased * target);
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }
+
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries, obs) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { animate(); obs.disconnect(); }
+      });
+    }, { threshold: 0.3 });
+    io.observe(chart);
+  } else {
+    animate();
+  }
+});
+</script>
 <p>My research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, and Forest Policy and Economics. An overview of these articles is detailed in my <a href="https://yyliou.github.io/yyliou/rs/rs.pdf">research statement</a>.</p>
 <section id="selected-publications" class="level2">
 <h2 class="anchored" data-anchor-id="selected-publications"><strong>Selected Publications</strong></h2>
