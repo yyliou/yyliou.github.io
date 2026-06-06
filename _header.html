@@ -3,6 +3,8 @@
 (function () {
   var t = localStorage.getItem('theme') || 'light';
   document.documentElement.setAttribute('data-theme', t);
+  var fs = localStorage.getItem('fontsize') || 'medium';
+  document.documentElement.setAttribute('data-fontsize', fs);
 })();
 </script>
 
@@ -44,7 +46,7 @@ function toggleLangGlobal() {
 function applyLangGlobal() {
   var lang = getLang();
   var btn = document.getElementById('globalLangToggle');
-  if (btn) btn.textContent = lang === 'en' ? '中文' : 'English';
+  if (btn) btn.textContent = lang === 'en' ? '中' : 'Eng';
 
   // data-en / data-zh elements (landing page)
   document.querySelectorAll('[data-en][data-zh]').forEach(function (el) {
@@ -107,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
   btn.id = 'globalLangToggle';
   btn.className = 'global-lang-toggle';
   btn.onclick = toggleLangGlobal;
-  btn.textContent = getLang() === 'en' ? '中文' : 'English';
+  btn.textContent = getLang() === 'en' ? '中' : 'Eng';
 
   // Theme toggle button
   var themeBtn = document.createElement('button');
@@ -128,8 +130,26 @@ document.addEventListener('DOMContentLoaded', function () {
   // Wrap both buttons together, insert right before search icon
   var wrap = document.createElement('div');
   wrap.className = 'navbar-btn-group';
-  wrap.appendChild(themeBtn);
+  // Font size toggle button
+  var FS_ORDER = ['small', 'medium', 'large'];
+  var FS_LABEL = { small: 'A\u207B', medium: 'A', large: 'A\u207A' };
+  var fontBtn = document.createElement('button');
+  fontBtn.id = 'fontSizeBtn';
+  fontBtn.className = 'navbar-icon-btn';
+  fontBtn.title = 'Font size';
+  var currentFS = document.documentElement.getAttribute('data-fontsize') || 'medium';
+  fontBtn.textContent = FS_LABEL[currentFS];
+  fontBtn.onclick = function () {
+    var cur = document.documentElement.getAttribute('data-fontsize') || 'medium';
+    var next = FS_ORDER[(FS_ORDER.indexOf(cur) + 1) % FS_ORDER.length];
+    document.documentElement.setAttribute('data-fontsize', next);
+    localStorage.setItem('fontsize', next);
+    fontBtn.textContent = FS_LABEL[next];
+  };
+
   wrap.appendChild(btn);
+  wrap.appendChild(fontBtn);
+  wrap.appendChild(themeBtn);
 
   if (search && search.parentNode) {
     search.parentNode.insertBefore(wrap, search);

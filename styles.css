@@ -22,10 +22,16 @@
 }
 
 
+/* ── Adjustable base font size (controlled by font-size toggle) ── */
+html { font-size: 16px; }
+html[data-fontsize="small"]  { font-size: 14px; }
+html[data-fontsize="medium"] { font-size: 16px; }
+html[data-fontsize="large"]  { font-size: 18px; }
+
 body {
     font-family: 'MyFont', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.8;
     color: #222222;
     background-color: #fcfbf9;
@@ -358,11 +364,28 @@ pre {
     border-color: #1a2a3a;
 }
 
+/* Button group: pushed to the far right, immediately left of search */
 .navbar-btn-group {
     display: inline-flex;
     align-items: center;
     gap: 0.5em;
+    order: 90;
+    margin-left: auto;
     margin-right: 0.75em;
+}
+#quarto-search { order: 91; }
+
+/* Keep nav links left-aligned, brand at far left */
+.navbar-brand-container.mx-auto { margin-left: 0 !important; }
+.navbar-nav.me-auto { margin-right: 0 !important; }
+
+/* Uniform size for all three buttons in the group */
+.navbar-btn-group .navbar-icon-btn {
+    width: 36px;
+    min-width: 36px;
+    padding: 0;
+    justify-content: center;
+    font-weight: 600;
 }
 
 
