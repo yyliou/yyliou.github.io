@@ -108,7 +108,7 @@ The causal effects of removing hook-turn regulation on road safety
 :::
 
 ::: paper-links
-[期刊全文](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [摘要]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}]{.idx-badges}
+[期刊全文](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [摘要]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge} [SCIE]{.idx-badge}]{.idx-badges}
 :::
 
 ```{=html}
@@ -311,7 +311,7 @@ Rooftop Solar Energy Adoption and Farm Revenue
 :::
 
 ::: paper-links
-[期刊全文](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [摘要]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge} [EconLit]{.idx-badge}]{.idx-badges}
+[期刊全文](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [摘要]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge} [SCIE]{.idx-badge}]{.idx-badges}
 :::
 
 ```{=html}
@@ -341,7 +341,7 @@ The impact of the carbon border adjustment mechanism policy on international tra
 :::
 
 ::: paper-links
-[期刊全文](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [摘要]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge} [EconLit]{.idx-badge}]{.idx-badges}
+[期刊全文](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [摘要]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge}]{.idx-badges}
 :::
 
 ```{=html}

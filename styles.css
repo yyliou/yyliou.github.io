@@ -699,7 +699,8 @@ pre {
 .paper-title,
 .paper-meta,
 .paper-links,
-.bibtex-box {
+.bibtex-box,
+.abstract-box {
     grid-column: 2;
     min-width: 0; /* allow the column to shrink so long BibTeX lines scroll instead of overflowing */
 }
@@ -826,8 +827,6 @@ pre {
 
 /* Abstract box (mirrors the BibTeX box behaviour) */
 .abstract-box {
-    grid-column: 2;
-    min-width: 0;
     display: none;
     margin-top: 0.7em;
 }
