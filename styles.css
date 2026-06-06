@@ -449,9 +449,76 @@ pre {
 
 /* Paper entries in research page */
 .paper-entry {
+    display: grid;
+    grid-template-columns: 155px 1fr;
+    column-gap: 1.2em;
+    align-items: start;
     margin-bottom: 1.1em;
-    padding-bottom: 1.0em;
+    padding: 0.7em 0.9em 0.8em;
     border-bottom: 1px solid #e8e4de;
+    border-radius: 6px;
+    margin-left: -0.9em;
+    margin-right: -0.9em;
+    transition: background-color 0.2s ease;
+}
+
+/* al-folio-style hover highlight */
+.paper-entry:hover {
+    background-color: #f4f1ec;
+}
+
+/* Left column: journal-abbreviation tag, vertically centred (al-folio style) */
+.paper-tag {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    align-self: start;
+}
+
+.paper-tag p {
+    margin: 0;
+}
+
+.journal-badge,
+.paper-tag p {
+    display: inline-block;
+    background-color: #2c5282;
+    color: #fcfbf9;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 1.35;
+    text-align: center;
+    white-space: nowrap;
+    padding: 4px 11px;
+    border-radius: 999px;
+}
+
+/* Content sits in the right column */
+.paper-title,
+.paper-meta,
+.paper-links,
+.bibtex-box {
+    grid-column: 2;
+    min-width: 0; /* allow the column to shrink so long BibTeX lines scroll instead of overflowing */
+}
+
+/* Mobile: stack the tag above the content (al-folio behaviour) */
+@media (max-width: 600px) {
+    .paper-entry {
+        grid-template-columns: 1fr;
+        row-gap: 0.4em;
+    }
+    .paper-tag {
+        grid-column: 1;
+        grid-row: auto;
+        align-self: start;
+    }
+    .paper-title,
+    .paper-meta,
+    .paper-links,
+    .bibtex-box {
+        grid-column: 1;
+    }
 }
 
 .paper-entry:last-child {
@@ -497,6 +564,91 @@ pre {
     color: #fcfbf9 !important;
     border-color: #2c5282 !important;
 }
+
+/* BibTeX toggle button (clickable span, no link underline) */
+.bib-toggle {
+    cursor: pointer;
+    border-bottom: 1px solid #2c5282 !important;
+    user-select: none;
+}
+
+.bib-toggle.is-open {
+    background-color: #2c5282;
+    color: #fcfbf9 !important;
+}
+
+/* Collapsible BibTeX box */
+.bibtex-box {
+    display: none;
+    margin-top: 0.7em;
+}
+
+.bibtex-box.is-open {
+    display: block;
+    position: relative;
+}
+
+/* One-click copy button — minimal ghost icon (Quarto style) */
+.copy-bib {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    color: #b0a99e;
+    padding: 4px;
+    cursor: pointer;
+    opacity: 0.75;
+    transition: color 0.15s ease, opacity 0.15s ease, background-color 0.15s ease;
+}
+
+.copy-bib:hover {
+    color: #555;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.copy-bib svg {
+    width: 15px;
+    height: 15px;
+}
+
+.copy-bib.copied {
+    color: #2f7d4f;
+    opacity: 1;
+}
+
+.bibtex-box pre {
+    background-color: #ffffff;
+    border: 1px solid #e0dbd4;
+    border-radius: 5px;
+    margin: 0;
+    padding: 1em 1.1em;
+    font-size: 0.82rem;
+    line-height: 1.7;
+    overflow-x: auto;
+}
+
+.bibtex-box code {
+    background: none;
+    padding: 0;
+    white-space: pre;
+    font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', ui-monospace,
+        Menlo, Consolas, 'Courier New', monospace;
+    font-weight: 500;
+    color: #2d3a47;
+}
+
+/* BibTeX syntax tokens (al-folio palette) */
+.bibtex-box .bk { color: #1f3a93; font-weight: 700; }  /* @article entry type */
+.bibtex-box .bc { color: #9b1c31; font-weight: 700; }  /* citation key */
+.bibtex-box .bf { color: #1f8a76; }                     /* field names */
+.bibtex-box .bv { color: #c0395a; }                     /* field values */
 
 /* ── Dark mode ─────────────────────────────────────── */
 [data-theme="dark"] {
@@ -610,6 +762,52 @@ pre {
 /* Paper entries */
 [data-theme="dark"] .paper-entry {
     border-bottom-color: #2a3040;
+}
+
+[data-theme="dark"] .paper-entry:hover {
+    background-color: #1b2130;
+}
+
+[data-theme="dark"] .bib-toggle {
+    border-bottom-color: #8fafc8 !important;
+}
+
+[data-theme="dark"] .bib-toggle.is-open {
+    background-color: #8fafc8;
+    color: #141824 !important;
+}
+
+[data-theme="dark"] .bibtex-box pre {
+    background-color: #11151f;
+    border-color: #2a3040;
+}
+
+[data-theme="dark"] .bibtex-box code {
+    color: #b8c2d0;
+}
+
+[data-theme="dark"] .copy-bib {
+    color: #6b7689;
+}
+
+[data-theme="dark"] .copy-bib:hover {
+    color: #cdd4e0;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+[data-theme="dark"] .copy-bib.copied {
+    color: #6fcf97;
+}
+
+[data-theme="dark"] .bibtex-box .bk { color: #8fa6f0; }
+[data-theme="dark"] .bibtex-box .bc { color: #e08aa0; }
+[data-theme="dark"] .bibtex-box .bf { color: #6fccb8; }
+[data-theme="dark"] .bibtex-box .bv { color: #e0a4b4; }
+
+[data-theme="dark"] .journal-badge,
+[data-theme="dark"] .paper-tag p {
+    background-color: #e7edf5;
+    color: #141824;
 }
 
 [data-theme="dark"] .paper-title {

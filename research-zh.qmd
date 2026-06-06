@@ -43,6 +43,10 @@ document.addEventListener('DOMContentLoaded', function () {
 ## **焦點著作**
 
 :::::: paper-entry
+::: paper-tag
+Transp. Res. A
+:::
+
 ::: paper-title
 The causal effects of removing hook-turn regulation on road safety
 :::
@@ -53,10 +57,27 @@ The causal effects of removing hook-turn regulation on road safety
 
 ::: paper-links
 [期刊全文](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{liou2026hookturn,
+  title   = {The causal effects of removing hook-turn regulation on road safety},
+  author  = {Liou, Yu-You and Chang, Hung-Hao},
+  journal = {Transportation Research Part A: Policy and Practice},
+  volume  = {205},
+  pages   = {104860},
+  year    = {2026},
+  doi     = {10.1016/j.tra.2026.104860},
+}</code></pre></div>
+```
 ::::::
 
 :::::: paper-entry
+::: paper-tag
+Transp. Res. D
+:::
+
 ::: paper-title
 The causal effect of monthly pass programs on public transportation and carbon emissions
 :::
@@ -67,10 +88,27 @@ The causal effect of monthly pass programs on public transportation and carbon e
 
 ::: paper-links
 [期刊全文](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{liou2025monthlypass,
+  title   = {The causal effect of monthly pass programs on public transportation and carbon emissions},
+  author  = {Liou, Yu-You and Kim, Man-Keun and Chang, Hung-Hao and Liou, Ruey-Wan},
+  journal = {Transportation Research Part D: Transport and Environment},
+  volume  = {146},
+  pages   = {104903},
+  year    = {2025},
+  doi     = {10.1016/j.trd.2025.104903},
+}</code></pre></div>
+```
 ::::::
 
 :::::: paper-entry
+::: paper-tag
+Forest Policy Econ.
+:::
+
 ::: paper-title
 Forest diversity and the distribution of farm revenue — Empirical evidence from forest farms in Taiwan
 :::
@@ -81,10 +119,27 @@ Forest diversity and the distribution of farm revenue — Empirical evidence fro
 
 ::: paper-links
 [期刊全文](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{liou2025forest,
+  title   = {Forest diversity and the distribution of farm revenue---Empirical evidence from forest farms in Taiwan},
+  author  = {Liou, Yu-You and Lee, Brian and Chang, Hung-Hao},
+  journal = {Forest Policy and Economics},
+  volume  = {171},
+  pages   = {103411},
+  year    = {2025},
+  doi     = {10.1016/j.forpol.2024.103411},
+}</code></pre></div>
+```
 ::::::
 
 :::::: paper-entry
+::: paper-tag
+J. Transp. Geogr.
+:::
+
 ::: paper-title
 Does COVID-19 affect metro use in Taipei?
 :::
@@ -95,7 +150,20 @@ Does COVID-19 affect metro use in Taipei?
 
 ::: paper-links
 [期刊全文](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{chang2021covid,
+  title   = {Does COVID-19 affect metro use in Taipei?},
+  author  = {Chang, Hung-Hao and Lee, Brian and Yang, Feng-An and Liou, Yu-You},
+  journal = {Journal of Transport Geography},
+  volume  = {91},
+  pages   = {102954},
+  year    = {2021},
+  doi     = {10.1016/j.jtrangeo.2021.102954},
+}</code></pre></div>
+```
 ::::::
 
 ::: paper-note
@@ -105,6 +173,10 @@ Does COVID-19 affect metro use in Taipei?
 ## **其他著作**
 
 :::::: paper-entry
+::: paper-tag
+J. Tour. Manag. Res.
+:::
+
 ::: paper-title
 Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan
 :::
@@ -115,10 +187,27 @@ Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employm
 
 ::: paper-links
 [期刊全文](https://archive.conscientiabeam.com/index.php/31/article/view/4940/9198){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{liou2026hotel,
+  title   = {Hotel recovery strategies in the post-COVID-19 era: Evidence on revenue, employment, and labor market rigidity from Taiwan},
+  author  = {Liou, Yu-You and Kim, Man-Keun and Chang, Hung-Hao},
+  journal = {Journal of Tourism Management Research},
+  volume  = {13},
+  number  = {1},
+  pages   = {148--162},
+  year    = {2026},
+}</code></pre></div>
+```
 ::::::
 
 :::::: paper-entry
+::: paper-tag
+Ann. Tour. Res.
+:::
+
 ::: paper-title
 Traffic accidents of religious tourism
 :::
@@ -129,10 +218,28 @@ Traffic accidents of religious tourism
 
 ::: paper-links
 [期刊全文](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{liou2026religious,
+  title   = {Traffic accidents of religious tourism},
+  author  = {Liou, Yu-You and Chang, Hung-Hao},
+  journal = {Annals of Tourism Research Empirical Insights},
+  volume  = {7},
+  number  = {1},
+  pages   = {100209},
+  year    = {2026},
+  doi     = {10.1016/j.annale.2026.100209},
+}</code></pre></div>
+```
 ::::::
 
 :::::: paper-entry
+::: paper-tag
+Agribusiness
+:::
+
 ::: paper-title
 Rooftop Solar Energy Adoption and Farm Revenue
 :::
@@ -143,10 +250,26 @@ Rooftop Solar Energy Adoption and Farm Revenue
 
 ::: paper-links
 [期刊全文](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{liou2025rooftop,
+  title   = {Rooftop solar energy adoption and farm revenue},
+  author  = {Liou, Yu-You and Chang, Hung-Hao},
+  journal = {Agribusiness},
+  year    = {2025},
+  note    = {Forthcoming},
+  doi     = {10.1002/agr.70035},
+}</code></pre></div>
+```
 ::::::
 
 :::::: paper-entry
+::: paper-tag
+Singapore Econ. Rev.
+:::
+
 ::: paper-title
 The impact of the carbon border adjustment mechanism policy on international trade and market competition — A theoretical justification
 :::
@@ -157,10 +280,26 @@ The impact of the carbon border adjustment mechanism policy on international tra
 
 ::: paper-links
 [期刊全文](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{liou2025cbam,
+  title   = {The impact of the carbon border adjustment mechanism policy on international trade and market competition---A theoretical justification},
+  author  = {Liou, Yu-You and Chang, Hung-Hao and Begun, Jeffrey C.},
+  journal = {The Singapore Economic Review},
+  year    = {2025},
+  note    = {Forthcoming},
+  doi     = {10.1142/S0217590825500328},
+}</code></pre></div>
+```
 ::::::
 
 :::::: paper-entry
+::: paper-tag
+Agriculture
+:::
+
 ::: paper-title
 Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Agriculture Census Data
 :::
@@ -171,10 +310,28 @@ Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Ag
 
 ::: paper-links
 [期刊全文](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{liou2025solarpanel,
+  title   = {Is solar panel adoption a win--win strategy for chicken farms? Evidence from agriculture census data},
+  author  = {Liou, Yu-You and Lee, Brian and Chang, Hung-Hao},
+  journal = {Agriculture},
+  volume  = {15},
+  number  = {20},
+  pages   = {2124},
+  year    = {2025},
+  doi     = {10.3390/agriculture15202124},
+}</code></pre></div>
+```
 ::::::
 
 :::::: paper-entry
+::: paper-tag
+Qual. & Quant.
+:::
+
 ::: paper-title
 How do consumers respond to COVID-19? Application of Bayesian approach on credit card transaction data
 :::
@@ -185,7 +342,21 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 
 ::: paper-links
 [期刊全文](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn}
+[Bib]{.paper-btn .bib-toggle}
 :::
+
+```{=html}
+<div class="bibtex-box"><pre><code>@article{liou2024consumers,
+  title   = {How do consumers respond to COVID-19? Application of Bayesian approach on credit card transaction data},
+  author  = {Liou, Yu-You and Chang, Hung-Hao and Just, David R.},
+  journal = {Quality \& Quantity},
+  volume  = {58},
+  number  = {6},
+  pages   = {5737--5754},
+  year    = {2024},
+  doi     = {10.1007/s11135-024-01915-9},
+}</code></pre></div>
+```
 ::::::
 
 ## **進行中研究**
@@ -223,3 +394,74 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 ::: paper-note
 *附註*：姓名依英文字母順序排列。
 :::
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var CLIP = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+  var CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+
+  // Toggle BibTeX boxes
+  document.querySelectorAll('.bib-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var entry = btn.closest('.paper-entry');
+      if (!entry) return;
+      var box = entry.querySelector('.bibtex-box');
+      if (!box) return;
+      var open = box.classList.toggle('is-open');
+      btn.classList.toggle('is-open', open);
+    });
+  });
+
+  // Copy button + syntax highlighting
+  document.querySelectorAll('.bibtex-box').forEach(function (box) {
+    var code = box.querySelector('code');
+    if (!code) return;
+    var raw = code.textContent;
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'copy-bib';
+    btn.setAttribute('aria-label', '複製 BibTeX');
+    btn.setAttribute('title', '複製 BibTeX');
+    btn.innerHTML = CLIP;
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var done = function () {
+        btn.classList.add('copied');
+        btn.innerHTML = CHECK;
+        setTimeout(function () {
+          btn.classList.remove('copied');
+          btn.innerHTML = CLIP;
+        }, 1500);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(raw).then(done).catch(function () { fallbackCopy(raw); done(); });
+      } else { fallbackCopy(raw); done(); }
+    });
+    box.appendChild(btn);
+
+    var t = raw.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    t = t.replace(/^(@\w+)(\{)([^,\n]+)(,)/m,
+      '<span class="bk">$1</span>$2<span class="bc">$3</span>$4');
+    t = t.replace(/^(\s+)([A-Za-z]+)(\s*=\s*)(.+?)(,?)\s*$/gm,
+      function (m, ind, field, eq, val, comma) {
+        return ind + '<span class="bf">' + field + '</span>' + eq +
+               '<span class="bv">' + val + '</span>' + comma;
+      });
+    code.innerHTML = t;
+  });
+});
+</script>
+```
