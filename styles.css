@@ -785,6 +785,7 @@ pre {
     .hex-col {
         grid-column: 1;
         grid-row: auto;
+        margin-bottom: 0.9em;
     }
     .hex-col img {
         width: 84px;
