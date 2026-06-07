@@ -774,6 +774,11 @@ pre {
         align-self: start;
         align-items: flex-start;
     }
+    /* journal badge: natural width, flushed right */
+    .paper-tag p {
+        align-self: flex-end;
+        width: auto;
+    }
     .paper-tag > *:not(:first-child) {
         margin-top: 0;
         margin-bottom: 0;
