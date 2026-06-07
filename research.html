@@ -74,7 +74,12 @@ ul.task-list li input[type="checkbox"] {
 <script>
 // ── Theme (before-paint) ──────────────────────────────
 (function () {
-  var t = localStorage.getItem('theme') || 'light';
+  // Manual choice lasts for this visit only; otherwise follow the clock (07:00-19:00 = light)
+  var t = sessionStorage.getItem('theme');
+  if (t !== 'light' && t !== 'dark') {
+    var h = new Date().getHours();
+    t = (h >= 7 && h < 19) ? 'light' : 'dark';
+  }
   document.documentElement.setAttribute('data-theme', t);
   var fs = localStorage.getItem('fontsize') || 'medium';
   document.documentElement.setAttribute('data-fontsize', fs);
@@ -194,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var t = document.documentElement.getAttribute('data-theme') || 'light';
     var next = t === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
+    sessionStorage.setItem('theme', next);
     themeBtn.textContent = next === 'dark' ? '☀' : '☾';
   };
 
