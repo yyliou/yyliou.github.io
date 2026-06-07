@@ -712,9 +712,9 @@ pre {
 }
 
 /* anything after the badge (PlumX, even if its script wraps it)
-   gets centred in the remaining space, both axes */
+   sits directly below the badge, horizontally centred */
 .paper-tag > *:not(:first-child) {
-    margin: auto;
+    margin: 0 auto;
 }
 
 .paper-tag p {
@@ -798,21 +798,21 @@ pre {
         grid-template-columns: 1fr;
         row-gap: 0.4em;
     }
-    /* journal badge top-left, PlumX in the top-right corner */
+    /* journal badge top-left, PlumX directly below it */
     .paper-tag {
         grid-column: 1;
         grid-row: auto;
         align-self: start;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5em;
     }
     .paper-tag p {
         align-self: auto;
         width: auto;
     }
     .paper-tag > *:not(:first-child) {
-        margin: 0 0 0 auto;
+        margin: 0;
     }
     .paper-title,
     .paper-meta,
