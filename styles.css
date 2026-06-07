@@ -673,7 +673,10 @@ pre {
 .paper-tag {
     grid-column: 1;
     grid-row: 1 / span 3;
-    align-self: start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
 }
 
 .paper-tag p {
@@ -717,14 +720,24 @@ pre {
     margin: 0;
 }
 
-/* PlumX plum-print widget: below the journal tag in the left column */
+/* PlumX plum-print widget: centred in the empty left-column area */
 .paper-tag .plumx-plum-print-popup {
     display: block;
     width: fit-content;
-    margin: 0.6em auto 0;
+    margin: auto;
     line-height: 1;
     text-decoration: none !important;
     border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+/* PlumX's script may inject its own anchors/elements — make sure none
+   of them inherit the global link underline */
+.paper-tag a,
+.paper-tag a span,
+.paper-tag .plumx-plum-print-popup * {
+    border-bottom: none !important;
+    text-decoration: none !important;
     box-shadow: none !important;
 }
 
