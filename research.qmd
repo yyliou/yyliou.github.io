@@ -107,7 +107,7 @@ My research has primarily been published in international journals within the fi
 Transp. Res. A
 
 ```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.tra.2026.104860" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="true"></a>
+<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.tra.2026.104860" class="plumx-plum-print-popup" data-popup="right" data-size="medium" data-site="plum" data-hide-when-empty="true"></a>
 ```
 :::
 
@@ -142,7 +142,7 @@ The causal effects of removing hook-turn regulation on road safety
 Transp. Res. D
 
 ```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.trd.2025.104903" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="true"></a>
+<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.trd.2025.104903" class="plumx-plum-print-popup" data-popup="right" data-size="medium" data-site="plum" data-hide-when-empty="true"></a>
 ```
 :::
 
@@ -177,7 +177,7 @@ The causal effect of monthly pass programs on public transportation and carbon e
 Forest Policy Econ.
 
 ```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.forpol.2024.103411" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="true"></a>
+<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.forpol.2024.103411" class="plumx-plum-print-popup" data-popup="right" data-size="medium" data-site="plum" data-hide-when-empty="true"></a>
 ```
 :::
 
@@ -212,7 +212,7 @@ Forest diversity and the distribution of farm revenue — Empirical evidence fro
 J. Transp. Geogr.
 
 ```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.jtrangeo.2021.102954" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="true"></a>
+<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.jtrangeo.2021.102954" class="plumx-plum-print-popup" data-popup="right" data-size="medium" data-site="plum" data-hide-when-empty="true"></a>
 ```
 :::
 
@@ -294,7 +294,7 @@ Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employm
 Ann. Tour. Res.
 
 ```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.annale.2026.100209" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="true"></a>
+<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.annale.2026.100209" class="plumx-plum-print-popup" data-popup="right" data-size="medium" data-site="plum" data-hide-when-empty="true"></a>
 ```
 :::
 
@@ -330,7 +330,7 @@ Traffic accidents of religious tourism
 Agribusiness
 
 ```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.1002%2Fagr.70035" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="true"></a>
+<a href="https://plu.mx/plum/a/?doi=10.1002%2Fagr.70035" class="plumx-plum-print-popup" data-popup="right" data-size="medium" data-site="plum" data-hide-when-empty="true"></a>
 ```
 :::
 
@@ -364,7 +364,7 @@ Rooftop Solar Energy Adoption and Farm Revenue
 Singapore Econ. Rev.
 
 ```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.1142%2FS0217590825500328" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="true"></a>
+<a href="https://plu.mx/plum/a/?doi=10.1142%2FS0217590825500328" class="plumx-plum-print-popup" data-popup="right" data-size="medium" data-site="plum" data-hide-when-empty="true"></a>
 ```
 :::
 
@@ -398,7 +398,7 @@ The impact of the carbon border adjustment mechanism policy on international tra
 Agriculture
 
 ```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.3390%2Fagriculture15202124" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="true"></a>
+<a href="https://plu.mx/plum/a/?doi=10.3390%2Fagriculture15202124" class="plumx-plum-print-popup" data-popup="right" data-size="medium" data-site="plum" data-hide-when-empty="true"></a>
 ```
 :::
 
@@ -434,7 +434,7 @@ Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Ag
 Qual. & Quant.
 
 ```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.1007%2Fs11135-024-01915-9" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="true"></a>
+<a href="https://plu.mx/plum/a/?doi=10.1007%2Fs11135-024-01915-9" class="plumx-plum-print-popup" data-popup="right" data-size="medium" data-site="plum" data-hide-when-empty="true"></a>
 ```
 :::
 
