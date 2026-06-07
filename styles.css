@@ -641,6 +641,31 @@ pre {
     opacity: 1;
 }
 
+.cmap-scroll-hint {
+    display: none;
+}
+
+/* Mobile: keep the map large inside a horizontally scrollable window */
+@media (max-width: 768px) {
+    .coauthor-map {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .coauthor-map svg {
+        width: 760px;
+        max-width: none;
+    }
+
+    .cmap-scroll-hint {
+        display: block;
+        text-align: center;
+        font-size: 0.75rem;
+        color: #999;
+        margin: -1em 0 1.6em;
+    }
+}
+
 /* Note / 附註 */
 .paper-note {
     font-size: 0.82rem;

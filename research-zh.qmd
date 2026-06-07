@@ -508,6 +508,7 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 </svg>
 <div class="cmap-tip"></div>
 </div>
+<div class="cmap-scroll-hint" aria-hidden="true">← 左右滑動瀏覽 →</div>
 <script>
 (function () {
   var map = document.querySelector('.coauthor-map');
@@ -518,11 +519,12 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
     tip.classList.add('is-visible');
     var mr = map.getBoundingClientRect();
     var dr = dot.getBoundingClientRect();
-    var x = dr.left - mr.left + dr.width / 2;
+    var sl = map.scrollLeft || 0;
+    var x = dr.left - mr.left + sl + dr.width / 2;
     var y = dr.top - mr.top;
     tip.style.left = '0px';
     var tw = tip.offsetWidth;
-    x = Math.max(6, Math.min(x - tw / 2, mr.width - tw - 6));
+    x = Math.max(sl + 6, Math.min(x - tw / 2, sl + mr.width - tw - 6));
     tip.style.left = x + 'px';
     var top = y - tip.offsetHeight - 10;
     if (top < 0) top = dr.bottom - mr.top + 10;
