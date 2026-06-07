@@ -534,11 +534,17 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
     var doc = document.documentElement;
     var docH = Math.max(doc.scrollHeight, document.body.scrollHeight);
     var start = rect.top + scrollY - vh;        // map top enters viewport
-    var end = docH - vh;                         // page scrolled to the very bottom
+    var end = docH - vh;                         // fallback: page bottom
+    var lis = document.querySelectorAll('.coauthors-list li');
+    if (lis.length >= 3) {
+      // converge when the third-from-last co-author enters the viewport
+      var a = lis[lis.length - 3].getBoundingClientRect();
+      end = a.top + scrollY - vh;
+    }
     var p = end > start ? (scrollY - start) / (end - start) : 1;
     p = Math.max(0, Math.min(1, p));
     var eased = 1 - Math.pow(1 - p, 3);
-    var k = 1 + 15 * (1 - eased);
+    var k = 1 + 30 * (1 - eased);
     dots.forEach(function (d) {
       d.setAttribute('r', (parseFloat(d.getAttribute('data-r')) * k).toFixed(2));
       d.setAttribute('fill-opacity', (0.15 + 0.85 * eased).toFixed(3));
