@@ -3,6 +3,10 @@ title: "Research"
 ---
 
 ```{=html}
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+```
+
+```{=html}
 <div class="bib-stats">
   <div class="bib-stat">
     <div class="bib-label">Publications</div>
@@ -636,6 +640,3 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 ```
 
-```{=html}
-<script type="text/javascript" src="https://cdn.plu.mx/widget-popup.js" async></script>
-```
