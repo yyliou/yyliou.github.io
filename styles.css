@@ -676,8 +676,14 @@ pre {
     align-self: stretch;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;   /* journal badge: natural width, left-aligned */
+    align-items: flex-start;
     gap: 0.6em;
+}
+
+/* desktop: badge spans the full column width, label centred */
+.paper-tag > p {
+    align-self: stretch;
+    text-align: center;
 }
 
 /* anything after the badge (PlumX, even if its script wraps it)
