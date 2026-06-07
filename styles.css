@@ -676,7 +676,15 @@ pre {
     align-self: stretch;
     display: flex;
     flex-direction: column;
+    align-items: center;   /* badge & widget keep natural width, centred */
     gap: 0.6em;
+}
+
+/* anything after the badge (PlumX, even if its script wraps it)
+   gets centred in the remaining vertical space */
+.paper-tag > *:not(:first-child) {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .paper-tag p {
@@ -724,7 +732,8 @@ pre {
 .paper-tag .plumx-plum-print-popup {
     display: block;
     width: fit-content;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1;
     text-decoration: none !important;
     border-bottom: none !important;
@@ -763,6 +772,11 @@ pre {
         grid-column: 1;
         grid-row: auto;
         align-self: start;
+        align-items: flex-start;
+    }
+    .paper-tag > *:not(:first-child) {
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .paper-title,
     .paper-meta,
