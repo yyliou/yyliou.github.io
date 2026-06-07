@@ -718,7 +718,7 @@ pre {
 }
 
 /* PlumX plum-print widget in the links row */
-.paper-links .plumx-plot {
+.paper-links .plumx-plum-print-popup {
     display: inline-flex;
     align-items: center;
     line-height: 1;
