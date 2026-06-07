@@ -717,10 +717,11 @@ pre {
     margin: 0;
 }
 
-/* PlumX plum-print widget in the links row */
-.paper-links .plumx-plum-print-popup {
-    display: inline-flex;
-    align-items: center;
+/* PlumX plum-print widget: below the journal tag in the left column */
+.paper-tag .plumx-plum-print-popup {
+    display: block;
+    width: fit-content;
+    margin: 0.6em 0 0 14px;
     line-height: 1;
 }
 
