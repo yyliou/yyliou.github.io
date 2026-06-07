@@ -36,6 +36,8 @@ def collect_chars() -> str:
     chars = set(SAFETY)
     sources = glob.glob(str(ROOT / "*.html")) + glob.glob(str(ROOT / "*.qmd"))
     sources += [str(ROOT / "_header.html"), str(ROOT / "_footer.html")]
+    # PDF viewer pages in the sibling yyliou repo (served at /yyliou/cv/, /yyliou/rs/)
+    sources += glob.glob(str(ROOT.parent / "yyliou" / "*" / "index.html"))
     for f in sources:
         p = pathlib.Path(f)
         if not p.exists():
