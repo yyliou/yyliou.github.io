@@ -135,7 +135,7 @@ The causal effects of removing hook-turn regulation on road safety
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -170,7 +170,7 @@ The causal effect of monthly pass programs on public transportation and carbon e
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[Journal](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -205,7 +205,7 @@ Forest diversity and the distribution of farm revenue — Empirical evidence fro
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[Journal](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -240,7 +240,7 @@ Does COVID-19 affect metro use in Taipei?
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[Journal](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -287,7 +287,7 @@ Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employm
 :::
 
 ::: paper-links
-[Journal](https://archive.conscientiabeam.com/index.php/31/article/view/4940/9198){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
+[Journal](https://archive.conscientiabeam.com/index.php/31/article/view/4940/9198){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -322,7 +322,7 @@ Traffic accidents of religious tourism
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -358,7 +358,7 @@ Rooftop Solar Energy Adoption and Farm Revenue
 :::
 
 ::: paper-links
-[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -392,7 +392,7 @@ The impact of the carbon border adjustment mechanism policy on international tra
 :::
 
 ::: paper-links
-[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -426,7 +426,7 @@ Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Ag
 :::
 
 ::: paper-links
-[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SCIE]{.idx-badge}
+[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -462,7 +462,7 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 :::
 
 ::: paper-links
-[Journal](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle}
+[Journal](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle}
 :::
 
 ```{=html}
