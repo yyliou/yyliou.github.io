@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
 *附註*：有兩筆文獻無法對應至相應年份，因此未納入圖中。
 :::
 
-本人研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的Journal of Transport Geography、Transportation Research Part A及Part D，以及Forest Policy and Economics。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
+本人研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的Journal of Transport Geography、Transportation Research Part A及Part D，以及Forest Policy and Economics。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs)。
 
 ## **焦點著作**
 
@@ -692,4 +692,3 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 ```
-

@@ -28,7 +28,7 @@ page-layout: custom
          data-en="Research" data-zh="研究">Research</a>
       <a href="teach.html"
          data-en="Teaching" data-zh="教學">Teaching</a>
-      <a href="https://yyliou.github.io/yyliou/cv/cv.pdf" target="_blank"
+      <a href="https://yyliou.github.io/yyliou/cv" target="_blank"
          data-en="Curriculum Vitae" data-zh="履歷">Curriculum Vitae</a>
       <a href="mailto:d10627008@ntu.edu.tw"
          data-en="Email" data-zh="電郵">Email</a>

@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
 *Note*: Two citations cannot be matched to corresponding years; therefore, they are excluded from the figure.
 :::
 
-My research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, and Forest Policy and Economics. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs/rs.pdf).
+My research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, and Forest Policy and Economics. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs).
 
 ## **Selected Publications**
 
@@ -260,7 +260,6 @@ Does COVID-19 affect metro use in Taipei?
 ::: paper-note
 *Note*: † Journals recommended by the NSTC, Division of Regional Studies and Geography; \* Journals recommended by the NSTC, Division of Economics. \^ Journals recommended by the NSTC, Division of Management II. ⁺ Journals ranked in the top 10% of their field based on the Journal Impact Factor.
 :::
-
 
 ```{=html}
 <div class="journal-covers">
@@ -587,7 +586,6 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 </script>
 ```
 
-
 ::: coauthors-list
 - [**Begun, Jeffrey C.**](https://jsis.washington.edu/emis/people/jeffrey-begun/), University of Washington.
 - [**Chang, Hung-Hao**](https://sites.google.com/view/hh-chang), National Taiwan University.
@@ -698,4 +696,3 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 ```
-
