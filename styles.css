@@ -676,15 +676,14 @@ pre {
     align-self: stretch;
     display: flex;
     flex-direction: column;
-    align-items: center;   /* badge & widget keep natural width, centred */
+    align-items: flex-start;   /* journal badge: natural width, left-aligned */
     gap: 0.6em;
 }
 
 /* anything after the badge (PlumX, even if its script wraps it)
-   gets centred in the remaining vertical space */
+   gets centred in the remaining space, both axes */
 .paper-tag > *:not(:first-child) {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 
 .paper-tag p {
