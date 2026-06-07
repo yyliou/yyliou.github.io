@@ -3,9 +3,10 @@ project:
   output-dir: .
 
 website:
-  title: "Liou"
+  title: "Yu-You Liou 劉昱佑"
   favicon: icon.png
   navbar:
+    title: "Liou"
     left:
       - href: about.qmd
         text: About

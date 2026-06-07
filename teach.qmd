@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', function () {
 **English Taught Program in International Business**
 
 :::::: paper-entry
+::: hex-col
+![](hex/stat.svg){fig-alt="Statistics course hex logo"}
+:::
+
 ::: paper-title
 **Statistics I & II**
 :::
@@ -55,12 +59,20 @@ document.addEventListener('DOMContentLoaded', function () {
 Undergraduate, Fall, 2024, 2025; Spring, 2025, 2026.
 :::
 
+::: paper-desc
+A two-semester introduction to statistical reasoning, covering descriptive statistics, probability, and inference through hypothesis testing, regression, and ANOVA. Each week pairs a concept lecture with a hands-on lab session.
+:::
+
 ::: paper-links
 [Course site](https://yyliou.github.io/stat){.paper-btn}
 :::
 ::::::
 
 :::::: paper-entry
+::: hex-col
+![](hex/pa.svg){fig-alt="Programming for Application course hex logo"}
+:::
+
 ::: paper-title
 **Programming for Application**
 :::
@@ -69,12 +81,20 @@ Undergraduate, Fall, 2024, 2025; Spring, 2025, 2026.
 Undergraduate, Spring, 2024, 2025, 2026.
 :::
 
+::: paper-desc
+An introduction to programming fundamentals in R, emphasizing how to translate practical business and data problems into working code through weekly in-class exercises.
+:::
+
 ::: paper-links
 [Course site](https://yyliou.github.io/pa){.paper-btn}
 :::
 ::::::
 
 :::::: paper-entry
+::: hex-col
+![](hex/da.svg){fig-alt="Data Analysis course hex logo"}
+:::
+
 ::: paper-title
 **Data Analysis**
 :::
@@ -83,7 +103,45 @@ Undergraduate, Spring, 2024, 2025, 2026.
 Undergraduate, Fall, 2024, 2025.
 :::
 
+::: paper-desc
+Practical data analysis and communication in the modern R ecosystem, centered on the grammar of graphics and data visualization with `ggplot2`, turning analytical findings into clear visual narratives.
+:::
+
 ::: paper-links
 [Course site](https://yyliou.github.io/da){.paper-btn}
+:::
+::::::
+
+## National Taiwan University
+
+**Department of Agricultural Economics — Teaching Assistant**
+
+:::::: paper-entry
+::: paper-title
+**Quantitative Method**
+:::
+
+::: paper-meta
+Spring 2020 (Prof. Chang).
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+**Agricultural Regulations**
+:::
+
+::: paper-meta
+Spring 2022 (Prof. Chen).
+:::
+::::::
+
+:::::: paper-entry
+::: paper-title
+**Agricultural Policy and Performance Evaluation**
+:::
+
+::: paper-meta
+Spring 2024 (Prof. Chang).
 :::
 ::::::

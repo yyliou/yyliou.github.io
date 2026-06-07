@@ -1,5 +1,6 @@
 ---
 title: "Yu-You Liou"
+pagetitle: "Yu-You Liou 劉昱佑"
 subtitle: ""
 description: "**MStat, MS, BA, BS** \n\n I am a PhD Fellow at NTU and a lecturer at USC, where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics."
 about:
@@ -24,9 +25,9 @@ about:
 ## **Awards & Grants**
 
 - NSTC Graduate Research Fellowship, National Science and Technology Council, 2022–2026.
-- Teach Grant, Shih Chien University, 2025.
+- Teaching Grant, Shih Chien University, 2025.
 - Research Grant, CMC Magnetics Co., Ltd. (2323), 2025
 
 ## **Acknowledgement**
 
-I am profoundly grateful to Professor [**Hung-Hao Chang**](https://sites.google.com/view/hh-chang) for his academic guidance and personal support throughout my master's and doctoral journey. His mentorship has left a lasting impact for which I will always be thankf
+I am profoundly grateful to Professor [**Hung-Hao Chang**](https://sites.google.com/view/hh-chang) for his academic guidance and personal support throughout my master's and doctoral journey. His mentorship has left a lasting impact for which I will always be thankful.

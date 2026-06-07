@@ -698,11 +698,42 @@ pre {
 /* Content sits in the right column */
 .paper-title,
 .paper-meta,
+.paper-desc,
 .paper-links,
 .bibtex-box,
 .abstract-box {
     grid-column: 2;
     min-width: 0; /* allow the column to shrink so long BibTeX lines scroll instead of overflowing */
+}
+
+/* Course / paper description */
+.paper-desc {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 0.4em;
+}
+
+.paper-desc p {
+    margin: 0;
+}
+
+/* PlumX plum-print widget in the links row */
+.paper-links .plumx-plot {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+}
+
+/* Inline code in descriptions: same type rules as the BibTeX box */
+.paper-desc p code {
+    background: none !important;
+    padding: 0 !important;
+    border-radius: 0;
+    font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', ui-monospace,
+        Menlo, Consolas, 'Courier New', monospace;
+    font-weight: 500;
+    font-size: 0.88em;
+    color: #2d3a47;
 }
 
 /* Mobile: stack the tag above the content (al-folio behaviour) */
@@ -718,6 +749,7 @@ pre {
     }
     .paper-title,
     .paper-meta,
+    .paper-desc,
     .paper-links,
     .bibtex-box,
     .abstract-box {
@@ -727,6 +759,32 @@ pre {
 
 .paper-entry:last-child {
     border-bottom: none;
+}
+
+/* Course hex badge (left column, like the journal tag) */
+.hex-col {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    align-self: center;
+}
+
+.hex-col p {
+    margin: 0;
+}
+
+.hex-col img {
+    width: 112px;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .hex-col {
+        grid-column: 1;
+        grid-row: auto;
+    }
+    .hex-col img {
+        width: 84px;
+    }
 }
 
 .paper-title {
@@ -1150,6 +1208,15 @@ pre {
 
 [data-theme="dark"] .paper-meta {
     color: #8a95a8;
+}
+
+[data-theme="dark"] .paper-desc {
+    color: #c7cedb;
+}
+
+[data-theme="dark"] .paper-desc p code {
+    background: none !important;
+    color: #e08aa0;
 }
 
 [data-theme="dark"] .paper-note {

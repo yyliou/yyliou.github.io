@@ -112,7 +112,7 @@ The causal effects of removing hook-turn regulation on road safety
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge} [SCIE]{.idx-badge}]{.idx-badges}
+[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} <a href="https://plu.mx/plum/a/?doi=10.1016/j.tra.2026.104860" class="plumx-plot" data-popup="right" data-size="small" data-site="plum" data-hide-when-empty="true"></a>
 :::
 
 ```{=html}
@@ -143,7 +143,7 @@ The causal effect of monthly pass programs on public transportation and carbon e
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge} [SCIE]{.idx-badge}]{.idx-badges}
+[Journal](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} <a href="https://plu.mx/plum/a/?doi=10.1016/j.trd.2025.104903" class="plumx-plot" data-popup="right" data-size="small" data-site="plum" data-hide-when-empty="true"></a>
 :::
 
 ```{=html}
@@ -174,7 +174,7 @@ Forest diversity and the distribution of farm revenue — Empirical evidence fro
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge} [SCIE]{.idx-badge}]{.idx-badges}
+[Journal](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} <a href="https://plu.mx/plum/a/?doi=10.1016/j.forpol.2024.103411" class="plumx-plot" data-popup="right" data-size="small" data-site="plum" data-hide-when-empty="true"></a>
 :::
 
 ```{=html}
@@ -205,7 +205,7 @@ Does COVID-19 affect metro use in Taipei?
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge}]{.idx-badges}
+[Journal](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} <a href="https://plu.mx/plum/a/?doi=10.1016/j.jtrangeo.2021.102954" class="plumx-plot" data-popup="right" data-size="small" data-site="plum" data-hide-when-empty="true"></a>
 :::
 
 ```{=html}
@@ -252,7 +252,7 @@ Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employm
 :::
 
 ::: paper-links
-[Journal](https://archive.conscientiabeam.com/index.php/31/article/view/4940/9198){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[ESCI]{.idx-badge}]{.idx-badges}
+[Journal](https://archive.conscientiabeam.com/index.php/31/article/view/4940/9198){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -283,7 +283,7 @@ Traffic accidents of religious tourism
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[ESCI]{.idx-badge}]{.idx-badges}
+[Journal](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [ESCI]{.idx-badge} <a href="https://plu.mx/plum/a/?doi=10.1016/j.annale.2026.100209" class="plumx-plot" data-popup="right" data-size="small" data-site="plum" data-hide-when-empty="true"></a>
 :::
 
 ```{=html}
@@ -315,7 +315,7 @@ Rooftop Solar Energy Adoption and Farm Revenue
 :::
 
 ::: paper-links
-[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge} [SCIE]{.idx-badge}]{.idx-badges}
+[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} <a href="https://plu.mx/plum/a/?doi=10.1002/agr.70035" class="plumx-plot" data-popup="right" data-size="small" data-site="plum" data-hide-when-empty="true"></a>
 :::
 
 ```{=html}
@@ -345,7 +345,7 @@ The impact of the carbon border adjustment mechanism policy on international tra
 :::
 
 ::: paper-links
-[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SSCI]{.idx-badge}]{.idx-badges}
+[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} <a href="https://plu.mx/plum/a/?doi=10.1142/S0217590825500328" class="plumx-plot" data-popup="right" data-size="small" data-site="plum" data-hide-when-empty="true"></a>
 :::
 
 ```{=html}
@@ -375,7 +375,7 @@ Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Ag
 :::
 
 ::: paper-links
-[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [[SCIE]{.idx-badge}]{.idx-badges}
+[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} [SCIE]{.idx-badge} <a href="https://plu.mx/plum/a/?doi=10.3390/agriculture15202124" class="plumx-plot" data-popup="right" data-size="small" data-site="plum" data-hide-when-empty="true"></a>
 :::
 
 ```{=html}
@@ -407,7 +407,7 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 :::
 
 ::: paper-links
-[Journal](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle}
+[Journal](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [Bib]{.paper-btn .bib-toggle} <a href="https://plu.mx/plum/a/?doi=10.1007/s11135-024-01915-9" class="plumx-plot" data-popup="right" data-size="small" data-site="plum" data-hide-when-empty="true"></a>
 :::
 
 ```{=html}
@@ -433,11 +433,11 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 - Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).
 - Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).
 - The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).
+- Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).
 
 ### **Under Review**
 
 - Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Chang).
-- Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).
 - Air Quality vs. Fiscal Compensation: Evidence from Coal Reduction and Housing Markets (with Chang and Zilberman).
 - Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).
 
@@ -634,4 +634,8 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+```
+
+```{=html}
+<script type="text/javascript" src="https://cdn.plu.mx/widget-plot.js" async></script>
 ```
