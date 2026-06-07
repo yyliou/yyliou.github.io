@@ -767,20 +767,20 @@ pre {
         grid-template-columns: 1fr;
         row-gap: 0.4em;
     }
+    /* one row: journal badge left, PlumX in the top-right corner */
     .paper-tag {
         grid-column: 1;
         grid-row: auto;
         align-self: start;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
     }
-    /* journal badge: natural width, flushed right */
     .paper-tag p {
-        align-self: flex-end;
+        align-self: auto;
         width: auto;
     }
     .paper-tag > *:not(:first-child) {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0 0 0 auto;   /* push PlumX to the right */
     }
     .paper-title,
     .paper-meta,
