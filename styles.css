@@ -721,8 +721,11 @@ pre {
 .paper-tag .plumx-plum-print-popup {
     display: block;
     width: fit-content;
-    margin: 0.6em 0 0 14px;
+    margin: 0.6em auto 0;
     line-height: 1;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
 }
 
 /* Inline code in descriptions: same type rules as the BibTeX box */
