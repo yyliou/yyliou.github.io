@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 **English Taught Program in International Business**
 
-:::::: paper-entry
+:::::::: paper-entry
 ::: hex-col
 ![](hex/stat.svg){fig-alt="Statistics course hex logo"}
 :::
@@ -66,15 +66,15 @@ A two-semester introduction to statistical reasoning, covering descriptive stati
 ::: paper-links
 [Course site](https://yyliou.github.io/stat){.paper-btn}
 :::
-::::::
+::::::::
 
-:::::: paper-entry
+:::::::: paper-entry
 ::: hex-col
-![](hex/pa.svg){fig-alt="Programming for Application course hex logo"}
+![](hex/pa.svg){fig-alt="Programming for Applications course hex logo"}
 :::
 
 ::: paper-title
-**Programming for Application**
+**Programming for Applications**
 :::
 
 ::: paper-meta
@@ -88,9 +88,9 @@ An introduction to programming fundamentals in R, emphasizing how to translate p
 ::: paper-links
 [Course site](https://yyliou.github.io/pa){.paper-btn}
 :::
-::::::
+::::::::
 
-:::::: paper-entry
+:::::::: paper-entry
 ::: hex-col
 ![](hex/da.svg){fig-alt="Data Analysis course hex logo"}
 :::
@@ -110,13 +110,13 @@ Practical data analysis and communication in the modern R ecosystem, centered on
 ::: paper-links
 [Course site](https://yyliou.github.io/da){.paper-btn}
 :::
-::::::
+::::::::
 
 ## National Taiwan University
 
 **Department of Agricultural Economics — Teaching Assistant**
 
-:::::: paper-entry
+::::: paper-entry
 ::: paper-title
 **Quantitative Method**
 :::
@@ -124,9 +124,9 @@ Practical data analysis and communication in the modern R ecosystem, centered on
 ::: paper-meta
 Spring 2020 (Prof. Chang).
 :::
-::::::
+:::::
 
-:::::: paper-entry
+::::: paper-entry
 ::: paper-title
 **Agricultural Regulations**
 :::
@@ -134,9 +134,9 @@ Spring 2020 (Prof. Chang).
 ::: paper-meta
 Spring 2022 (Prof. Chen).
 :::
-::::::
+:::::
 
-:::::: paper-entry
+::::: paper-entry
 ::: paper-title
 **Agricultural Policy and Performance Evaluation**
 :::
@@ -144,4 +144,4 @@ Spring 2022 (Prof. Chen).
 ::: paper-meta
 Spring 2024 (Prof. Chang).
 :::
-::::::
+:::::
