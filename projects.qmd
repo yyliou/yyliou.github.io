@@ -48,6 +48,28 @@ An R package that builds a hotel-by-month panel dataset from the Taiwan Tourism 
 :::
 ::::::::
 
+:::::::: paper-entry
+::: hex-col
+![](hex/plvr.svg){fig-alt="plvr package hex logo"}
+:::
+
+::: paper-title
+**plvr**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+An R package for the programmatic retrieval of Taiwan's actual real-estate transaction records (實價登錄) published as open data by the Ministry of the Interior. Given a calendar date range, it resolves the spanning quarterly releases, downloads each, keeps only the requested transaction categories (sales, pre-sale units, and rentals) and administrative regions, and stores the result as compact Parquet files suited to efficient querying with `arrow`, `dplyr`, or DuckDB.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/re){.paper-btn}
+:::
+::::::::
+
 ## Research Projects
 
 **Research Assistant — Department of Agricultural Economics, National Taiwan University**

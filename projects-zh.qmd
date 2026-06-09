@@ -48,6 +48,28 @@ R 套件，115 年
 :::
 ::::::::
 
+:::::::: paper-entry
+::: hex-col
+![](hex/plvr.svg){fig-alt="plvr package hex logo"}
+:::
+
+::: paper-title
+**plvr**
+:::
+
+::: paper-meta
+R 套件，115 年
+:::
+
+::: paper-desc
+可下載內政部以開放資料形式發布之臺灣不動產實價登錄交易紀錄的 R 套件。給定日期區間後，會解析其涵蓋的各季資料、逐季下載，僅保留所需的交易類別（買賣、預售屋、租賃）與行政區，並以精簡的 Parquet 格式儲存，便於透過 `arrow`、`dplyr` 或 DuckDB 高效查詢。
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/re){.paper-btn}
+:::
+::::::::
+
 ## 研究計畫
 
 **研究助理 — 國立臺灣大學農業經濟學系**
