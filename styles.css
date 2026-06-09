@@ -863,6 +863,11 @@ pre {
     line-height: 1.4;
 }
 
+/* package name shown as code in a title: same style as inline code (e.g. ggplot2), just larger */
+.paper-title code {
+    font-size: 1.25rem;
+}
+
 .paper-meta {
     font-size: 0.92rem;
     color: #555;

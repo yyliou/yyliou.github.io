@@ -1,0 +1,231 @@
+---
+title: "Projects"
+---
+
+## Software
+
+:::::::: paper-entry
+::: hex-col
+![](hex/weather.svg){fig-alt="twweather package hex logo"}
+:::
+
+::: paper-title
+**twweather**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+An R package for downloading Taiwan's historical weather observations from the Central Weather Administration (CWA / CODiS) station network. It provides tidy access to station metadata, station-level time series (hourly, daily, and monthly), and township-level aggregation through spatial joins — rainfall summed, other variables averaged.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/weather){.paper-btn}
+:::
+::::::::
+
+## Research Projects
+
+**Research Assistant — Department of Agricultural Economics, National Taiwan University**
+
+::::: paper-entry
+::: paper-title
+**Adaptation of Food and Agricultural System to Net Zero Policies (III)**
+:::
+
+::: paper-meta
+Mar 2026 · NSTC114-2119-M002-014
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**The Impact of Aquavoltaics Policy on Farmland Price — the Case of Taiwan**
+:::
+
+::: paper-meta
+Jan–Feb 2026 · NSTC114-2410-H002-244
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Policy Cost-Benefit Analysis and Strategic Recommendations for Enhancing Carbon Sink Capacity in Taiwan: A Case Study on Soil-Optimized Agricultural Production Models**
+:::
+
+::: paper-meta
+Jul–Dec 2025 · 114農科-13.1.1-永-04
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Applied Analysis of the Farmland Price Index in Response to the National Land Planning Policy**
+:::
+
+::: paper-meta
+May–Jun 2025 · 113農基金-永續-11
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Adaptation of Food and Agricultural System to Net Zero Policies (II)**
+:::
+
+::: paper-meta
+Jan–Mar 2025 · NSTC113-2119-M002-027
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Farm Labor Supply in Online Job-Matching Platforms — the Case of Taiwan**
+:::
+
+::: paper-meta
+Aug–Dec 2024, Apr–Jun 2025 · NSTC113-2410-H002-244
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Establishing a Framework for Ecosystem Services in Organic Agriculture: Value Investigation and Quantification Model for Vegetables and Rice**
+:::
+
+::: paper-meta
+Jul–Dec 2024 · 113農再-2.2.2-1.5-糧-004
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Cost Assessments and Policy Suggestions for Carbon-sink-increasing Strategies in Taiwan**
+:::
+
+::: paper-meta
+May–Jun 2024, Oct–Dec 2024 · 113前瞻-18.4.1-永-04
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Research on Electric Vehicle Industry Policies and Competition Law Regulations**
+:::
+
+::: paper-meta
+Jan–Aug 2024 · FTC-113-G02
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Economic Evaluation of Circular Economy Using Agricultural By-Products**
+:::
+
+::: paper-meta
+Jan–Apr 2024 · MOST110-2621-M002-018-MY3
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Adaptation of Food and Agricultural System to Net Zero Policies (I)**
+:::
+
+::: paper-meta
+Jan–Apr 2024 · NSTC112-2119-M002-025
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Cost Assessments and Policy Suggestions for Carbon-sink-increasing Strategies in Taiwan**
+:::
+
+::: paper-meta
+Oct–Dec 2023 · 112前瞻-18.4.1-氣-n4
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Evaluation and Establishment of Farmland Price Indices for Decision-making on Sustainable Farmland Use**
+:::
+
+::: paper-meta
+Oct–Dec 2023 · 112農基金-1.1-企-10-(2)
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**University Social Responsibility Program: "Partnership with Yunlin — Deepening Industrial Linkages in Key Agricultural Areas"**
+:::
+
+::: paper-meta
+Aug–Dec 2023 · 112L5A001B
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Economic Analysis of Farm Succession — a Case Study of Taiwan**
+:::
+
+::: paper-meta
+Jan–Jul 2023 · MOST111-2410-H002-230
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Decision Evaluation of Farmland Resources and Sustainable Uses**
+:::
+
+::: paper-meta
+Aug–Dec 2022 · 111農科-3.1.3-企-Q2(Z)
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Food Accessibility, Market Competition and Housing Prices — Empirical Evidence of Convenience Stores in Taiwan**
+:::
+
+::: paper-meta
+Feb–Jul 2022 · MOST110-2410-H002-219
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Economic Analysis of Farmer Occupational Injury Insurance Program in Taiwan**
+:::
+
+::: paper-meta
+Jan–Jul 2021 · MOST109-2410-H002-128
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Impact of Rural Regeneration Programs on Farm Labor and Leisure Agriculture Participation**
+:::
+
+::: paper-meta
+Mar–Jul 2020, Aug–Dec 2020 · 109農再-2.1.3-1.3-企-015
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
+**Impact of Sharing Economy on Farmland Price in Taiwan**
+:::
+
+::: paper-meta
+Jan–Mar 2020, Jul–Aug 2020 · MOST108-2410-H002-053
+:::
+:::::
