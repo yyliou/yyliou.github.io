@@ -328,10 +328,27 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>R 套件，115 年</p>
 </div>
 <div class="paper-desc">
-<p>可下載臺灣中央氣象署（CWA / CODiS）測站歷史氣象觀測資料的 R 套件。提供整潔（tidy）格式的測站基本資料、測站層級時間序列（每小時、每日、每月），並可透過空間連結將資料加總至鄉鎮層級——雨量加總、其餘變數取平均。</p>
+<p>可下載臺灣中央氣象署（CWA / CODiS）測站歷史氣象觀測資料的 R 套件。提供整潔（tidy）格式的測站基本資料、測站層級時間序列（每小時、每日、每月），並可透過反距離加權（IDW）空間內插，由鄰近測站推估鄉鎮（或任意多邊形）層級的氣象值。</p>
 </div>
 <div class="paper-links">
 <p><a href="https://github.com/yyliou/weather" class="paper-btn">GitHub</a></p>
+</div>
+</div>
+<div class="paper-entry">
+<div class="hex-col">
+<p><img src="hex/hotel.svg" class="img-fluid" alt="twhotel package hex logo"></p>
+</div>
+<div class="paper-title">
+<p><strong>twhotel</strong></p>
+</div>
+<div class="paper-meta">
+<p>R 套件，115 年</p>
+</div>
+<div class="paper-desc">
+<p>可建立旅館月別追蹤資料（panel）的 R 套件，資料取自交通部觀光署每月發布的「觀光旅館營運統計」。自動爬取官方檔案清單、下載各月報表，並解析各旅館的營運與旅客資料，彙整為單一整潔（tidy）panel——涵蓋住用率、營收、員工人數及各國籍旅客人數——可直接用於實證 panel 分析。</p>
+</div>
+<div class="paper-links">
+<p><a href="https://github.com/yyliou/hotel" class="paper-btn">GitHub</a></p>
 </div>
 </div>
 </section>
@@ -551,6 +568,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <p><a href="https://www.grb.gov.tw/search/planDetail?id=13130874" class="paper-btn">GRB</a></p>
 </div>
 </div>
+<p></p>
 
 
 </section>

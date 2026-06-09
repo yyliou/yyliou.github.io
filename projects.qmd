@@ -18,11 +18,33 @@ R package, 2026.
 :::
 
 ::: paper-desc
-An R package for downloading Taiwan's historical weather observations from the Central Weather Administration (CWA / CODiS) station network. It provides tidy access to station metadata, station-level time series (hourly, daily, and monthly), and township-level aggregation through spatial joins — rainfall summed, other variables averaged.
+An R package for downloading Taiwan's historical weather observations from the Central Weather Administration (CWA / CODiS) station network. It provides tidy access to station metadata, station-level time series (hourly, daily, and monthly), and township-level (or any polygon) estimates via inverse-distance-weighted spatial interpolation from nearby stations.
 :::
 
 ::: paper-links
 [GitHub](https://github.com/yyliou/weather){.paper-btn}
+:::
+::::::::
+
+:::::::: paper-entry
+::: hex-col
+![](hex/hotel.svg){fig-alt="twhotel package hex logo"}
+:::
+
+::: paper-title
+**twhotel**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+An R package that builds a hotel-by-month panel dataset from the Taiwan Tourism Administration's monthly *Tourist Hotel Operating Statistics*. It crawls the official file listing, downloads the monthly workbooks, and parses the per-hotel operations and guest tables into one tidy panel — covering occupancy, revenue, staffing, and guests by nationality — ready for empirical panel analysis.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/hotel){.paper-btn}
 :::
 ::::::::
 
