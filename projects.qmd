@@ -32,6 +32,16 @@ An R package for downloading Taiwan's historical weather observations from the C
 
 ::::: paper-entry
 ::: paper-title
+**Enhancement of the Greenhouse Gas Voluntary Reduction System and Capacity Building for Natural Carbon Sinks**
+:::
+
+::: paper-meta
+May–Dec 2026
+:::
+:::::
+
+::::: paper-entry
+::: paper-title
 **Adaptation of Food and Agricultural System to Net Zero Policies (III)**
 :::
 
@@ -46,7 +56,7 @@ Mar 2026 · NSTC114-2119-M002-014
 :::
 
 ::: paper-meta
-Jan–Feb 2026 · NSTC114-2410-H002-244
+Jan–Feb, Apr 2026 · NSTC114-2410-H002-244
 :::
 :::::
 
@@ -226,6 +236,6 @@ Mar–Jul 2020, Aug–Dec 2020 · 109農再-2.1.3-1.3-企-015
 :::
 
 ::: paper-meta
-Jan–Mar 2020, Jul–Aug 2020 · MOST108-2410-H002-053
+Jan–Aug 2020 · MOST108-2410-H002-053
 :::
 :::::
