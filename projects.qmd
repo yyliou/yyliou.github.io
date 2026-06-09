@@ -4,6 +4,8 @@ title: "Projects"
 
 ## Software
 
+Taiwan's government open data is a rich resource, but it is rarely tidy: formats, encodings, and release conventions differ from agency to agency, so downloading and cleaning it by hand is tedious and easy to get wrong. The R packages below exist to take that friction away — each automates the retrieval and cleaning of a particular public dataset so it can be read into an analysis environment quickly and reproducibly.
+
 :::::::: paper-entry
 ::: hex-col
 ![](hex/weather.svg){fig-alt="twweather package hex logo"}
