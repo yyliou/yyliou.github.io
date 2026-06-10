@@ -1,9 +1,5 @@
 ---
 title: "Research"
-toc: true
-toc-location: left
-toc-title: "On this page"
-toc-depth: 2
 ---
 
 ```{=html}
