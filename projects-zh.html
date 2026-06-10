@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>R 套件，115 年</p>
 </div>
 <div class="paper-desc">
-<p>可下載臺灣中央氣象署（CWA / CODiS）測站歷史氣象觀測資料的 R 套件。提供整潔（tidy）格式的測站基本資料、測站層級時間序列（每小時、每日、每月），並可透過反距離加權（IDW）空間內插，由鄰近測站推估鄉鎮（或任意多邊形）層級的氣象值。</p>
+<p>可下載臺灣中央氣象署（CWA / CODiS）測站歷史氣象觀測資料：整潔格式的測站基本資料、測站層級時間序列（每小時、每日、每月），以及以反距離加權（IDW）空間內插推估的鄉鎮或任意多邊形層級氣象值。</p>
 </div>
 <div class="paper-links">
 <p><a href="https://github.com/yyliou/weather" class="paper-btn">GitHub</a></p>
@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>R 套件，115 年</p>
 </div>
 <div class="paper-desc">
-<p>可建立旅館月別追蹤資料（panel）的 R 套件，資料取自交通部觀光署每月發布的「觀光旅館營運統計」。自動爬取官方檔案清單、下載各月報表，並解析各旅館的營運與旅客資料，彙整為單一整潔（tidy）資料——涵蓋住用率、營收、員工人數及各國籍旅客人數——可直接用於實證分析。</p>
+<p>以交通部觀光署每月「觀光旅館營運統計」建立旅館月別追蹤資料（panel）。自動爬取、下載並解析官方報表，彙整為單一整潔資料，涵蓋住用率、營收、員工人數與各國籍旅客人數，可直接用於實證分析。</p>
 </div>
 <div class="paper-links">
 <p><a href="https://github.com/yyliou/hotel" class="paper-btn">GitHub</a></p>
@@ -363,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>R 套件，115 年</p>
 </div>
 <div class="paper-desc">
-<p>可下載內政部以開放資料形式發布之臺灣不動產實價登錄交易紀錄的 R 套件。給定日期區間後，會解析其涵蓋的各季資料、逐季下載，僅保留所需的交易類別（買賣、預售屋、租賃）與行政區，並以精簡的 Parquet 格式儲存，便於透過 <code>arrow</code>、<code>dplyr</code> 或 DuckDB 高效查詢。</p>
+<p>可下載內政部以開放資料形式發布之臺灣不動產實價登錄交易紀錄。給定日期區間後，逐季下載涵蓋的資料，僅保留所需交易類別（買賣、預售屋、租賃）與行政區，並以精簡的 Parquet 格式儲存，便於以 <code>arrow</code>、<code>dplyr</code> 或 DuckDB 高效查詢。</p>
 </div>
 <div class="paper-links">
 <p><a href="https://github.com/yyliou/re" class="paper-btn">GitHub</a></p>
@@ -380,7 +380,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>R 套件，115 年</p>
 </div>
 <div class="paper-desc">
-<p>可取得衛生福利部疾病管制署 COVID-19 開放資料（確定病例數與死亡病例數），並整理為可直接分析之表格的 R 套件。透過 <code>tw_covid()</code> 一次呼叫，即可指定結果類型、時間單位（日、ISO 週、月）、日期基準（發病日或個案研判日）、追蹤資料的橫斷面（縣市、鄉鎮、性別、是否境外移入、年齡層等任意組合），以及輸出各期增量（flow）或累計值，並可選擇補零成為平衡追蹤資料（balanced panel）。套件一律下載每日原始檔，於內部完成週／月彙整、累計與補零，使時間軸完全可控且可重現，而非沿用政府預先彙總的表格。</p>
+<p>可取得衛福部疾管署 COVID-19 開放資料（確定病例數與死亡病例數），並整理為可直接分析的追蹤資料。透過 <code>tw_covid()</code> 一次呼叫即可指定結果類型、時間單位（日、ISO 週、月）、日期基準（發病日或個案研判日）與橫斷面（縣市、鄉鎮、性別、是否境外移入、年齡層任意組合），輸出各期增量或累計值，並可補零為平衡追蹤資料。套件於內部彙整每日原始檔，使時間軸完全可控且可重現。</p>
 </div>
 <div class="paper-links">
 <p><a href="https://github.com/yyliou/covid" class="paper-btn">GitHub</a></p>
@@ -397,7 +397,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>R 套件，115 年</p>
 </div>
 <div class="paper-desc">
-<p>可取得交通部觀光署「觀光統計資料庫」資料的 R 套件。該網站為無公開 API 的 JavaScript 單頁應用，<code>scen</code> 重現其請求簽章機制，直接在 R 中回傳整潔（tidy）的 <code>tibble</code>。可下載主要觀光遊憩據點的遊客人數，以及來臺、出國與郵輪旅客資料，並可細分至網站所提供的最細交叉統計（如年齡 × 性別 × 目的），同時自動處理民國年轉換、請求節流與磁碟快取。</p>
+<p>可取得交通部觀光署「觀光統計資料庫」資料。該網站無公開 API，<code>scen</code> 重現其請求簽章機制，直接在 R 回傳整潔的 <code>tibble</code>。可下載主要觀光遊憩據點遊客人數，以及來臺、出國與郵輪旅客資料，並細分至最細交叉統計（如年齡 × 性別 × 目的），同時自動處理民國年轉換、請求節流與快取。</p>
 </div>
 <div class="paper-links">
 <p><a href="https://github.com/yyliou/scen" class="paper-btn">GitHub</a></p>
