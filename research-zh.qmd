@@ -701,8 +701,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## **研討會論文**
 
-*其後改於期刊正式發表者將另行註明；最終版本請見[焦點著作](#焦點著作)。*
-
 - *The Effects of Farmers' Pension Reform on Intra-household Family Farm Succession.* AAEA Annual Meeting, Kansas City, 2026 (with Chang, submitted).
 - *Compensation or Clean Air? Housing Market Evidence from Coal Reduction.* World Congress of Environmental and Resource Economists, Carcavelos, 2026 (with Chang, submitted).
 - *The causal effects of removing hook-turn regulation on road safety.* 20th EAEA International Conference, 2025 (with Chang).
@@ -716,4 +714,5 @@ document.addEventListener('DOMContentLoaded', function () {
 - *Adaptation Behavior of Public Mobility under Climate Change: Empirical Evidence on Taipei Metro.* 2023 International Conference on Business and Management for Graduate Students, Taipei, 2023.
 - *Path Dependency of Spatiotemporal Voting Behavior: An Empirical Analysis of the 2022 Taipei Mayoral Election.* 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese, with Chang).
 - *The Impact of "Newcomer Aura" on Election Probability: An Empirical Study of Taiwan's Councilor Elections (2009–2022).* 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese, with Ho).
-- *A Non-hierarchical Clustering Analysis of Consumer Behavior in Agricultural Products: Empirical Evidence from E-commerce Platforms.* 2020 Annual Conference of the Taiwan Rural Economics Society, Taipei, 2020 (in Chinese, wit
+- *A Non-hierarchical Clustering Analysis of Consumer Behavior in Agricultural Products: Empirical Evidence from E-commerce Platforms.* 2020 Annual Conference of the Taiwan Rural Economics Society, Taipei, 2020 (in Chinese, with Chang).
+- *The Contribution of Productivity to Taiwan's GDP Growth: An Empirical Analysis (1981–2018).* 2019 Productivity and Efficiency Conference, Taipei, 2019 (in Chinese, with Chen).
