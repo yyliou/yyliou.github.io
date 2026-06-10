@@ -72,6 +72,28 @@ An R package for the programmatic retrieval of Taiwan's actual real-estate trans
 :::
 ::::::::
 
+:::::::: paper-entry
+::: hex-col
+![](hex/twcovid.svg){fig-alt="twcovid package hex logo"}
+:::
+
+::: paper-title
+**twcovid**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+An R package for retrieving Taiwan CDC's COVID-19 open data — confirmed cases and deaths — and reshaping it into analysis-ready tables. A single call to `tw_covid()` selects the outcome, the temporal unit (day, ISO week, or month), the date basis (onset or case-judgment date), the panel cross-section (any subset of county, township, sex, imported status, and age group), and whether to return per-period flows or running cumulative totals, optionally zero-filled into a balanced panel. It always retrieves the daily source files and performs the weekly/monthly aggregation, cumulation, and zero-filling internally, so the time axis is fully controlled and reproducible rather than inherited from pre-aggregated government tables.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/covid){.paper-btn}
+:::
+::::::::
+
 ## Research Projects
 
 **Research Assistant — Department of Agricultural Economics, National Taiwan University**

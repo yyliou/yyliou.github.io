@@ -72,6 +72,28 @@ R 套件，115 年
 :::
 ::::::::
 
+:::::::: paper-entry
+::: hex-col
+![](hex/twcovid.svg){fig-alt="twcovid package hex logo"}
+:::
+
+::: paper-title
+**twcovid**
+:::
+
+::: paper-meta
+R 套件，115 年
+:::
+
+::: paper-desc
+可取得衛生福利部疾病管制署 COVID-19 開放資料（確定病例數與死亡病例數），並整理為可直接分析之表格的 R 套件。透過 `tw_covid()` 一次呼叫，即可指定結果類型、時間單位（日、ISO 週、月）、日期基準（發病日或個案研判日）、追蹤資料的橫斷面（縣市、鄉鎮、性別、是否境外移入、年齡層等任意組合），以及輸出各期增量（flow）或累計值，並可選擇補零成為平衡追蹤資料（balanced panel）。套件一律下載每日原始檔，於內部完成週／月彙整、累計與補零，使時間軸完全可控且可重現，而非沿用政府預先彙總的表格。
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/covid){.paper-btn}
+:::
+::::::::
+
 ## 研究計畫
 
 **研究助理 — 國立臺灣大學農業經濟學系**
