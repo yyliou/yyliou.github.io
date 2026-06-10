@@ -8,6 +8,28 @@ title: "專案"
 
 :::::::: paper-entry
 ::: hex-col
+![](hex/agrstat.svg){fig-alt="agrstat package hex logo"}
+:::
+
+::: paper-title
+**agrstat**
+:::
+
+::: paper-meta
+R 套件，115 年
+:::
+
+::: paper-desc
+可取得農業部「農業統計資料查詢」動態查詢系統之資料。套件重現該網站具狀態的 ASP.NET 查詢流程，將統計分類、資料集、分層（複分類）與時間範圍全部以參數控制；只需 `agri_fetch()` 一次呼叫即可走完整個查詢精靈，並將結果表回傳為整潔的資料框，預設涵蓋該資料集全部的分層與年份。
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/agri){.paper-btn}
+:::
+::::::::
+
+:::::::: paper-entry
+::: hex-col
 ![](hex/weather.svg){fig-alt="twweather package hex logo"}
 :::
 

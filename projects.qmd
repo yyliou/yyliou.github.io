@@ -8,6 +8,28 @@ Taiwan's government open data is a rich resource, but it is rarely tidy: formats
 
 :::::::: paper-entry
 ::: hex-col
+![](hex/agrstat.svg){fig-alt="agrstat package hex logo"}
+:::
+
+::: paper-title
+**agrstat**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+Retrieves data from the Ministry of Agriculture's *Agricultural Statistics Dynamic Inquiry* system. It reproduces the site's stateful ASP.NET query flow, so the statistical category, dataset, classification strata, and time span are all set through arguments; a single `agri_fetch()` call walks the query wizard and returns the result table as a tidy data frame, defaulting to the full set of strata and years available.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/agri){.paper-btn}
+:::
+::::::::
+
+:::::::: paper-entry
+::: hex-col
 ![](hex/weather.svg){fig-alt="twweather package hex logo"}
 :::
 

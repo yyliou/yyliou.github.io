@@ -320,6 +320,23 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>Taiwan’s government open data is a rich resource, but it is rarely tidy: formats, encodings, and release conventions differ from agency to agency, so downloading and cleaning it by hand is tedious and easy to get wrong. The R packages below exist to take that friction away — each automates the retrieval and cleaning of a particular public dataset so it can be read into an analysis environment quickly and reproducibly.</p>
 <div class="paper-entry">
 <div class="hex-col">
+<p><img src="hex/agrstat.svg" class="img-fluid" alt="agrstat package hex logo"></p>
+</div>
+<div class="paper-title">
+<p><strong>agrstat</strong></p>
+</div>
+<div class="paper-meta">
+<p>R package, 2026.</p>
+</div>
+<div class="paper-desc">
+<p>Retrieves data from the Ministry of Agriculture’s <em>Agricultural Statistics Dynamic Inquiry</em> system. It reproduces the site’s stateful ASP.NET query flow, so the statistical category, dataset, classification strata, and time span are all set through arguments; a single <code>agri_fetch()</code> call walks the query wizard and returns the result table as a tidy data frame, defaulting to the full set of strata and years available.</p>
+</div>
+<div class="paper-links">
+<p><a href="https://github.com/yyliou/agri" class="paper-btn">GitHub</a></p>
+</div>
+</div>
+<div class="paper-entry">
+<div class="hex-col">
 <p><img src="hex/weather.svg" class="img-fluid" alt="twweather package hex logo"></p>
 </div>
 <div class="paper-title">
