@@ -94,6 +94,28 @@ An R package for retrieving Taiwan CDC's COVID-19 open data — confirmed cases 
 :::
 ::::::::
 
+:::::::: paper-entry
+::: hex-col
+![](hex/scen.svg){fig-alt="scen package hex logo"}
+:::
+
+::: paper-title
+**scen**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+An R client for the Tourism Statistics Database of the Taiwan Tourism Administration (觀光統計資料庫). The source site is a JavaScript single-page app with no public API, so `scen` reproduces its request-signing scheme and returns tidy `tibble`s straight from R. It downloads visitor counts for the major scenic and recreational spots (觀光遊憩據點), along with inbound arrivals, outbound departures, and cruise visitors — down to the finest cross-tabulations the site exposes, such as age × gender × purpose — with automatic ROC-year conversion, request throttling, and on-disk caching.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/scen){.paper-btn}
+:::
+::::::::
+
 ## Research Projects
 
 **Research Assistant — Department of Agricultural Economics, National Taiwan University**
@@ -367,3 +389,4 @@ Jan–Aug 2020 · MOST108-2410-H002-053
 [GRB](https://www.grb.gov.tw/search/planDetail?id=13130874){.paper-btn}
 :::
 :::::
+                              

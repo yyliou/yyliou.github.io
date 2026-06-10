@@ -1,5 +1,9 @@
 ---
 title: "研究"
+toc: true
+toc-location: left
+toc-title: "本頁目錄"
+toc-depth: 2
 ---
 
 ```{=html}
@@ -692,3 +696,28 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 ```
+
+## **審稿服務**
+
+- [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297) (3)
+- [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1)
+- [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
+
+## **研討會論文**
+
+*其後改於期刊正式發表者將另行註明；最終版本請見[焦點著作](#焦點著作)。*
+
+- *The Effects of Farmers' Pension Reform on Intra-household Family Farm Succession.* AAEA Annual Meeting, Kansas City, 2026 (with Chang, submitted).
+- *Compensation or Clean Air? Housing Market Evidence from Coal Reduction.* World Congress of Environmental and Resource Economists, Carcavelos, 2026 (with Chang, submitted).
+- *The causal effects of removing hook-turn regulation on road safety.* 20th EAEA International Conference, 2025 (with Chang).
+- *Air Pollution During Religious Holidays: Evidence from Tomb-Sweeping Day.* 20th EAEA International Conference, 2025 (with Chang and Meyerhoefer). Also presented at the 99th Annual Conference of WEAI (2024) and the IAAE 2024 Annual Conference (2024).
+- *Rooftop Solar Energy Adoption and Farm Revenue.* 18th Congress of EAAE, 2025 (with Chang and Begun). Also presented at the 19th EAEA International Conference (2024).
+- *The Development of Aquavoltaics Policy and Farmland Price.* 16th CAER-IFPRI Annual Conference, Beijing, 2025 (with Chang). Also presented at the 2025 APSTE International Conference on Agricultural, Life and Environmental Sciences.
+- *Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan.* 19th EAEA International Conference, 2024 (with Kim and Chang).
+- *Traffic accidents of religious tourism.* 19th EAEA International Conference, 2024 (with Chang).
+- *Conformity or Accountability? An Analysis of the Impact of the 2018 and 2022 Local Election Results on Presidential Satisfaction Using Taiwan's Election Survey Data.* 16th International Conference on Parliamentary Studies, Taipei, 2024 (in Chinese, with Lee).
+- *The Long-term Effects of Early-life Malaria Exposure on Farm Households' Resource Allocation: Evidence from Taiwan.* International Conference on Agricultural and Environmental Economics, Taipei, 2023 (with Chang).
+- *Adaptation Behavior of Public Mobility under Climate Change: Empirical Evidence on Taipei Metro.* 2023 International Conference on Business and Management for Graduate Students, Taipei, 2023.
+- *Path Dependency of Spatiotemporal Voting Behavior: An Empirical Analysis of the 2022 Taipei Mayoral Election.* 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese, with Chang).
+- *The Impact of "Newcomer Aura" on Election Probability: An Empirical Study of Taiwan's Councilor Elections (2009–2022).* 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese, with Ho).
+- *A Non-hierarchical Clustering Analysis of Consumer Behavior in Agricultural Products: Empirical Evidence from E-commerce Platforms.* 2020 Annual Conference of the Taiwan Rural Economics Society, Taipei, 2020 (in Chinese, wit

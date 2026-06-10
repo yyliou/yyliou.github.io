@@ -94,6 +94,28 @@ R 套件，115 年
 :::
 ::::::::
 
+:::::::: paper-entry
+::: hex-col
+![](hex/scen.svg){fig-alt="scen package hex logo"}
+:::
+
+::: paper-title
+**scen**
+:::
+
+::: paper-meta
+R 套件，115 年
+:::
+
+::: paper-desc
+可取得交通部觀光署「觀光統計資料庫」資料的 R 套件。該網站為無公開 API 的 JavaScript 單頁應用，`scen` 重現其請求簽章機制，直接在 R 中回傳整潔（tidy）的 `tibble`。可下載主要觀光遊憩據點的遊客人數，以及來臺、出國與郵輪旅客資料，並可細分至網站所提供的最細交叉統計（如年齡 × 性別 × 目的），同時自動處理民國年轉換、請求節流與磁碟快取。
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/scen){.paper-btn}
+:::
+::::::::
+
 ## 研究計畫
 
 **研究助理 — 國立臺灣大學農業經濟學系**
