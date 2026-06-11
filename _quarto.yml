@@ -26,6 +26,6 @@ format:
     include-in-header: _header.html
     include-after-body: _footer.html
 
-editor: visual
+editor: source
 
 # quarto render
