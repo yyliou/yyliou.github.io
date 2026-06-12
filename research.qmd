@@ -711,7 +711,6 @@ document.addEventListener('DOMContentLoaded', function () {
 - *Air Pollution During Religious Holidays: Evidence from Tomb-Sweeping Day.* 20th EAEA International Conference, 2025 (with Chang and Meyerhoefer). Also presented at the 99th Annual Conference of WEAI (2024) and the IAAE 2024 Annual Conference (2024).
 - *Rooftop Solar Energy Adoption and Farm Revenue.* 18th Congress of EAAE, 2025 (with Chang and Begun). Also presented at the 19th EAEA International Conference (2024).
 - *The Development of Aquavoltaics Policy and Farmland Price.* 16th CAER-IFPRI Annual Conference, Beijing, 2025 (with Chang). Also presented at the 2025 APSTE International Conference on Agricultural, Life and Environmental Sciences.
-- *Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan.* 19th EAEA International Conference, 2024 (with Kim and Chang).
 - *Traffic accidents of religious tourism.* 19th EAEA International Conference, 2024 (with Chang).
 - *Conformity or Accountability? An Analysis of the Impact of the 2018 and 2022 Local Election Results on Presidential Satisfaction Using Taiwan's Election Survey Data.* 16th International Conference on Parliamentary Studies, Taipei, 2024 (in Chinese, with Lee).
 - *The Long-term Effects of Early-life Malaria Exposure on Farm Households' Resource Allocation: Evidence from Taiwan.* International Conference on Agricultural and Environmental Economics, Taipei, 2023 (with Chang).
