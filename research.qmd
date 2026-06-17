@@ -29,7 +29,7 @@ title: "Research"
   </div>
   <div class="bib-stat">
     <div class="bib-label">Cites</div>
-    <div class="bib-number" data-target="87">0</div>
+    <div class="bib-number" data-target="88">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">H Index</div>
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="100"><span class="cite-bar-val" data-val="20">0</span></div></div><span class="cite-bar-year">2023</span></div>
     <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="95"><span class="cite-bar-val" data-val="19">0</span></div></div><span class="cite-bar-year">2024</span></div>
     <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="80"><span class="cite-bar-val" data-val="16">0</span></div></div><span class="cite-bar-year">2025</span></div>
-    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="40"><span class="cite-bar-val" data-val="8">0</span></div></div><span class="cite-bar-year">2026</span></div>
+    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="45"><span class="cite-bar-val" data-val="9">0</span></div></div><span class="cite-bar-year">2026</span></div>
   </div>
 </div>
 
