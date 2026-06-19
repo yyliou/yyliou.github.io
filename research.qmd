@@ -487,12 +487,12 @@ How do consumers respond to COVID-19? Application of Bayesian approach on credit
 - Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).
 - Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).
 - The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).
+- Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).
 
 ### **Under Review**
 
 - Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Chang).
 - Air Quality vs. Fiscal Compensation: Evidence from Coal Reduction and Housing Markets (with Chang and Zilberman).
-- Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).
 
 ## **Co-Authors**
 
