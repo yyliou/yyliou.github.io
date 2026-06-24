@@ -16,6 +16,8 @@ website:
         text: Teaching
       - href: projects.qmd
         text: Projects
+      - href: extension.qmd
+        text: Extension
 
 format:
   html:

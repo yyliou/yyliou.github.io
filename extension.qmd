@@ -1,0 +1,169 @@
+---
+title: "Extension"
+---
+
+Beyond formal research, I build data-driven tools that make Taiwan's public data easier to see and to use — interactive visualizations for a general audience, and R packages that automate the retrieval and cleaning of government open data.
+
+## Taiwan Crash Atlas
+
+::: atlas-figure
+<a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener">
+![Taiwan Crash Atlas — an interactive map of every recorded traffic accident in Taiwan](accweb.png)
+</a>
+:::
+
+An interactive map of every traffic accident recorded in Taiwan. Each crash is rendered as a single dot of light, so a whole year of accidents appears at once as a luminous portrait of the island's road network — and behind every dot is a family. The atlas turns the National Police Agency's A1/A2 accident data into something you can explore, scrub through, and interrogate.
+
+::: atlas-features
+- **Every accident, mapped.** Hundreds of thousands of A1 (fatal) and A2 (injury) accidents plotted as individual points of light across Taiwan.
+- **Animated daily timeline.** Press play and watch a full year unfold day by day, with running totals of accidents, deaths, and injuries.
+- **Filter on demand.** Slice by year, county, severity (fatal / injury), and party type — motorcycle, car, truck, or pedestrian.
+- **Click any crash for the full record.** Date and time, location, scene, weather, primary cause, and every party involved with vehicle type, sex, and age.
+- **Summary at a glance.** Top weekday, peak hours, dominant weather, most common location type, party demographics, hot roads, and leading causes.
+- **Trends, Map, and Research views.** Move between an animated overview, the explorable map, and a research-oriented breakdown.
+- **Bilingual.** Full Chinese / English interface.
+:::
+
+::: atlas-links
+[Open the live atlas](https://yyliou.github.io/accweb/){.paper-btn target="_blank"}
+:::
+
+::: {.atlas-source}
+Data source: Taiwan traffic accident open data (A1/A2), National Police Agency.
+:::
+
+## R Packages
+
+Taiwan's government open data is a rich resource, but it is rarely tidy: formats, encodings, and release conventions differ from agency to agency, so downloading and cleaning it by hand is tedious and easy to get wrong. The R packages below exist to take that friction away — each automates the retrieval and cleaning of a particular public dataset so it can be read into an analysis environment quickly and reproducibly.
+
+:::::::: paper-entry
+::: hex-col
+![](hex/agrstat.svg){fig-alt="agrstat package hex logo"}
+:::
+
+::: paper-title
+**agrstat**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+Retrieves data from the Ministry of Agriculture's *Agricultural Statistics Dynamic Inquiry* system. It reproduces the site's stateful ASP.NET query flow, so the statistical category, dataset, classification strata, and time span are all set through arguments; a single `agri_fetch()` call walks the query wizard and returns the result table as a tidy data frame, defaulting to the full set of strata and years available.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/agri){.paper-btn}
+:::
+::::::::
+
+:::::::: paper-entry
+::: hex-col
+![](hex/weather.svg){fig-alt="twweather package hex logo"}
+:::
+
+::: paper-title
+**twweather**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+Downloads Taiwan's historical weather observations from the Central Weather Administration (CWA / CODiS) station network: tidy station metadata, station-level time series (hourly, daily, monthly), and township- or any-polygon estimates via inverse-distance-weighted spatial interpolation.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/weather){.paper-btn}
+:::
+::::::::
+
+:::::::: paper-entry
+::: hex-col
+![](hex/hotel.svg){fig-alt="twhotel package hex logo"}
+:::
+
+::: paper-title
+**twhotel**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+Builds a hotel-by-month panel from the Taiwan Tourism Administration's monthly *Tourist Hotel Operating Statistics*. It crawls, downloads, and parses the official workbooks into one tidy table covering occupancy, revenue, staffing, and guests by nationality — ready for empirical panel analysis.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/hotel){.paper-btn}
+:::
+::::::::
+
+:::::::: paper-entry
+::: hex-col
+![](hex/plvr.svg){fig-alt="plvr package hex logo"}
+:::
+
+::: paper-title
+**plvr**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+Retrieves Taiwan's actual real-estate transaction records (實價登錄) from the Ministry of the Interior open data. Given a date range, it downloads the spanning quarterly releases, keeps only the requested transaction categories (sales, pre-sale units, rentals) and regions, and stores them as compact Parquet files for efficient querying with `arrow`, `dplyr`, or DuckDB.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/re){.paper-btn}
+:::
+::::::::
+
+:::::::: paper-entry
+::: hex-col
+![](hex/twcovid.svg){fig-alt="twcovid package hex logo"}
+:::
+
+::: paper-title
+**twcovid**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+Retrieves Taiwan CDC's COVID-19 open data — confirmed cases and deaths — and reshapes it into analysis-ready panels. A single `tw_covid()` call sets the outcome, time unit (day, ISO week, or month), date basis (onset or case-judgment date), and panel cross-section (any subset of county, township, sex, imported status, age group), returning per-period flows or cumulative totals, optionally zero-filled into a balanced panel. Daily source files are aggregated internally, so the time axis is fully controlled and reproducible.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/covid){.paper-btn}
+:::
+::::::::
+
+:::::::: paper-entry
+::: hex-col
+![](hex/scen.svg){fig-alt="scen package hex logo"}
+:::
+
+::: paper-title
+**scen**
+:::
+
+::: paper-meta
+R package, 2026.
+:::
+
+::: paper-desc
+An R client for the Taiwan Tourism Administration's Tourism Statistics Database (觀光統計資料庫). With no public API on the source site, `scen` reproduces its request-signing scheme to return tidy `tibble`s of visitor counts for scenic and recreational spots (觀光遊憩據點), plus inbound, outbound, and cruise figures down to the finest cross-tabulations (e.g. age × gender × purpose) — with automatic ROC-year conversion, throttling, and caching.
+:::
+
+::: paper-links
+[GitHub](https://github.com/yyliou/scen){.paper-btn}
+:::
+::::::::

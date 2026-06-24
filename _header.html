@@ -35,6 +35,8 @@ var PAGE_PAIRS = {
   'teach-zh.html':    'teach.html',
   'projects.html':    'projects-zh.html',
   'projects-zh.html': 'projects.html',
+  'extension.html':    'extension-zh.html',
+  'extension-zh.html': 'extension.html',
   'index.html':       'index-zh.html',
   'index-zh.html':    'index.html',
 };
@@ -84,12 +86,14 @@ function applyLangGlobal() {
     'research.html': { href: 'research-zh.html',  text: '研究' },
     'teach.html':    { href: 'teach-zh.html',     text: '教學' },
     'projects.html': { href: 'projects-zh.html',  text: '專案' },
+    'extension.html': { href: 'extension-zh.html', text: '延伸應用' },
   };
   var NAVBAR_EN = {
     'about-zh.html':    { href: 'about.html',    text: 'About' },
     'research-zh.html': { href: 'research.html', text: 'Research' },
     'teach-zh.html':    { href: 'teach.html',    text: 'Teaching' },
     'projects-zh.html': { href: 'projects.html', text: 'Projects' },
+    'extension-zh.html': { href: 'extension.html', text: 'Extension' },
   };
   var navTable = lang === 'zh' ? NAVBAR_ZH : NAVBAR_EN;
   var currentPage = window.location.pathname.split('/').pop() || 'index.html';

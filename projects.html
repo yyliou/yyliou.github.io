@@ -108,6 +108,8 @@ var PAGE_PAIRS = {
   'teach-zh.html':    'teach.html',
   'projects.html':    'projects-zh.html',
   'projects-zh.html': 'projects.html',
+  'extension.html':    'extension-zh.html',
+  'extension-zh.html': 'extension.html',
   'index.html':       'index-zh.html',
   'index-zh.html':    'index.html',
 };
@@ -157,12 +159,14 @@ function applyLangGlobal() {
     'research.html': { href: 'research-zh.html',  text: '研究' },
     'teach.html':    { href: 'teach-zh.html',     text: '教學' },
     'projects.html': { href: 'projects-zh.html',  text: '專案' },
+    'extension.html': { href: 'extension-zh.html', text: '延伸應用' },
   };
   var NAVBAR_EN = {
     'about-zh.html':    { href: 'about.html',    text: 'About' },
     'research-zh.html': { href: 'research.html', text: 'Research' },
     'teach-zh.html':    { href: 'teach.html',    text: 'Teaching' },
     'projects-zh.html': { href: 'projects.html', text: 'Projects' },
+    'extension-zh.html': { href: 'extension.html', text: 'Extension' },
   };
   var navTable = lang === 'zh' ? NAVBAR_ZH : NAVBAR_EN;
   var currentPage = window.location.pathname.split('/').pop() || 'index.html';
@@ -280,6 +284,10 @@ document.addEventListener('DOMContentLoaded', function () {
   <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./extension.html"> 
+<span class="menu-text">Extension</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -533,115 +541,6 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 <p></p>
 </section>
-<section id="software" class="level2">
-<h2 class="anchored" data-anchor-id="software">Software</h2>
-<p>Taiwan’s government open data is a rich resource, but it is rarely tidy: formats, encodings, and release conventions differ from agency to agency, so downloading and cleaning it by hand is tedious and easy to get wrong. The R packages below exist to take that friction away — each automates the retrieval and cleaning of a particular public dataset so it can be read into an analysis environment quickly and reproducibly.</p>
-<div class="paper-entry">
-<div class="hex-col">
-<p><img src="hex/agrstat.svg" class="img-fluid" alt="agrstat package hex logo"></p>
-</div>
-<div class="paper-title">
-<p><strong>agrstat</strong></p>
-</div>
-<div class="paper-meta">
-<p>R package, 2026.</p>
-</div>
-<div class="paper-desc">
-<p>Retrieves data from the Ministry of Agriculture’s <em>Agricultural Statistics Dynamic Inquiry</em> system. It reproduces the site’s stateful ASP.NET query flow, so the statistical category, dataset, classification strata, and time span are all set through arguments; a single <code>agri_fetch()</code> call walks the query wizard and returns the result table as a tidy data frame, defaulting to the full set of strata and years available.</p>
-</div>
-<div class="paper-links">
-<p><a href="https://github.com/yyliou/agri" class="paper-btn">GitHub</a></p>
-</div>
-</div>
-<div class="paper-entry">
-<div class="hex-col">
-<p><img src="hex/weather.svg" class="img-fluid" alt="twweather package hex logo"></p>
-</div>
-<div class="paper-title">
-<p><strong>twweather</strong></p>
-</div>
-<div class="paper-meta">
-<p>R package, 2026.</p>
-</div>
-<div class="paper-desc">
-<p>Downloads Taiwan’s historical weather observations from the Central Weather Administration (CWA / CODiS) station network: tidy station metadata, station-level time series (hourly, daily, monthly), and township- or any-polygon estimates via inverse-distance-weighted spatial interpolation.</p>
-</div>
-<div class="paper-links">
-<p><a href="https://github.com/yyliou/weather" class="paper-btn">GitHub</a></p>
-</div>
-</div>
-<div class="paper-entry">
-<div class="hex-col">
-<p><img src="hex/hotel.svg" class="img-fluid" alt="twhotel package hex logo"></p>
-</div>
-<div class="paper-title">
-<p><strong>twhotel</strong></p>
-</div>
-<div class="paper-meta">
-<p>R package, 2026.</p>
-</div>
-<div class="paper-desc">
-<p>Builds a hotel-by-month panel from the Taiwan Tourism Administration’s monthly <em>Tourist Hotel Operating Statistics</em>. It crawls, downloads, and parses the official workbooks into one tidy table covering occupancy, revenue, staffing, and guests by nationality — ready for empirical panel analysis.</p>
-</div>
-<div class="paper-links">
-<p><a href="https://github.com/yyliou/hotel" class="paper-btn">GitHub</a></p>
-</div>
-</div>
-<div class="paper-entry">
-<div class="hex-col">
-<p><img src="hex/plvr.svg" class="img-fluid" alt="plvr package hex logo"></p>
-</div>
-<div class="paper-title">
-<p><strong>plvr</strong></p>
-</div>
-<div class="paper-meta">
-<p>R package, 2026.</p>
-</div>
-<div class="paper-desc">
-<p>Retrieves Taiwan’s actual real-estate transaction records (實價登錄) from the Ministry of the Interior open data. Given a date range, it downloads the spanning quarterly releases, keeps only the requested transaction categories (sales, pre-sale units, rentals) and regions, and stores them as compact Parquet files for efficient querying with <code>arrow</code>, <code>dplyr</code>, or DuckDB.</p>
-</div>
-<div class="paper-links">
-<p><a href="https://github.com/yyliou/re" class="paper-btn">GitHub</a></p>
-</div>
-</div>
-<div class="paper-entry">
-<div class="hex-col">
-<p><img src="hex/twcovid.svg" class="img-fluid" alt="twcovid package hex logo"></p>
-</div>
-<div class="paper-title">
-<p><strong>twcovid</strong></p>
-</div>
-<div class="paper-meta">
-<p>R package, 2026.</p>
-</div>
-<div class="paper-desc">
-<p>Retrieves Taiwan CDC’s COVID-19 open data — confirmed cases and deaths — and reshapes it into analysis-ready panels. A single <code>tw_covid()</code> call sets the outcome, time unit (day, ISO week, or month), date basis (onset or case-judgment date), and panel cross-section (any subset of county, township, sex, imported status, age group), returning per-period flows or cumulative totals, optionally zero-filled into a balanced panel. Daily source files are aggregated internally, so the time axis is fully controlled and reproducible.</p>
-</div>
-<div class="paper-links">
-<p><a href="https://github.com/yyliou/covid" class="paper-btn">GitHub</a></p>
-</div>
-</div>
-<div class="paper-entry">
-<div class="hex-col">
-<p><img src="hex/scen.svg" class="img-fluid" alt="scen package hex logo"></p>
-</div>
-<div class="paper-title">
-<p><strong>scen</strong></p>
-</div>
-<div class="paper-meta">
-<p>R package, 2026.</p>
-</div>
-<div class="paper-desc">
-<p>An R client for the Taiwan Tourism Administration’s Tourism Statistics Database (觀光統計資料庫). With no public API on the source site, <code>scen</code> reproduces its request-signing scheme to return tidy <code>tibble</code>s of visitor counts for scenic and recreational spots (觀光遊憩據點), plus inbound, outbound, and cruise figures down to the finest cross-tabulations (e.g.&nbsp;age × gender × purpose) — with automatic ROC-year conversion, throttling, and caching.</p>
-</div>
-<div class="paper-links">
-<p><a href="https://github.com/yyliou/scen" class="paper-btn">GitHub</a></p>
-</div>
-</div>
-
-
-</section>
-
 </main> <!-- /main -->
 <footer class="site-footer">
   <div class="site-footer-inner">

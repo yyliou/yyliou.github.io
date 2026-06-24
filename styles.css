@@ -956,6 +956,80 @@ pre {
     letter-spacing: 0.02em;
 }
 
+/* ── Taiwan Crash Atlas (Extension page) ───────────────── */
+.atlas-figure {
+    margin: 0.6em 0 1.4em;
+}
+
+.atlas-figure a {
+    display: block;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.atlas-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #e0dbd4;
+    background-color: #0c0c0e;
+    box-shadow: 0 6px 22px rgba(20, 20, 24, 0.18);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.atlas-figure a:hover img {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(20, 20, 24, 0.28);
+}
+
+.atlas-features {
+    margin: 1.1em 0 1.2em;
+    padding-left: 1.2em;
+}
+
+.atlas-features li {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 0.45em;
+    line-height: 1.55;
+}
+
+.atlas-features li strong {
+    color: #1a2a3a;
+    font-weight: 600;
+}
+
+.atlas-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    margin: 0.4em 0 0.8em;
+}
+
+.atlas-source {
+    font-size: 0.82rem;
+    color: #8a8174;
+    margin-bottom: 0.4em;
+}
+
+[data-theme="dark"] .atlas-figure img {
+    border-color: #2a3040;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .atlas-features li {
+    color: #c7cedb;
+}
+
+[data-theme="dark"] .atlas-features li strong {
+    color: #dde3ec;
+}
+
+[data-theme="dark"] .atlas-source {
+    color: #8a95a8;
+}
+
 /* Abstract box (mirrors the BibTeX box behaviour) */
 .abstract-box {
     display: none;
