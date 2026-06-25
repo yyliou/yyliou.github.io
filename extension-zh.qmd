@@ -8,13 +8,13 @@ title: "延伸應用"
 
 ::: atlas-figure
 <a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener">
-![臺灣車禍地圖，地圖檢視](accweb-map.png)
+![臺灣車禍地圖，地圖檢視](accweb-map-zh.png)
 </a>
 :::
 
 ::: atlas-figure
 <a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener">
-![臺灣車禍地圖，趨勢檢視](accweb-trends.png)
+![臺灣車禍地圖，趨勢檢視](accweb-trends-zh.png)
 </a>
 :::
 
