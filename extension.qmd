@@ -2,26 +2,31 @@
 title: "Extension"
 ---
 
-Beyond formal research, I build data-driven tools that make Taiwan's public data easier to see and to use — interactive visualizations for a general audience, and R packages that automate the retrieval and cleaning of government open data.
+Data-driven tools that make Taiwan’s public data easier to explore: interactive visualizations, and R packages for government open data.
 
 ## Taiwan Crash Atlas
 
 ::: atlas-figure
 <a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener">
-![Taiwan Crash Atlas — an interactive map of every recorded traffic accident in Taiwan](accweb.png)
+![Taiwan Crash Atlas, map view](accweb-map.png)
 </a>
 :::
 
-An interactive map of every traffic accident recorded in Taiwan. Each crash is rendered as a single dot of light, so a whole year of accidents appears at once as a luminous portrait of the island's road network — and behind every dot is a family. The atlas turns the National Police Agency's A1/A2 accident data into something you can explore, scrub through, and interrogate.
+::: atlas-figure
+<a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener">
+![Taiwan Crash Atlas, trends view](accweb-trends.png)
+</a>
+:::
+
+An interactive map of every traffic accident in Taiwan, each crash a single dot of light. Built from the National Police Agency’s A1/A2 open data, ready to explore, play, and filter.
 
 ::: atlas-features
-- **Every accident, mapped.** Hundreds of thousands of A1 (fatal) and A2 (injury) accidents plotted as individual points of light across Taiwan.
-- **Animated daily timeline.** Press play and watch a full year unfold day by day, with running totals of accidents, deaths, and injuries.
-- **Filter on demand.** Slice by year, county, severity (fatal / injury), and party type — motorcycle, car, truck, or pedestrian.
-- **Click any crash for the full record.** Date and time, location, scene, weather, primary cause, and every party involved with vehicle type, sex, and age.
-- **Summary at a glance.** Top weekday, peak hours, dominant weather, most common location type, party demographics, hot roads, and leading causes.
-- **Trends, Map, and Research views.** Move between an animated overview, the explorable map, and a research-oriented breakdown.
-- **Bilingual.** Full Chinese / English interface.
+- **Every accident mapped.** Hundreds of thousands of A1 (fatal) and A2 (injury) crashes as points of light.
+- **Daily timeline.** Play the full year day by day, with running death and injury totals.
+- **Filters.** Year, county, severity, and party type (motorcycle, car, truck, pedestrian).
+- **Click for detail.** Time, location, weather, cause, and each party’s vehicle, sex, and age.
+- **Key stats.** Peak hours, weather, location type, hot roads, leading causes.
+- **Bilingual interface.**
 :::
 
 ::: atlas-links
@@ -29,7 +34,7 @@ An interactive map of every traffic accident recorded in Taiwan. Each crash is r
 :::
 
 ::: {.atlas-source}
-Data source: Taiwan traffic accident open data (A1/A2), National Police Agency.
+Source: National Police Agency traffic accident open data (A1/A2).
 :::
 
 ## R Packages

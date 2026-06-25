@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./extension.html" aria-current="page"> 
+    <a class="nav-link" href="./extension.html"> 
 <span class="menu-text">Extension</span></a>
   </li>  
 </ul>
@@ -323,33 +323,35 @@ document.addEventListener('DOMContentLoaded', function () {
 </header>
 
 
-<p>除了正式研究之外，我也製作以資料為核心的工具，讓臺灣的公開資料更容易被看見、被使用——既有面向一般大眾的互動式視覺化，也有將政府開放資料的取得與清理自動化的 R 套件。</p>
+<p>以資料為核心的工具，讓臺灣公開資料更易於探索：互動式視覺化，以及處理政府開放資料的 R 套件。</p>
 <section id="臺灣車禍地圖" class="level2">
 <h2 class="anchored" data-anchor-id="臺灣車禍地圖">臺灣車禍地圖</h2>
 <div class="atlas-figure">
-<p><a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener"><img src="accweb.png" class="img-fluid" alt="臺灣車禍地圖——將臺灣每一筆車禍紀錄化為互動地圖"></a></p>
+<p><a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener"> <img src="accweb-map.png" class="img-fluid" alt="臺灣車禍地圖，地圖檢視"> </a></p>
 </div>
-<p>一張將臺灣每一筆車禍紀錄化為互動地圖的視覺化作品。每起事故都是一點光，整年的事故同時呈現，匯聚成全島路網的光之肖像——而每一點光背後，都是一個家庭。地圖把警政署的 A1／A2 事故資料，轉化為可以探索、可以播放、可以追問的形式。</p>
+<div class="atlas-figure">
+<p><a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener"> <img src="accweb-trends.png" class="img-fluid" alt="臺灣車禍地圖，趨勢檢視"> </a></p>
+</div>
+<p>將臺灣每一筆車禍紀錄繪成互動地圖，每起事故是一點光。資料取自警政署 A1／A2 事故開放資料，可探索、播放與篩選。</p>
 <div class="atlas-features">
 <ul>
-<li><strong>每一筆事故，皆上圖。</strong> 數十萬筆 A1（死亡）與 A2（受傷）事故，逐筆化為一點光遍布全臺。</li>
-<li><strong>每日動態時間軸。</strong> 按下播放，整年事故逐日展開，同步顯示事故、死亡與受傷人數的累計。</li>
-<li><strong>隨需篩選。</strong> 可依年份、縣市、嚴重程度（死亡／受傷）與當事方類別（機車、汽車、卡車、行人）切換檢視。</li>
-<li><strong>點選任一事故即見完整紀錄。</strong> 日期時間、地點、現場、天候、主要肇因，以及每位當事人的車種、性別與年齡。</li>
-<li><strong>重點一目了然。</strong> 高發星期、尖峰時段、主要天候、最常見地點類型、當事人結構、熱點道路與主要肇因。</li>
-<li><strong>三種檢視。</strong> 趨勢（Trends）、地圖（Map）與研究（Research）三種視角自由切換。</li>
-<li><strong>中英雙語。</strong> 完整的中文／英文介面。</li>
+<li><strong>全臺上圖。</strong> 數十萬筆 A1（死亡）與 A2（受傷）事故逐筆呈現。</li>
+<li><strong>每日時間軸。</strong> 逐日播放整年事故，同步累計死傷人數。</li>
+<li><strong>多重篩選。</strong> 年份、縣市、嚴重程度與當事方類別（機車、汽車、卡車、行人）。</li>
+<li><strong>點選詳情。</strong> 時間、地點、天候、肇因，以及當事人車種、性別與年齡。</li>
+<li><strong>重點統計。</strong> 高發時段、天候、地點類型、熱點道路與主要肇因。</li>
+<li><strong>中英雙語介面。</strong></li>
 </ul>
 </div>
 <div class="atlas-links">
 <p><a href="https://yyliou.github.io/accweb/" class="paper-btn" target="_blank">開啟互動地圖</a></p>
 </div>
 <div class="atlas-source">
-<p>資料來源：臺灣道路交通事故開放資料（A1／A2），內政部警政署。</p>
+<p>資料來源：警政署道路交通事故 A1／A2 開放資料。</p>
 </div>
 </section>
-<section id="r-packages" class="level2">
-<h2 class="anchored" data-anchor-id="r-packages">R 套件</h2>
+<section id="r-套件" class="level2">
+<h2 class="anchored" data-anchor-id="r-套件">R 套件</h2>
 <p>臺灣公部門的開放資料相當豐富，卻往往不夠整潔：各機關的檔案格式、編碼與發布方式互不一致，手動下載與清理既繁瑣又容易出錯。以下這些 R 套件正是為了消除這道麻煩而寫——每一個都將特定公開資料集的取得與清理流程自動化，讓資料能快速、可重複地讀入分析環境。</p>
 <div class="paper-entry">
 <div class="hex-col">
@@ -452,9 +454,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <div class="paper-links">
 <p><a href="https://github.com/yyliou/scen" class="paper-btn">GitHub</a></p>
 </div>
+<p>:</p>
+
+
 </div>
-
-
 </section>
 
 </main> <!-- /main -->
