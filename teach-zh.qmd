@@ -139,6 +139,6 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-112學年下學期（張宏浩教授）
+112學年下學期、115學年上學期（張宏浩教授）
 :::
 ::::::
