@@ -130,6 +130,8 @@ Transp. Res. A
 
 ::: paper-meta
 ***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Chang). †\*\^⁺
+
+[Earlier version presented at the 20th EAEA International Conference (2025).]{.paper-earlier}
 :::
 
 ::: paper-links
@@ -316,6 +318,8 @@ Ann. Tour. Res.
 
 ::: paper-meta
 ***Annals of Tourism Research Empirical Insights***, 7(1), 100209, 2026 (with Chang).
+
+[Earlier version presented at the 19th EAEA International Conference (2024).]{.paper-earlier}
 :::
 
 ::: paper-links
@@ -352,6 +356,8 @@ Agribusiness
 
 ::: paper-meta
 ***Agribusiness***, 2025 (with Chang, Forthcoming).
+
+[Earlier version presented at the 18th Congress of EAAE (2025) and the 19th EAEA International Conference (2024).]{.paper-earlier}
 :::
 
 ::: paper-links
@@ -703,19 +709,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## **研討會論文**
 
-- *Does Metro Expansion Always Reduce Traffic Accidents?* 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang, accepted).
-- *Green Gentrification beyond the City: Evidence from a Suburban Asian Context.* 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang, accepted).
-- *The Effects of Farmers' Pension Reform on Intra-household Family Farm Succession.* AAEA Annual Meeting, Kansas City, 2026 (with Chang, submitted).
-- *Compensation or Clean Air? Housing Market Evidence from Coal Reduction.* World Congress of Environmental and Resource Economists, Carcavelos, 2026 (with Chang, submitted).
-- *The causal effects of removing hook-turn regulation on road safety.* 20th EAEA International Conference, 2025 (with Chang).
-- *Air Pollution During Religious Holidays: Evidence from Tomb-Sweeping Day.* 20th EAEA International Conference, 2025 (with Chang and Meyerhoefer). Also presented at the 99th Annual Conference of WEAI (2024) and the IAAE 2024 Annual Conference (2024).
-- *Rooftop Solar Energy Adoption and Farm Revenue.* 18th Congress of EAAE, 2025 (with Chang and Begun). Also presented at the 19th EAEA International Conference (2024).
-- *The Development of Aquavoltaics Policy and Farmland Price.* 16th CAER-IFPRI Annual Conference, Beijing, 2025 (with Chang). Also presented at the 2025 APSTE International Conference on Agricultural, Life and Environmental Sciences.
-- *Traffic accidents of religious tourism.* 19th EAEA International Conference, 2024 (with Chang).
-- *Conformity or Accountability? An Analysis of the Impact of the 2018 and 2022 Local Election Results on Presidential Satisfaction Using Taiwan's Election Survey Data.* 16th International Conference on Parliamentary Studies, Taipei, 2024 (in Chinese, with Lee).
-- *The Long-term Effects of Early-life Malaria Exposure on Farm Households' Resource Allocation: Evidence from Taiwan.* International Conference on Agricultural and Environmental Economics, Taipei, 2023 (with Chang).
-- *Adaptation Behavior of Public Mobility under Climate Change: Empirical Evidence on Taipei Metro.* 2023 International Conference on Business and Management for Graduate Students, Taipei, 2023.
-- *Path Dependency of Spatiotemporal Voting Behavior: An Empirical Analysis of the 2022 Taipei Mayoral Election.* 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese).
-- *The Impact of "Newcomer Aura" on Election Probability: An Empirical Study of Taiwan's Councilor Elections (2009–2022).* 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese, with Ho).
-- *A Non-hierarchical Clustering Analysis of Consumer Behavior in Agricultural Products: Empirical Evidence from E-commerce Platforms.* 2020 Annual Conference of the Taiwan Rural Economics Society, Taipei, 2020 (in Chinese, with Chang).
-- *The Contribution of Productivity to Taiwan's GDP Growth: An Empirical Analysis (1981–2018).* 2019 Productivity and Efficiency Conference, Taipei, 2019 (in Chinese, with Chen).
+```{=html}
+<ol class="conf-list" reversed>
+<li><em>Does Metro Expansion Always Reduce Traffic Accidents?</em> 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang).</li>
+<li><em>Green Gentrification beyond the City: Evidence from a Suburban Asian Context.</em> 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang).</li>
+<li><em>The Effects of Farmers' Pension Reform on Intra-household Family Farm Succession.</em> AAEA Annual Meeting, Kansas City, 2026 (with Chang).</li>
+<li><em>Compensation or Clean Air? Housing Market Evidence from Coal Reduction.</em> World Congress of Environmental and Resource Economists, Carcavelos, 2026 (with Chang).</li>
+<li><em>Air Pollution During Religious Holidays: Evidence from Tomb-Sweeping Day.</em> 20th EAEA International Conference, 2025 (with Chang and Meyerhoefer). Also presented at the 99th Annual Conference of WEAI (2024) and the IAAE 2024 Annual Conference (2024).</li>
+<li><em>The Development of Aquavoltaics Policy and Farmland Price.</em> 16th CAER-IFPRI Annual Conference, Beijing, 2025 (with Chang). Also presented at the 2025 APSTE International Conference on Agricultural, Life and Environmental Sciences.</li>
+<li><em>Conformity or Accountability? An Analysis of the Impact of the 2018 and 2022 Local Election Results on Presidential Satisfaction Using Taiwan's Election Survey Data.</em> 16th International Conference on Parliamentary Studies, Taipei, 2024 (in Chinese, with Lee).</li>
+<li><em>The Long-term Effects of Early-life Malaria Exposure on Farm Households' Resource Allocation: Evidence from Taiwan.</em> International Conference on Agricultural and Environmental Economics, Taipei, 2023 (with Chang).</li>
+<li><em>Adaptation Behavior of Public Mobility under Climate Change: Empirical Evidence on Taipei Metro.</em> 2023 International Conference on Business and Management for Graduate Students, Taipei, 2023.</li>
+<li><em>Path Dependency of Spatiotemporal Voting Behavior: An Empirical Analysis of the 2022 Taipei Mayoral Election.</em> 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese).</li>
+<li><em>The Impact of "Newcomer Aura" on Election Probability: An Empirical Study of Taiwan's Councilor Elections (2009–2022).</em> 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese, with Ho).</li>
+<li><em>A Non-hierarchical Clustering Analysis of Consumer Behavior in Agricultural Products: Empirical Evidence from E-commerce Platforms.</em> 2020 Annual Conference of the Taiwan Rural Economics Society, Taipei, 2020 (in Chinese, with Chang).</li>
+<li><em>The Contribution of Productivity to Taiwan's GDP Growth: An Empirical Analysis (1981–2018).</em> 2019 Productivity and Efficiency Conference, Taipei, 2019 (in Chinese, with Chen).</li>
+</ol>
+```

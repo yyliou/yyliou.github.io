@@ -874,6 +874,27 @@ pre {
     margin-bottom: 0.5em;
 }
 
+/* "Earlier version presented at ..." sub-note under a publication */
+.paper-earlier {
+    display: block;
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 0.25em;
+}
+
+/* Conference papers: auto reverse-numbered list (newest = highest number)
+   with a hanging indent so wrapped lines align after the number ("數字後對齊") */
+.conf-list {
+    padding-left: 2.6em;
+    margin-top: 0.6em;
+}
+
+.conf-list li {
+    margin-bottom: 0.55em;
+    line-height: 1.5;
+    padding-left: 0.3em;
+}
+
 .paper-links {
     display: flex;
     flex-wrap: wrap;
@@ -1351,6 +1372,10 @@ pre {
 
 [data-theme="dark"] .paper-title {
     color: #dde3ec;
+}
+
+[data-theme="dark"] .paper-earlier {
+    color: #9aa3b2;
 }
 
 [data-theme="dark"] .paper-meta {
