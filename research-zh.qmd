@@ -125,7 +125,7 @@ Transp. Res. A
 :::
 
 ::: paper-title
-The causal effects of removing hook-turn regulation on road safety
+10\. The causal effects of removing hook-turn regulation on road safety
 :::
 
 ::: paper-meta
@@ -160,7 +160,7 @@ Transp. Res. D
 :::
 
 ::: paper-title
-The causal effect of monthly pass programs on public transportation and carbon emissions
+9\. The causal effect of monthly pass programs on public transportation and carbon emissions
 :::
 
 ::: paper-meta
@@ -195,7 +195,7 @@ Forest Policy Econ.
 :::
 
 ::: paper-title
-Forest diversity and the distribution of farm revenue — Empirical evidence from forest farms in Taiwan
+8\. Forest diversity and the distribution of farm revenue — Empirical evidence from forest farms in Taiwan
 :::
 
 ::: paper-meta
@@ -230,7 +230,7 @@ J. Transp. Geogr.
 :::
 
 ::: paper-title
-Does COVID-19 affect metro use in Taipei?
+7\. Does COVID-19 affect metro use in Taipei?
 :::
 
 ::: paper-meta
@@ -276,7 +276,7 @@ J. Tour. Manag. Res.
 :::
 
 ::: paper-title
-Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan
+6\. Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan
 :::
 
 ::: paper-meta
@@ -311,7 +311,7 @@ Ann. Tour. Res.
 :::
 
 ::: paper-title
-Traffic accidents of religious tourism
+5\. Traffic accidents of religious tourism
 :::
 
 ::: paper-meta
@@ -347,7 +347,7 @@ Agribusiness
 :::
 
 ::: paper-title
-Rooftop Solar Energy Adoption and Farm Revenue
+4\. Rooftop Solar Energy Adoption and Farm Revenue
 :::
 
 ::: paper-meta
@@ -381,7 +381,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-title
-The impact of the carbon border adjustment mechanism policy on international trade and market competition — A theoretical justification
+3\. The impact of the carbon border adjustment mechanism policy on international trade and market competition — A theoretical justification
 :::
 
 ::: paper-meta
@@ -415,7 +415,7 @@ Agriculture
 :::
 
 ::: paper-title
-Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Agriculture Census Data
+2\. Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Agriculture Census Data
 :::
 
 ::: paper-meta
@@ -451,7 +451,7 @@ Qual. & Quant.
 :::
 
 ::: paper-title
-How do consumers respond to COVID-19? Application of Bayesian approach on credit card transaction data
+1\. How do consumers respond to COVID-19? Application of Bayesian approach on credit card transaction data
 :::
 
 ::: paper-meta
@@ -696,12 +696,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## **審稿**
 
-- [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297) (3)
+- [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297) (4)
+- [*Frontiers in Climate*](https://www.frontiersin.org/journals/climate) (1)
 - [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
 
 ## **研討會論文**
 
+- *Does Metro Expansion Always Reduce Traffic Accidents?* 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang, accepted).
+- *Green Gentrification beyond the City: Evidence from a Suburban Asian Context.* 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang, accepted).
 - *The Effects of Farmers' Pension Reform on Intra-household Family Farm Succession.* AAEA Annual Meeting, Kansas City, 2026 (with Chang, submitted).
 - *Compensation or Clean Air? Housing Market Evidence from Coal Reduction.* World Congress of Environmental and Resource Economists, Carcavelos, 2026 (with Chang, submitted).
 - *The causal effects of removing hook-turn regulation on road safety.* 20th EAEA International Conference, 2025 (with Chang).
