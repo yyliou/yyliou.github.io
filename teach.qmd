@@ -118,11 +118,11 @@ Practical data analysis and communication in the modern R ecosystem, centered on
 
 ::::: paper-entry
 ::: paper-title
-**Quantitative Method**
+**Agricultural Policy and Performance Evaluation**
 :::
 
 ::: paper-meta
-Spring 2020 (Prof. Chang).
+Spring 2024, Fall 2026 (Prof. Chang).
 :::
 :::::
 
@@ -138,10 +138,10 @@ Spring 2022 (Prof. Chen).
 
 ::::: paper-entry
 ::: paper-title
-**Agricultural Policy and Performance Evaluation**
+**Quantitative Method**
 :::
 
 ::: paper-meta
-Spring 2024, Fall 2026 (Prof. Chang).
+Spring 2020 (Prof. Chang).
 :::
 :::::

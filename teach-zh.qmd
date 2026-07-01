@@ -115,11 +115,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**數量方法**
+**農業政策與績效評估**
 :::
 
 ::: paper-meta
-108學年下學期（張宏浩教授）
+112學年下學期、115學年上學期（張宏浩教授）
 :::
 ::::::
 
@@ -135,10 +135,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**農業政策與績效評估**
+**數量方法**
 :::
 
 ::: paper-meta
-112學年下學期、115學年上學期（張宏浩教授）
+108學年下學期（張宏浩教授）
 :::
 ::::::
