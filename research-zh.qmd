@@ -502,11 +502,12 @@ Qual. & Quant.
 
 - Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Chang).
 - From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Chang).
+- Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Chang and Sun).
+- Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).
 
 ### 待投稿
 
 - Does Metro Expansion Always Reduce Traffic Accidents? (with Chang).
-- Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).
 
 ## **共同作者**
 
