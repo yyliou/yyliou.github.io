@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "teach.html",
+    "href": "teach.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Credits\n    0\n  \n  \n    Enrolled\n    0\n  \n  \n    Evaluation\n    0.0"
+  },
+  {
+    "objectID": "teach.html#shih-chien-university",
+    "href": "teach.html#shih-chien-university",
+    "title": "Teaching",
+    "section": "Shih Chien University",
+    "text": "Shih Chien University\nEnglish Taught Program in International Business\n\n\n\n\n\nStatistics I & II\n\n\nUndergraduate, Fall, 2024, 2025, 2026; Spring, 2025, 2026.\n\n\nA two-semester introduction to statistical reasoning, covering descriptive statistics, probability, and inference through hypothesis testing, regression, and ANOVA. Each week pairs a concept lecture with a hands-on lab session.\n\n\nCourse site\n\n\n\n\n\n\n\nProgramming for Applications\n\n\nUndergraduate, Spring, 2024, 2025, 2026.\n\n\nAn introduction to programming fundamentals in R, emphasizing how to translate practical business and data problems into working code through weekly in-class exercises.\n\n\nCourse site\n\n\n\n\n\n\n\nData Analysis\n\n\nUndergraduate, Fall, 2024, 2025, 2026.\n\n\nPractical data analysis and communication in the modern R ecosystem, centered on the grammar of graphics and data visualization with ggplot2, turning analytical findings into clear visual narratives.\n\n\nCourse site"
+  },
+  {
+    "objectID": "teach.html#national-taiwan-university",
+    "href": "teach.html#national-taiwan-university",
+    "title": "Teaching",
+    "section": "National Taiwan University",
+    "text": "National Taiwan University\nDepartment of Agricultural Economics — Teaching Assistant\n\n\nAgricultural Policy and Performance Evaluation\n\n\nSpring 2024, Fall 2026 (Prof. Chang).\n\n\n\n\nAgricultural Regulations\n\n\nSpring 2022 (Prof. Chen).\n\n\n\n\nQuantitative Method\n\n\nSpring 2020 (Prof. Chang)."
+  },
+  {
     "objectID": "research-zh.html",
     "href": "research-zh.html",
     "title": "研究",
@@ -61,27 +82,6 @@
     "title": "計畫",
     "section": "",
     "text": "研究助理 — 國立臺灣大學農業經濟學系\n\n\n22. 專門職業（律師、會計師、建築師及技師）與市場競爭——回顧與前瞻\n\n\n115 年 1–8 月 · FTC-115-G01\n\n\nGRB\n\n\n\n\n21. 溫室氣體自願減量制度精進與自然碳匯碳能量培力\n\n\n115 年 5–12 月\n\n\n\n\n20. 淨零政策下糧食與農業系統之調適（三）\n\n\n115 年 3 月 · NSTC114-2119-M002-014\n\n\nGRB\n\n\n\n\n19. 漁電共生政策對農地價格之影響——以臺灣為例\n\n\n115 年 1–2 月、4 月 · NSTC114-2410-H002-244\n\n\nGRB\n\n\n\n\n18. 提升臺灣碳匯能力之政策成本效益分析與策略建議：以土壤友善農業生產模式為例\n\n\n114 年 7–12 月 · 114農科-13.1.1-永-04\n\n\nGRB\n\n\n\n\n17. 因應國土計畫政策之農地價格指數應用分析\n\n\n114 年 5–6 月 · 113農基金-永續-11\n\n\n\n\n16. 淨零政策下糧食與農業系統之調適（二）\n\n\n114 年 1–3 月 · NSTC113-2119-M002-027\n\n\nGRB\n\n\n\n\n15. 線上媒合平台之農業勞動力供給——以臺灣為例\n\n\n113 年 8–12 月、114 年 4–6 月 · NSTC113-2410-H002-244\n\n\nGRB\n\n\n\n\n14. 建構有機農業生態系服務架構：蔬菜與稻米之價值調查與量化模型\n\n\n113 年 7–12 月 · 113農再-2.2.2-1.5-糧-004\n\n\n\n\n13. 臺灣增匯策略之成本評估與政策建議\n\n\n113 年 5–6 月、10–12 月 · 113前瞻-18.4.1-永-04\n\n\nGRB\n\n\n\n\n12. 電動車產業政策與競爭法規範之研究\n\n\n113 年 1–8 月 · FTC-113-G02\n\n\nGRB\n\n\n\n\n11. 農業副產物循環經濟之經濟評估\n\n\n113 年 1–4 月 · MOST110-2621-M002-018-MY3\n\n\nGRB\n\n\n\n\n10. 淨零政策下糧食與農業系統之調適（一）\n\n\n113 年 1–4 月 · NSTC112-2119-M002-025\n\n\nGRB\n\n\n\n\n9. 臺灣增匯策略之成本評估與政策建議\n\n\n112 年 10–12 月 · 112前瞻-18.4.1-氣-n4\n\n\nGRB\n\n\n\n\n8. 農地永續利用決策之農地價格指數評估與建立\n\n\n112 年 10–12 月 · 112農基金-1.1-企-10-(2)\n\n\n\n\n7. 大學社會責任實踐計畫：「攜手雲林——深化重點農業地區產業鏈結」\n\n\n112 年 8–12 月 · 112L5A001B\n\n\n\n\n6. 農場傳承之經濟分析——以臺灣為例\n\n\n112 年 1–7 月 · MOST111-2410-H002-230\n\n\nGRB\n\n\n\n\n5. 農地資源與永續利用之決策評估\n\n\n111 年 8–12 月 · 111農科-3.1.3-企-Q2(Z)\n\n\nGRB\n\n\n\n\n4. 食物可及性、市場競爭與房價——以臺灣便利商店為例之實證\n\n\n111 年 2–7 月 · MOST110-2410-H002-219\n\n\nGRB\n\n\n\n\n3. 臺灣農民職業災害保險之經濟分析\n\n\n110 年 1–7 月 · MOST109-2410-H002-128\n\n\nGRB\n\n\n\n\n2. 農村再生計畫對農業勞動與休閒農業參與之影響\n\n\n109 年 3–7 月、8–12 月 · 109農再-2.1.3-1.3-企-015\n\n\n\n\n1. 共享經濟對臺灣農地價格之影響\n\n\n109 年 1–8 月 · MOST108-2410-H002-053\n\n\nGRB"
-  },
-  {
-    "objectID": "teach-zh.html",
-    "href": "teach-zh.html",
-    "title": "教學",
-    "section": "",
-    "text": "總學分數\n    0\n  \n  \n    修課人次\n    0\n  \n  \n    教學評量\n    0.0"
-  },
-  {
-    "objectID": "teach-zh.html#實踐大學",
-    "href": "teach-zh.html#實踐大學",
-    "title": "教學",
-    "section": "實踐大學",
-    "text": "實踐大學\n國際企業英語學位學程\n\n\n\n\n\n統計學 (1) & (2)\n\n\n大學部，上學期：113學年、114學年；下學期：113學年、114學年\n\n\n兩學期的統計學基礎課程，涵蓋敘述統計、機率，以及假設檢定、迴歸與變異數分析等統計推論方法。每週以觀念講授搭配實作練習進行。\n\n\n課程網站\n\n\n\n\n\n\n\n應用程式設計\n\n\n大學部，下學期：112學年、113學年、114學年\n\n\n以 R 為主的程式設計入門課程，著重將商業與資料問題轉化為可執行的程式，並透過每週課堂實作累積經驗。\n\n\n課程網站\n\n\n\n\n\n\n\n資料分析\n\n\n大學部，上學期：113學年、114學年\n\n\n以現代 R 生態系為核心的實務資料分析課程，著重以 ggplot2 與圖形文法（grammar of graphics）進行資料視覺化，將分析結果轉化為清楚的視覺敘事。\n\n\n課程網站"
-  },
-  {
-    "objectID": "teach-zh.html#國立臺灣大學",
-    "href": "teach-zh.html#國立臺灣大學",
-    "title": "教學",
-    "section": "國立臺灣大學",
-    "text": "國立臺灣大學\n農業經濟學系 — 教學助理\n\n\n農業政策與績效評估\n\n\n112學年下學期、115學年上學期（張宏浩教授）\n\n\n\n\n農業法規\n\n\n110學年下學期（陳政位副教授）\n\n\n\n\n數量方法\n\n\n108學年下學期（張宏浩教授）"
   },
   {
     "objectID": "extension-zh.html",
@@ -196,27 +196,6 @@
     "text": "R Packages\nTaiwan’s government open data is a rich resource, but it is rarely tidy: formats, encodings, and release conventions differ from agency to agency, so downloading and cleaning it by hand is tedious and easy to get wrong. The R packages below exist to take that friction away — each automates the retrieval and cleaning of a particular public dataset so it can be read into an analysis environment quickly and reproducibly.\n\n\n\n\n\nagrstat\n\n\nR package, 2026.\n\n\nRetrieves data from the Ministry of Agriculture’s Agricultural Statistics Dynamic Inquiry system. It reproduces the site’s stateful ASP.NET query flow, so the statistical category, dataset, classification strata, and time span are all set through arguments; a single agri_fetch() call walks the query wizard and returns the result table as a tidy data frame, defaulting to the full set of strata and years available.\n\n\nGitHub\n\n\n\n\n\n\n\ntwweather\n\n\nR package, 2026.\n\n\nDownloads Taiwan’s historical weather observations from the Central Weather Administration (CWA / CODiS) station network: tidy station metadata, station-level time series (hourly, daily, monthly), and township- or any-polygon estimates via inverse-distance-weighted spatial interpolation.\n\n\nGitHub\n\n\n\n\n\n\n\ntwhotel\n\n\nR package, 2026.\n\n\nBuilds a hotel-by-month panel from the Taiwan Tourism Administration’s monthly Tourist Hotel Operating Statistics. It crawls, downloads, and parses the official workbooks into one tidy table covering occupancy, revenue, staffing, and guests by nationality — ready for empirical panel analysis.\n\n\nGitHub\n\n\n\n\n\n\n\nplvr\n\n\nR package, 2026.\n\n\nRetrieves Taiwan’s actual real-estate transaction records (實價登錄) from the Ministry of the Interior open data. Given a date range, it downloads the spanning quarterly releases, keeps only the requested transaction categories (sales, pre-sale units, rentals) and regions, and stores them as compact Parquet files for efficient querying with arrow, dplyr, or DuckDB.\n\n\nGitHub\n\n\n\n\n\n\n\ntwcovid\n\n\nR package, 2026.\n\n\nRetrieves Taiwan CDC’s COVID-19 open data — confirmed cases and deaths — and reshapes it into analysis-ready panels. A single tw_covid() call sets the outcome, time unit (day, ISO week, or month), date basis (onset or case-judgment date), and panel cross-section (any subset of county, township, sex, imported status, age group), returning per-period flows or cumulative totals, optionally zero-filled into a balanced panel. Daily source files are aggregated internally, so the time axis is fully controlled and reproducible.\n\n\nGitHub\n\n\n\n\n\n\n\nscen\n\n\nR package, 2026.\n\n\nAn R client for the Taiwan Tourism Administration’s Tourism Statistics Database (觀光統計資料庫). With no public API on the source site, scen reproduces its request-signing scheme to return tidy tibbles of visitor counts for scenic and recreational spots (觀光遊憩據點), plus inbound, outbound, and cruise figures down to the finest cross-tabulations (e.g. age × gender × purpose) — with automatic ROC-year conversion, throttling, and caching.\n\n\nGitHub"
   },
   {
-    "objectID": "teach.html",
-    "href": "teach.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Credits\n    0\n  \n  \n    Enrolled\n    0\n  \n  \n    Evaluation\n    0.0"
-  },
-  {
-    "objectID": "teach.html#shih-chien-university",
-    "href": "teach.html#shih-chien-university",
-    "title": "Teaching",
-    "section": "Shih Chien University",
-    "text": "Shih Chien University\nEnglish Taught Program in International Business\n\n\n\n\n\nStatistics I & II\n\n\nUndergraduate, Fall, 2024, 2025; Spring, 2025, 2026.\n\n\nA two-semester introduction to statistical reasoning, covering descriptive statistics, probability, and inference through hypothesis testing, regression, and ANOVA. Each week pairs a concept lecture with a hands-on lab session.\n\n\nCourse site\n\n\n\n\n\n\n\nProgramming for Applications\n\n\nUndergraduate, Spring, 2024, 2025, 2026.\n\n\nAn introduction to programming fundamentals in R, emphasizing how to translate practical business and data problems into working code through weekly in-class exercises.\n\n\nCourse site\n\n\n\n\n\n\n\nData Analysis\n\n\nUndergraduate, Fall, 2024, 2025.\n\n\nPractical data analysis and communication in the modern R ecosystem, centered on the grammar of graphics and data visualization with ggplot2, turning analytical findings into clear visual narratives.\n\n\nCourse site"
-  },
-  {
-    "objectID": "teach.html#national-taiwan-university",
-    "href": "teach.html#national-taiwan-university",
-    "title": "Teaching",
-    "section": "National Taiwan University",
-    "text": "National Taiwan University\nDepartment of Agricultural Economics — Teaching Assistant\n\n\nAgricultural Policy and Performance Evaluation\n\n\nSpring 2024, Fall 2026 (Prof. Chang).\n\n\n\n\nAgricultural Regulations\n\n\nSpring 2022 (Prof. Chen).\n\n\n\n\nQuantitative Method\n\n\nSpring 2020 (Prof. Chang)."
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -278,5 +257,26 @@
     "title": "Research",
     "section": "Conference Papers",
     "text": "Conference Papers\n\nDoes Metro Expansion Always Reduce Traffic Accidents? 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang).\nGreen Gentrification beyond the City: Evidence from a Suburban Asian Context. 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang).\nThe Effects of Farmers' Pension Reform on Intra-household Family Farm Succession. AAEA Annual Meeting, Kansas City, 2026 (with Chang).\nCompensation or Clean Air? Housing Market Evidence from Coal Reduction. World Congress of Environmental and Resource Economists, Carcavelos, 2026 (with Chang).\nAir Pollution During Religious Holidays: Evidence from Tomb-Sweeping Day. 20th EAEA International Conference, 2025 (with Chang and Meyerhoefer). Also presented at the 99th Annual Conference of WEAI (2024) and the IAAE 2024 Annual Conference (2024).\nThe Development of Aquavoltaics Policy and Farmland Price. 16th CAER-IFPRI Annual Conference, Beijing, 2025 (with Chang). Also presented at the 2025 APSTE International Conference on Agricultural, Life and Environmental Sciences.\nConformity or Accountability? An Analysis of the Impact of the 2018 and 2022 Local Election Results on Presidential Satisfaction Using Taiwan's Election Survey Data. 16th International Conference on Parliamentary Studies, Taipei, 2024 (in Chinese, with Lee).\nThe Long-term Effects of Early-life Malaria Exposure on Farm Households' Resource Allocation: Evidence from Taiwan. International Conference on Agricultural and Environmental Economics, Taipei, 2023 (with Chang).\nAdaptation Behavior of Public Mobility under Climate Change: Empirical Evidence on Taipei Metro. 2023 International Conference on Business and Management for Graduate Students, Taipei, 2023.\nPath Dependency of Spatiotemporal Voting Behavior: An Empirical Analysis of the 2022 Taipei Mayoral Election. 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese).\nThe Impact of \"Newcomer Aura\" on Election Probability: An Empirical Study of Taiwan's Councilor Elections (2009–2022). 15th International Conference on Parliamentary Studies, Taipei, 2023 (in Chinese, with Ho).\nA Non-hierarchical Clustering Analysis of Consumer Behavior in Agricultural Products: Empirical Evidence from E-commerce Platforms. 2020 Annual Conference of the Taiwan Rural Economics Society, Taipei, 2020 (in Chinese, with Chang).\nThe Contribution of Productivity to Taiwan's GDP Growth: An Empirical Analysis (1981–2018). 2019 Productivity and Efficiency Conference, Taipei, 2019 (in Chinese, with Chen)."
+  },
+  {
+    "objectID": "teach-zh.html",
+    "href": "teach-zh.html",
+    "title": "教學",
+    "section": "",
+    "text": "總學分數\n    0\n  \n  \n    修課人次\n    0\n  \n  \n    教學評量\n    0.0"
+  },
+  {
+    "objectID": "teach-zh.html#實踐大學",
+    "href": "teach-zh.html#實踐大學",
+    "title": "教學",
+    "section": "實踐大學",
+    "text": "實踐大學\n國際企業英語學位學程\n\n\n\n\n\n統計學 (1) & (2)\n\n\n大學部，上學期：113學年、114學年、115學年；下學期：113學年、114學年\n\n\n兩學期的統計學基礎課程，涵蓋敘述統計、機率，以及假設檢定、迴歸與變異數分析等統計推論方法。每週以觀念講授搭配實作練習進行。\n\n\n課程網站\n\n\n\n\n\n\n\n應用程式設計\n\n\n大學部，下學期：112學年、113學年、114學年\n\n\n以 R 為主的程式設計入門課程，著重將商業與資料問題轉化為可執行的程式，並透過每週課堂實作累積經驗。\n\n\n課程網站\n\n\n\n\n\n\n\n資料分析\n\n\n大學部，上學期：113學年、114學年、115學年\n\n\n以現代 R 生態系為核心的實務資料分析課程，著重以 ggplot2 與圖形文法（grammar of graphics）進行資料視覺化，將分析結果轉化為清楚的視覺敘事。\n\n\n課程網站"
+  },
+  {
+    "objectID": "teach-zh.html#國立臺灣大學",
+    "href": "teach-zh.html#國立臺灣大學",
+    "title": "教學",
+    "section": "國立臺灣大學",
+    "text": "國立臺灣大學\n農業經濟學系 — 教學助理\n\n\n農業政策與績效評估\n\n\n112學年下學期、115學年上學期（張宏浩教授）\n\n\n\n\n農業法規\n\n\n110學年下學期（陳政位副教授）\n\n\n\n\n數量方法\n\n\n108學年下學期（張宏浩教授）"
   }
 ]

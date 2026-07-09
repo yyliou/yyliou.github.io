@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-大學部，上學期：113學年、114學年；下學期：113學年、114學年
+大學部，上學期：113學年、114學年、115學年；下學期：113學年、114學年
 :::
 
 ::: paper-desc
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-大學部，上學期：113學年、114學年
+大學部，上學期：113學年、114學年、115學年
 :::
 
 ::: paper-desc
