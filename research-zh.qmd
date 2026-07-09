@@ -730,6 +730,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ```{=html}
 <ol class="conf-list" reversed>
+<li><em>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations.</em> 12th International Conference of the Asian Society of Agricultural Economists (ASAE), Jakarta, 2026 (with Chang and Wu).</li>
 <li><em>Does Metro Expansion Always Reduce Traffic Accidents?</em> 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang).</li>
 <li><em>Green Gentrification beyond the City: Evidence from a Suburban Asian Context.</em> 21st International Convention of the East Asian Economic Association (EAEA), 2026 (with Chang).</li>
 <li><em>The Effects of Farmers' Pension Reform on Intra-household Family Farm Succession.</em> AAEA Annual Meeting, Kansas City, 2026 (with Chang).</li>
