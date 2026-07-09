@@ -10,3 +10,9 @@
 fonts/_backup/
 
 .DS_Store
+
+# pCloud FUSE temp artifacts
+.fuse_hidden*
+
+# Full source fonts (site uses -sub.woff2 subsets only)
+fonts/*.otf

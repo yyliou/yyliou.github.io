@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW" xml:lang="zh-TW"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.38">
@@ -58,17 +58,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "沒有結果",
+    "search-matching-documents-text": "符合的文件",
+    "search-copy-link-title": "複製搜尋連結",
+    "search-hide-matches-text": "隱藏其他符合的結果",
+    "search-more-match-text": "更多符合結果",
+    "search-more-matches-text": "更多符合結果",
+    "search-clear-button-title": "清除",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "送出",
+    "search-label": "搜尋"
   }
 }</script>
 <script>
@@ -250,6 +250,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="計畫 – Yu-You Liou 劉昱佑">
+<meta property="og:description" content="Yu-You Liou (劉昱佑) — PhD Fellow at National Taiwan University and Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics.">
+<meta property="og:image" content="https://yyliou.github.io/pic.png">
+<meta property="og:site_name" content="Yu-You Liou 劉昱佑">
+<meta property="og:image:height" content="726">
+<meta property="og:image:width" content="728">
+<meta name="twitter:title" content="計畫 – Yu-You Liou 劉昱佑">
+<meta name="twitter:description" content="Yu-You Liou (劉昱佑) — PhD Fellow at National Taiwan University and Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics.">
+<meta name="twitter:image" content="https://yyliou.github.io/pic.png">
+<meta name="twitter:image-height" content="726">
+<meta name="twitter:image-width" content="728">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -263,8 +275,8 @@ document.addEventListener('DOMContentLoaded', function () {
     <span class="navbar-title">Liou</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="搜尋"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="切換導航列" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -657,12 +669,12 @@ document.addEventListener('DOMContentLoaded', function () {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "已複製");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "已複製");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -705,7 +717,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/yyliou\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

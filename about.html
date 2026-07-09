@@ -250,6 +250,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Yu-You Liou 劉昱佑">
+<meta property="og:description" content="**MStat, MS, BA, BS** 
+
+ I am a PhD Fellow at NTU and a lecturer at USC, where I teach undergraduate statistics, data analysis, and applied programming.">
+<meta property="og:image" content="https://yyliou.github.io/pic.png">
+<meta property="og:site_name" content="Yu-You Liou 劉昱佑">
+<meta property="og:image:height" content="726">
+<meta property="og:image:width" content="728">
+<meta name="twitter:title" content="Yu-You Liou 劉昱佑">
+<meta name="twitter:description" content="**MStat, MS, BA, BS** 
+
+ I am a PhD Fellow at NTU and a lecturer at USC, where I teach undergraduate statistics, data analysis, and applied programming.">
+<meta name="twitter:image" content="https://yyliou.github.io/pic.png">
+<meta name="twitter:image-height" content="726">
+<meta name="twitter:image-width" content="728">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -500,7 +516,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/yyliou\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

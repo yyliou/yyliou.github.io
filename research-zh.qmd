@@ -1,5 +1,6 @@
 ---
 title: "研究"
+lang: zh-TW
 ---
 
 ```{=html}

@@ -250,6 +250,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Extension – Yu-You Liou 劉昱佑">
+<meta property="og:description" content="Yu-You Liou (劉昱佑) — PhD Fellow at National Taiwan University and Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics.">
+<meta property="og:image" content="https://yyliou.github.io/accweb-map.png">
+<meta property="og:site_name" content="Yu-You Liou 劉昱佑">
+<meta property="og:image:alt" content="Taiwan Crash Atlas, map view">
+<meta property="og:image:height" content="1926">
+<meta property="og:image:width" content="3456">
+<meta name="twitter:title" content="Extension – Yu-You Liou 劉昱佑">
+<meta name="twitter:description" content="Yu-You Liou (劉昱佑) — PhD Fellow at National Taiwan University and Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics.">
+<meta name="twitter:image" content="https://yyliou.github.io/accweb-map.png">
+<meta name="twitter:image:alt" content="Taiwan Crash Atlas, map view">
+<meta name="twitter:image-height" content="1926">
+<meta name="twitter:image-width" content="3456">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -610,7 +624,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/yyliou\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
