@@ -296,7 +296,7 @@ J. Tour. Manag. Res.
 :::
 
 ::: paper-links
-[Journal](https://archive.conscientiabeam.com/index.php/31/article/view/4940/9198){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
+[Journal](https://archive.conscientiabeam.com/index.php/31/article/view/4940){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
 :::
 
 ```{=html}
