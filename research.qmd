@@ -729,6 +729,15 @@ document.addEventListener('DOMContentLoaded', function () {
 - [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
 
+## **Theses**
+
+```{=html}
+<ul class="conf-list">
+<li><em>Constructing Property Price Indices: Big Data Analyses from Actual Price Registration of Real Estate Transactions in Taiwan.</em> Master's thesis, Department of Agricultural Economics, National Taiwan University, 2021 (grade: A+). Committee: Hung-Hao Chang, Chiu-Yueh Chung, Jiun-Hao Wang, Tzu-Chin Lin, and Sheng-Fu Tsai. <a href="https://doi.org/10.6342/NTU202101981" target="_blank" rel="noopener">DOI</a></li>
+<li><em>Using Multilevel Linear Modeling to Explore the Moderating Effect of External Attributes on Hotel Room Rates: Empirical Evidence on Public Goods and Industry Environment.</em> Master's thesis, Master Program in Statistics, National Taiwan University, 2021 (grade: A+). Committee: Yao-Wen Hsu, Yung-Chih Lien, and Shih-Ping Ho. <a href="https://doi.org/10.6342/NTU202102085" target="_blank" rel="noopener">DOI</a></li>
+</ul>
+```
+
 ## **Conference Papers**
 
 ```{=html}

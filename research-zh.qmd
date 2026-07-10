@@ -726,6 +726,15 @@ document.addEventListener('DOMContentLoaded', function () {
 - [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
 
+## **學位論文**
+
+```{=html}
+<ul class="conf-list">
+<li>《農地價格指數之建構：應用臺灣實價登錄資料的大數據分析》，國立臺灣大學農業經濟學系碩士論文，2021（成績：A+）。口試委員：張宏浩、鐘秋悅、王俊豪、林子欽、蔡昇甫。<a href="https://doi.org/10.6342/NTU202101981" target="_blank" rel="noopener">DOI</a></li>
+<li>《以多階層線性模型探討旅館房價外部性因子的調節作用——公共財與產業環境的實證分析》，國立臺灣大學統計碩士學位學程碩士論文，2021（成績：A+）。口試委員：許耀文、連勇智、荷世平。<a href="https://doi.org/10.6342/NTU202102085" target="_blank" rel="noopener">DOI</a></li>
+</ul>
+```
+
 ## **研討會論文**
 
 ```{=html}
