@@ -2,21 +2,21 @@
 
 @font-face {
   font-family: 'MyFont';
-  src: url('fonts/GenWanMin2TW-R-sub.woff2?v=20260709') format('woff2');
+  src: url('fonts/GenWanMin2TW-R-sub.woff2?v=20260712') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MyFont';
-  src: url('fonts/GenWanMin2TW-M-sub.woff2?v=20260709') format('woff2');
+  src: url('fonts/GenWanMin2TW-M-sub.woff2?v=20260712') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MyFont';
-  src: url('fonts/GenWanMin2TW-SB-sub.woff2?v=20260709') format('woff2');
+  src: url('fonts/GenWanMin2TW-SB-sub.woff2?v=20260712') format('woff2');
   font-weight: 600;
   font-style: normal;
 }
