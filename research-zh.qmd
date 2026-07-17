@@ -138,7 +138,7 @@ Food Policy
 :::
 
 ::: paper-links
-[摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Forthcoming]{.idx-badge} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
