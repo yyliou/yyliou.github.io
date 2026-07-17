@@ -139,7 +139,7 @@ Food Policy
 :::
 
 ::: paper-links
-[Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Forthcoming]{.idx-badge} [SSCI]{.idx-badge}
+[Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
