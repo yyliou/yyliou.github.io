@@ -31,7 +31,7 @@ Across these areas, my research asks how policy should account for external cost
 <div class="bib-stats">
   <div class="bib-stat">
     <div class="bib-label">Publications</div>
-    <div class="bib-number" data-target="13">0</div>
+    <div class="bib-number" data-target="14">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">Cites</div>
@@ -124,6 +124,35 @@ My research has primarily been published in international journals within the fi
 ![A network of the research topics spanning my publications.](map.png){fig-alt="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19"}
 
 ## **Selected Publications**
+
+::::::: paper-entry
+::: paper-tag
+Food Policy
+:::
+
+::: paper-title
+11\. Food Traceability Systems and the Probability of Using Chemical Fertilizers and Pesticides: Empirical Evidence Using Plot- and Farm Household-Level Data
+:::
+
+::: paper-meta
+***Food Policy***, forthcoming, 2026 (with Chang). ⁺
+:::
+
+::: paper-links
+[Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+:::
+
+```{=html}
+<div class="abstract-box"><p>In response to rising consumer demand for food safety, many countries have implemented food traceability systems (FTS) to enhance transparency and accountability along agricultural supply chains. While existing research has largely focused on demand side aspects, evidence on supply side responses remains limited. This study addresses this gap by examining the effects of FTS adoption on farm production practices, specifically the probability of using chemical fertilizers, pesticides, and groundwater, as well as farm revenue and marketing channel selection. We use microdata from Taiwan's 2020 agriculture census, which provides both plot-level and farm household-level information covering all registered crop farms. Motivated by a farm profit maximization model, we employ an instrumental variable (IV) approach to identify the local average treatment effect of FTS adoption. At the plot level, FTS adoption reduces the probability of using chemical fertilizer, pesticide, and groundwater by 8.2, 15.4, and 40 percentage points, respectively. At the household level, FTS adoption increases farm revenues and expands sales through direct-to-consumer and distributor channels. These findings suggest that while FTS is primarily designed to ensure food safety and market transparency, its adoption may generate unintended environmental co-benefits through reducing the likelihood of using environmentally sensitive inputs in farm production.</p></div>
+<div class="bibtex-box"><pre><code>@article{chang2026traceability,
+  title   = {Food Traceability Systems and the Probability of Using Chemical Fertilizers and Pesticides: Empirical Evidence Using Plot- and Farm Household-Level Data},
+  author  = {Chang, Hung-Hao and Liou, Yu-You},
+  journal = {Food Policy},
+  note    = {Forthcoming},
+  year    = {2026},
+}</code></pre></div>
+```
+:::::::
 
 ::::::: paper-entry
 ::: paper-tag
@@ -279,6 +308,7 @@ J. Transp. Geogr.
 
 ```{=html}
 <div class="journal-covers">
+<a class="cover-item" href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener" title="Food Policy"><img src="https://ars.els-cdn.com/content/image/X03069192.jpg" alt="Food Policy cover" loading="lazy"><span class="cover-name">Food Policy</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice" target="_blank" rel="noopener" title="Transportation Research Part A"><img src="https://ars.els-cdn.com/content/image/X09658564.jpg" alt="Transportation Research Part A cover" loading="lazy"><span class="cover-name">Transportation Research Part A</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment" target="_blank" rel="noopener" title="Transportation Research Part D"><img src="https://ars.els-cdn.com/content/image/X13619209.jpg" alt="Transportation Research Part D cover" loading="lazy"><span class="cover-name">Transportation Research Part D</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/forest-policy-and-economics" target="_blank" rel="noopener" title="Forest Policy and Economics"><img src="https://ars.els-cdn.com/content/image/X13899341.jpg" alt="Forest Policy and Economics cover" loading="lazy"><span class="cover-name">Forest Policy and Economics</span></a>
@@ -503,7 +533,6 @@ Qual. & Quant.
 
 ### **Revision & Resubmission**
 
-- Food Traceability Systems and the Use of Chemical Fertilizers and Pesticides — Empirical Evidence Using Plot and Farm Household Data (with Chang).
 - Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).
 - Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).
 - The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).
