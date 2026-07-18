@@ -334,12 +334,12 @@ J. Transp. Geogr.
 :::::::
 
 ::: paper-note
-*Note*: † Journals recommended by the NSTC, Division of Regional Studies and Geography; \* Journals recommended by the NSTC, Division of Economics. \^ Journals recommended by the NSTC, Division of Management II. ⁺ Journals ranked in the top 10% of their field based on the Journal Impact Factor. ‡ National Taiwan University distinguished journals (國立臺灣大學傑出期刊); § National Taiwan University outstanding journals (國立臺灣大學優良期刊).
+*Note*: † Journals recommended by the NSTC, Division of Regional Studies and Geography; \* Journals recommended by the NSTC, Division of Economics. \^ Journals recommended by the NSTC, Division of Management II. ⁺ Journals ranked in the top 10% of their field based on the Journal Impact Factor. ‡ National Taiwan University distinguished journals; § National Taiwan University outstanding journals.
 :::
 
 ```{=html}
 <div class="journal-covers">
-<a class="cover-item" href="https://www.journals.uchicago.edu/journal/jaere" target="_blank" rel="noopener" title="Journal of the Association of Environmental and Resource Economists"><img src="https://www.journals.uchicago.edu/cms/asset/5a38d4f1-b01f-4f38-830f-3718a574ab3d/default_cover.gif" alt="Journal of the Association of Environmental and Resource Economists cover" loading="lazy"><span class="cover-name">JAERE</span></a>
+<a class="cover-item" href="https://www.journals.uchicago.edu/journal/jaere" target="_blank" rel="noopener" title="Journal of the Association of Environmental and Resource Economists"><img src="jaere-cover.jpg" alt="Journal of the Association of Environmental and Resource Economists cover" loading="lazy"><span class="cover-name">JAERE</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener" title="Food Policy"><img src="https://ars.els-cdn.com/content/image/X03069192.jpg" alt="Food Policy cover" loading="lazy"><span class="cover-name">Food Policy</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice" target="_blank" rel="noopener" title="Transportation Research Part A"><img src="https://ars.els-cdn.com/content/image/X09658564.jpg" alt="Transportation Research Part A cover" loading="lazy"><span class="cover-name">Transportation Research Part A</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment" target="_blank" rel="noopener" title="Transportation Research Part D"><img src="https://ars.els-cdn.com/content/image/X13619209.jpg" alt="Transportation Research Part D cover" loading="lazy"><span class="cover-name">Transportation Research Part D</span></a>
