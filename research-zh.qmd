@@ -126,15 +126,46 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ::::::: paper-entry
 ::: paper-tag
+JAERE
+:::
+
+::: paper-title
+12\. Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day
+:::
+
+::: paper-meta
+***Journal of the Association of Environmental and Resource Economists***, 2026 (with Chang and Meyerhoefer, Conditionally Accepted). §
+
+[Earlier version available on [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4984614); presented at the 99th WEAI Annual Conference (2024) and the 11th IAAE Annual Conference.]{.paper-earlier}
+:::
+
+::: paper-links
+[摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+:::
+
+```{=html}
+<div class="abstract-box"><p>Policymakers are under pressure to limit pollution emissions from large-scale religious observances, putting them in conflict with individuals seeking to practice religious rituals. Using the Hakka Tomb-Sweeping Day in Taiwan as an illustration, we show that better information on pollution sources and targeted measures of exposure yield more accurate estimates of the true pollution costs of religious practices. We find that religious activities lower overall air quality by 17.5% during the Tomb-Sweeping Day weekend and increase levels of specific pollutants by 13.6%–25.7%. In contrast to previous studies suggesting elevated pollution is due to the burning of incense, joss paper and fireworks, we identify greater motor vehicle use and lower travel speed as primary mechanisms. Policies designed to limit the surge in motor vehicle traffic during the holiday could reduce excess health-related costs by NT$33.1 million, equaling 34% of total inpatient and outpatient health care expenditures.</p></div>
+<div class="bibtex-box"><pre><code>@article{chang2026airpollution,
+  title   = {Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day},
+  author  = {Chang, Hung-Hao and Liou, Yu-You and Meyerhoefer, Chad D.},
+  journal = {Journal of the Association of Environmental and Resource Economists},
+  year    = {2026},
+  note    = {Conditionally Accepted},
+}</code></pre></div>
+```
+:::::::
+
+::::::: paper-entry
+::: paper-tag
 Food Policy
 :::
 
 ::: paper-title
-12\. Food Traceability Systems and the Probability of Using Chemical Fertilizers and Pesticides: Empirical Evidence Using Plot- and Farm Household-Level Data
+11\. Food Traceability Systems and the Probability of Using Chemical Fertilizers and Pesticides: Empirical Evidence Using Plot- and Farm Household-Level Data
 :::
 
 ::: paper-meta
-***Food Policy***, forthcoming, 2026 (with Chang). ⁺
+***Food Policy***, forthcoming, 2026 (with Chang). ⁺‡
 :::
 
 ::: paper-links
@@ -163,11 +194,11 @@ Transp. Res. A
 :::
 
 ::: paper-title
-11\. The causal effects of removing hook-turn regulation on road safety
+10\. The causal effects of removing hook-turn regulation on road safety
 :::
 
 ::: paper-meta
-***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Chang). †\*\^⁺
+***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Chang). †\*\^⁺‡
 
 [Earlier version presented at the 20th EAEA International Convention (2025).]{.paper-earlier}
 :::
@@ -206,11 +237,11 @@ Transp. Res. D
 :::
 
 ::: paper-title
-10\. The causal effect of monthly pass programs on public transportation and carbon emissions
+9\. The causal effect of monthly pass programs on public transportation and carbon emissions
 :::
 
 ::: paper-meta
-***Transportation Research Part D: Transport and Environment***, 146, 104903, 2025 (with Kim, Chang, and Liou). †\^⁺
+***Transportation Research Part D: Transport and Environment***, 146, 104903, 2025 (with Kim, Chang, and Liou). †\^⁺‡
 :::
 
 ::: paper-links
@@ -241,11 +272,11 @@ Forest Policy Econ.
 :::
 
 ::: paper-title
-9\. Forest diversity and the distribution of farm revenue — Empirical evidence from forest farms in Taiwan
+8\. Forest diversity and the distribution of farm revenue — Empirical evidence from forest farms in Taiwan
 :::
 
 ::: paper-meta
-***Forest Policy and Economics***, 171, 103411, 2025 (with Lee and Chang). ⁺
+***Forest Policy and Economics***, 171, 103411, 2025 (with Lee and Chang). ⁺‡
 :::
 
 ::: paper-links
@@ -276,11 +307,11 @@ J. Transp. Geogr.
 :::
 
 ::: paper-title
-8\. Does COVID-19 affect metro use in Taipei?
+7\. Does COVID-19 affect metro use in Taipei?
 :::
 
 ::: paper-meta
-***Journal of Transport Geography***, 91, 102954, 2021 (with Chang, Lee, and Yang). †\^⁺
+***Journal of Transport Geography***, 91, 102954, 2021 (with Chang, Lee, and Yang). †\^⁺‡
 :::
 
 ::: paper-links
@@ -302,11 +333,12 @@ J. Transp. Geogr.
 :::::::
 
 ::: paper-note
-*附註*：† 科技部區域研究與地理學門推薦期刊；\* 科技部經濟學門推薦期刊。\^ 科技部管理二學門推薦期刊。⁺ 期刊影響因子位於該領域前 10%。
+*附註*：† 科技部區域研究與地理學門推薦期刊；\* 科技部經濟學門推薦期刊。\^ 科技部管理二學門推薦期刊。⁺ 期刊影響因子位於該領域前 10%。‡ 國立臺灣大學傑出期刊；§ 國立臺灣大學優良期刊。
 :::
 
 ```{=html}
 <div class="journal-covers">
+<a class="cover-item" href="https://www.journals.uchicago.edu/journal/jaere" target="_blank" rel="noopener" title="Journal of the Association of Environmental and Resource Economists"><img src="https://www.journals.uchicago.edu/cms/asset/5a38d4f1-b01f-4f38-830f-3718a574ab3d/default_cover.gif" alt="Journal of the Association of Environmental and Resource Economists cover" loading="lazy"><span class="cover-name">JAERE</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener" title="Food Policy"><img src="https://ars.els-cdn.com/content/image/X03069192.jpg" alt="Food Policy cover" loading="lazy"><span class="cover-name">Food Policy</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice" target="_blank" rel="noopener" title="Transportation Research Part A"><img src="https://ars.els-cdn.com/content/image/X09658564.jpg" alt="Transportation Research Part A cover" loading="lazy"><span class="cover-name">Transportation Research Part A</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment" target="_blank" rel="noopener" title="Transportation Research Part D"><img src="https://ars.els-cdn.com/content/image/X13619209.jpg" alt="Transportation Research Part D cover" loading="lazy"><span class="cover-name">Transportation Research Part D</span></a>
@@ -316,37 +348,6 @@ J. Transp. Geogr.
 ```
 
 ## **其他著作**
-
-::::::: paper-entry
-::: paper-tag
-JAERE
-:::
-
-::: paper-title
-7\. Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day
-:::
-
-::: paper-meta
-***Journal of the Association of Environmental and Resource Economists***, 2026 (with Chang and Meyerhoefer, Conditionally Accepted).
-
-[Earlier version available on [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4984614); presented at the 99th WEAI Annual Conference (2024) and the 11th IAAE Annual Conference.]{.paper-earlier}
-:::
-
-::: paper-links
-[摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
-:::
-
-```{=html}
-<div class="abstract-box"><p>Policymakers are under pressure to limit pollution emissions from large-scale religious observances, putting them in conflict with individuals seeking to practice religious rituals. Using the Hakka Tomb-Sweeping Day in Taiwan as an illustration, we show that better information on pollution sources and targeted measures of exposure yield more accurate estimates of the true pollution costs of religious practices. We find that religious activities lower overall air quality by 17.5% during the Tomb-Sweeping Day weekend and increase levels of specific pollutants by 13.6%–25.7%. In contrast to previous studies suggesting elevated pollution is due to the burning of incense, joss paper and fireworks, we identify greater motor vehicle use and lower travel speed as primary mechanisms. Policies designed to limit the surge in motor vehicle traffic during the holiday could reduce excess health-related costs by NT$33.1 million, equaling 34% of total inpatient and outpatient health care expenditures.</p></div>
-<div class="bibtex-box"><pre><code>@article{chang2026airpollution,
-  title   = {Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day},
-  author  = {Chang, Hung-Hao and Liou, Yu-You and Meyerhoefer, Chad D.},
-  journal = {Journal of the Association of Environmental and Resource Economists},
-  year    = {2026},
-  note    = {Conditionally Accepted},
-}</code></pre></div>
-```
-:::::::
 
 ::::::: paper-entry
 ::: paper-tag
