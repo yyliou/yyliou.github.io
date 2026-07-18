@@ -31,7 +31,7 @@ Across these areas, my research asks how policy should account for external cost
 <div class="bib-stats">
   <div class="bib-stat">
     <div class="bib-label">Publications</div>
-    <div class="bib-number" data-target="15">0</div>
+    <div class="bib-number" data-target="13">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">Cites</div>
@@ -124,37 +124,6 @@ My research has primarily been published in international journals within the fi
 ![A network of the research topics spanning my publications.](map.png){fig-alt="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19"}
 
 ## **Selected Publications**
-
-::::::: paper-entry
-::: paper-tag
-JAERE
-:::
-
-::: paper-title
-12\. Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day
-:::
-
-::: paper-meta
-***Journal of the Association of Environmental and Resource Economists***, 2026 (with Chang and Meyerhoefer, Conditionally Accepted). §
-
-[Earlier version available on [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4984614); presented at the 99th WEAI Annual Conference (2024) and the 11th IAAE Annual Conference.]{.paper-earlier}
-:::
-
-::: paper-links
-[Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
-:::
-
-```{=html}
-<div class="abstract-box"><p>Policymakers are under pressure to limit pollution emissions from large-scale religious observances, putting them in conflict with individuals seeking to practice religious rituals. Using the Hakka Tomb-Sweeping Day in Taiwan as an illustration, we show that better information on pollution sources and targeted measures of exposure yield more accurate estimates of the true pollution costs of religious practices. We find that religious activities lower overall air quality by 17.5% during the Tomb-Sweeping Day weekend and increase levels of specific pollutants by 13.6%–25.7%. In contrast to previous studies suggesting elevated pollution is due to the burning of incense, joss paper and fireworks, we identify greater motor vehicle use and lower travel speed as primary mechanisms. Policies designed to limit the surge in motor vehicle traffic during the holiday could reduce excess health-related costs by NT$33.1 million, equaling 34% of total inpatient and outpatient health care expenditures.</p></div>
-<div class="bibtex-box"><pre><code>@article{chang2026airpollution,
-  title   = {Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day},
-  author  = {Chang, Hung-Hao and Liou, Yu-You and Meyerhoefer, Chad D.},
-  journal = {Journal of the Association of Environmental and Resource Economists},
-  year    = {2026},
-  note    = {Conditionally Accepted},
-}</code></pre></div>
-```
-:::::::
 
 ::::::: paper-entry
 ::: paper-tag
@@ -339,7 +308,6 @@ J. Transp. Geogr.
 
 ```{=html}
 <div class="journal-covers">
-<a class="cover-item" href="https://www.journals.uchicago.edu/journal/jaere" target="_blank" rel="noopener" title="Journal of the Association of Environmental and Resource Economists"><img src="jaere-cover.jpg" alt="Journal of the Association of Environmental and Resource Economists cover" loading="lazy"><span class="cover-name">JAERE</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener" title="Food Policy"><img src="https://ars.els-cdn.com/content/image/X03069192.jpg" alt="Food Policy cover" loading="lazy"><span class="cover-name">Food Policy</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice" target="_blank" rel="noopener" title="Transportation Research Part A"><img src="https://ars.els-cdn.com/content/image/X09658564.jpg" alt="Transportation Research Part A cover" loading="lazy"><span class="cover-name">Transportation Research Part A</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment" target="_blank" rel="noopener" title="Transportation Research Part D"><img src="https://ars.els-cdn.com/content/image/X13619209.jpg" alt="Transportation Research Part D cover" loading="lazy"><span class="cover-name">Transportation Research Part D</span></a>
@@ -565,6 +533,7 @@ Qual. & Quant.
 
 ### **Revision & Resubmission**
 
+- Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).
 - Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).
 - The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).
 - Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).
