@@ -1630,3 +1630,17 @@ body:has(.landing) .site-footer {
 [data-theme="dark"] .site-footer-legal a:hover {
     color: #b8d0e4;
 }
+
+/* ---- Light/dark variants of the research network figure ---- */
+
+.fig-dark {
+    display: none;
+}
+
+[data-theme="dark"] .fig-dark {
+    display: block;
+}
+
+[data-theme="dark"] .fig-light {
+    display: none;
+}
