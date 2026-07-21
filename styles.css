@@ -2,21 +2,21 @@
 
 @font-face {
   font-family: 'MyFont';
-  src: url('fonts/GenWanMin2TW-R-sub.woff2?v=20260712') format('woff2');
+  src: url('fonts/GenWanMin2TW-R-sub.woff2?v=20260721') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MyFont';
-  src: url('fonts/GenWanMin2TW-M-sub.woff2?v=20260712') format('woff2');
+  src: url('fonts/GenWanMin2TW-M-sub.woff2?v=20260721') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MyFont';
-  src: url('fonts/GenWanMin2TW-SB-sub.woff2?v=20260712') format('woff2');
+  src: url('fonts/GenWanMin2TW-SB-sub.woff2?v=20260721') format('woff2');
   font-weight: 600;
   font-style: normal;
 }
@@ -29,7 +29,7 @@ html[data-fontsize="medium"] { font-size: 16px; }
 html[data-fontsize="large"]  { font-size: 19px; }
 
 body {
-    font-family: 'MyFont', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, 'Songti TC', 'PMingLiU', 'Noto Serif TC', serif;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.8;
@@ -49,7 +49,7 @@ body {
 
 
 h1, h2, h3, h4 {
-    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, 'Songti TC', 'PMingLiU', 'Noto Serif TC', serif;
     color: #1a2a3a;
     line-height: 1.3;
     margin-top: 1.5em;
@@ -70,7 +70,7 @@ h3, h4 {
 
 /* navbar / site title */
 .navbar-brand, .navbar-title, .navbar .nav-link {
-    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, 'Songti TC', 'PMingLiU', 'Noto Serif TC', serif;
     font-weight: 600;
 }
 
@@ -186,13 +186,31 @@ pre {
 }
 
 
-.quarto-about-trestles {
-  grid-template-columns: 42% 58% !important;
-  gap: 5em !important;
+/* Two-column about (≥992px = Quarto's trestles breakpoint):
+   Quarto default column split (42%), original 5em gap */
+@media (min-width: 992px) {
+  div.quarto-about-trestles {
+    gap: 5em !important;
+  }
 }
 
-/* Desktop: left column (photo + description) floats while scrolling */
-@media (min-width: 768px) {
+/* Stacked layout (<992px): modest gap between photo block and text */
+@media (max-width: 991.98px) {
+  div.quarto-about-trestles {
+    gap: 1.25em !important;
+  }
+}
+
+/* photo shrinks with its column (inline style sets width: 20em) */
+div.quarto-about-trestles .about-entity .about-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Desktop only: left column (photo + description) floats while scrolling.
+   Must NOT apply below 992px — there the layout stacks and sticky would
+   overlap the text (e.g. iPad portrait). */
+@media (min-width: 992px) {
   .quarto-about-trestles .about-entity {
     position: sticky;
     top: 2rem;
@@ -230,7 +248,7 @@ pre {
 /* 劉昱佑 subtitle — h1 size */
 .quarto-about-trestles .about-entity .subtitle,
 .quarto-about-trestles p.subtitle {
-  font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, 'Songti TC', 'PMingLiU', 'Noto Serif TC', serif;
   font-weight: 600;
   font-size: 2rem;
   color: #1a2a3a;
@@ -291,7 +309,7 @@ pre {
 }
 
 .landing-en {
-    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, 'Songti TC', 'PMingLiU', 'Noto Serif TC', serif;
     font-weight: 600;
     font-size: clamp(2rem, 5vw, 4.5rem);
     color: #1a2a3a;
@@ -323,7 +341,7 @@ pre {
 }
 
 .landing-zh {
-    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, 'Songti TC', 'PMingLiU', 'Noto Serif TC', serif;
     font-weight: 600;
     font-size: clamp(1.4rem, 3.5vw, 3rem);
     color: #4a5568;
@@ -344,7 +362,7 @@ pre {
     background: none;
     border: 1px solid #c8c2ba;
     border-radius: 3px;
-    font-family: 'MyFont', 'Palatino Linotype', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', Georgia, 'Songti TC', 'PMingLiU', 'Noto Serif TC', serif;
     font-size: 0.75rem;
     letter-spacing: 0.06em;
     color: #888;
@@ -428,7 +446,7 @@ pre {
 }
 
 .landing-nav a {
-    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, 'Songti TC', 'PMingLiU', 'Noto Serif TC', serif;
     font-weight: 600;
     font-size: 0.82rem;
     letter-spacing: 0.08em;
@@ -1454,7 +1472,7 @@ pre {
     margin-top: 4em;
     border-top: 1px solid #e0dbd4;
     background-color: #fcfbf9;
-    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+    font-family: 'MyFont', 'Palatino Linotype', 'Book Antiqua', Georgia, 'Songti TC', 'PMingLiU', 'Noto Serif TC', serif;
 }
 
 /* Landing page has its own footer — never show this one there */

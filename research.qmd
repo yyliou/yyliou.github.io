@@ -547,7 +547,6 @@ Qual. & Quant.
 
 ### **Under Review**
 
-- Air Quality vs. Fiscal Compensation: Evidence from Coal Reduction and Housing Markets (with Chang and Zilberman).
 - Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Chang).
 
 ### **Submitted**
@@ -559,6 +558,7 @@ Qual. & Quant.
 ### **Pending**
 
 - Does Metro Expansion Always Reduce Traffic Accidents? (with Chang).
+- Air Quality vs. Fiscal Compensation: Evidence from Coal Reduction and Housing Markets (with Chang and Zilberman).
 
 ## **Co-Authors**
 
