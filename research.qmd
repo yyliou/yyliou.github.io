@@ -2,11 +2,13 @@
 title: "Research"
 ---
 
-My research examines how public policy shapes environmental quality, health, and safety. I work mainly with administrative and census records covering whole populations, which allows me to estimate the effects of government intervention at scale. 
+My research focuses on environmental economics and policy evaluation. I study how policy-induced changes in incentives affect behavior and, in turn, shape environmental quality and social welfare.
 
-My work spans three connected areas of environmental and resource economics. The first studies farm household economics and environmental resource management, including the energy transition on farmland, agricultural input use, and the value of natural capital. The second examines environmental and health externalities in transportation, including carbon emissions, air pollution, and traffic safety. The third studies how firms and households adjust to major policy shifts and external shocks, from carbon border regulation to the COVID-19 pandemic. 
+Many environmental outcomes, including air pollution, traffic accidents, and natural resource use, involve externalities that markets fail to price. I use causal inference methods and large-scale administrative data to evaluate whether policies achieve their intended goals and generate unintended consequences.
 
-Across these areas I ask how policy should account for costs and benefits that markets fail to price. My aim is to produce evidence that improves policy design and helps governments allocate scarce public resources more efficiently and more equitably.
+My research covers two themes. The first examines agricultural and environmental sustainability, focusing on how policies influence farmers’ technology adoption, production decisions, and resource use. The second studies urban environmental and transportation policies, evaluating interventions such as mass transit expansion, fare subsidies, and road safety programs.
+
+Although these studies span rural and urban settings, they address a common question: how do policies reshape incentives and environmental outcomes. Through empirical analysis, I aim to provide evidence for more effective public policy design.
 
 ```{=html}
 <script>
