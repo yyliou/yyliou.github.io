@@ -131,28 +131,34 @@ document.addEventListener('DOMContentLoaded', function () {
 ::::::: paper-entry
 ::: paper-tag
 Food Policy
+
+```{=html}
+<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.foodpol.2026.103148" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="false"></a>
+```
 :::
 
 ::: paper-title
-11\. Food Traceability Systems and the Probability of Using Chemical Fertilizers and Pesticides: Empirical Evidence Using Plot- and Farm Household-Level Data
+11\. Food traceability systems and the probability of using chemical fertilizers and pesticides − empirical evidence using plot and farm household data from agriculture census
 :::
 
 ::: paper-meta
-***Food Policy***, forthcoming, 2026 (with Chang). ⁺‡
+***Food Policy***, 143, 103148, 2026 (with Chang). ⁺‡
 :::
 
 ::: paper-links
-[摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[期刊全文](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
 <div class="abstract-box"><p>In response to rising consumer demand for food safety, many countries have implemented food traceability systems (FTS) to enhance transparency and accountability along agricultural supply chains. While existing research has largely focused on demand side aspects, evidence on supply side responses remains limited. This study addresses this gap by examining the effects of FTS adoption on farm production practices, specifically the probability of using chemical fertilizers, pesticides, and groundwater, as well as farm revenue and marketing channel selection. We use microdata from Taiwan's 2020 agriculture census, which provides both plot-level and farm household-level information covering all registered crop farms. Motivated by a farm profit maximization model, we employ an instrumental variable (IV) approach to identify the local average treatment effect of FTS adoption. At the plot level, FTS adoption reduces the probability of using chemical fertilizer, pesticide, and groundwater by 8.2, 15.4, and 40 percentage points, respectively. At the household level, FTS adoption increases farm revenues and expands sales through direct-to-consumer and distributor channels. These findings suggest that while FTS is primarily designed to ensure food safety and market transparency, its adoption may generate unintended environmental co-benefits through reducing the likelihood of using environmentally sensitive inputs in farm production.</p></div>
 <div class="bibtex-box"><pre><code>@article{chang2026traceability,
-  title   = {Food Traceability Systems and the Probability of Using Chemical Fertilizers and Pesticides: Empirical Evidence Using Plot- and Farm Household-Level Data},
+  title   = {Food traceability systems and the probability of using chemical fertilizers and pesticides − empirical evidence using plot and farm household data from agriculture census},
   author  = {Chang, Hung-Hao and Liou, Yu-You},
   journal = {Food Policy},
-  note    = {Forthcoming},
+  volume  = {143},
+  pages   = {103148},
   year    = {2026},
+  doi     = {10.1016/j.foodpol.2026.103148},
 }</code></pre></div>
 ```
 :::::::
