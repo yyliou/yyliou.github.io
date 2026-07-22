@@ -146,7 +146,7 @@ Food Policy
 :::
 
 ::: paper-links
-[期刊全文](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[期刊全文](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -183,7 +183,7 @@ Transp. Res. A
 :::
 
 ::: paper-links
-[期刊全文](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [媒體報導]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[期刊全文](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [媒體報導]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -224,7 +224,7 @@ Transp. Res. D
 :::
 
 ::: paper-links
-[期刊全文](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[期刊全文](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -416,7 +416,7 @@ Agribusiness
 :::
 
 ::: paper-links
-[期刊全文](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[期刊全文](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -450,7 +450,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-links
-[期刊全文](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[期刊全文](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}

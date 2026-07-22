@@ -149,7 +149,7 @@ Food Policy
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -186,7 +186,7 @@ Transp. Res. A
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Media]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Media]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -227,7 +227,7 @@ Transp. Res. D
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[Journal](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -419,7 +419,7 @@ Agribusiness
 :::
 
 ::: paper-links
-[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -453,7 +453,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-links
-[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
