@@ -543,26 +543,42 @@ Qual. & Quant.
 
 ### **Revision & Resubmission**
 
-- Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).
-- Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).
-- The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).
-- Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).
-- Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Chang).
+```{=html}
+<ol reversed start="11" class="wip-list">
+<li>Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).</li>
+<li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).</li>
+<li>The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).</li>
+<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).</li>
+<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Chang).</li>
+</ol>
+```
 
 ### **Under Review**
 
-- Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Chang).
+```{=html}
+<ol reversed start="6" class="wip-list">
+<li>Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Chang).</li>
+</ol>
+```
 
 ### **Submitted**
 
-- From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Chang).
-- Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Chang and Sun).
-- Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).
+```{=html}
+<ol reversed start="5" class="wip-list">
+<li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Chang).</li>
+<li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Chang and Sun).</li>
+<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).</li>
+</ol>
+```
 
 ### **Pending**
 
-- Does Metro Expansion Always Reduce Traffic Accidents? (with Chang).
-- Air Quality vs. Fiscal Compensation: Evidence from Coal Reduction and Housing Markets (with Chang and Zilberman).
+```{=html}
+<ol reversed start="2" class="wip-list">
+<li>Does Metro Expansion Always Reduce Traffic Accidents? (with Chang).</li>
+<li>Air Quality vs. Fiscal Compensation: Evidence from Coal Reduction and Housing Markets (with Chang and Zilberman).</li>
+</ol>
+```
 
 ## **Co-Authors**
 

@@ -133,6 +133,10 @@ li {
     margin-bottom: 0.3em;
 }
 
+ol.wip-list {
+    padding-left: 2.6em;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
