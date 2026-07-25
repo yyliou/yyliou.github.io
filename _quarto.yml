@@ -9,7 +9,7 @@ website:
   open-graph: true
   twitter-card: true
   image: pic.png
-  description: "Yu-You Liou (劉昱佑) — PhD Fellow at National Taiwan University and Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics."
+  description: "Yu-You Liou (劉昱佑) — Ph.D. Student at National Taiwan University and Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics."
   navbar:
     title: "Liou"
     left:

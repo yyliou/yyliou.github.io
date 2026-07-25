@@ -39,10 +39,6 @@ Although these studies span rural and urban settings, they address a common ques
     <div class="bib-label">Cites</div>
     <div class="bib-number" data-target="88">0</div>
   </div>
-  <div class="bib-stat">
-    <div class="bib-label">H Index</div>
-    <div class="bib-number" data-target="2">0</div>
-  </div>
 </div>
 
 <script>

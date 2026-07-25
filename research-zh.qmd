@@ -42,10 +42,6 @@ lang: zh-TW
     <div class="bib-label">被引次數</div>
     <div class="bib-number" data-target="88">0</div>
   </div>
-  <div class="bib-stat">
-    <div class="bib-label">H 指數</div>
-    <div class="bib-number" data-target="2">0</div>
-  </div>
 </div>
 
 <script>

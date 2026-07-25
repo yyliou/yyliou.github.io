@@ -18,6 +18,7 @@ lang: zh-TW
     <div class="bib-number" data-target="4.6" data-decimals="1">0.0</div>
   </div>
 </div>
+<div class="bib-stats-note"><em>附註</em>：教學評量為所有授課課程之平均，滿分為 5 分。</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {

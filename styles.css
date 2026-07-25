@@ -494,6 +494,13 @@ div.quarto-about-trestles .about-entity .about-image {
     line-height: 1;
 }
 
+.bib-stats-note {
+    font-size: 0.82rem;
+    color: #666;
+    line-height: 1.5;
+    margin: -1.7em 0 2.2em 0;
+}
+
 /* Citations-per-year bar chart */
 .cite-chart {
     margin: -0.6em 0 2.4em 0;
@@ -1276,6 +1283,10 @@ div.quarto-about-trestles .about-entity .about-image {
 
 [data-theme="dark"] .bib-number {
     color: #dde3ec;
+}
+
+[data-theme="dark"] .bib-stats-note {
+    color: #8a95a8;
 }
 
 [data-theme="dark"] .cite-chart-title,

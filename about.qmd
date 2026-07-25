@@ -2,7 +2,7 @@
 title: "Yu-You Liou"
 pagetitle: "Yu-You Liou 劉昱佑"
 subtitle: ""
-description: "**MStat, MS, BA, BS** \n\n I am a PhD Fellow at NTU and a lecturer at USC, where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics."
+description: "**MStat, MS, BA, BS** \n\n I am a Ph.D. student at National Taiwan University and a lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics."
 about:
     template: trestles
     image: pic.png
@@ -11,7 +11,7 @@ about:
 
 ## **Education**
 
-- **PhD Fellow** in Agricultural Economics, National Taiwan University (2022–)
+- **Ph.D. Student** in Agricultural Economics, National Taiwan University (2022–)
 - **MS** in Statistics, National Taiwan University (2020–2021)
 - **MS** in Agricultural Economics, National Taiwan University (2019–2021)
 - **BA** in Political Science, National Taiwan University (2016–2019)
@@ -19,14 +19,14 @@ about:
 
 ## **Position**
 
-- **Lecturer**, English Taught Program in International Business, Shih Chien University (2023–)
+- **Lecturer**, English Taught Program in International Business, Shih Chien University (2024–)
 - **Research & Teaching Assistant**, Department of Agricultural Economics, National Taiwan University (2019–)
 
 ## **Awards & Grants**
 
 - NSTC Graduate Research Fellowship, National Science and Technology Council, 2022–2026.
 - Teaching Grant, Shih Chien University, 2025.
-- Research Grant, CMC Magnetics Co., Ltd. (2323), 2025
+- Outstanding Student Research Award, CMC Magnetics Corporation, 2025.
 
 ## **Acknowledgement**
 

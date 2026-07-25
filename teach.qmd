@@ -17,6 +17,7 @@ title: "Teaching"
     <div class="bib-number" data-target="4.6" data-decimals="1">0.0</div>
   </div>
 </div>
+<div class="bib-stats-note"><em>Note</em>: Evaluation is the average across all courses taught, on a 5-point scale.</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
