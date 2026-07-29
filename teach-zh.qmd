@@ -18,7 +18,7 @@ lang: zh-TW
     <div class="bib-number" data-target="4.6" data-decimals="1">0.0</div>
   </div>
 </div>
-<div class="bib-stats-note"><em>附註</em>：教學評量為所有授課課程之平均，滿分為 5 分。</div>
+<div class="bib-stats-note"><em>附註</em>：教學評量為所有授課課程之平均，滿分為 5 分，四捨五入至小數點後一位。</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## 實踐大學
 
-**國際企業英語學位學程**
+**國際企業英語學士學位學程**
 
 :::::: paper-entry
 ::: hex-col
@@ -121,13 +121,13 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-112學年下學期、115學年上學期（張宏浩教授）
+112學年下學期、115學年上學期（張宏浩特聘教授）
 :::
 ::::::
 
 :::::: paper-entry
 ::: paper-title
-**農業法規**
+**農業法規甲**
 :::
 
 ::: paper-meta
@@ -141,6 +141,6 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-108學年下學期（張宏浩教授）
+108學年下學期（張宏浩特聘教授）
 :::
 ::::::

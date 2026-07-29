@@ -18,9 +18,9 @@ page-layout: custom
 
   <div class="landing-footer">
     <p class="landing-tagline"
-       data-en="Agricultural &amp; Environmental Economics &nbsp;·&nbsp; Urban &amp; Transportation Economics"
+       data-en="Agricultural, Environmental &amp; Ecological Economics &nbsp;·&nbsp; Urban, Regional &amp; Transportation Economics"
        data-zh="農業、環境與生態經濟學 &nbsp;·&nbsp; 都市、區域與交通經濟學">
-      Agricultural &amp; Environmental Economics &nbsp;·&nbsp; Urban &amp; Transportation Economics
+      Agricultural, Environmental &amp; Ecological Economics &nbsp;·&nbsp; Urban, Regional &amp; Transportation Economics
     </p>
     <nav class="landing-nav">
       <a href="about.html"

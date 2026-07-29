@@ -174,7 +174,7 @@ Transp. Res. A
 :::
 
 ::: paper-title
-10\. The causal effects of removing hook-turn regulation on road safety
+10\. The causal effects of removing Hook-Turn regulation on road safety
 :::
 
 ::: paper-meta
@@ -190,7 +190,7 @@ Transp. Res. A
 ```{=html}
 <div class="abstract-box"><p>Traffic safety and related policy interventions have garnered increasing attention from both scholars and policymakers. While prior research has primarily focused on the role of infrastructure improvements in mitigating traffic accident risks, relatively little attention has been given to the impact of hook-turn (HT) traffic regulations. HT is a specialized traffic regulation implemented at intersections, requiring vehicles to proceed to the far side of the cross street and wait for the green light in the intersecting direction before completing their turn. This regulation has been adopted in countries or regions such as Japan, Australia, and Taiwan. This paper empirically examines the causal effects of HT regulation on traffic accidents by exploiting a policy reform in Tainan City, Taiwan, where HT was removed in some townships. Using this policy change as a quasi-natural experiment, we apply a difference-in-discontinuity design to estimate its impact on traffic accident outcomes, including the number of accidents, the number of victims, and the number of vehicles involved. Our findings indicate that the policy reform led to a 21% reduction in accident cases and a 19% decrease in the number of victims. The reduction is primarily driven by injury-related rather than fatal incidents. Additionally, the total number of vehicles involved in accidents declined by 28%, with larger reductions observed for motorcycles (–26%) than for automobiles (–18%). A back-of-the-envelope calculation suggests that the policy resulted in a 4.7% decrease in total medical expenditures among residents in the treated areas during the study period.</p></div>
 <div class="bibtex-box"><pre><code>@article{liou2026hookturn,
-  title   = {The causal effects of removing hook-turn regulation on road safety},
+  title   = {The causal effects of removing Hook-Turn regulation on road safety},
   author  = {Liou, Yu-You and Chang, Hung-Hao},
   journal = {Transportation Research Part A: Policy and Practice},
   volume  = {205},
@@ -252,7 +252,7 @@ Forest Policy Econ.
 :::
 
 ::: paper-title
-8\. Forest diversity and the distribution of farm revenue — Empirical evidence from forest farms in Taiwan
+8\. Forest diversity and the distribution of farm revenue - Empirical evidence from forest farms in Taiwan
 :::
 
 ::: paper-meta
@@ -266,7 +266,7 @@ Forest Policy Econ.
 ```{=html}
 <div class="abstract-box"><p>Forest diversity is important for the increase in biodiversity since higher levels of multiple ecosystem services are found in forests with a greater variety of tree species. Although a sizable body of literature has focused on the biodiversity of forest farms, little is known about the relationship between forest diversity and the economic performance of forest farms. This paper contributes to this research topic by investigating the relationship between forest diversity and forest revenue using a population-based dataset of all registered forest farms in Taiwan. In contrast to previous studies, we pay attention not only to the mean returns but also the variability in forest farm revenue. We apply the instrumental variable method with the average elevation of a farm's township as the instrument to correct for endogeneity bias. We find that forest diversity reduces the mean level and the associated dispersion of farm revenue. Moreover, the magnitude of the effect is more pronounced for the latter. By further looking at labor use on the forest farm, we find that farms that plant a greater variety of tree species require more male labor.</p></div>
 <div class="bibtex-box"><pre><code>@article{lee2025forest,
-  title   = {Forest diversity and the distribution of farm revenue---Empirical evidence from forest farms in Taiwan},
+  title   = {Forest diversity and the distribution of farm revenue - Empirical evidence from forest farms in Taiwan},
   author  = {Lee, Tzong-Haw and Liou, Yu-You and Chang, Hung-Hao},
   journal = {Forest Policy and Economics},
   volume  = {171},
@@ -313,7 +313,7 @@ J. Transp. Geogr.
 :::::::
 
 ::: paper-note
-*Note*: † Journals recommended by the NSTC, Division of Regional Studies and Geography; \* Journals recommended by the NSTC, Division of Economics. \^ Journals recommended by the NSTC, Division of Management II. ⁺ Journals ranked in the top 10% of their field based on the Journal Impact Factor. ‡ National Taiwan University distinguished journals; § National Taiwan University outstanding journals.
+*Note*: † NSTC-recommended journals (Regional Studies & Geography); \* NSTC Economics B+ journals; \^ NSTC-recommended journals (Management II); ⁺ journals ranked in the top 10% of their field by Journal Impact Factor; ‡ National Taiwan University distinguished journals; § National Taiwan University outstanding journals.
 :::
 
 ```{=html}
@@ -334,7 +334,7 @@ J. Tour. Manag. Res.
 :::
 
 ::: paper-title
-6\. Hotel recovery strategies in the post-COVID-19 era: evidence on revenue, employment, and labor market rigidity from Taiwan
+6\. Hotel recovery strategies in the post-COVID-19 era: Evidence on revenue, employment, and labor market rigidity from Taiwan
 :::
 
 ::: paper-meta
