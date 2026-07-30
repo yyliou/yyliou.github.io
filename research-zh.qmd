@@ -544,10 +544,10 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="11" class="wip-list">
-<li>Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).</li>
-<li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).</li>
+<li>Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).<span class="paper-earlier">Earlier version presented at the 20th EAEA International Convention (2025), the 99th Annual Conference of WEAI (2024), and the 11th Annual Conference of the IAAE (2024).</span></li>
+<li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).<span class="paper-earlier">Earlier version presented at the 17th CAER-IFPRI Annual Conference (2025).</span></li>
 <li>The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).</li>
-<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).</li>
+<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).<span class="paper-earlier">Earlier version presented at the 12th ASAE International Conference (2026).</span></li>
 <li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Chang).</li>
 </ol>
 ```
@@ -556,7 +556,7 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="6" class="wip-list">
-<li>Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Chang).</li>
+<li>Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Chang).<span class="paper-earlier">Earlier version presented at the 21st EAEA International Convention (2026).</span></li>
 </ol>
 ```
 
@@ -566,7 +566,7 @@ Qual. & Quant.
 <ol reversed start="5" class="wip-list">
 <li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Chang).</li>
 <li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Chang and Sun).</li>
-<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).</li>
+<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).<span class="paper-earlier">Earlier version presented at the AAEA Annual Meeting (2026).</span></li>
 </ol>
 ```
 
@@ -574,8 +574,8 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="2" class="wip-list">
-<li>Does Metro Expansion Always Reduce Traffic Accidents? (with Chang).</li>
-<li>Cleaner Air, Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Chang and Zilberman).</li>
+<li>Does Metro Expansion Always Reduce Traffic Accidents? (with Chang).<span class="paper-earlier">Earlier version presented at the 21st EAEA International Convention (2026).</span></li>
+<li>Cleaner Air, Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Chang and Zilberman).<span class="paper-earlier">Earlier version presented at the 7th World Congress of Environmental and Resource Economists (2026).</span></li>
 </ol>
 ```
 
@@ -805,14 +805,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ```{=html}
 <ol class="conf-list" reversed>
-<li>Chang, H.-H., <strong>Y.-Y. Liou</strong>, and K. Wu. 2026. "Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations." 12th ASAE International Conference, Jakarta.</li>
-<li>Chang, H.-H. and <strong>Y.-Y. Liou</strong>. 2026. "Does Metro Expansion Always Reduce Traffic Accidents?" 21st International Convention of the East Asian Economic Association (EAEA), Siem Reap.</li>
-<li>Chang, H.-H. and <strong>Y.-Y. Liou</strong>. 2026. "Green Gentrification beyond the City: Evidence from a Suburban Asian Context." 21st International Convention of the East Asian Economic Association (EAEA), Siem Reap.</li>
-<li>Chang, H.-H. and <strong>Y.-Y. Liou</strong>. 2026. "The Effects of Farmers' Pension Reform on Intra-household Family Farm Succession." AAEA Annual Meeting (2026), Kansas City.</li>
-<li>Chang, H.-H., <strong>Y.-Y. Liou</strong>, and D. Zilberman. 2026. "Cleaner Air, Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy." 7th World Congress of Environmental and Resource Economists, Carcavelos.</li>
-<li>Chang, H.-H. and <strong>Y.-Y. Liou</strong>. 2025. "The Development of Aquavoltaics Policy and Farmland Price." 17th CAER-IFPRI Annual Conference, Beijing.</li>
 <li><strong>劉昱佑</strong>、李成蔭（2024）。「從眾或課責？運用臺灣選舉調查資料探討 2018 年與 2022 年地方大選結果對於總統滿意度的影響」。第十六屆國會國際學術研討會，臺北。</li>
-<li>Chang, H.-H., <strong>Y.-Y. Liou</strong>, and C. D. Meyerhoefer. 2024. "Air Pollution During Religious Holidays: Evidence from Tomb-Sweeping Day." 99th WEAI Annual Conference, Seattle; 11th IAAE Annual Conference.</li>
 <li><strong>Liou, Y.-Y.</strong> and H.-H. Chang. 2023. "The Long-term Effects of Early-life Malaria Exposure on Farm Households' Resource Allocation." International Conference on Agricultural and Environmental Economics (2023), Taipei.</li>
 <li><strong>Liou, Y.-Y.</strong> 2023. "Adaptation Behavior of Public Mobility under Climate Change: Empirical Evidence on Taipei Metro." International Conference on Business and Management for Graduate Students (2023), Taipei.</li>
 <li><strong>劉昱佑</strong>（2023）。「選舉投票行為的時、空路徑依賴：2022 年臺北市長選舉的實證分析」。第十五屆國會國際學術研討會，臺北。</li>
