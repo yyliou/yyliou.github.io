@@ -545,7 +545,7 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="11" class="wip-list">
-<li>Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day (with Chang and Meyerhoefer).<span class="paper-earlier">Earlier version presented at the 20th EAEA International Convention (2025), the 99th Annual Conference of WEAI (2024), and the 11th Annual Conference of the IAAE (2024).</span></li>
+<li><a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a> (with Chang and Meyerhoefer).<span class="paper-earlier">SSRN Working Paper No. 4984614. Earlier version presented at the 20th EAEA International Convention (2025), the 99th Annual Conference of WEAI (2024), and the 11th Annual Conference of the IAAE (2024).</span></li>
 <li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).<span class="paper-earlier">Earlier version presented at the 17th CAER-IFPRI Annual Conference (2025).</span></li>
 <li>The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).</li>
 <li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).<span class="paper-earlier">Earlier version presented at the 12th ASAE International Conference (2026).</span></li>
@@ -802,7 +802,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </ol>
 ```
 
-## **Conference Papers**
+## **Other Conference Papers**
 
 ```{=html}
 <ol class="conf-list" reversed>
