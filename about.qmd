@@ -2,7 +2,7 @@
 title: "Yu-You Liou"
 pagetitle: "Yu-You Liou 劉昱佑"
 subtitle: ""
-description: "**MStat, MS, BA, BS** \n\n I am a Ph.D. student at National Taiwan University and a lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics."
+description: "**MStat, MS, BA, BS** \n\n I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics."
 about:
     template: trestles
     image: pic.png
@@ -20,7 +20,7 @@ about:
 ## **Employment**
 
 - **Research & Teaching Assistant**, Department of Agricultural Economics, National Taiwan University (2019–)
-- **Lecturer**, English Taught Program in International Business, Shih Chien University (2024–)
+- **Adjunct Lecturer**, English Taught Program in International Business, Shih Chien University (2024–)
 - **Research Assistant**, Ecological Engineering Center, National Taiwan University (2021–2022)
 
 ## **Awards & Grants**
