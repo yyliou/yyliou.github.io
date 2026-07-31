@@ -33,7 +33,7 @@ Although these studies span rural and urban settings, they address a common ques
 <div class="bib-stats">
   <div class="bib-stat">
     <div class="bib-label">Publications</div>
-    <div class="bib-number" data-target="13">0</div>
+    <div class="bib-number" data-target="14">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">Cites</div>
@@ -128,6 +128,36 @@ My research has primarily been published in international journals within the fi
 :::
 
 ## **Selected Publications**
+
+::::::: paper-entry
+::: paper-tag
+JAERE
+:::
+
+::: paper-title
+12\. Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day
+:::
+
+::: paper-meta
+***Journal of the Association of Environmental and Resource Economists***, forthcoming (with Chang and Meyerhoefer). §
+
+[Earlier version presented at the 20th EAEA International Convention (2025), the 99th Annual Conference of WEAI (2024), and the 11th Annual Conference of the IAAE (2024).]{.paper-earlier}
+:::
+
+::: paper-links
+[Journal](https://ssrn.com/abstract=4984614){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+:::
+
+```{=html}
+<div class="abstract-box"><p>Religious holidays are associated with changes to usual routines and special religious practices that can worsen air pollution. Using the Hakka Tomb Sweeping Day in Taiwan as an illustration, we find that religious activities lower overall air quality by 10.8% and increase levels of specific pollutants by 9.8% - 18.6%. In contrast to previous studies suggesting elevated air pollution is due to the burning of incense, joss paper and fireworks, we identify greater motor vehicle use and a decrease in travel speed as primary mechanisms. Changes in traffic also lead to a 16% increase in injuries from motor vehicle accidents. In Hakka areas serviced by rail lines we find no increase in air pollution or injuries during Tomb Sweeping Day, highlighting the benefits of public transportation to accommodate holiday travel.</p></div>
+<div class="bibtex-box"><pre><code>@article{chang2026air,
+  title   = {Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day},
+  author  = {Chang, Hung-Hao and Liou, Yu-You and Meyerhoefer, Chad D.},
+  journal = {Journal of the Association of Environmental and Resource Economists},
+  note    = {Forthcoming},
+}</code></pre></div>
+```
+:::::::
 
 ::::::: paper-entry
 ::: paper-tag
@@ -318,6 +348,7 @@ J. Transp. Geogr.
 
 ```{=html}
 <div class="journal-covers">
+<a class="cover-item" href="https://www.journals.uchicago.edu/journals/jaere" target="_blank" rel="noopener" title="Journal of the Association of Environmental and Resource Economists"><img src="jaere-cover.jpg" alt="Journal of the Association of Environmental and Resource Economists cover" loading="lazy"><span class="cover-name">Journal of the Association of Environmental and Resource Economists</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener" title="Food Policy"><img src="https://ars.els-cdn.com/content/image/X03069192.jpg" alt="Food Policy cover" loading="lazy"><span class="cover-name">Food Policy</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice" target="_blank" rel="noopener" title="Transportation Research Part A"><img src="https://ars.els-cdn.com/content/image/X09658564.jpg" alt="Transportation Research Part A cover" loading="lazy"><span class="cover-name">Transportation Research Part A</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment" target="_blank" rel="noopener" title="Transportation Research Part D"><img src="https://ars.els-cdn.com/content/image/X13619209.jpg" alt="Transportation Research Part D cover" loading="lazy"><span class="cover-name">Transportation Research Part D</span></a>
@@ -544,8 +575,7 @@ Qual. & Quant.
 ### **Revision & Resubmission**
 
 ```{=html}
-<ol reversed start="11" class="wip-list">
-<li><a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a> (with Chang and Meyerhoefer).<span class="paper-earlier">SSRN Working Paper No. 4984614. Earlier version presented at the 20th EAEA International Convention (2025), the 99th Annual Conference of WEAI (2024), and the 11th Annual Conference of the IAAE (2024).</span></li>
+<ol reversed start="10" class="wip-list">
 <li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).<span class="paper-earlier">Earlier version presented at the 17th CAER-IFPRI Annual Conference (2025).</span></li>
 <li>The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).</li>
 <li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).<span class="paper-earlier">Earlier version presented at the 12th ASAE International Conference (2026).</span></li>
