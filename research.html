@@ -252,17 +252,15 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Research – Yu-You Liou 劉昱佑">
 <meta property="og:description" content="Yu-You Liou (劉昱佑) — Ph.D. Student at National Taiwan University and Adjunct Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics.">
-<meta property="og:image" content="https://yyliou.github.io/map.png">
+<meta property="og:image" content="https://yyliou.github.io/pic.png">
 <meta property="og:site_name" content="Yu-You Liou 劉昱佑">
-<meta property="og:image:alt" content="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19">
-<meta property="og:image:height" content="1738">
-<meta property="og:image:width" content="2620">
+<meta property="og:image:height" content="728">
+<meta property="og:image:width" content="728">
 <meta name="twitter:title" content="Research – Yu-You Liou 劉昱佑">
 <meta name="twitter:description" content="Yu-You Liou (劉昱佑) — Ph.D. Student at National Taiwan University and Adjunct Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics.">
-<meta name="twitter:image" content="https://yyliou.github.io/map.png">
-<meta name="twitter:image:alt" content="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19">
-<meta name="twitter:image-height" content="1738">
-<meta name="twitter:image-width" content="2620">
+<meta name="twitter:image" content="https://yyliou.github.io/pic.png">
+<meta name="twitter:image-height" content="728">
+<meta name="twitter:image-width" content="728">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -442,22 +440,28 @@ document.addEventListener('DOMContentLoaded', function () {
 <p><em>Note</em>: Two citations cannot be matched to corresponding years; therefore, they are excluded from the figure.</p>
 </div>
 <p>My research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, Food Policy, and Forest Policy and Economics. An overview of these articles is detailed in my <a href="https://yyliou.github.io/yyliou/rs/rs.pdf">research statement</a>.</p>
-<div class="fig-light">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="map.png" class="img-fluid figure-img" alt="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19"></p>
+<p><iframe id="vosviewerMap" class="vos-embed" allowfullscreen="true" width="100%" height="75%" style="max-width: 1000px; min-height: 500px" title="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19" loading="lazy"></iframe></p>
 <figcaption>A network of the research topics spanning my publications.</figcaption>
 </figure>
 </div>
-</div>
-<div class="fig-dark">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="map-dark.png" class="img-fluid figure-img" alt="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19"></p>
-<figcaption>A network of the research topics spanning my publications.</figcaption>
-</figure>
-</div>
-</div>
+<script>
+(function () {
+  var VOS_BASE = 'https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D13Sdh41MoHPEq19gX7CxHdXWlg-OXSj6g&simple_ui=true';
+  var frame = document.getElementById('vosviewerMap');
+  if (!frame) return;
+  function syncVosTheme() {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var src = VOS_BASE + '&dark_ui=' + (dark ? 'true' : 'false');
+    if (frame.getAttribute('src') !== src) frame.setAttribute('src', src);
+  }
+  syncVosTheme();
+  if (window.MutationObserver) {
+    new MutationObserver(syncVosTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+})();
+</script>
 <section id="selected-publications" class="level2">
 <h2 class="anchored" data-anchor-id="selected-publications"><strong>Selected Publications</strong></h2>
 <div class="paper-entry">

@@ -252,17 +252,15 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="研究 – Yu-You Liou 劉昱佑">
 <meta property="og:description" content="Yu-You Liou (劉昱佑) — Ph.D. Student at National Taiwan University and Adjunct Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics.">
-<meta property="og:image" content="https://yyliou.github.io/map.png">
+<meta property="og:image" content="https://yyliou.github.io/pic.png">
 <meta property="og:site_name" content="Yu-You Liou 劉昱佑">
-<meta property="og:image:alt" content="研究主題網絡圖，涵蓋經濟學、環境科學、農業、收益與COVID-19等主題">
-<meta property="og:image:height" content="1738">
-<meta property="og:image:width" content="2620">
+<meta property="og:image:height" content="728">
+<meta property="og:image:width" content="728">
 <meta name="twitter:title" content="研究 – Yu-You Liou 劉昱佑">
 <meta name="twitter:description" content="Yu-You Liou (劉昱佑) — Ph.D. Student at National Taiwan University and Adjunct Lecturer at Shih Chien University. Research in agricultural, environmental, urban and transportation economics.">
-<meta name="twitter:image" content="https://yyliou.github.io/map.png">
-<meta name="twitter:image:alt" content="研究主題網絡圖，涵蓋經濟學、環境科學、農業、收益與COVID-19等主題">
-<meta name="twitter:image-height" content="1738">
-<meta name="twitter:image-width" content="2620">
+<meta name="twitter:image" content="https://yyliou.github.io/pic.png">
+<meta name="twitter:image-height" content="728">
+<meta name="twitter:image-width" content="728">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -439,22 +437,28 @@ document.addEventListener('DOMContentLoaded', function () {
 <p><em>附註</em>：有兩筆文獻無法對應至相應年份，因此未納入圖中。</p>
 </div>
 <p>我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的Journal of Transport Geography、Transportation Research Part A及Part D、Food Policy以及Forest Policy and Economics。詳細研究成果請參閱<a href="https://yyliou.github.io/yyliou/rs/rs_zh.pdf">研究自述</a>。</p>
-<div class="fig-light">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="map.png" class="img-fluid figure-img" alt="研究主題網絡圖，涵蓋經濟學、環境科學、農業、收益與COVID-19等主題"></p>
+<p><iframe id="vosviewerMap" class="vos-embed" allowfullscreen="true" width="100%" height="75%" style="max-width: 1000px; min-height: 500px" title="研究主題網絡圖，涵蓋經濟學、環境科學、農業、收益與COVID-19等主題" loading="lazy"></iframe></p>
 <figcaption>研究主題網絡圖</figcaption>
 </figure>
 </div>
-</div>
-<div class="fig-dark">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="map-dark.png" class="img-fluid figure-img" alt="研究主題網絡圖，涵蓋經濟學、環境科學、農業、收益與COVID-19等主題"></p>
-<figcaption>研究主題網絡圖</figcaption>
-</figure>
-</div>
-</div>
+<script>
+(function () {
+  var VOS_BASE = 'https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D13Sdh41MoHPEq19gX7CxHdXWlg-OXSj6g&simple_ui=true';
+  var frame = document.getElementById('vosviewerMap');
+  if (!frame) return;
+  function syncVosTheme() {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var src = VOS_BASE + '&dark_ui=' + (dark ? 'true' : 'false');
+    if (frame.getAttribute('src') !== src) frame.setAttribute('src', src);
+  }
+  syncVosTheme();
+  if (window.MutationObserver) {
+    new MutationObserver(syncVosTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+})();
+</script>
 <section id="焦點著作" class="level2">
 <h2 class="anchored" data-anchor-id="焦點著作"><strong>焦點著作</strong></h2>
 <div class="paper-entry">

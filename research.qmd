@@ -1,5 +1,6 @@
 ---
 title: "Research"
+image: pic.png
 ---
 
 My research focuses on environmental economics and policy evaluation. I study how policy-induced changes in incentives affect behavior and, in turn, shape environmental quality and social welfare.
@@ -119,13 +120,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
 My research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, Food Policy, and Forest Policy and Economics. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs/rs.pdf).
 
-::: fig-light
-![A network of the research topics spanning my publications.](map.png){fig-alt="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19"}
-:::
-
-::: fig-dark
-![A network of the research topics spanning my publications.](map-dark.png){fig-alt="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19"}
-:::
+```{=html}
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><iframe id="vosviewerMap" class="vos-embed" allowfullscreen="true" width="100%" height="75%" style="max-width: 1000px; min-height: 500px" title="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19" loading="lazy"></iframe></p>
+<figcaption>A network of the research topics spanning my publications.</figcaption>
+</figure>
+</div>
+<script>
+(function () {
+  var VOS_BASE = 'https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D13Sdh41MoHPEq19gX7CxHdXWlg-OXSj6g&simple_ui=true';
+  var frame = document.getElementById('vosviewerMap');
+  if (!frame) return;
+  function syncVosTheme() {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var src = VOS_BASE + '&dark_ui=' + (dark ? 'true' : 'false');
+    if (frame.getAttribute('src') !== src) frame.setAttribute('src', src);
+  }
+  syncVosTheme();
+  if (window.MutationObserver) {
+    new MutationObserver(syncVosTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+})();
+</script>
+```
 
 ## **Selected Publications**
 

@@ -1664,16 +1664,16 @@ body:has(.landing) .site-footer {
     color: #b8d0e4;
 }
 
-/* ---- Light/dark variants of the research network figure ---- */
+/* ---- Interactive research topic network (VOSviewer embed) ---- */
 
-.fig-dark {
-    display: none;
-}
-
-[data-theme="dark"] .fig-dark {
+.vos-embed {
     display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    background: #fff;
 }
 
-[data-theme="dark"] .fig-light {
-    display: none;
+[data-theme="dark"] .vos-embed {
+    border-color: #2a3040;
+    background: #141824;
 }
