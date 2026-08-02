@@ -34,7 +34,7 @@ Although these studies span rural and urban settings, they address a common ques
 <div class="bib-stats">
   <div class="bib-stat">
     <div class="bib-label">Publications</div>
-    <div class="bib-number" data-target="14">0</div>
+    <div class="bib-number" data-target="12">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">Cites</div>
@@ -619,7 +619,7 @@ Qual. & Quant.
 </ol>
 ```
 
-### **Pending**
+### **In Preparation**
 
 ```{=html}
 <ol reversed start="2" class="wip-list">

@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: hex-col
-![](hex/pa.svg){fig-alt="Programming for Application course hex logo"}
+![](hex/pa.svg){fig-alt="Programming for Applications course hex logo"}
 :::
 
 ::: paper-title
