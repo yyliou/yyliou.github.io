@@ -3,7 +3,7 @@ title: "Research"
 image: pic.png
 ---
 
-Air pollution, road deaths, and groundwater depletion share one feature. Whoever causes the damage does not pay for it. Environmental and resource economics calls this an externality, and policy is the attempted correction. My research measures how much of that correction arrives, and what else arrives with it. The answer is often not what the policy assumed. I use causal inference and large-scale administrative data. One line of work is on farms, the other on cities.
+My research focuses on environmental economics and policy evaluation. I study how policy-induced changes in incentives affect behavior and, in turn, shape environmental quality and social welfare.
 
 Many environmental outcomes, including air pollution, traffic accidents, and natural resource use, involve externalities that markets fail to price. I use causal inference methods and large-scale administrative data to evaluate whether policies achieve their intended goals and generate unintended consequences.
 

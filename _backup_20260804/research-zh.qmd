@@ -1,15 +1,18 @@
 ---
-title: "Research"
+title: "研究"
+lang: zh-TW
 image: pic.png
 ---
 
-Air pollution, road deaths, and groundwater depletion share one feature. Whoever causes the damage does not pay for it. Environmental and resource economics calls this an externality, and policy is the attempted correction. My research measures how much of that correction arrives, and what else arrives with it. The answer is often not what the policy assumed. I use causal inference and large-scale administrative data. One line of work is on farms, the other on cities.
+我的研究聚焦於環境經濟與政策評估。我關心的一個核心問題是：當政府透過政策改變誘因時，個體與企業會如何調整行為，以及這些調整如何影響環境品質與社會福祉。
 
-Many environmental outcomes, including air pollution, traffic accidents, and natural resource use, involve externalities that markets fail to price. I use causal inference methods and large-scale administrative data to evaluate whether policies achieve their intended goals and generate unintended consequences.
+許多環境問題，例如空氣污染、交通事故與自然資源利用，都存在市場無法反映的成本，因此政府需要透過政策介入改善資源配置。然而，政策是否達成原先目標，或是否產生其他非預期影響，仍需要嚴謹的實證分析。我主要運用因果推論方法，結合大規模行政資料，評估政策如何改變行為與環境結果。
 
-My research covers two themes. The first examines agricultural and environmental sustainability, focusing on how policies influence farmers’ technology adoption, production decisions, and resource use. The second studies urban environmental and transportation policies, evaluating interventions such as mass transit expansion, fare subsidies, and road safety programs.
+我的研究涵蓋兩個方向。第一是農業與環境永續。我探討農業政策如何影響農戶的技術採用、生產決策與資源利用，並分析制度設計是否能同時提升農業發展與環境品質。
 
-Although these studies span rural and urban settings, they address a common question: how do policies reshape incentives and environmental outcomes. Through empirical analysis, I aim to provide evidence for more effective public policy design.
+第二是都市環境與運輸政策。我研究捷運建設、票價補貼與交通安全措施等政策，關注其對交通行為、環境品質與社會福利的影響，也檢視政策可能產生的非預期效果。
+
+雖然研究場域涵蓋農村與都市，但兩者共同反映同一個問題：政策如何透過改變誘因影響人們的選擇，並進一步塑造環境與經濟結果。我希望透過可信的實證證據，協助政府設計更有效且兼顧社會福祉的公共政策。
 
 ```{=html}
 <script>
@@ -33,11 +36,11 @@ Although these studies span rural and urban settings, they address a common ques
 ```{=html}
 <div class="bib-stats">
   <div class="bib-stat">
-    <div class="bib-label">Publications</div>
+    <div class="bib-label">著作數</div>
     <div class="bib-number" data-target="12">0</div>
   </div>
   <div class="bib-stat">
-    <div class="bib-label">Cites</div>
+    <div class="bib-label">被引次數</div>
     <div class="bib-number" data-target="91">0</div>
   </div>
 </div>
@@ -46,27 +49,23 @@ Although these studies span rural and urban settings, they address a common ques
 document.addEventListener('DOMContentLoaded', function () {
   const counters = document.querySelectorAll('.bib-number');
   const duration = 1000;
-
   counters.forEach(function (el) {
     const target = parseInt(el.getAttribute('data-target'), 10);
     const start = performance.now();
-
     function step(now) {
       const elapsed = now - start;
       const progress = Math.min(elapsed / duration, 1);
-      // ease-out cubic
       const eased = 1 - Math.pow(1 - progress, 3);
       el.textContent = Math.round(eased * target);
       if (progress < 1) requestAnimationFrame(step);
     }
-
     requestAnimationFrame(step);
   });
 });
 </script>
 
 <div class="cite-chart">
-  <div class="cite-chart-title">Citations per year</div>
+  <div class="cite-chart-title">歷年被引次數</div>
   <div class="cite-bars">
     <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="40"><span class="cite-bar-val" data-val="8">0</span></div></div><span class="cite-bar-year">2021</span></div>
     <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="80"><span class="cite-bar-val" data-val="16">0</span></div></div><span class="cite-bar-year">2022</span></div>
@@ -115,16 +114,16 @@ document.addEventListener('DOMContentLoaded', function () {
 ```
 
 ::: paper-note
-*Note*: Three citations cannot be matched to corresponding years; therefore, they are excluded from the figure.
+*附註*：有三筆文獻無法對應至相應年份，因此未納入圖中。
 :::
 
-My research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, Food Policy, and Forest Policy and Economics. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs/rs.pdf).
+我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的Journal of Transport Geography、Transportation Research Part A及Part D、Food Policy以及Forest Policy and Economics。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
 
 ```{=html}
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><iframe id="vosviewerMap" class="vos-embed" allowfullscreen="true" width="100%" height="75%" style="max-width: 1000px; min-height: 500px" title="Topic network graph of research themes including economics, environmental science, agriculture, revenue, and COVID-19" loading="lazy"></iframe></p>
-<figcaption>A network of the research topics spanning my publications.</figcaption>
+<p><iframe id="vosviewerMap" class="vos-embed" allowfullscreen="true" width="100%" height="75%" style="max-width: 1000px; min-height: 500px" title="研究主題網絡圖，涵蓋經濟學、環境科學、農業、收益與COVID-19等主題" loading="lazy"></iframe></p>
+<figcaption>研究主題網絡圖</figcaption>
 </figure>
 </div>
 <script>
@@ -145,7 +144,7 @@ My research has primarily been published in international journals within the fi
 </script>
 ```
 
-## **Selected Publications**
+## **焦點著作**
 
 ::::::: paper-entry
 ::: paper-tag
@@ -163,7 +162,7 @@ JAERE
 :::
 
 ::: paper-links
-[Journal](https://ssrn.com/abstract=4984614){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[期刊全文](https://ssrn.com/abstract=4984614){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -195,7 +194,7 @@ Food Policy
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
+[期刊全文](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -232,7 +231,7 @@ Transp. Res. A
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Media]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
+[期刊全文](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [媒體報導]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -247,10 +246,10 @@ Transp. Res. A
   doi     = {10.1016/j.tra.2026.104860},
 }</code></pre></div>
 <div class="abstract-box media-box"><ul>
-<li><a href="https://www.ntu.edu.tw/spotlight/2026/2482_20260429.html" target="_blank" rel="noopener">National Taiwan University — press release: How can institutional reform improve road safety?</a></li>
-<li><a href="https://news.ltn.com.tw/news/life/breakingnews/5422721" target="_blank" rel="noopener">Liberty Times Net (自由時報): NTU empirical study finds removing the motorcycle hook-turn safer in specific settings</a></li>
-<li><a href="https://www.ettoday.net/news/20260502/3158984.htm" target="_blank" rel="noopener">ETtoday: Accidents down 21% after removing the hook-turn; medical costs cut 4.7%</a></li>
-<li><a href="https://www.chinatimes.com/newspapers/20260412000322-260121" target="_blank" rel="noopener">China Times (中國時報): Removing the motorcycle hook-turn cuts accidents 21%</a></li>
+<li><a href="https://www.ntu.edu.tw/spotlight/2026/2482_20260429.html" target="_blank" rel="noopener">國立臺灣大學焦點新聞：制度改革如何改善交通安全？臺大研究成果登上國際交通運輸領域傑出期刊</a></li>
+<li><a href="https://news.ltn.com.tw/news/life/breakingnews/5422721" target="_blank" rel="noopener">自由時報：取消機車兩段式左轉降風險？台大實證研究：特定情境下更安全</a></li>
+<li><a href="https://www.ettoday.net/news/20260502/3158984.htm" target="_blank" rel="noopener">ETtoday：「取消兩段式左轉」事故減21%！台大實證更安全 醫療支出降4.7%</a></li>
+<li><a href="https://www.chinatimes.com/newspapers/20260412000322-260121" target="_blank" rel="noopener">中國時報：機車兩段式左轉取消 事故降21%</a></li>
 </ul></div>
 ```
 :::::::
@@ -273,7 +272,7 @@ Transp. Res. D
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
+[期刊全文](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -308,7 +307,7 @@ Forest Policy Econ.
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[期刊全文](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -343,7 +342,7 @@ J. Transp. Geogr.
 :::
 
 ::: paper-links
-[Journal](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[期刊全文](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -361,7 +360,7 @@ J. Transp. Geogr.
 :::::::
 
 ::: paper-note
-*Note*: † NSTC-recommended journals (Regional Studies & Geography); \* NSTC Economics B+ journals; \^ NSTC-recommended journals (Management II); ⁺ journals ranked in the top 10% of their field by Journal Impact Factor; ‡ National Taiwan University distinguished journals; § National Taiwan University outstanding journals.
+*附註*：† 國科會區域研究及地理學門推薦國際期刊；\* 國科會經濟學門 B+ 國際期刊；\^ 國科會管理二學門推薦國際期刊；⁺ 期刊影響因子位於該領域前 10%；‡ 國立臺灣大學傑出期刊；§ 國立臺灣大學優良期刊。
 :::
 
 ```{=html}
@@ -375,7 +374,7 @@ J. Transp. Geogr.
 </div>
 ```
 
-## **Additional Publications**
+## **其他著作**
 
 ::::::: paper-entry
 ::: paper-tag
@@ -391,7 +390,7 @@ J. Tour. Manag. Res.
 :::
 
 ::: paper-links
-[Journal](https://archive.conscientiabeam.com/index.php/31/article/view/4940){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
+[期刊全文](https://archive.conscientiabeam.com/index.php/31/article/view/4940){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -428,7 +427,7 @@ Ann. Tour. Res.
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
+[期刊全文](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -466,7 +465,7 @@ Agribusiness
 :::
 
 ::: paper-links
-[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
+[期刊全文](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -500,7 +499,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-links
-[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[期刊全文](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -534,7 +533,7 @@ Agriculture
 :::
 
 ::: paper-links
-[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SCIE]{.idx-badge}
+[期刊全文](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -570,7 +569,7 @@ Qual. & Quant.
 :::
 
 ::: paper-links
-[Journal](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle}
+[期刊全文](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle}
 :::
 
 ```{=html}
@@ -588,9 +587,9 @@ Qual. & Quant.
 ```
 :::::::
 
-## **Work in Progress**
+## **進行中研究**
 
-### **Revision & Resubmission**
+### 修訂中
 
 ```{=html}
 <ol reversed start="10" class="wip-list">
@@ -601,7 +600,7 @@ Qual. & Quant.
 </ol>
 ```
 
-### **Under Review**
+### 審稿中
 
 ```{=html}
 <ol reversed start="6" class="wip-list">
@@ -609,7 +608,7 @@ Qual. & Quant.
 </ol>
 ```
 
-### **Submitted**
+### 投稿中
 
 ```{=html}
 <ol reversed start="5" class="wip-list">
@@ -619,7 +618,7 @@ Qual. & Quant.
 </ol>
 ```
 
-### **In Preparation**
+### 待投稿
 
 ```{=html}
 <ol reversed start="2" class="wip-list">
@@ -628,24 +627,24 @@ Qual. & Quant.
 </ol>
 ```
 
-## **Co-Authors**
+## **共同作者**
 
 ```{=html}
 <div class="coauthor-map">
 <svg viewBox="0 0 1000 392" xmlns="http://www.w3.org/2000/svg" role="img">
 <path class="cmap-land" d="M282.8 213 279 211.3 276.4 213.6 277.8 215.1 275.3 216.1 274.8 214.4 268 212.6 264 208.1 263.6 209.6 262.1 208.5 261.9 205.3 256.5 200.3 257 199.2 246.6 197.4 237 191.1 231.8 192.6 212.5 185.3 207 180.7 207.6 176.6 205.5 172.9 188.3 155.7 185.7 149.5 181.2 147.8 181.5 152.3 196 171.7 194.4 172.7 188.4 167.4 188.1 163.9 180.4 159.1 182.9 156.8 179.1 154 174.2 144.3 170.8 141.6 164.9 140 154.4 124.1 154.1 117.3 155.8 109.7 153.6 102.3 158 102.7 159.5 105.3 158.8 100 151 96.1 146 94.9 144.9 90.8 141.3 89.6 140.8 87.3 133.4 82 127.6 74.7 120.5 74.4 111.5 70.7 91.3 67 88.3 67.6 88.8 69.5 78.6 71.8 79.4 67.4 82.4 66.6 81.6 65.9 72.2 71.2 74.2 72.6 71.6 74.6 59.9 80.6 42.3 85 61.9 76.2 63.8 72.4 58.2 73.8 54.6 72 50.1 73.1 50.3 70.5 48.6 69.5 44.9 70 40.7 68 38.6 65.3 39.6 63.7 42.9 60.7 53.4 59 51.3 57.2 53.4 56.1 41.8 57.1 33 53.7 43.1 51.2 45.4 51.2 45 52.6 50.9 52.5 36.8 46.2 38.3 44.8 46.8 43.4 50.3 40.7 65.1 37.9 71.3 39.7 101.1 41.2 120.8 44.7 139.5 41.1 141.4 42.3 144.1 40.3 150.7 43.1 154.4 41.2 154.8 43.3 162.6 42.2 183.6 46.1 179.7 47.5 194.6 47.3 197.6 48.9 200.6 47.5 197.7 46.4 199.5 45.4 205.1 45 218.2 48.2 226.5 47.8 226.2 46.1 228.7 45.6 233 46.6 233 49.2 234.8 47 237 47 238.2 44.3 232 41.4 232.2 38.3 235.5 36.3 239.2 36.8 245.8 41.1 243.3 42.5 248.5 43.1 248.5 45.9 252.2 43.7 255.5 45.5 254.7 47.6 257.4 49.4 262.3 45 262.4 42 270.5 42.6 274.2 44 274.4 45.4 272.3 46.9 274.3 48.3 273.9 49.7 268.5 51.6 261.8 51.2 257.4 56.2 248 59.4 247.9 61.2 244.6 61.6 238.2 66.9 237 72.4 241.1 72.8 243.6 77.5 247.5 77 263.9 82.5 271.5 82.9 271.9 88.1 278 93.9 281.7 90.1 278.3 84.3 282.7 83 287.4 79.1 285.3 74.9 281.9 72.8 285.2 69.9 283 63 294.9 62.7 301.7 66.3 306.7 66.5 307.5 72.3 312.1 74.4 316.1 72.9 320.6 68.5 329.5 77.9 328.3 79.6 340.7 84.4 341.8 86.7 345.1 88.1 345.3 91.3 333.2 96.5 315.6 96.6 302.5 106.1 309.3 101.9 319.3 99.4 321.7 100.7 319.1 102.6 320.9 107.7 324.5 109.1 329.1 108.7 331.9 105.5 333.9 108.6 318.4 115.2 316.3 114.9 316.2 112.6 321 110.3 313.5 110.7 314 111.6 303.8 116.4 303.3 118.5 305.7 120.5 295.2 122.4 300.2 122.4 294.6 122.9 291.9 127.9 290.2 126.4 291.5 129.4 289.1 132.7 289.7 130.7 287.9 127.4 288 130.3 286.1 129.9 288.1 130.8 289.6 137.4 274.1 148.8 274.1 152.7 277.6 161.4 276.7 166.1 274.5 166.1 273 164.2 267.5 153 263.6 153.8 260 151.7 251.1 152.3 251.6 155.1 239.3 153.6 229.5 160.1 230.2 164.2 229.1 164.3 230.2 164.3 228.1 173.8 233.6 183.8 237.7 185.7 246.1 183.7 247.9 182.5 249.2 177.8 258.2 176.3 258.8 178.2 256 185.4 254.7 184.7 254.6 190.2 253 192 263.9 191.7 268.3 193.7 267.2 205.3 271.6 211.1 275.1 211.5 279 209.4 286.6 212.1 289.8 209.9 291.9 205.3 296.1 204.9 300.7 201.6 302.4 202.5 300.1 204.4 300.8 210.9 302.7 208.7 301.7 205.6 305.1 204.5 305.7 202.3 310.6 206.8 316 206.5 319.7 208.1 321.3 206.6 328.1 206.3 325.7 207.2 326.7 208.5 331 210.1 331.5 212.3 335.8 213.9 341.3 219.5 350.1 220.1 357.5 224.4 359.7 230.8 361.2 231.3 359.2 235.5 364.9 236.8 365 239.5 367.2 237.7 375.3 240.4 376.2 243.6 379.4 242.7 388.9 244.1 396.6 249.5 402.1 251.3 403.5 256.5 402.4 261.1 392.6 272.4 390.9 285.7 386.3 297 383.4 299.9 376 301 367.6 305.2 365.3 308 364.2 315.8 350.5 331.7 343.8 332.9 337.7 330.3 337.5 331.8 341 334.1 342.3 338.6 339.6 342.2 335.5 343.7 326.8 344 327.4 349.1 325.7 350.1 319.1 350.2 319.5 352.9 322.9 352.9 323.7 354.3 318.9 356.9 317.9 361.2 313.1 362.6 312.3 364.7 317.7 367.3 316.7 369.8 307.9 377 310.7 381.5 307.1 381.4 303.2 383.1 302.8 385.6 291.8 381.3 290 371.3 294.1 366.5 289.9 365.7 292.5 363.2 293.5 358.6 296.6 359.6 298 353.8 296.1 353.1 295.3 356.6 293.5 356.2 296.6 345.2 295.6 339.3 296.8 339.2 301.6 326.2 301.4 316.3 303 312.9 305.1 291 304.5 287.1 301.5 284.3 288.9 276.8 278.4 256.1 274.3 253.2 275.2 251.9 273.9 249.3 278.4 243.5 275.1 242.4 275.2 239 277.5 234 281 232.3 282.1 228.8 285.8 225.4 282.8 213ZM282.4 173.6 293.9 179.8 284 181 285.9 179.4 283 178.5 281.3 176.1 271.8 173.9 272.8 173.2 264 175.3 268.7 172.3 276.1 171.9 282.4 173.6ZM143.4 95.1 150.7 96.4 156.9 101.4 151 100.5 144.3 97.2 143.4 95.1ZM74.4 75.1 77.4 76.1 72.2 78.5 70.8 77.8 70.4 76.5 74.4 75.1ZM269.1 58.1 262.4 61 261.5 59.3 257.7 59.6 260.1 58.2 261.4 53.5 277.5 59.1 275 60 269.1 58.1ZM19.6 57.6 10.5 54.6 4.6 54.5 3 53.5 3.6 52.5 0.3 53.1 1.6 54.4 0 55.6 0 44.5 14.1 49.4 13.8 51.2 15.7 51.8 15.1 49.8 22.6 50.2 28.1 52.8 20.7 54.3 19.6 57.6ZM227.2 41.3 234.3 44.1 232.6 45.1 222.8 43.3 227.2 41.3ZM216.4 44.1 185.2 45.7 174.1 41.8 187.7 40.6 172.5 40.2 171 39.1 177.5 38 168.3 37.3 172.6 34.2 180 32.5 182.9 33 181.5 34.3 187.7 33.5 191.5 34.9 194.7 33.4 199.5 37.1 200.9 35.9 198.9 33.1 201.3 32.7 207.2 34.2 209.8 38.9 219.5 41.6 219.2 42.8 214.6 43 216.4 44.1ZM231.3 37.1 224.1 37.9 215.3 33.8 221 34.2 217.9 32.3 221.2 31 229.5 31.2 230.2 32 227.6 33.4 231.8 34.6 231.3 37.1ZM158.1 39.2 150.2 36.5 155.7 31.4 153 29.7 173.5 30 179.1 32 168.8 34.7 165.4 37.8 158.1 39.2ZM234.7 30.9 237.5 30.2 248.6 31 238.1 36 235 35.9 233.2 33.5 234.7 30.9ZM288.2 33.8 278.4 33.9 275.5 31.4 283.2 31.5 288.2 33.8ZM240 27.8 234.4 28.7 231.1 28 236.5 26 240 27.8ZM183.7 28.6 189.5 27.3 173 27.2 179.4 23.7 197 26.5 193.1 23.8 195.6 22.8 198.5 23.1 200.5 25.4 205.9 25.1 206.4 26.4 204.7 27.8 188.3 29.4 183.7 28.6ZM231.3 21.8 245.5 22.8 247.9 23.8 247.3 24.8 252.3 26.1 274.6 25.8 278.2 28 255.1 29.5 243.3 28.2 242 25.3 230.2 22.9 231.3 21.8ZM215.1 24.1 226.4 23 228.6 25.7 227.3 27.8 222.8 28.1 219.8 27.6 219.8 26 215.3 26.2 215.1 24.1ZM176.8 22.6 162.5 25.3 158.7 24.7 169.2 20.8 177.2 20.4 176.8 22.6ZM226 17 234.6 18.3 229.7 19.9 226 17ZM210.5 17.6 207 15.8 219.9 17.2 223.1 19.7 207.8 18.4 210.5 17.6ZM256.1 13 261.6 15.7 247.8 18.8 242 18.5 239 17.4 241.3 15.6 236.2 15.6 231.4 13.5 238.1 11.2 236.8 10.5 243.3 10.4 256.1 13ZM299.3 387.5 292.6 382.9 302.5 386.3 304.8 383.1 309.3 382.3 311.8 385.7 319.3 388.1 318.1 389.4 314 388.6 310.7 390.6 299.3 387.5ZM330 380.1 337.4 378.1 339.6 379.3 335 381.1 330 380.1ZM477.8 224 464 214.4 458.8 205.9 453.9 202.3 453.6 198.3 451 195.2 454.3 191.3 455.1 185.8 452.9 175.3 459.9 163.2 473.4 153 472.7 149.5 474.2 145.7 480.8 141.4 483.5 136.8 494 138.4 504.1 134.4 526.4 132.4 528.4 132.7 528.3 134.1 530.8 133.6 529.4 135 530.4 136.9 528.7 142.3 542.3 146.5 543.6 149 553 152 555.7 150 555.9 146.6 559.8 144.9 580.3 150.4 586 148.5 588.8 150.2 593.8 150.1 596 148.5 600 139.9 600.4 134.3 596.4 133.9 590.3 135.8 588.1 134.3 582.5 135.7 576.8 134.3 573.1 130 574.5 127.8 572.7 126.5 575.8 123.8 580.1 123.7 581.2 121.6 586.5 122 593.1 119.4 597.7 119.3 606.5 122.4 615.4 120.7 615.1 117.7 601.9 110.4 606.2 107.7 604.6 106.6 608.7 104.8 597.1 107.6 597.3 109.3 601.5 109.8 600.9 110.8 594.1 112.9 592.6 112.3 593.2 111 590.2 110.2 593.3 108.7 592.5 108.1 585.4 106.7 582.3 111 580.1 111.4 576.9 117.8 580 122.1 576.7 122.2 573.2 124.6 572.4 122.7 569.2 122.4 565.9 123.1 567.8 124.7 566.4 125.1 562.9 124.3 566.8 131.5 564.2 130.8 565 132.2 563.3 132.5 564.3 134.9 562.5 135 560.2 133.8 558.7 129.7 553.9 124.3 554.3 120.2 544.5 115.3 541.4 110.9 538.8 111.7 538.7 109.5 536.5 109.1 534.2 110.1 535 113.6 542.1 119.6 544.2 119.6 544.1 120.7 551.3 124.5 550.8 125.5 546.9 123.8 545.7 125.6 547.7 126.6 547.4 128 544.7 130.6 543.6 130.8 544.7 127.9 542.8 124.9 533.6 120.3 529.2 116.9 528.3 114.1 524.7 112.9 518.1 116.3 508.6 116.5 508.4 119.7 502.3 122.2 499.2 126.9 500.3 128.5 494 134.2 487.9 134.2 485.1 136.3 481.9 133.5 475.3 133.7 475.4 129.8 473.5 128.5 475.6 122.9 473.9 116.6 477.8 114.6 494.7 115.5 496.2 113.8 496.7 108.3 491.8 104 487.5 102.9 487.2 100.9 495.5 101 494.6 97.8 497.3 99 503.7 96.9 504.6 94.6 510.6 92.7 513.1 88.6 522.6 87.4 524.4 86.1 522.6 81.9 523.7 77.5 529.4 75.7 528.5 78.1 530.3 79.3 526.8 82 527.6 84.5 530.4 86.1 534.8 84.8 539.2 86.8 549 83.7 554.6 84.9 559.1 82.8 558.6 78.4 559.9 76.6 562.6 75.7 564.8 77.8 567 77.7 567.9 73.9 565.1 73.3 564.8 71.7 577.7 70.9 580.9 69.4 578 68 563.5 69.9 559.2 67.4 559.8 64.7 558.5 62.2 559.8 60.6 570.6 55.2 566.4 52.8 561.6 53.5 558.9 55.5 559.4 57.2 549.6 61.8 547.6 65.7 552.2 69.2 549.6 72.4 546.7 73 544.1 80.3 540.7 80 539.2 82.2 536 82.3 528.8 70.9 523.3 74.1 519.6 74.8 515.7 73.4 513.9 64 529.2 57 541 47.7 553.3 42.2 564 41.1 568.2 38.8 578.2 38.4 586.9 40.4 583.3 41.1 586.4 42.9 589.3 41.9 601.4 44.3 614.1 48.7 614.2 50.6 606.6 52.8 592.2 51 596.7 53.1 597.1 57.2 602.8 58.8 601.5 56.2 603.3 55.2 610 56.9 612.3 56.2 610.5 54.2 616.9 51.5 622.1 52.6 623.7 50.7 621.4 49 622.7 47.4 620.7 45.6 628.5 46.5 630.1 48.1 626.5 48.4 626.6 50 628.7 50.9 649.2 44.8 651.3 45 648.6 46.7 663.3 44.8 666.5 46.4 669.7 44.6 666.7 43 668.2 42.1 690.3 47 692.2 45.5 685.9 43.2 686.8 41.9 685.3 38.8 694.3 33.2 701.6 34 702.2 35.5 699.6 37.8 702.2 40.6 701.6 44.4 704.6 46.1 698 51.9 701.2 52.3 708.5 47.9 706.9 46.3 708.2 44.5 705.1 44.2 704.4 42.7 706.7 39.9 703.1 37.6 708 35.8 707.4 33.8 710.2 35.3 709.1 38 712.1 38.5 710.8 36.5 715.5 35.4 726.4 36.8 723.9 34.5 723.6 31.5 741.2 30.7 738.9 29.3 742.1 27.5 779.9 23.8 783.3 21.4 789.9 20.3 794.6 21.2 790.8 21.9 797.1 22.3 797.9 23.7 808.5 23 817 25.4 816.3 26.9 803.9 30.1 813.9 30.6 815.4 32.4 821 31.2 842.2 33.4 842.4 31.3 852.7 31.8 857.2 33.2 858.5 35 856.8 36.2 864.7 39.5 867.4 36.6 871.8 37.8 888.5 37.5 886.5 35 890.2 33.8 915.3 35.6 924.9 39.3 941.7 39.3 944 40.4 943.6 42.4 947.1 43.2 966.2 42.8 971 45.3 974.5 44.4 972.2 42.6 973.5 41.4 988.1 42 1000 44.5 1000 55.6 992.8 56.6 998.3 61.2 997.9 63 992.7 62.4 982.4 64.9 973.1 69.8 969.2 67.9 961.9 70 960.7 69 954.3 69.8 950 74.3 953.3 76.1 952.9 80.1 950.4 80.2 949.2 82.5 950.3 83.7 945.5 85.2 944.5 88.3 940.4 89 939.5 91.8 935.5 94.4 931.8 82.3 933.1 78.4 935.6 75.5 939.9 74.8 954.6 66.3 956.9 62.4 953.5 62.6 951.8 64.9 944.8 67.9 942.5 64.5 935.3 65.5 928.4 70.1 930.7 71.8 920.2 72.8 920.4 70.8 916.1 70.4 912.6 71.8 895 72.1 875.4 84.1 879.7 84.4 883.8 86.8 888.6 85.6 892.6 88.6 892.7 91 890.5 93.8 889.1 101.5 883.9 107.5 874.6 115.6 870.9 117.2 867.4 115.9 861 119.6 860.3 122.5 854.3 125.7 853.8 127.2 859.6 133.9 858.6 138.7 851.3 140.6 850.3 134.1 852.4 133.6 850.5 131.3 846.4 130.3 848.1 126.2 845.2 125.2 836.3 128.1 839.4 123.8 837.9 122.4 830.6 127.1 827.9 127.2 826.5 128.5 830.3 132.1 832.5 132.9 835.6 130.9 839.9 132.1 840.3 133.5 836.4 134.3 831 139.1 834 140.7 838.6 148.1 838.6 150.1 836.8 150.9 839.1 153.2 838 157.7 836.5 158 829.6 167.9 821.9 172.8 807.7 176.7 806.8 179.6 805.2 179.8 805.2 176.7 801.5 175.8 794.1 181.2 793.5 183.2 802.4 193.7 803.7 198.8 803.3 203.7 792.1 212.2 791.9 208.6 787.5 206.6 785 202.3 780.1 201 780.5 198.9 778 198.9 775.6 210.4 777.4 210.5 779.1 215.5 786 220.8 789.5 232.5 787.6 232.7 781.6 228.4 778 218.2 773.6 212.8 773.2 214.5 774.3 204.3 769.9 189.1 764.9 192.5 761.6 191.6 762 185.5 753.9 172.9 751.4 172.8 750.8 175.5 741.6 176.4 740.3 180.1 736.3 182 728.3 190.1 723.1 191.9 721.8 207.3 715.4 214 712.8 211.4 704.3 191.7 701.8 176.8 695.8 178.1 692.1 174.8 693.5 173.7 692.6 172.7 687.3 169.6 684.4 165.5 670.8 166.4 659.4 164.6 656.9 160.7 652 162.6 643.1 158.7 639.2 152.4 633.3 152.8 635.6 159.2 639.3 162 641.1 167.3 641.7 163.9 643.3 164.4 643.9 169.4 650 169.1 656.6 162.8 657.9 168.8 663.1 170.7 666.1 174.1 660.6 179.9 660.3 183.5 653.5 188.3 645.5 190.6 644.9 192.8 635.2 197.2 620.8 201 618.3 193.9 618.5 189.5 608.7 177 606.9 170.3 604.1 168.7 597.6 158.2 596.2 158.2 597.1 154.6 597 154.2 596.7 153.4 594.2 159.3 590.1 153.2 599.1 169.6 598.7 171.9 602.4 175 604.1 184.4 606.7 186.1 609.1 191.9 620.3 201.7 618.7 203.5 623.9 207.1 642 202.7 641.8 206.6 632.6 224.4 611.8 243.3 608.9 249.1 607.6 252.5 609.6 255.1 608.9 259.7 612.4 266 613.3 276.9 611.4 280.8 596.6 291.1 598.8 297.5 598.5 303.1 590.5 307.6 591.4 308.9 590.2 314.7 583.5 322.6 578.4 327.1 571.6 330.4 562.7 330.2 554.5 332.8 551 330.9 549.8 326.7 550.6 324.1 542.3 311.4 539.6 297.5 532.8 286.3 532.3 282.4 534.7 273.7 537.9 269.6 538 265.9 535.8 261.6 536.8 259.9 533.1 250.1 524.4 239.2 527.2 227.6 523.6 222.9 516.4 224.3 512 218.7 507.5 218.7 494.5 223 487.1 221.8 477.8 224ZM303.3 180.9 310.2 184.4 309.2 185.5 303.7 184.9 301.7 187.2 299 185.5 293.2 185.2 299.1 184.3 296.7 180.8 303.3 180.9ZM350.6 101.3 352.5 100.9 353.8 104.1 352.6 106.5 349.5 106.1 349.3 103.5 346.1 105.9 344.5 105.8 346.4 104.5 343.7 103.8 334.9 103.1 340.7 95.2 344.8 92.7 346.1 92.8 342.2 97.7 344 96.8 345.9 97.4 344.9 98.4 351.5 99.3 350.6 101.3ZM479 83 484.3 84.6 483.2 88.5 481.1 90.9 472.3 92.2 474.5 89.3 473.1 86.4 479 83ZM486 81.2 484.5 82.5 482.9 78.4 483.9 75.5 486.1 73.2 491.7 73.2 488.7 76.2 494.6 75.9 491.3 80.6 494.2 80.8 501.3 89.1 504.7 89.6 502.9 92.2 504 93.6 501.5 95.1 484 96.8 490.5 93.3 485.4 91.7 488.3 90.8 486.7 89.3 487.3 87.5 491.4 87.8 491.8 86.2 486.5 83.9 486 81.2ZM439.5 57.2 433.5 55.9 438.3 54.5 432.4 53.9 434.3 52 438.5 51.6 442.8 53.5 447.1 52 459.7 51.5 459.1 53.3 462.2 55.2 448.2 59.7 436.8 58.4 439.5 57.2ZM291.1 48.8 286.1 49.7 285.5 48.4 289.2 46.4 291.3 47.2 291.1 48.8ZM311.3 41.3 314 43.9 308.9 45.2 328.2 50.4 322.4 55.6 314.7 51.7 311.1 52 310.7 53.6 318.6 57.3 320.4 60 319.4 62 308.9 59 316.2 64.1 302.7 61.4 292.1 56.4 284.1 57.7 281.8 56.7 283.6 54.7 294.6 54.3 294.6 51.9 298.2 49.2 296.4 47 286.5 44.7 288.3 44 280.7 41.2 274.2 42.4 253.7 40.5 251.4 39.5 254.3 38.3 250.3 38.3 249.4 35.5 254.4 31.8 261.6 31.1 259.5 32.9 261.7 34.6 264.3 32.4 271.3 31.2 276.1 34.1 275.7 35.9 283.8 34 293.8 36.8 294.2 38 299.3 37.3 311.3 41.3ZM442.1 6.3 411.4 7.8 438.7 9.1 435.6 10.7 456.2 8.6 466.1 10.3 444.3 13.4 450.7 13.5 445.3 17.4 445.4 20.4 448.7 22.3 439.8 23.3 444.9 24.7 445.6 27.1 442.6 27.3 446.2 29.7 440 29.9 443.2 31.1 442.3 32 434.5 32.5 438.1 35.6 431.1 35.2 438.5 37.6 439.6 39.8 434.6 40.4 429 37.7 430 39.6 426.8 41 437.9 41.3 422.9 45.9 411.7 46.9 405 50.9 389.4 54.3 385.6 59.8 381.1 62 382.2 64.2 379.5 69.2 365.9 67.1 356.6 59.4 354.8 55.1 350.9 52.5 351.9 50.5 350.1 49.5 352.8 46.2 357 45.2 358.7 41.9 351.5 43.7 348.1 42.7 349 39.4 357.2 40.1 344.9 37.1 348 34.5 337.3 26.3 329.8 24.7 309.7 24.8 301.7 22.2 314.5 21.2 296.4 19.3 296.8 18.2 317.5 15.6 318.5 14.6 311 13.6 332.5 8.2 352.7 8.6 360 7.1 376.3 9.3 369.7 7.8 370.1 6.6 402.5 3.8 424.7 4.1 442.1 6.3ZM271.1 5.9 297.7 4.9 328.2 6.6 312.1 9.7 318.1 9.7 302.3 14.4 286.4 15.8 290.2 16.1 288.3 16.6 290.6 18 278.4 21.6 283.6 22.8 276.2 24.5 251.4 23.7 251.1 22.4 256.2 21.7 254.8 19.7 264 20.7 255.7 18.4 263.6 15.7 258.5 13.2 272.6 12.6 256.7 12.5 245.6 8.6 262.5 6.5 268.9 7.4 271.1 5.9ZM534.9 130.2 538.2 130.5 543.1 129.9 541.9 134.4 534.5 131.6 534.9 130.2ZM522.7 122.4 525.6 121.6 527.2 123.6 526.9 127.3 523.4 127.3 522.7 122.4ZM547.6 22.8 538.2 21.2 540.7 20.2 531.2 17 529 14.9 547.2 13.7 559.8 16.8 552.9 17.9 547.6 22.8ZM568.7 19.9 557.6 20.3 559.5 19.6 557.8 18.7 563.6 18.2 568.7 19.9ZM548.2 13 563.7 12.1 576.1 13.7 564 15.6 548.2 13ZM691.5 371.2 695.9 372.4 696 372.9 695.2 374.2 691 374.4 691.5 371.2ZM638.5 281.8 630.8 305.4 626.1 307.2 622.3 305.5 620.2 297.4 623.3 291.9 622.1 284.5 623.5 281.2 628.6 279.9 632.5 276.7 636.7 269.6 640.2 278.4 639.4 280.6 638 279.8 638.5 281.8ZM818.2 260.4 800.8 257.7 792.7 255.1 794.6 252.5 801.7 254.9 807.1 255.2 807.7 254.1 821.4 259.4 818.2 260.4ZM790.9 252.4 781.7 243.9 773.9 231 764.7 220.9 770.8 221.5 779.6 230.3 782.4 230.3 788.4 235.8 787.3 238.1 794.7 244.6 793.9 252.4 790.9 252.4ZM823.8 240.2 822.6 247.3 822.2 246.3 819.1 247.5 814.6 244.8 811.3 245.8 810.3 244.4 806.2 244.3 802.6 235 804.6 230.5 808.8 231 809.4 228.6 813.9 227.5 825.4 216.9 826.9 219.5 831.1 221.1 825.9 227.1 827.4 231 830.5 233.6 827.3 233.9 826.4 238.3 823.8 240.2ZM727.2 215.2 726.8 218.1 723.2 219.5 721.4 213.3 722.6 208.8 727.2 215.2ZM832.5 206.8 825.5 212.9 832 204.5 832.5 206.8ZM806.5 184.2 804.1 185.6 801.8 184.7 801.7 182.3 807.7 180.3 806.5 184.2ZM691.3 23.5 662.4 29.7 653.9 35.1 654.5 37.4 659.8 39.7 649.1 39.5 643.3 37.6 642.9 36.1 651.2 31.6 648.6 31.3 655.3 28.8 654.5 27.6 683.9 22.8 691.3 23.5ZM776.2 19.7 783.6 15.7 792.7 17.5 791.9 18.6 776.2 19.7ZM753.3 12.9 766.5 10.4 778.3 14.5 777.6 17 771.5 17.3 759.2 15.5 757.1 13.5 753.3 12.9ZM643.1 11.9 632.2 13.9 629.2 13.2 630.8 12.3 624.6 12.3 643.1 11.9ZM981.2 350.9 983.2 349.8 984 352.1 979.8 356.6 980.8 357.9 976.3 359 973.9 363.6 970.4 365.7 963 364.5 964 361.4 973.7 355.6 978 349.9 980 348.6 981.2 350.9ZM905.7 357.1 902.1 349.2 906.6 350.4 911.9 349.7 910.9 356.1 905.7 357.1ZM982.8 345.9 984.9 343.9 985.3 339.9 979.5 332 980.6 331.8 984.2 334.1 987 339.5 987.1 337.6 991 341.3 995.9 340.8 994.4 344.9 992.2 344.8 988.9 350.8 986.8 351.9 985.1 350.8 986.7 348.5 985.8 347 982.8 345.9ZM834.9 330.4 827.8 333.5 824 333.4 819.5 331.1 821.7 325.6 814.8 308.7 816.1 309.9 815.1 307.3 817.3 309.2 815 303.8 815.9 298.5 817.1 296.5 817.3 298.7 824.2 293.6 835.7 290.8 841.7 281.7 842.9 284.1 844.1 283.5 843.1 282.2 843.9 280.9 845.2 281.5 849.1 275.6 853 274.5 856.6 277.4 860.1 277.7 859.5 276.2 862.8 270.9 868.3 269.8 866.2 267.4 867.7 267 875.8 270.1 879.1 269 880.4 270.4 877.7 273.1 876.4 277.8 889.5 285.3 892.4 281.6 893.6 270.6 895.9 265.7 899.8 276.5 901.6 275.5 903.8 277.7 906.6 288.8 913.5 292.8 915.8 298.2 918.7 298.3 919.2 301.3 924.6 306.3 926.6 314.2 924.7 324 917.6 335.2 916.7 340.1 906.4 344.5 902.4 342.8 902.9 341.4 898.9 343.9 890.7 341.7 887.7 336.5 883.7 335 883.9 331.6 880.1 334.1 883 329.6 882.8 327.5 877.7 333 875.6 331.9 873 326.7 864.8 323.6 850.4 325.6 845.1 327.7 843.5 330.3 834.9 330.4ZM955.6 292 958.4 292.9 964.2 297.7 959.7 296.3 955.6 292ZM844.4 261.9 849.9 259.5 853.7 259.4 842.9 264.6 844.4 261.9ZM908.3 254.8 913.2 261.4 914.7 261.3 918.6 265.5 910.9 264.3 905.7 258.5 902.1 257.3 898 259 898.4 261.1 896.2 262 886.5 258.6 882.3 259.5 885.2 256.4 883.1 251.1 871.3 245.9 869.4 247.5 866.6 243.9 871.4 242.3 867.3 242.3 862.6 238.7 867.7 237.1 872.2 238.3 873.4 243.8 876.3 245.5 881.8 240.8 891.7 243.3 901.6 246.8 905.5 251.3 910.1 253 910.8 254.5 908.3 254.8ZM916.2 251.4 917.1 250 917.3 251.5 918.9 251.3 921.2 249.3 920.9 247.7 923.2 248.1 922.2 251.3 917.3 253.7 912 252.1 916.2 251.4ZM862.4 244.7 863.4 246.8 855.3 245.5 855.9 244 862.4 244.7ZM833.4 237.6 835.9 240 842.6 237.8 837.5 241.4 842.1 250.9 839.5 250.8 840.9 248.5 837.5 248.8 836 243.4 834.2 244.3 834.5 251.5 832.8 251.9 831.6 251.1 831.9 245.8 829.9 243.9 833.4 234.5 835.8 232.5 841.5 233.7 847.9 232.2 843.6 235.5 833.8 235.5 833.4 237.6ZM855.8 238.6 853.9 233.3 855.4 230.1 857.5 233 855.8 238.6ZM845.1 219 845.1 215.7 843.4 214.4 838.7 216.1 843 212 844 213.2 848.5 211.1 848.4 209 850.6 210.3 851.5 216.1 850.5 218.7 849.5 215.9 848.2 217.3 848.3 220.6 845.1 219ZM844.7 204.9 841.7 211 839.9 209.1 841.5 205.9 843.1 205.7 842.6 207.6 844.7 204.9ZM845.3 204.2 846.9 204.4 845.2 201.2 847.9 201.3 849.4 205.4 847.3 204.7 848 207.3 846.7 208 845.3 204.2ZM838.1 196.3 844.3 197.8 844.7 201.3 841.5 198.5 840.8 199.5 839 197.8 835.1 197.6 836.1 195.8 833.5 194.5 833 190.7 834.1 191.6 835.3 184.7 839.6 184.8 840.3 188.6 837.5 194.1 838.1 196.3ZM838.3 168.3 836.6 172.8 835.4 175.1 833.6 170.7 837.5 165.8 838.3 168.3ZM869.5 145.3 867.7 144.5 869.2 141.5 874 141.3 872.8 143.9 871.6 143 869.5 145.3ZM875.3 142.1 875.2 140 863.9 142 866.7 144 863 149.9 861.7 148.8 862.4 146.3 859.5 143.6 868.4 137.7 876.9 137.4 879.8 132.5 881.6 133.8 887.3 130 889 126.6 888.6 123.4 889.7 121.7 892.7 121.2 894.1 127.3 891.6 130.1 889.6 138.5 881.2 140 877.2 143.2 875.3 142.1ZM888.8 120.6 889.8 115.7 892.7 115.6 894.4 109.6 899.8 113.4 903.7 112.8 904.3 115.9 900.2 116.7 897.7 119.5 893.4 117.6 891.9 120.6 888.8 120.6ZM896.5 106.3 894.7 108.4 894.9 94.6 893.3 91.8 893.6 88.1 896.1 86.8 895 85.5 896.3 85.1 897.9 92.3 901.8 100.1 897.7 99.1 896 103.2 898.7 106 898.6 108 896.5 106.3ZM905.9 27.3 906.6 26.4 918.7 27.5 915.5 28.6 905.9 27.3ZM903 26.2 900.8 28.3 886 28.9 880.5 27.1 882 25.1 885.6 24.6 903 26.2Z"></path>
-<circle class="cmap-dot" cx="837.7" cy="166.6" r="5.6" data-place="Taipei · National Taiwan University" data-names="Chang, Hung-Hao&nbsp;· Liou, Ruey-Wan&nbsp;· Sun, Hsiao-Chiao&nbsp;· Wu, Karin&nbsp;· Yang, Feng-An"></circle>
-<circle class="cmap-dot" cx="828" cy="168.1" r="4" data-place="Xiamen · Xiamen University of Technology" data-names="Lee, Tzong-Haw"></circle>
-<circle class="cmap-dot" cx="160.3" cy="103.7" r="4" data-place="Seattle · University of Washington" data-names="Begun, Jeffrey C."></circle>
-<circle class="cmap-dot" cx="189.4" cy="120.2" r="4" data-place="Logan · Utah State University" data-names="Kim, Man-Keun"></circle>
-<circle class="cmap-dot" cx="160.4" cy="130.9" r="4" data-place="Berkeley · UC Berkeley" data-names="Zilberman, David"></circle>
-<circle class="cmap-dot" cx="286" cy="114.5" r="4" data-place="Ithaca · Cornell University" data-names="Just, David R."></circle>
-<circle class="cmap-dot" cx="296.5" cy="128.5" r="4" data-place="Princeton · Princeton University" data-names="Lee, Brian"></circle>
-<circle class="cmap-dot" cx="288.5" cy="123" r="4" data-place="Bethlehem · Lehigh University" data-names="Meyerhoefer, Chad D."></circle>
+<circle class="cmap-dot" cx="837.7" cy="166.6" r="5.6" data-place="臺北 · 國立臺灣大學" data-names="巫凱琳、孫小喬、張宏浩、楊豐安、劉瑞文"></circle>
+<circle class="cmap-dot" cx="828" cy="168.1" r="4" data-place="廈門 · 廈門理工學院" data-names="李宗皓"></circle>
+<circle class="cmap-dot" cx="160.3" cy="103.7" r="4" data-place="西雅圖 · 華盛頓大學" data-names="Begun, Jeffrey C."></circle>
+<circle class="cmap-dot" cx="189.4" cy="120.2" r="4" data-place="洛根 · 猶他州立大學" data-names="Kim, Man-Keun"></circle>
+<circle class="cmap-dot" cx="160.4" cy="130.9" r="4" data-place="柏克萊 · 加州大學柏克萊分校" data-names="Zilberman, David"></circle>
+<circle class="cmap-dot" cx="286" cy="114.5" r="4" data-place="綺色佳 · 康乃爾大學" data-names="Just, David R."></circle>
+<circle class="cmap-dot" cx="296.5" cy="128.5" r="4" data-place="普林斯頓 · 普林斯頓大學" data-names="Lee, Brian"></circle>
+<circle class="cmap-dot" cx="288.5" cy="123" r="4" data-place="伯利恆 · 理海大學" data-names="Meyerhoefer, Chad D."></circle>
 </svg>
 <div class="cmap-tip"></div>
 </div>
-<div class="cmap-scroll-hint" aria-hidden="true">← Swipe to explore →</div>
+<div class="cmap-scroll-hint" aria-hidden="true">← 左右滑動瀏覽 →</div>
 <script>
 (function () {
   var map = document.querySelector('.coauthor-map');
@@ -720,22 +719,22 @@ Qual. & Quant.
 ```
 
 ::: coauthors-list
-- [**Begun, Jeffrey C.**](https://jsis.washington.edu/emis/people/jeffrey-begun/), University of Washington.
-- [**Chang, Hung-Hao**](https://sites.google.com/view/hh-chang), National Taiwan University.
-- [**Just, David R.**](https://economics.cornell.edu/david-just), Cornell University.
-- [**Kim, Man-Keun**](https://qanr.usu.edu/directory/kim-man-keun), Utah State University.
-- [**Lee, Brian**](https://cpree.princeton.edu/people/brian-lee), Princeton University.
-- Lee, Tzong-Haw, Xiamen University of Technology.
-- [**Liou, Ruey-Wan**](https://www.agec.ntu.edu.tw/en/teacher/teacher2/Ruey-Wan-Liou-30120496), National Taiwan University.
-- [**Meyerhoefer, Chad D.**](https://business.lehigh.edu/directory/chad-d-meyerhoefer), Lehigh University.
-- Sun, Hsiao-Chiao, National Taiwan University.
-- [**Wu, Karin**](https://www.agec.ntu.edu.tw/en/teacher/KARIN-WU-38174358), National Taiwan University.
-- [**Yang, Feng-An**](https://www.agec.ntu.edu.tw/en/teacher/Feng-An-Yang-84600801), National Taiwan University.
-- [**Zilberman, David**](https://professorzilberman.com), University of California, Berkeley.
+- [**Begun, Jeffrey C.**](https://jsis.washington.edu/emis/people/jeffrey-begun/)，華盛頓大學
+- [**Just, David R.**](https://economics.cornell.edu/david-just)，康乃爾大學
+- [**Kim, Man-Keun**](https://qanr.usu.edu/directory/kim-man-keun)，猶他州立大學
+- [**Lee, Brian**](https://cpree.princeton.edu/people/brian-lee)，普林斯頓大學
+- [**Meyerhoefer, Chad D.**](https://business.lehigh.edu/directory/chad-d-meyerhoefer)，理海大學
+- [**Zilberman, David**](https://professorzilberman.com)，加州大學柏克萊分校
+- [**巫凱琳**](https://www.agec.ntu.edu.tw/en/teacher/KARIN-WU-38174358)，國立臺灣大學
+- 李宗皓，廈門理工學院
+- 孫小喬，國立臺灣大學
+- [**張宏浩**](https://sites.google.com/view/hh-chang)，國立臺灣大學
+- [**楊豐安**](https://www.agec.ntu.edu.tw/en/teacher/Feng-An-Yang-84600801)，國立臺灣大學
+- [**劉瑞文**](https://www.agec.ntu.edu.tw/en/teacher/teacher2/Ruey-Wan-Liou-30120496)，國立臺灣大學
 :::
 
 ::: paper-note
-*Note*: Names are listed in alphabetical order.
+*附註*：西文姓名依字母順序排列，中文姓名依姓氏筆畫排列。
 :::
 
 ```{=html}
@@ -799,8 +798,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'copy-bib';
-    btn.setAttribute('aria-label', 'Copy BibTeX');
-    btn.setAttribute('title', 'Copy BibTeX');
+    btn.setAttribute('aria-label', '複製 BibTeX');
+    btn.setAttribute('title', '複製 BibTeX');
     btn.innerHTML = CLIP;
     btn.addEventListener('click', function (e) {
       e.stopPropagation();
@@ -832,7 +831,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 ```
 
-## **Referee Activities**
+## **審稿**
 
 - [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297) (4)
 - [*Food Policy*](https://www.sciencedirect.com/journal/food-policy) (1)
@@ -841,25 +840,25 @@ document.addEventListener('DOMContentLoaded', function () {
 - [*Managerial and Decision Economics*](https://onlinelibrary.wiley.com/journal/10991468) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
 
-## **Theses**
+## **學位論文**
 
 ```{=html}
 <ol class="conf-list" reversed>
-<li><strong>Liou, Y.-Y.</strong> 2021. "<a href="https://doi.org/10.6342/NTU202102085" target="_blank" rel="noopener">Using Multilevel Linear Modeling to Explore the Moderating Effect of External Attributes on Hotel Room Rates: Empirical Evidence on Public Goods and Industry Environment</a>." Master's Thesis, Master Program in Statistics, National Taiwan University.<br><em>Grade: A+. Committee: Yao-Wen Hsu, Yung-Chih Lien, and Shih-Ping Ho.</em></li>
-<li><strong>劉昱佑</strong>（2021）。「<a href="https://doi.org/10.6342/NTU202101981" target="_blank" rel="noopener">農地價格指數之建構：應用臺灣實價登錄資料的大數據分析</a>」。國立臺灣大學農業經濟學系碩士論文。<br>[Constructing Property Price Indices: Big Data Analyses from Actual Price Registration of Real Estate Transactions in Taiwan. Master's Thesis, Department of Agricultural Economics, National Taiwan University.]<br><em>Grade: A+. Committee: Hung-Hao Chang, Yessica C.Y. Chung, Jiun-Hao Wang, Tzu-Chin Lin, and Sheng-Fu Tsai.</em></li>
+<li><strong>Liou, Y.-Y.</strong> 2021. "<a href="https://doi.org/10.6342/NTU202102085" target="_blank" rel="noopener">Using Multilevel Linear Modeling to Explore the Moderating Effect of External Attributes on Hotel Room Rates: Empirical Evidence on Public Goods and Industry Environment</a>." Master's Thesis, Master Program in Statistics, National Taiwan University.<br>成績：A+。口試委員：許耀文、連勇智、荷世平。</li>
+<li><strong>劉昱佑</strong>（2021）。「<a href="https://doi.org/10.6342/NTU202101981" target="_blank" rel="noopener">農地價格指數之建構：應用臺灣實價登錄資料的大數據分析</a>」。國立臺灣大學農業經濟學系碩士論文。<br>成績：A+。口試委員：張宏浩、鍾秋悅、王俊豪、林子欽、蔡昇甫。</li>
 </ol>
 ```
 
-## **Other Conference Papers**
+## **其他研討會論文**
 
 ```{=html}
 <ol class="conf-list" reversed>
-<li><strong>劉昱佑</strong>、李成蔭（2024）。「從眾或課責？運用臺灣選舉調查資料探討 2018 年與 2022 年地方大選結果對於總統滿意度的影響」。第十六屆國會國際學術研討會，臺北。<br>[<strong>Liou, Y.-Y.</strong> and C.-Y. Lee. 2024. "Conformity or Accountability? An Analysis of Local Election Results on Presidential Satisfaction." 16th International Conference on Parliamentary Studies, Taipei.]</li>
+<li><strong>劉昱佑</strong>、李成蔭（2024）。「從眾或課責？運用臺灣選舉調查資料探討 2018 年與 2022 年地方大選結果對於總統滿意度的影響」。第十六屆國會國際學術研討會，臺北。</li>
 <li><strong>Liou, Y.-Y.</strong> and H.-H. Chang. 2023. "The Long-term Effects of Early-life Malaria Exposure on Farm Households' Resource Allocation." International Conference on Agricultural and Environmental Economics (2023), Taipei.</li>
 <li><strong>Liou, Y.-Y.</strong> 2023. "Adaptation Behavior of Public Mobility under Climate Change: Empirical Evidence on Taipei Metro." International Conference on Business and Management for Graduate Students (2023), Taipei.</li>
-<li><strong>劉昱佑</strong>（2023）。「選舉投票行為的時、空路徑依賴：2022 年臺北市長選舉的實證分析」。第十五屆國會國際學術研討會，臺北。<br>[<strong>Liou, Y.-Y.</strong> 2023. "Path Dependency of Spatiotemporal Voting Behavior: An Empirical Analysis of the 2022 Taipei Mayoral Election." 15th International Conference on Parliamentary Studies, Taipei.]</li>
-<li>何驊哲、<strong>劉昱佑</strong>（2023）。「新人光環對於當選可能之影響：2009-2022 年臺灣縣市議員選舉的實證研究」。第十五屆國會國際學術研討會，臺北。<br>[Ho, H.-C. and <strong>Y.-Y. Liou</strong>. 2023. "The Impact of 'Newcomer Aura' on Election Probability: An Empirical Study of Taiwan's Councilor Elections (2009–2022)." 15th International Conference on Parliamentary Studies, Taipei.]</li>
-<li><strong>劉昱佑</strong>、張宏浩（2020）。「以非階層式群集分析研究農產品之消費行為——農產品銷售平台的實證分析」。2020 年臺灣農村經濟學會年會暨學術研討會，臺北。<br>[<strong>Liou, Y.-Y.</strong> and H.-H. Chang. 2020. "A Non-hierarchical Clustering Analysis of Consumer Behavior in Agricultural Products." 2020 Annual Conference of the Taiwan Rural Economics Society, Taipei.]</li>
-<li><strong>劉昱佑</strong>、陳林松（2019）。「生產力對於臺灣國內生產毛額的貢獻度（1981-2018）」。2019 年生產力與效率學術研討會，臺北。<br>[<strong>Liou, Y.-Y.</strong> and L. Chen. 2019. "The Contribution of Productivity to Taiwan's GDP Growth: An Empirical Analysis (1981–2018)." 2019 Taiwan Productivity and Efficiency Conference, Taipei.]</li>
+<li><strong>劉昱佑</strong>（2023）。「選舉投票行為的時、空路徑依賴：2022 年臺北市長選舉的實證分析」。第十五屆國會國際學術研討會，臺北。</li>
+<li>何驊哲、<strong>劉昱佑</strong>（2023）。「新人光環對於當選可能之影響：2009-2022 年臺灣縣市議員選舉的實證研究」。第十五屆國會國際學術研討會，臺北。</li>
+<li><strong>劉昱佑</strong>、張宏浩（2020）。「以非階層式群集分析研究農產品之消費行為——農產品銷售平台的實證分析」。2020 年臺灣農村經濟學會年會暨學術研討會，臺北。</li>
+<li><strong>劉昱佑</strong>、陳林松（2019）。「生產力對於臺灣國內生產毛額的貢獻度（1981-2018）」。2019 年生產力與效率學術研討會，臺北。</li>
 </ol>
 ```
