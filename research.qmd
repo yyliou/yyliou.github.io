@@ -153,20 +153,21 @@ JAERE
 ::: paper-meta
 ***Journal of the Association of Environmental and Resource Economists***, forthcoming (with Chang and Meyerhoefer). §
 
-[Earlier version presented at the 20th EAEA International Convention (2025), the 99th Annual Conference of WEAI (2024), and the 11th Annual Conference of the IAAE (2024).]{.paper-earlier}
+[[Earlier version](https://ssrn.com/abstract=4984614) presented at the 20th EAEA International Convention (2025), the 99th Annual Conference of WEAI (2024), and the 11th Annual Conference of the IAAE (2024).]{.paper-earlier}
 :::
 
 ::: paper-links
-[Journal](https://ssrn.com/abstract=4984614){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[Journal](https://doi.org/10.1086/743452){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
-<div class="abstract-box"><p>Religious holidays are associated with changes to usual routines and special religious practices that can worsen air pollution. Using the Hakka Tomb Sweeping Day in Taiwan as an illustration, we find that religious activities lower overall air quality by 10.8% and increase levels of specific pollutants by 9.8% - 18.6%. In contrast to previous studies suggesting elevated air pollution is due to the burning of incense, joss paper and fireworks, we identify greater motor vehicle use and a decrease in travel speed as primary mechanisms. Changes in traffic also lead to a 16% increase in injuries from motor vehicle accidents. In Hakka areas serviced by rail lines we find no increase in air pollution or injuries during Tomb Sweeping Day, highlighting the benefits of public transportation to accommodate holiday travel.</p></div>
+<div class="abstract-box"><p>Policymakers are under pressure to limit pollution emissions from large-scale religious observances, putting them in conflict with individuals practicing religious rituals. Using the Hakka Tomb-Sweeping Day in Taiwan as an illustration, we show that better information on pollution sources and targeted measures of exposure yield more accurate estimates of the true pollution costs of religious practices. We find that religious activities lower overall air quality by 17.5% during the Tomb-Sweeping Day weekend and increase levels of specific pollutants by 13.6% - 25.7%. In contrast to previous studies suggesting elevated pollution is due to the burning of incense, joss paper and fireworks, we identify greater motor vehicle use and lower travel speed as primary mechanisms. Policies designed to limit the surge in motor vehicle traffic during the holiday could reduce excess health-related costs by NT$33.1 million, equaling 34% of total inpatient and outpatient health care expenditures during the two-day period.</p></div>
 <div class="bibtex-box"><pre><code>@article{chang2026air,
   title   = {Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day},
   author  = {Chang, Hung-Hao and Liou, Yu-You and Meyerhoefer, Chad D.},
   journal = {Journal of the Association of Environmental and Resource Economists},
   note    = {Forthcoming},
+  doi     = {10.1086/743452},
 }</code></pre></div>
 ```
 :::::::
