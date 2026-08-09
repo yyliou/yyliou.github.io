@@ -42,10 +42,6 @@ Source: National Police Agency traffic accident open data (A1/A2).
 Taiwan's government open data is a rich resource, but it is rarely tidy: formats, encodings, and release conventions differ from agency to agency, so downloading and cleaning it by hand is tedious and easy to get wrong. The R packages below exist to take that friction away — each automates the retrieval and cleaning of a particular public dataset so it can be read into an analysis environment quickly and reproducibly.
 
 :::::::: paper-entry
-::: hex-col
-![](hex/agrstat.svg){fig-alt="agrstat package hex logo"}
-:::
-
 ::: paper-title
 **agrstat**
 :::
@@ -64,10 +60,6 @@ Retrieves data from the Ministry of Agriculture's *Agricultural Statistics Dynam
 ::::::::
 
 :::::::: paper-entry
-::: hex-col
-![](hex/weather.svg){fig-alt="twweather package hex logo"}
-:::
-
 ::: paper-title
 **twweather**
 :::
@@ -86,10 +78,6 @@ Downloads Taiwan's historical weather observations from the Central Weather Admi
 ::::::::
 
 :::::::: paper-entry
-::: hex-col
-![](hex/hotel.svg){fig-alt="twhotel package hex logo"}
-:::
-
 ::: paper-title
 **twhotel**
 :::
@@ -108,10 +96,6 @@ Builds a hotel-by-month panel from the Taiwan Tourism Administration's monthly *
 ::::::::
 
 :::::::: paper-entry
-::: hex-col
-![](hex/plvr.svg){fig-alt="plvr package hex logo"}
-:::
-
 ::: paper-title
 **plvr**
 :::
@@ -130,10 +114,6 @@ Retrieves Taiwan's actual real-estate transaction records (實價登錄) from th
 ::::::::
 
 :::::::: paper-entry
-::: hex-col
-![](hex/twcovid.svg){fig-alt="twcovid package hex logo"}
-:::
-
 ::: paper-title
 **twcovid**
 :::
@@ -152,10 +132,6 @@ Retrieves Taiwan CDC's COVID-19 open data — confirmed cases and deaths — and
 ::::::::
 
 :::::::: paper-entry
-::: hex-col
-![](hex/scen.svg){fig-alt="scen package hex logo"}
-:::
-
 ::: paper-title
 **scen**
 :::

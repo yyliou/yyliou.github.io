@@ -46,10 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
 **國際企業英語學士學位學程**
 
 :::::: paper-entry
-::: hex-col
-![](hex/stat.svg){fig-alt="Statistics course hex logo"}
-:::
-
 ::: paper-title
 **統計學 (1) & (2)**
 :::
@@ -68,10 +64,6 @@ document.addEventListener('DOMContentLoaded', function () {
 ::::::
 
 :::::: paper-entry
-::: hex-col
-![](hex/pa.svg){fig-alt="Programming for Applications course hex logo"}
-:::
-
 ::: paper-title
 **應用程式設計**
 :::
@@ -90,10 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
 ::::::
 
 :::::: paper-entry
-::: hex-col
-![](hex/da.svg){fig-alt="Data Analysis course hex logo"}
-:::
-
 ::: paper-title
 **資料分析**
 :::

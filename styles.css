@@ -857,33 +857,6 @@ div.quarto-about-trestles .about-entity .about-image {
     border-bottom: none;
 }
 
-/* Course hex badge (left column, like the journal tag) */
-.hex-col {
-    grid-column: 1;
-    grid-row: 1 / span 4;
-    align-self: center;
-}
-
-.hex-col p {
-    margin: 0;
-}
-
-.hex-col img {
-    width: 112px;
-    display: block;
-}
-
-@media (max-width: 600px) {
-    .hex-col {
-        grid-column: 1;
-        grid-row: auto;
-        margin-bottom: 0.9em;
-    }
-    .hex-col img {
-        width: 84px;
-    }
-}
-
 .paper-title {
     font-weight: 500;
     font-size: 1.02rem;

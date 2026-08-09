@@ -48,10 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
 **English Taught Program in International Business**
 
 :::::::: paper-entry
-::: hex-col
-![](hex/stat.svg){fig-alt="Statistics course hex logo"}
-:::
-
 ::: paper-title
 **Statistics I & II**
 :::
@@ -70,10 +66,6 @@ A two-semester introduction to statistical reasoning, covering descriptive stati
 ::::::::
 
 :::::::: paper-entry
-::: hex-col
-![](hex/pa.svg){fig-alt="Programming for Applications course hex logo"}
-:::
-
 ::: paper-title
 **Programming for Applications**
 :::
@@ -92,10 +84,6 @@ An introduction to programming fundamentals in R, emphasizing how to translate p
 ::::::::
 
 :::::::: paper-entry
-::: hex-col
-![](hex/da.svg){fig-alt="Data Analysis course hex logo"}
-:::
-
 ::: paper-title
 **Data Analysis**
 :::
