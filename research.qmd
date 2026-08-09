@@ -123,7 +123,7 @@ My research has primarily been published in international journals within the fi
 </div>
 <script>
 (function () {
-  var VOS_BASE = 'https://app.vosviewer.com/?json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D13Sdh41MoHPEq19gX7CxHdXWlg-OXSj6g&simple_ui=true';
+  var VOS_BASE = 'https://app.vosviewer.com/?item_color=1&item_size=3&item_size_variation=1&json=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IfL9tQfW8qPlvLEPL5HVDtOmf2A-_ZP1&link_size_variation=1&max_label_length=35&scale=2&simple_ui=true';
   var frame = document.getElementById('vosviewerMap');
   if (!frame) return;
   function syncVosTheme() {
