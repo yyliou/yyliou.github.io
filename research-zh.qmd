@@ -608,14 +608,14 @@ Qual. & Quant.
 <li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Chang).</li>
 <li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Chang and Sun).</li>
 <li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).<span class="paper-earlier">Earlier version presented at the AAEA Annual Meeting (2026).</span></li>
-<li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Chang and Zilberman).<span class="paper-earlier">Earlier version presented at the 7th World Congress of Environmental and Resource Economists (2026).</span></li>
 </ol>
 ```
 
 ### 待投稿
 
 ```{=html}
-<ol reversed start="1" class="wip-list">
+<ol reversed start="2" class="wip-list">
+<li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Chang and Zilberman).<span class="paper-earlier">Earlier version presented at the 7th World Congress of Environmental and Resource Economists (2026).</span></li>
 <li>Does Metro Expansion Always Reduce Traffic Accidents? (with Chang).<span class="paper-earlier">Earlier version presented at the 21st EAEA International Convention (2026).</span></li>
 </ol>
 ```
@@ -827,6 +827,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ## **審稿**
 
 - [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297) (4)
+- [*Criminology & Public Policy*](https://onlinelibrary.wiley.com/journal/17459133) (1)
 - [*Food Policy*](https://www.sciencedirect.com/journal/food-policy) (1)
 - [*Frontiers in Climate*](https://www.frontiersin.org/journals/climate) (1)
 - [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1)
