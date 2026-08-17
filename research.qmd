@@ -443,6 +443,42 @@ Ann. Tour. Res.
 
 ::::::: paper-entry
 ::: paper-tag
+Agriculture
+
+```{=html}
+<a href="https://plu.mx/plum/a/?doi=10.3390%2Fagriculture15202124" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="false"></a>
+```
+:::
+
+::: paper-title
+4\. Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Agriculture Census Data
+:::
+
+::: paper-meta
+***Agriculture***, 15(20), 2124, 2025 (with Lee and Chang).
+:::
+
+::: paper-links
+[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SCIE]{.idx-badge}
+:::
+
+```{=html}
+<div class="abstract-box"><p>Concerns over ground-mounted photovoltaics (PVs) on cropland have encouraged a shift toward rooftop PV systems on livestock and poultry farms. Using ex-post observational data and a doubly robust estimation approach, this study examines the determinants and economic effects of PV adoption among chicken farmers in Taiwan. Based on a population-wide agricultural census, we assess how socio-demographic factors, production practices, household composition, and electricity infrastructure influence adoption decisions. The results show that education level, household structure, and access to electricity are key drivers of adoption. PV adopters exhibit a 5.8% higher sales value of chicken products, mainly due to increased production volume rather than quality improvements. These findings highlight the potential dual benefits of integrating solar energy with poultry farming and provide policy-relevant insights for sustainable agricultural development.</p></div>
+<div class="bibtex-box"><pre><code>@article{lee2025solar,
+  title   = {Is Solar Panel Adoption a Win--Win Strategy for Chicken Farms? Evidence from Agriculture Census Data},
+  author  = {Lee, Tzong-Haw and Liou, Yu-You and Chang, Hung-Hao},
+  journal = {Agriculture},
+  volume  = {15},
+  number  = {20},
+  pages   = {2124},
+  year    = {2025},
+  doi     = {10.3390/agriculture15202124},
+}</code></pre></div>
+```
+:::::::
+
+::::::: paper-entry
+::: paper-tag
 Agribusiness
 
 ```{=html}
@@ -451,7 +487,7 @@ Agribusiness
 :::
 
 ::: paper-title
-4\. Rooftop Photovoltaics Adoption and Farm Revenue
+3\. Rooftop Photovoltaics Adoption and Farm Revenue
 :::
 
 ::: paper-meta
@@ -487,7 +523,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-title
-3\. The impact of the carbon border adjustment mechanism policy on international trade and market competition — A theoretical justification
+2\. The impact of the carbon border adjustment mechanism policy on international trade and market competition — A theoretical justification
 :::
 
 ::: paper-meta
@@ -507,42 +543,6 @@ Singapore Econ. Rev.
   year    = {2025},
   note    = {Advance online publication},
   doi     = {10.1142/S0217590825500328},
-}</code></pre></div>
-```
-:::::::
-
-::::::: paper-entry
-::: paper-tag
-Agriculture
-
-```{=html}
-<a href="https://plu.mx/plum/a/?doi=10.3390%2Fagriculture15202124" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="false"></a>
-```
-:::
-
-::: paper-title
-2\. Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Agriculture Census Data
-:::
-
-::: paper-meta
-***Agriculture***, 15(20), 2124, 2025 (with Lee and Chang).
-:::
-
-::: paper-links
-[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SCIE]{.idx-badge}
-:::
-
-```{=html}
-<div class="abstract-box"><p>Concerns over ground-mounted photovoltaics (PVs) on cropland have encouraged a shift toward rooftop PV systems on livestock and poultry farms. Using ex-post observational data and a doubly robust estimation approach, this study examines the determinants and economic effects of PV adoption among chicken farmers in Taiwan. Based on a population-wide agricultural census, we assess how socio-demographic factors, production practices, household composition, and electricity infrastructure influence adoption decisions. The results show that education level, household structure, and access to electricity are key drivers of adoption. PV adopters exhibit a 5.8% higher sales value of chicken products, mainly due to increased production volume rather than quality improvements. These findings highlight the potential dual benefits of integrating solar energy with poultry farming and provide policy-relevant insights for sustainable agricultural development.</p></div>
-<div class="bibtex-box"><pre><code>@article{lee2025solar,
-  title   = {Is Solar Panel Adoption a Win--Win Strategy for Chicken Farms? Evidence from Agriculture Census Data},
-  author  = {Lee, Tzong-Haw and Liou, Yu-You and Chang, Hung-Hao},
-  journal = {Agriculture},
-  volume  = {15},
-  number  = {20},
-  pages   = {2124},
-  year    = {2025},
-  doi     = {10.3390/agriculture15202124},
 }</code></pre></div>
 ```
 :::::::
