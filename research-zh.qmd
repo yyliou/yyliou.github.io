@@ -616,7 +616,7 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="1" class="wip-list">
-<li>Does Metro Expansion Always Reduce Traffic Accidents? (with Chang).<span class="paper-earlier">Earlier version presented at the 21st EAEA International Convention (2026).</span></li>
+<li>The Spatial Reach of Metro-led Development: Housing Gains and Traffic-Safety Costs by Station Accessibility (with Chang).<span class="paper-earlier">Earlier version presented at the 21st EAEA International Convention (2026).</span></li>
 </ol>
 ```
 
