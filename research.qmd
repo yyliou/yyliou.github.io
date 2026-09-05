@@ -334,7 +334,7 @@ J. Transp. Geogr.
 :::
 
 ::: paper-meta
-***Journal of Transport Geography***, 91, 102954, 2021 (with Chang, Lee, and Yang). †\^⁺‡
+***Journal of Transport Geography***, 91, 102954, 2021 (with Chang, Lee, and Yang). †\^⁺‡¶
 :::
 
 ::: paper-links
@@ -356,7 +356,7 @@ J. Transp. Geogr.
 :::::::
 
 ::: paper-note
-*Note*: † NSTC-recommended journals (Regional Studies & Geography); \* NSTC Economics B+ journals; \^ NSTC-recommended journals (Management II); ⁺ journals ranked in the top 10% of their field by Journal Impact Factor; ‡ National Taiwan University distinguished journals; § National Taiwan University outstanding journals.
+*Note*: † NSTC-recommended journals (Regional Studies & Geography); \* NSTC Economics B+ journals; \^ NSTC-recommended journals (Management II); ⁺ journals ranked in the top 10% of their field by Journal Impact Factor; ‡ National Taiwan University distinguished journals; § National Taiwan University outstanding journals; ¶ National Taiwan University highly cited publications (FWCI top 5%). The definitions of NTU distinguished journals, outstanding journals, and highly cited publications follow the [National Taiwan University Regulations on Academic Research Performance Awards](https://ord.ntu.edu.tw/WebUPD/ordntu/GW/1140521%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E5%AD%B8%E8%A1%93%E7%A0%94%E7%A9%B6%E7%B8%BE%E6%95%88%E7%8D%8E%E5%8B%B5%E8%BE%A6%E6%B3%95.pdf).
 :::
 
 ```{=html}
