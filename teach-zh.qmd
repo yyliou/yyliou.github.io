@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-大學部，上學期：113學年、114學年、115學年；下學期：113學年、114學年
+大學部，上學期：113 學年、114 學年、115 學年；下學期：113 學年、114 學年
 :::
 
 ::: paper-desc
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-大學部，下學期：112學年、113學年、114學年
+大學部，下學期：112 學年、113 學年、114 學年
 :::
 
 ::: paper-desc
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-大學部，上學期：113學年、114學年、115學年
+大學部，上學期：113 學年、114 學年、115 學年
 :::
 
 ::: paper-desc
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-112學年下學期、115學年上學期（張宏浩特聘教授）
+112 學年下學期、115 學年上學期（張宏浩特聘教授）
 :::
 ::::::
 
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-110學年下學期（陳政位副教授）
+110 學年下學期（陳政位副教授）
 :::
 ::::::
 
@@ -129,6 +129,6 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-108學年下學期（張宏浩特聘教授）
+108 學年下學期（張宏浩特聘教授）
 :::
 ::::::

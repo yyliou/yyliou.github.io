@@ -2,7 +2,7 @@
 title: "Extension"
 ---
 
-Data-driven tools that make Taiwan’s public data easier to explore: interactive visualizations, and R packages for government open data.
+Data-driven tools that make Taiwan’s public data easier to explore: interactive visualizations and R packages for government open data.
 
 ## Taiwan Crash Atlas
 

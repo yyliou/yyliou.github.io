@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-Undergraduate, Fall, 2024, 2025, 2026; Spring, 2025, 2026.
+Undergraduate. Fall 2024, 2025, 2026; Spring 2025, 2026.
 :::
 
 ::: paper-desc
@@ -71,7 +71,7 @@ A two-semester introduction to statistical reasoning, covering descriptive stati
 :::
 
 ::: paper-meta
-Undergraduate, Spring, 2024, 2025, 2026.
+Undergraduate. Spring 2024, 2025, 2026.
 :::
 
 ::: paper-desc
@@ -89,7 +89,7 @@ An introduction to programming fundamentals in R, emphasizing how to translate p
 :::
 
 ::: paper-meta
-Undergraduate, Fall, 2024, 2025, 2026.
+Undergraduate. Fall 2024, 2025, 2026.
 :::
 
 ::: paper-desc

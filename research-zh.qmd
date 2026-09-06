@@ -4,7 +4,7 @@ lang: zh-TW
 image: pic.png
 ---
 
-空氣污染、交通事故與地下水超抽有一個共同點。造成損害的人不必承擔其成本。這正是環境經濟與資源管理所稱的外部性，而政策則是主要的矯正工具。我的研究衡量政策實際矯正了多少，以及在此過程中產生哪些非預期效果。答案往往與政策原先的設想不同。我運用因果推論方法與大規模行政資料，研究場域涵蓋農業與都市兩大面向。
+空氣污染、交通事故與地下水超抽有一個共同點。造成損害的人不必承擔其成本。這正是環境與資源經濟學所稱的外部性，而政策則是主要的矯正工具。我的研究衡量政策實際矯正了多少，以及在此過程中產生哪些非預期效果。答案往往與政策原先的設想不同。我運用因果推論方法與大規模行政資料，研究場域涵蓋農業與都市兩大面向。
 
 ```{=html}
 <script>
@@ -109,12 +109,12 @@ document.addEventListener('DOMContentLoaded', function () {
 *附註*：有三筆文獻無法對應至相應年份，因此未納入圖中。
 :::
 
-我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的Journal of Transport Geography、Transportation Research Part A及Part D、Food Policy以及Forest Policy and Economics。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
+我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的 *Journal of Transport Geography*、*Transportation Research Part A* 及 *Part D*、*Food Policy* 以及 *Forest Policy and Economics*。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
 
 ```{=html}
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><iframe id="vosviewerMap" class="vos-embed" allowfullscreen="true" width="100%" height="75%" style="max-width: 1000px; min-height: 500px" title="研究主題網絡圖，涵蓋經濟學、環境科學、農業、收益與COVID-19等主題" loading="lazy"></iframe></p>
+<p><iframe id="vosviewerMap" class="vos-embed" allowfullscreen="true" width="100%" height="75%" style="max-width: 1000px; min-height: 500px" title="研究主題網絡圖，涵蓋經濟學、環境科學、農業、收益與 COVID-19 等主題" loading="lazy"></iframe></p>
 <figcaption>研究主題網絡圖</figcaption>
 </figure>
 </div>
@@ -265,7 +265,7 @@ Transp. Res. D
 :::
 
 ::: paper-links
-[期刊全文](http://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
+[期刊全文](https://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
@@ -300,7 +300,7 @@ Forest Policy Econ.
 :::
 
 ::: paper-links
-[期刊全文](http://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
+[期刊全文](https://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -335,7 +335,7 @@ J. Transp. Geogr.
 :::
 
 ::: paper-links
-[期刊全文](http://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
+[期刊全文](https://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -396,13 +396,14 @@ J. Tour. Manag. Res.
   number  = {1},
   pages   = {148--162},
   year    = {2026},
+  doi     = {10.18488/31.v13i1.4940},
 }</code></pre></div>
 ```
 :::::::
 
 ::::::: paper-entry
 ::: paper-tag
-Ann. Tour. Res.
+ATR Empir. Insights
 
 ```{=html}
 <a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.annale.2026.100209" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="false"></a>
@@ -424,7 +425,7 @@ Ann. Tour. Res.
 :::
 
 ```{=html}
-<div class="abstract-box"><ul><li>We explore the causal impact of a religious pilgrimage event on traffic accidents.</li><li>We use the Dajia Mazu Pilgrimage (DMP) event of Chinese society as an illustration.</li><li>We apply the difference-in-differences method and use administrative data of vehicle transportation and traffic accidents.</li><li>We find that the increased number of non-fatal injury traffic accidents during the pilgrimage.</li><li>The loss of labor productivity and medical expenses contribute 6.3% to the total traffic accident costs in society.</li></ul></div>
+<div class="abstract-box"><ul><li>We explore the causal impact of a religious pilgrimage event on traffic accidents.</li><li>We use the Dajia Mazu Pilgrimage (DMP) event of Chinese society as an illustration.</li><li>We apply the difference-in-differences method and use administrative data of vehicle transportation and traffic accidents.</li><li>We find an increased number of non-fatal injury traffic accidents during the pilgrimage.</li><li>The loss of labor productivity and medical expenses contribute 6.3% to the total traffic accident costs in society.</li></ul></div>
 <div class="bibtex-box"><pre><code>@article{liou2026religious,
   title   = {Traffic accidents of religious tourism},
   author  = {Liou, Yu-You and Chang, Hung-Hao},
@@ -500,7 +501,7 @@ Agribusiness
 ```{=html}
 <div class="abstract-box"><p>Solar energy production has grown substantially in agriculture. This paper examines farmers' adoption of rooftop photovoltaic (PV) systems, and how rooftop PV installation is associated with farm revenue, farm business diversification, and labor allocation. We develop a theoretical model to illustrate how farmers decide to adopt rooftop PV systems. The empirical analysis is based on a population‐based sample of livestock and poultry farms drawn from the 2020 agriculture census survey in Taiwan. We address potential endogeneity bias using several treatment effect models based on the selection‐on‐observable approach to identify the relationship between rooftop PV installation and farm revenue. We find that more educated farm operators and farms located in areas with higher density of electrical substations are more likely to adopt PV. Furthermore, PV adopters report higher farm product sales and greater labor use in farm activities. These findings imply that rooftop PV adoption could provide a mutually beneficial opportunity to enhance photovoltaic generation and improve farm revenue.</p></div>
 <div class="bibtex-box"><pre><code>@article{liou2025rooftop,
-  title   = {Rooftop photovoltaics adoption and farm revenue},
+  title   = {Rooftop Photovoltaics Adoption and Farm Revenue},
   author  = {Liou, Yu-You and Chang, Hung-Hao and Begun, Jeffrey C.},
   journal = {Agribusiness},
   year    = {2025},
@@ -524,7 +525,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-meta
-***Singapore Economic Review***, advance online publication, 2025 (with Chang and Begun).
+***The Singapore Economic Review***, advance online publication, 2025 (with Chang and Begun).
 :::
 
 ::: paper-links
@@ -582,7 +583,7 @@ Qual. & Quant.
 
 ## **進行中研究**
 
-### 修訂中
+### **修訂中**
 
 ```{=html}
 <ol reversed start="11" class="wip-list">
@@ -593,7 +594,7 @@ Qual. & Quant.
 </ol>
 ```
 
-### 審稿中
+### **審稿中**
 
 ```{=html}
 <ol reversed start="7" class="wip-list">
@@ -604,7 +605,7 @@ Qual. & Quant.
 </ol>
 ```
 
-### 投稿中
+### **投稿中**
 
 ```{=html}
 <ol reversed start="3" class="wip-list">
