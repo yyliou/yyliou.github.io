@@ -2,12 +2,25 @@
 title: "Yu-You Liou"
 pagetitle: "Yu-You Liou 劉昱佑"
 subtitle: ""
-description: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics."
+description: "Ph.D. Student, National Taiwan University<br>Adjunct Lecturer, Shih Chien University"
+description-meta: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics."
+open-graph:
+  description: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics."
+twitter-card:
+  description: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research focuses on (1) agricultural, environmental, and ecological economics, and (2) urban, regional, and transportation economics."
 about:
     template: trestles
     image: pic.png
     links: []
 ---
+
+I was born in Taichung, Taiwan. I studied Agricultural Economics and Political Science at National Taiwan University, followed by master’s degrees in Agricultural Economics and Statistics. I am currently a Ph.D. student in Agricultural Economics at NTU. My research focuses on environmental and resource economics, with an interest in how policy affects behavior, resource allocation, and social welfare.
+
+My work spans agriculture, energy, transportation, and urban economics, using causal inference and large-scale data to study environmental resources, the energy transition, road safety, public transportation, and urban environments.
+
+John Tukey once said, “The best thing about being a statistician is that you get to play in everyone’s backyard.” For me, this is also what makes research interesting.
+
+Alongside research, I teach statistics, data analysis, and applied programming at Shih Chien University. I hope to continue starting from important questions in the real world and using data and empirical methods to understand how policy shapes our environment and society.
 
 ## **Education**
 

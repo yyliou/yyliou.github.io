@@ -32,19 +32,45 @@ WEIGHTS = {
 SAFETY = ''.join(chr(c) for c in range(0x20, 0x7f)) + '©·–—…“”‘’「」『』（）、，。：；！？％　'
 
 
-def collect_chars() -> str:
+def chars_in_sources() -> set:
     chars = set(SAFETY)
     sources = glob.glob(str(ROOT / "*.html")) + glob.glob(str(ROOT / "*.qmd"))
     sources += [str(ROOT / "_header.html"), str(ROOT / "_footer.html")]
     # PDF viewer pages in the sibling yyliou repo (served at /yyliou/cv/, /yyliou/rs/)
-    sources += glob.glob(str(ROOT.parent / "yyliou" / "*" / "index.html"))
+    sibling = glob.glob(str(ROOT.parent / "yyliou" / "*" / "index.html"))
+    if not sibling:
+        print("  ! sibling yyliou repo not readable; keeping the shipped glyphs instead")
+    sources += sibling
     for f in sources:
         p = pathlib.Path(f)
         if not p.exists():
             continue
         text = html.unescape(p.read_text(encoding="utf-8", errors="ignore"))
         chars.update(ch for ch in text if ch not in "\n\r\t")
-    return ''.join(sorted(chars))
+    return chars
+
+
+def chars_already_shipped() -> set:
+    """Glyphs in the current subsets, so a rebuild can only add, never drop.
+
+    Some pages that use these fonts live outside this repo and may not be
+    readable when this runs. Dropping their glyphs would show tofu on pages
+    this script never sees.
+    """
+    from fontTools.ttLib import TTFont
+
+    shipped = set()
+    for base in WEIGHTS.values():
+        woff2 = FONT_DIR / f"{base}-sub.woff2"
+        if not woff2.exists():
+            continue
+        for table in TTFont(woff2)["cmap"].tables:
+            shipped.update(chr(cp) for cp in table.cmap)
+    return shipped
+
+
+def collect_chars() -> str:
+    return ''.join(sorted(chars_in_sources() | chars_already_shipped()))
 
 
 def main() -> None:

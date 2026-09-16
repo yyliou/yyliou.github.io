@@ -160,6 +160,7 @@ function applyLangGlobal() {
     'teach.html':    { href: 'teach-zh.html',     text: '教學' },
     'projects.html': { href: 'projects-zh.html',  text: '計畫' },
     'extension.html': { href: 'extension-zh.html', text: '延伸應用' },
+    'cv_metrics.pdf': { href: 'cv_zh_metrics.pdf', text: '履歷' },
   };
   var NAVBAR_EN = {
     'about-zh.html':    { href: 'about.html',    text: 'About' },
@@ -167,6 +168,7 @@ function applyLangGlobal() {
     'teach-zh.html':    { href: 'teach.html',    text: 'Teaching' },
     'projects-zh.html': { href: 'projects.html', text: 'Projects' },
     'extension-zh.html': { href: 'extension.html', text: 'Extension' },
+    'cv_zh_metrics.pdf': { href: 'cv_metrics.pdf', text: 'CV' },
   };
   var navTable = lang === 'zh' ? NAVBAR_ZH : NAVBAR_EN;
   var currentPage = window.location.pathname.split('/').pop() || 'index.html';
@@ -294,12 +296,8 @@ document.addEventListener('DOMContentLoaded', function () {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./extension.html"> 
-<span class="menu-text">Extension</span></a>
+    <a class="nav-link" href="https://yyliou.github.io/yyliou/cv/cv_metrics.pdf" target="_blank"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -470,8 +468,6 @@ document.addEventListener('DOMContentLoaded', function () {
         <a href="about.html" data-page="" data-en="About" data-zh="關於">About</a>
         <a href="research.html" data-page="" data-en="Research" data-zh="研究">Research</a>
         <a href="teach.html" data-page="" data-en="Teaching" data-zh="教學">Teaching</a>
-        <a href="projects.html" data-page="" data-en="Projects" data-zh="計畫">Projects</a>
-        <a href="extension.html" data-page="" data-en="Extension" data-zh="延伸應用">Extension</a>
       </div>
     </div>
 

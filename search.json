@@ -25,14 +25,14 @@
     "href": "about.html",
     "title": "Yu-You Liou",
     "section": "",
-    "text": "Ph.D. Student in Agricultural Economics, National Taiwan University (2022–)\nMS in Statistics, National Taiwan University (2020–2021)\nMS in Agricultural Economics, National Taiwan University (2019–2021)\nBA in Political Science, National Taiwan University (2016–2019)\nBS in Agricultural Economics, National Taiwan University (2015–2019)"
+    "text": "I was born in Taichung, Taiwan. I studied Agricultural Economics and Political Science at National Taiwan University, followed by master’s degrees in Agricultural Economics and Statistics. I am currently a Ph.D. student in Agricultural Economics at NTU. My research focuses on environmental and resource economics, with an interest in how policy affects behavior, resource allocation, and social welfare.\nMy work spans agriculture, energy, transportation, and urban economics, using causal inference and large-scale data to study environmental resources, the energy transition, road safety, public transportation, and urban environments.\nJohn Tukey once said, “The best thing about being a statistician is that you get to play in everyone’s backyard.” For me, this is also what makes research interesting.\nAlongside research, I teach statistics, data analysis, and applied programming at Shih Chien University. I hope to continue starting from important questions in the real world and using data and empirical methods to understand how policy shapes our environment and society."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "Yu-You Liou",
-    "section": "",
-    "text": "Ph.D. Student in Agricultural Economics, National Taiwan University (2022–)\nMS in Statistics, National Taiwan University (2020–2021)\nMS in Agricultural Economics, National Taiwan University (2019–2021)\nBA in Political Science, National Taiwan University (2016–2019)\nBS in Agricultural Economics, National Taiwan University (2015–2019)"
+    "section": "Education",
+    "text": "Education\n\nPh.D. Student in Agricultural Economics, National Taiwan University (2022–)\nMS in Statistics, National Taiwan University (2020–2021)\nMS in Agricultural Economics, National Taiwan University (2019–2021)\nBA in Political Science, National Taiwan University (2016–2019)\nBS in Agricultural Economics, National Taiwan University (2015–2019)"
   },
   {
     "objectID": "about.html#employment",
@@ -60,14 +60,14 @@
     "href": "about-zh.html",
     "title": "劉昱佑",
     "section": "",
-    "text": "國立臺灣大學農業經濟學系博士班（111 年–）\n國立臺灣大學統計碩士（109 年–110 年）\n國立臺灣大學農業經濟學碩士（108 年–110 年）\n國立臺灣大學政治學學士（105 年–108 年）\n國立臺灣大學農業經濟學學士（104 年–108 年）"
+    "text": "我於臺中出生，大學就讀國立臺灣大學農業經濟學系與政治學系，之後取得農業經濟學與統計學碩士學位，目前於臺大農業經濟學系攻讀博士。我的研究聚焦於環境與資源經濟，關注政策如何影響人的行為、資源配置與社會福祉。\n我的研究涵蓋農業、能源、交通與都市，使用因果推論與大規模資料，探討環境資源、能源轉型、道路安全、大眾運輸與都市環境等議題。\nJohn Tukey 曾說：「The best thing about being a statistician is that you get to play in everyone’s backyard.」對我而言，這也是研究有趣的地方。\n除了研究，我也從事教學，目前於實踐大學教授統計學、資料分析與應用程式設計。我希望持續從真實世界的重要問題出發，並以資料與實證方法理解政策如何形塑我們的環境與社會。"
   },
   {
     "objectID": "about-zh.html#學歷",
     "href": "about-zh.html#學歷",
     "title": "劉昱佑",
-    "section": "",
-    "text": "國立臺灣大學農業經濟學系博士班（111 年–）\n國立臺灣大學統計碩士（109 年–110 年）\n國立臺灣大學農業經濟學碩士（108 年–110 年）\n國立臺灣大學政治學學士（105 年–108 年）\n國立臺灣大學農業經濟學學士（104 年–108 年）"
+    "section": "學歷",
+    "text": "學歷\n\n國立臺灣大學農業經濟學系博士班（111 年–）\n國立臺灣大學統計碩士（109 年–110 年）\n國立臺灣大學農業經濟學碩士（108 年–110 年）\n國立臺灣大學政治學學士（105 年–108 年）\n國立臺灣大學農業經濟學學士（104 年–108 年）"
   },
   {
     "objectID": "about-zh.html#工作經歷",
@@ -137,7 +137,7 @@
     "href": "research-zh.html",
     "title": "研究",
     "section": "",
-    "text": "空氣污染、交通事故與地下水超抽有一個共同點。造成損害的人不必承擔其成本。這正是環境與資源經濟學所稱的外部性，而政策則是主要的矯正工具。我的研究衡量政策實際矯正了多少，以及在此過程中產生哪些非預期效果。答案往往與政策原先的設想不同。我運用因果推論方法與大規模行政資料，研究場域涵蓋農業與都市兩大面向。\n我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的 Journal of Transport Geography、Transportation Research Part A 及 Part D、Food Policy 以及 Forest Policy and Economics。詳細研究成果請參閱研究自述。"
+    "text": "空氣污染、交通事故與地下水超抽有一個共同點。造成損害的人不必承擔其成本。這正是環境與資源經濟學所稱的外部性，而政策則是主要的矯正工具。我的研究衡量政策實際矯正了多少，以及在此過程中產生哪些非預期效果。答案往往與政策原先的設想不同。我運用因果推論方法與大規模行政資料，研究場域涵蓋農業與都市兩大面向。\n我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的 Journal of the Association of Environmental and Resource Economists、Journal of Transport Geography、Transportation Research Part A 及 Part D、Food Policy 以及 Forest Policy and Economics。詳細研究成果請參閱研究自述。"
   },
   {
     "objectID": "research-zh.html#焦點著作",
@@ -193,7 +193,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Air pollution, road deaths, and groundwater depletion share one feature. Whoever causes the damage does not pay for it. Environmental and resource economics calls this an externality, and policy is the attempted correction. My research measures how much of that correction arrives, and what else arrives with it. The answer is often not what the policy assumed. I use causal inference and large-scale administrative data. One line of work is on farms, the other on cities.\nMy research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of Transport Geography, Transportation Research Parts A and D, Food Policy, and Forest Policy and Economics. An overview of these articles is detailed in my research statement."
+    "text": "Air pollution, road deaths, and groundwater depletion share one feature. Whoever causes the damage does not pay for it. Environmental and resource economics calls this an externality, and policy is the attempted correction. My research measures how much of that correction arrives, and what else arrives with it. The answer is often not what the policy assumed. I use causal inference and large-scale administrative data. One line of work is on farms, the other on cities.\nMy research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the Journal of the Association of Environmental and Resource Economists, Journal of Transport Geography, Transportation Research Parts A and D, Food Policy, and Forest Policy and Economics. An overview of these articles is detailed in my research statement."
   },
   {
     "objectID": "research.html#selected-publications",

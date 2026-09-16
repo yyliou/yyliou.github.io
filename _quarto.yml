@@ -19,10 +19,9 @@ website:
         text: Research
       - href: teach.qmd
         text: Teaching
-      - href: projects.qmd
-        text: Projects
-      - href: extension.qmd
-        text: Extension
+      - href: https://yyliou.github.io/yyliou/cv/cv_metrics.pdf
+        text: CV
+        target: _blank
 
 format:
   html:

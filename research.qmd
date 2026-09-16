@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
 *Note*: Three citations cannot be matched to corresponding years; therefore, they are excluded from the figure.
 :::
 
-My research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the *Journal of Transport Geography*, *Transportation Research Parts A and D*, *Food Policy*, and *Forest Policy and Economics*. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs/rs.pdf).
+My research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as the *Journal of the Association of Environmental and Resource Economists*, *Journal of Transport Geography*, *Transportation Research Parts A and D*, *Food Policy*, and *Forest Policy and Economics*. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs/rs.pdf).
 
 ```{=html}
 <div class="quarto-figure quarto-figure-center">

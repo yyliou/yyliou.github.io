@@ -191,10 +191,19 @@ pre {
 
 
 /* Two-column about (≥992px = Quarto's trestles breakpoint):
-   Quarto default column split (42%), original 5em gap */
+   widen past the narrow article column so the prose gets a readable measure;
+   the left column is pinned to the portrait width and the rest goes to the text */
 @media (min-width: 992px) {
   div.quarto-about-trestles {
-    gap: 5em !important;
+    grid-column: page-start / page-end !important;
+    gap: 4em !important;
+  }
+  div.quarto-about-trestles > .about-entity {
+    flex: 0 0 20em;
+  }
+  div.quarto-about-trestles > .about-contents {
+    flex: 1 1 auto;
+    min-width: 0;
   }
 }
 
