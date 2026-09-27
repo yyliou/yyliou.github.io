@@ -18,7 +18,7 @@ page-layout: custom
 
   <div class="landing-footer">
     <p class="landing-tagline">
-      農業、環境與生態經濟學 &nbsp;·&nbsp; 都市、區域與交通經濟學
+      <span>農業經濟學</span>&nbsp;· <span>環境與資源經濟學</span>&nbsp;· <span>運輸經濟學</span>&nbsp;· <span>區域研究</span>&nbsp;· <span>不動產價格分析</span>
     </p>
     <nav class="landing-nav">
       <a href="about-zh.html">關於</a>

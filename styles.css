@@ -445,6 +445,11 @@ div.quarto-about-trestles .about-entity .about-image {
     padding-top: 1.5em;
 }
 
+/* a research field in the landing tagline never breaks across lines */
+.landing-tagline span {
+    white-space: nowrap;
+}
+
 .landing-tagline {
     font-size: 0.88rem;
     color: #888;

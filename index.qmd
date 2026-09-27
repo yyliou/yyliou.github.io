@@ -18,9 +18,9 @@ page-layout: custom
 
   <div class="landing-footer">
     <p class="landing-tagline"
-       data-en="Agricultural, Environmental &amp; Ecological Economics &nbsp;·&nbsp; Urban, Regional &amp; Transportation Economics"
-       data-zh="農業、環境與生態經濟學 &nbsp;·&nbsp; 都市、區域與交通經濟學">
-      Agricultural, Environmental &amp; Ecological Economics &nbsp;·&nbsp; Urban, Regional &amp; Transportation Economics
+       data-en="<span>Agricultural Economics</span>&nbsp;· <span>Environmental &amp; Resource Economics</span>&nbsp;· <span>Transportation Economics</span>&nbsp;· <span>Regional Studies</span>&nbsp;· <span>Real Estate Price Analysis</span>"
+       data-zh="<span>農業經濟學</span>&nbsp;· <span>環境與資源經濟學</span>&nbsp;· <span>運輸經濟學</span>&nbsp;· <span>區域研究</span>&nbsp;· <span>不動產價格分析</span>">
+      <span>Agricultural Economics</span>&nbsp;· <span>Environmental &amp; Resource Economics</span>&nbsp;· <span>Transportation Economics</span>&nbsp;· <span>Regional Studies</span>&nbsp;· <span>Real Estate Price Analysis</span>
     </p>
     <nav class="landing-nav">
       <a href="about.html"
