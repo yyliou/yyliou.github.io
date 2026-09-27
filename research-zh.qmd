@@ -849,5 +849,5 @@ document.addEventListener('DOMContentLoaded', function () {
 ```
 
 ::: paper-note
-*附註*：標 \* 者為本人口頭報告。
+*附註*：標\*者為本人口頭報告。
 :::
