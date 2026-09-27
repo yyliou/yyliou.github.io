@@ -129,6 +129,6 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-108 學年下學期（張宏浩特聘教授）
+108 學年下學期（張宏浩特聘教授，全英語授課）
 :::
 ::::::
