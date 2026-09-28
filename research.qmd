@@ -151,7 +151,7 @@ JAERE
 :::
 
 ::: paper-meta
-***Journal of the Association of Environmental and Resource Economists***, forthcoming (with Chang and Meyerhoefer). ⁺
+***Journal of the Association of Environmental and Resource Economists***, forthcoming (with Hung-Hao Chang and Chad D. Meyerhoefer). ⁺
 :::
 
 ::: paper-links
@@ -184,7 +184,7 @@ Food Policy
 :::
 
 ::: paper-meta
-***Food Policy***, 143, 103148, 2026 (with Chang). ⁺
+***Food Policy***, 143, 103148, 2026 (with Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -219,7 +219,7 @@ Transp. Res. A
 :::
 
 ::: paper-meta
-***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Chang). †\*\^⁺
+***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Hung-Hao Chang). †\*\^⁺
 :::
 
 ::: paper-links
@@ -260,7 +260,7 @@ Transp. Res. D
 :::
 
 ::: paper-meta
-***Transportation Research Part D: Transport and Environment***, 146, 104903, 2025 (with Kim, Chang, and Liou). †\^⁺
+***Transportation Research Part D: Transport and Environment***, 146, 104903, 2025 (with Man-Keun Kim, Hung-Hao Chang, and Ruey-Wan Liou). †\^⁺
 :::
 
 ::: paper-links
@@ -295,7 +295,7 @@ Forest Policy Econ.
 :::
 
 ::: paper-meta
-***Forest Policy and Economics***, 171, 103411, 2025 (with Lee and Chang). ⁺
+***Forest Policy and Economics***, 171, 103411, 2025 (with Tzong-Haw Lee and Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -330,7 +330,7 @@ J. Transp. Geogr.
 :::
 
 ::: paper-meta
-***Journal of Transport Geography***, 91, 102954, 2021 (with Chang, Lee, and Yang). †\^⁺
+***Journal of Transport Geography***, 91, 102954, 2021 (with Hung-Hao Chang, Brian Lee, and Feng-An Yang). †\^⁺
 :::
 
 ::: paper-links
@@ -378,7 +378,7 @@ J. Tour. Manag. Res.
 :::
 
 ::: paper-meta
-***Journal of Tourism Management Research***, 13(1), 148–162, 2026 (with Kim and Chang).
+***Journal of Tourism Management Research***, 13(1), 148–162, 2026 (with Man-Keun Kim and Hung-Hao Chang).
 :::
 
 ::: paper-links
@@ -414,7 +414,7 @@ ATR Empir. Insights
 :::
 
 ::: paper-meta
-***Annals of Tourism Research Empirical Insights***, 7(1), 100209, 2026 (with Chang). ⁺
+***Annals of Tourism Research Empirical Insights***, 7(1), 100209, 2026 (with Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -450,7 +450,7 @@ Agriculture
 :::
 
 ::: paper-meta
-***Agriculture***, 15(20), 2124, 2025 (with Lee and Chang). ⁺
+***Agriculture***, 15(20), 2124, 2025 (with Tzong-Haw Lee and Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -486,7 +486,7 @@ Agribusiness
 :::
 
 ::: paper-meta
-***Agribusiness***, advance online publication, 2025 (with Chang and Begun).
+***Agribusiness***, advance online publication, 2025 (with Hung-Hao Chang and Jeffrey C. Begun).
 :::
 
 ::: paper-links
@@ -520,7 +520,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-meta
-***The Singapore Economic Review***, advance online publication, 2025 (with Chang and Begun).
+***The Singapore Economic Review***, advance online publication, 2025 (with Hung-Hao Chang and Jeffrey C. Begun).
 :::
 
 ::: paper-links
@@ -554,7 +554,7 @@ Qual. & Quant.
 :::
 
 ::: paper-meta
-***Quality & Quantity***, 58(6), 5737–5754, 2024 (with Chang and Just).
+***Quality & Quantity***, 58(6), 5737–5754, 2024 (with Hung-Hao Chang and David R. Just).
 :::
 
 ::: paper-links
@@ -582,10 +582,10 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="11" class="wip-list">
-<li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Chang).</li>
-<li>The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Chang).</li>
-<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Chang and Wu).</li>
-<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Chang).</li>
+<li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Hung-Hao Chang).</li>
+<li>The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Hung-Hao Chang).</li>
+<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Hung-Hao Chang and Karin Wu).</li>
+<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang).</li>
 </ol>
 ```
 
@@ -593,13 +593,13 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="7" class="wip-list">
-<li>Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Chang).</li>
-<li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Chang and Sun).</li>
-<li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Chang and Zilberman).</li>
-<li>The Spatial Reach of Metro-led Development: Housing Gains and Traffic-Safety Costs by Station Accessibility (with Chang).</li>
-<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Chang).</li>
-<li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Chang).</li>
-<li>Trading Less Often but Trading Thicker: Scheduled Closures in a Hog Auction Market (with Lee and Chang).</li>
+<li>Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Hung-Hao Chang).</li>
+<li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Hung-Hao Chang and Hsiao-Chiao Sun).</li>
+<li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Hung-Hao Chang and David Zilberman).</li>
+<li>The Spatial Reach of Metro-led Development: Housing Gains and Traffic-Safety Costs by Station Accessibility (with Hung-Hao Chang).</li>
+<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Hung-Hao Chang).</li>
+<li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Hung-Hao Chang).</li>
+<li>Trading Less Often but Trading Thicker: Scheduled Closures in a Hog Auction Market (with Tzong-Haw Lee and Hung-Hao Chang).</li>
 </ol>
 ```
 
