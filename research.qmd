@@ -582,10 +582,10 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="11" class="wip-list">
-<li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Hung-Hao Chang).</li>
-<li>The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Hung-Hao Chang).</li>
-<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Hung-Hao Chang and Karin Wu).</li>
-<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang).</li>
+<li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Hung-Hao Chang). Second-round revision.</li>
+<li>The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Hung-Hao Chang). Second-round revision.</li>
+<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Hung-Hao Chang and Karin Wu). Second-round revision.</li>
+<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang). First-round revision.</li>
 </ol>
 ```
 
@@ -597,9 +597,16 @@ Qual. & Quant.
 <li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Hung-Hao Chang and Hsiao-Chiao Sun).</li>
 <li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Hung-Hao Chang and David Zilberman).</li>
 <li>The Spatial Reach of Metro-led Development: Housing Gains and Traffic-Safety Costs by Station Accessibility (with Hung-Hao Chang).</li>
-<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Hung-Hao Chang).</li>
 <li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Hung-Hao Chang).</li>
 <li>Trading Less Often but Trading Thicker: Scheduled Closures in a Hog Auction Market (with Tzong-Haw Lee and Hung-Hao Chang).</li>
+</ol>
+```
+
+### **In Preparation**
+
+```{=html}
+<ol reversed start="1" class="wip-list">
+<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Hung-Hao Chang).</li>
 </ol>
 ```
 

@@ -111,7 +111,7 @@ Practical data analysis and communication in the modern R ecosystem, centered on
 :::
 
 ::: paper-meta
-Spring 2024, Fall 2026 (Prof. Chang).
+Spring 2024, Fall 2026 (Prof. Hung-Hao Chang).
 :::
 :::::
 
@@ -121,7 +121,7 @@ Spring 2024, Fall 2026 (Prof. Chang).
 :::
 
 ::: paper-meta
-Spring 2022 (Prof. Chen).
+Spring 2022 (Prof. Cheng-Wei Chen).
 :::
 :::::
 
@@ -131,6 +131,6 @@ Spring 2022 (Prof. Chen).
 :::
 
 ::: paper-meta
-Spring 2020 (Prof. Chang; English-medium instruction).
+Spring 2020 (Prof. Hung-Hao Chang; English-medium instruction).
 :::
 :::::
