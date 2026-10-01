@@ -28,7 +28,7 @@ Air pollution, road deaths, and groundwater depletion share one feature. Whoever
 <div class="bib-stats">
   <div class="bib-stat">
     <div class="bib-label">Publications</div>
-    <div class="bib-number" data-target="12">0</div>
+    <div class="bib-number" data-target="13">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">Cites</div>
@@ -140,6 +140,24 @@ My research has primarily been published in international journals within the fi
 ```
 
 ## **Selected Publications**
+
+::::::: paper-entry
+::: paper-tag
+Land Econ.
+:::
+
+::: paper-title
+13\. Does the Development of Aquavoltaics Policy Affect Farmland Price?
+:::
+
+::: paper-meta
+***Land Economics***, conditionally accepted (with Hung-Hao Chang). †\*
+:::
+
+::: paper-links
+[SSCI]{.idx-badge} [EconLit]{.idx-badge}
+:::
+:::::::
 
 ::::::: paper-entry
 ::: paper-tag
@@ -357,6 +375,7 @@ J. Transp. Geogr.
 
 ```{=html}
 <div class="journal-covers">
+<a class="cover-item" href="https://le.uwpress.org/" target="_blank" rel="noopener" title="Land Economics"><img src="https://le.uwpress.org/sites/default/files/styles/medium/public/highwire/wple/102/3.cover-source.jpg?itok=gUzy0Wrc" alt="Land Economics cover" loading="lazy"><span class="cover-name">Land Economics</span></a>
 <a class="cover-item" href="https://www.journals.uchicago.edu/journals/jaere" target="_blank" rel="noopener" title="Journal of the Association of Environmental and Resource Economists"><img src="jaere-cover.jpg" alt="Journal of the Association of Environmental and Resource Economists cover" loading="lazy"><span class="cover-name">Journal of the Association of Environmental and Resource Economists</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener" title="Food Policy"><img src="https://ars.els-cdn.com/content/image/X03069192.jpg" alt="Food Policy cover" loading="lazy"><span class="cover-name">Food Policy</span></a>
 <a class="cover-item" href="https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice" target="_blank" rel="noopener" title="Transportation Research Part A"><img src="https://ars.els-cdn.com/content/image/X09658564.jpg" alt="Transportation Research Part A cover" loading="lazy"><span class="cover-name">Transportation Research Part A</span></a>
@@ -581,8 +600,7 @@ Qual. & Quant.
 ### **Revision & Resubmission**
 
 ```{=html}
-<ol reversed start="11" class="wip-list">
-<li>Does the Development of Aquavoltaics Production Affect Farmland Price? (with Hung-Hao Chang). Second-round revision.</li>
+<ol reversed start="10" class="wip-list">
 <li>The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety (with Hung-Hao Chang). Second-round revision.</li>
 <li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Hung-Hao Chang and Karin Wu). Second-round revision.</li>
 <li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang). First-round revision.</li>
