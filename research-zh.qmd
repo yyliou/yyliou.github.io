@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
 *附註*：有三筆文獻無法對應至相應年份，因此未納入圖中。
 :::
 
-我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的 *Journal of the Association of Environmental and Resource Economists*、*Journal of Transport Geography*、*Transportation Research Part A* 及 *Part D*、*Food Policy* 以及 *Forest Policy and Economics*。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
+我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的 *Journal of the Association of Environmental and Resource Economists*、*Journal of Transport Geography*、*Transportation Research Part A* 及 *Part D*、*Food Policy* 以及 *Forest Policy and Economics*。研究成果亦獲 38 種 SCIE、SSCI 與 ESCI 期刊引用，包括 *Cities*、*Journal of Transport Geography*、*Sustainability*、*Sustainable Cities and Society*、*Travel Behaviour and Society*、*Transport Policy* 及 *Transportation Research Part D*。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
 
 ```{=html}
 <div class="quarto-figure quarto-figure-center">
@@ -152,8 +152,12 @@ Land Econ.
 :::
 
 ::: paper-links
-[SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[摘要]{.paper-btn .abs-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
 :::
+
+```{=html}
+<div class="abstract-box"><p>Aquavoltaics is a dual-use system that integrates solar power generation with aquaculture. This study examines the impact of aquavoltaics land zoning policies on farmland prices in Taiwan. Instead of converting land from agricultural production, this policy regime is built on a principle of land-use complementarity. By utilizing farmland transaction data and the difference-in-differences method to exploit the staggered introduction of designated zones, we find a 13.5% increase in farmland prices. This result suggests that the increase in farmland prices may reflect the potential positive value of policy-created development rights associated with the future development of aquavoltaics on eligible land.</p></div>
+```
 :::::::
 
 ::::::: paper-entry

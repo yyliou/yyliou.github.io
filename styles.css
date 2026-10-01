@@ -445,18 +445,6 @@ div.quarto-about-trestles .about-entity .about-image {
     padding-top: 1.5em;
 }
 
-/* a research field in the landing tagline never breaks across lines */
-.landing-tagline span {
-    white-space: nowrap;
-}
-
-.landing-tagline {
-    font-size: 0.88rem;
-    color: #888;
-    letter-spacing: 0.02em;
-    margin-bottom: 1em;
-}
-
 .landing-nav {
     display: flex;
     flex-wrap: wrap;
@@ -1248,10 +1236,6 @@ div.quarto-about-trestles .about-entity .about-image {
 
 [data-theme="dark"] .landing-footer {
     border-top-color: #2a3040;
-}
-
-[data-theme="dark"] .landing-tagline {
-    color: #8a95a8;
 }
 
 [data-theme="dark"] .landing-nav a {

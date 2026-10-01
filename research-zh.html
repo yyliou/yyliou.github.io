@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW" xml:lang="zh-TW"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,10 +90,6 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 <script>
-// ── Translation dictionary ────────────────────────────
-var ZH_TAGLINE = '<span>農業經濟學</span>&nbsp;· <span>環境與資源經濟學</span>&nbsp;· <span>運輸經濟學</span>&nbsp;· <span>區域研究</span>&nbsp;· <span>不動產分析</span>';
-var EN_TAGLINE = '<span>Agricultural Economics</span>&nbsp;· <span>Environmental &amp; Resource Economics</span>&nbsp;· <span>Transportation Economics</span>&nbsp;· <span>Regional Studies</span>&nbsp;· <span>Real Estate Analysis</span>';
-
 // ── Lang helpers ──────────────────────────────────────
 function isZhPage() {
   var page = location.pathname.split('/').pop() || '';
@@ -140,10 +139,6 @@ function applyLangGlobal() {
       el.innerHTML = val;
     }
   });
-
-  // Landing tagline
-  var tl = document.querySelector('.landing-tagline');
-  if (tl) tl.innerHTML = lang === 'zh' ? ZH_TAGLINE : EN_TAGLINE;
 
   // Navbar brand (site title + link)
   var brand = document.querySelector('.navbar-title') || document.querySelector('.navbar-brand');
@@ -430,7 +425,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <div class="paper-note">
 <p><em>附註</em>：有三筆文獻無法對應至相應年份，因此未納入圖中。</p>
 </div>
-<p>我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的 <em>Journal of the Association of Environmental and Resource Economists</em>、<em>Journal of Transport Geography</em>、<em>Transportation Research Part A</em> 及 <em>Part D</em>、<em>Food Policy</em> 以及 <em>Forest Policy and Economics</em>。詳細研究成果請參閱<a href="https://yyliou.github.io/yyliou/rs/rs_zh.pdf">研究自述</a>。</p>
+<p>我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的 <em>Journal of the Association of Environmental and Resource Economists</em>、<em>Journal of Transport Geography</em>、<em>Transportation Research Part A</em> 及 <em>Part D</em>、<em>Food Policy</em> 以及 <em>Forest Policy and Economics</em>。研究成果亦獲 38 種 SCIE、SSCI 與 ESCI 期刊引用，包括 <em>Cities</em>、<em>Journal of Transport Geography</em>、<em>Sustainability</em>、<em>Sustainable Cities and Society</em>、<em>Travel Behaviour and Society</em>、<em>Transport Policy</em> 及 <em>Transportation Research Part D</em>。詳細研究成果請參閱<a href="https://yyliou.github.io/yyliou/rs/rs_zh.pdf">研究自述</a>。</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><iframe id="vosviewerMap" class="vos-embed" allowfullscreen="true" width="100%" height="75%" style="max-width: 1000px; min-height: 500px" title="研究主題網絡圖，涵蓋經濟學、環境科學、農業、收益與 COVID-19 等主題" loading="lazy"></iframe></p>
@@ -466,8 +461,9 @@ document.addEventListener('DOMContentLoaded', function () {
 <p><strong><em>Land Economics</em></strong>, conditionally accepted (with Hung-Hao Chang). †*</p>
 </div>
 <div class="paper-links">
-<p><span class="idx-badge">SSCI</span> <span class="idx-badge">EconLit</span></p>
+<p><span class="paper-btn abs-toggle">摘要</span> <span class="idx-badge">SSCI</span> <span class="idx-badge">EconLit</span></p>
 </div>
+<div class="abstract-box"><p>Aquavoltaics is a dual-use system that integrates solar power generation with aquaculture. This study examines the impact of aquavoltaics land zoning policies on farmland prices in Taiwan. Instead of converting land from agricultural production, this policy regime is built on a principle of land-use complementarity. By utilizing farmland transaction data and the difference-in-differences method to exploit the staggered introduction of designated zones, we find a 13.5% increase in farmland prices. This result suggests that the increase in farmland prices may reflect the potential positive value of policy-created development rights associated with the future development of aquavoltaics on eligible land.</p></div>
 </div>
 <div class="paper-entry">
 <div class="paper-tag">

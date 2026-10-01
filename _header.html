@@ -14,10 +14,6 @@
 </script>
 
 <script>
-// ── Translation dictionary ────────────────────────────
-var ZH_TAGLINE = '<span>農業經濟學</span>&nbsp;· <span>環境與資源經濟學</span>&nbsp;· <span>運輸經濟學</span>&nbsp;· <span>區域研究</span>&nbsp;· <span>不動產分析</span>';
-var EN_TAGLINE = '<span>Agricultural Economics</span>&nbsp;· <span>Environmental &amp; Resource Economics</span>&nbsp;· <span>Transportation Economics</span>&nbsp;· <span>Regional Studies</span>&nbsp;· <span>Real Estate Analysis</span>';
-
 // ── Lang helpers ──────────────────────────────────────
 function isZhPage() {
   var page = location.pathname.split('/').pop() || '';
@@ -67,10 +63,6 @@ function applyLangGlobal() {
       el.innerHTML = val;
     }
   });
-
-  // Landing tagline
-  var tl = document.querySelector('.landing-tagline');
-  if (tl) tl.innerHTML = lang === 'zh' ? ZH_TAGLINE : EN_TAGLINE;
 
   // Navbar brand (site title + link)
   var brand = document.querySelector('.navbar-title') || document.querySelector('.navbar-brand');
