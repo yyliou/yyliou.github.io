@@ -238,7 +238,8 @@ Transp. Res. A
 :::
 
 ::: paper-meta
-***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Hung-Hao Chang). †\*\^⁺
+***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Hung-Hao Chang). †\*\^⁺\
+獲獎：國立臺灣大學生物資源暨農學院 114 學年度學生學術論文獎
 :::
 
 ::: paper-links
@@ -841,6 +842,7 @@ document.addEventListener('DOMContentLoaded', function () {
 - [*Frontiers in Climate*](https://www.frontiersin.org/journals/climate) (2)
 - [*Frontiers in Environmental Economics*](https://www.frontiersin.org/journals/environmental-economics) (1)
 - [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1)
+- [*Frontiers in Sustainable Food Systems*](https://www.frontiersin.org/journals/sustainable-food-systems) (1)
 - [*Managerial and Decision Economics*](https://onlinelibrary.wiley.com/journal/10991468) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
 
