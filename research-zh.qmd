@@ -29,7 +29,7 @@ image: pic.png
 <div class="bib-stats">
   <div class="bib-stat">
     <div class="bib-label">著作數</div>
-    <div class="bib-number" data-target="13">0</div>
+    <div class="bib-number" data-target="14">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">被引次數</div>
