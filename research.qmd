@@ -3,7 +3,7 @@ title: "Research"
 image: pic.png
 ---
 
-Air pollution, road deaths, and groundwater depletion share one feature. Whoever causes the damage does not pay for it. Environmental and resource economics calls this an externality, and policy is the attempted correction. My research measures how much of that correction arrives, and what else arrives with it. The answer is often not what the policy assumed. I use causal inference and large-scale administrative data. One line of work is on farms, the other on cities.
+Air pollution, road deaths, and groundwater depletion share one feature. Whoever causes the damage does not pay for it. Environmental and resource economics calls this an externality. Governments respond with zoning, subsidies, traffic rules, and infrastructure. Whether these policies work, and what else they change, is an important empirical question. My research evaluates them with causal inference and large-scale administrative data, and the results often differ from what the policy assumed. Externalities arise not only from factory chimneys but also on farmland and city streets, so my work falls into two lines, one on farms and one on cities.
 
 ```{=html}
 <script>
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
 *Note*: Three citations cannot be matched to corresponding years; therefore, they are excluded from the figure.
 :::
 
-My research has primarily been published in international journals within the fields of regional studies and agricultural economics, including well-recognized outlets such as *Food Policy*, *Forest Policy and Economics*, the *Journal of the Association of Environmental and Resource Economists*, *Journal of Transport Geography*, *Land Economics*, *Transport Policy*, and *Transportation Research Parts A and D*. My work has also been cited in journals such as *Cities*, *Sustainable Cities and Society*, and *Transport Policy*. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs/rs.pdf).
+My research has primarily been published in international journals within the fields of agricultural economics, environmental and resource economics, and transportation economics, including well-recognized outlets such as *Food Policy*, *Forest Policy and Economics*, the *Journal of the Association of Environmental and Resource Economists*, *Journal of Transport Geography*, *Land Economics*, *Transport Policy*, and *Transportation Research Parts A and D*. My work has also been cited in journals such as *Cities* and *Sustainable Cities and Society*. An overview of these articles is detailed in my [research statement](https://yyliou.github.io/yyliou/rs/rs.pdf).
 
 ```{=html}
 <div class="quarto-figure quarto-figure-center">

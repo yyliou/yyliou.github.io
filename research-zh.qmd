@@ -4,7 +4,7 @@ lang: zh-TW
 image: pic.png
 ---
 
-空氣污染、交通事故與地下水超抽有一個共同點。造成損害的人不必承擔其成本。這正是環境與資源經濟學所稱的外部性，而政策則是主要的矯正工具。我的研究衡量政策實際矯正了多少，以及在此過程中產生哪些非預期效果。答案往往與政策原先的設想不同。我運用因果推論方法與大規模行政資料，研究場域涵蓋農業與都市兩大面向。
+空氣污染、交通事故與地下水超抽有一個共同點。造成損害的人不必承擔其成本。環境與資源經濟學稱之為外部性。政府以土地分區、補貼、交通規則與工程建設來因應。這些政策是否有效，以及還改變了什麼，是重要的實證議題。我的研究運用因果推論方法與大規模行政資料進行評估，結果往往與政策原先的設想不同。外部性不只發生在工廠的煙囪，也發生在農田與街道上，我的研究因此分為農業與都市兩條主軸。
 
 ```{=html}
 <script>
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
 *附註*：有三筆文獻無法對應至相應年份，因此未納入圖中。
 :::
 
-我的研究成果主要發表於區域研究與農業經濟學領域之國際期刊，包括知名的 *Food Policy*、*Forest Policy and Economics*、*Journal of the Association of Environmental and Resource Economists*、*Journal of Transport Geography*、*Land Economics*、*Transport Policy* 以及 *Transportation Research Part A* 與 *Part D*。研究成果亦獲 *Cities*、*Sustainable Cities and Society* 及 *Transport Policy* 等期刊引用。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
+我的研究成果主要發表於農業經濟學、環境與資源經濟學及運輸經濟學領域之國際期刊，包括知名的 *Food Policy*、*Forest Policy and Economics*、*Journal of the Association of Environmental and Resource Economists*、*Journal of Transport Geography*、*Land Economics*、*Transport Policy* 以及 *Transportation Research Part A* 與 *Part D*。研究成果亦獲 *Cities* 及 *Sustainable Cities and Society* 等期刊引用。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
 
 ```{=html}
 <div class="quarto-figure quarto-figure-center">
