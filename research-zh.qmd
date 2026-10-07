@@ -174,7 +174,7 @@ Transp. Policy
 :::
 
 ::: paper-meta
-***Transport Policy***, advance online publication, 2026 (with Hung-Hao Chang). ⁺
+***Transport Policy***, 104468, advance online publication, 2026 (with Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -187,6 +187,7 @@ Transp. Policy
   title   = {The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety},
   author  = {Liou, Yu-You and Chang, Hung-Hao},
   journal = {Transport Policy},
+  pages   = {104468},
   year    = {2026},
   note    = {Advance online publication},
   doi     = {10.1016/j.tranpol.2026.104468},
