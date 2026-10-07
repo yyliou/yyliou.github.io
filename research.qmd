@@ -215,7 +215,7 @@ JAERE
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1086/743452){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[Journal](https://doi.org/10.1086/743452){.paper-btn} [Earlier version](https://ssrn.com/abstract=4984614){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}

@@ -212,7 +212,7 @@ JAERE
 :::
 
 ::: paper-links
-[期刊全文](https://doi.org/10.1086/743452){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[期刊全文](https://doi.org/10.1086/743452){.paper-btn} [早期版本](https://ssrn.com/abstract=4984614){.paper-btn} [摘要]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
 :::
 
 ```{=html}
