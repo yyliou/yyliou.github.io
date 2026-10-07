@@ -143,37 +143,15 @@ My research has primarily been published in international journals within the fi
 
 ::::::: paper-entry
 ::: paper-tag
-Transp. Policy
-:::
-
-::: paper-title
-14\. The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety
-:::
-
-::: paper-meta
-***Transport Policy***, accepted (with Hung-Hao Chang). ⁺
-:::
-
-::: paper-links
-[Abstract]{.paper-btn .abs-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
-:::
-
-```{=html}
-<div class="abstract-box"><p>Intersection safety is a major policy concern worldwide. Governments implement a variety of interventions, such as signal-timing optimization, to improve traffic safety. While the effectiveness of these measures is well documented, the existing literature predominantly focuses on vehicle-to-vehicle safety. A smaller strand of research examines pedestrian-protective infrastructure, such as refuge islands. However, these studies typically rely on virtual-reality simulations to infer speed reductions rather than measure actual reductions in crash incidence, and their highly controlled experimental settings raise concerns regarding external validity. This study addresses these limitations by exploiting Taiwan's large-scale Pedestrian-Protective Infrastructure (PPI) initiative in a quasi-experimental setting. Using nationwide administrative traffic accident records and an inverse probability weighting difference-in-differences framework, this study estimates the causal impact of the PPI on traffic accidents. The analysis finds that the PPI significantly reduces non-fatal traffic accidents, with particularly pronounced benefits for pedestrians. The effects are heterogeneous across road-user types, and townships that implement more substantial improvements experience the largest reductions in accidents. The benefit-cost analysis further shows that each dollar spent on PPI construction yields a return of approximately NT$3.5. The findings of this paper demonstrate that although the PPI is designed primarily to enhance pedestrian safety, its benefits extend to reducing vehicle-related accidents as well.</p></div>
-```
-:::::::
-
-::::::: paper-entry
-::: paper-tag
 Land Econ.
 :::
 
 ::: paper-title
-13\. Does the Development of Aquavoltaics Policy Affect Farmland Price?
+14\. Does the Development of Aquavoltaics Policy Affect Farmland Price?
 :::
 
 ::: paper-meta
-***Land Economics***, conditionally accepted (with Hung-Hao Chang). †\*
+***Land Economics***, accepted (with Hung-Hao Chang). †\*
 :::
 
 ::: paper-links
@@ -182,6 +160,40 @@ Land Econ.
 
 ```{=html}
 <div class="abstract-box"><p>Aquavoltaics is a dual-use system that integrates solar power generation with aquaculture. This study examines the impact of aquavoltaics land zoning policies on farmland prices in Taiwan. Instead of converting land from agricultural production, this policy regime is built on a principle of land-use complementarity. By utilizing farmland transaction data and the difference-in-differences method to exploit the staggered introduction of designated zones, we find a 13.5% increase in farmland prices. This result suggests that the increase in farmland prices may reflect the potential positive value of policy-created development rights associated with the future development of aquavoltaics on eligible land.</p></div>
+```
+:::::::
+
+::::::: paper-entry
+::: paper-tag
+Transp. Policy
+
+```{=html}
+<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.tranpol.2026.104468" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="false"></a>
+```
+:::
+
+::: paper-title
+13\. The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety
+:::
+
+::: paper-meta
+***Transport Policy***, advance online publication, 2026 (with Hung-Hao Chang). ⁺
+:::
+
+::: paper-links
+[Journal](https://doi.org/10.1016/j.tranpol.2026.104468){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+:::
+
+```{=html}
+<div class="abstract-box"><p>Intersection safety is a major policy concern worldwide. Governments implement a variety of interventions, such as signal-timing optimization, to improve traffic safety. While the effectiveness of these measures is well documented, the existing literature predominantly focuses on vehicle-to-vehicle safety. A smaller strand of research examines pedestrian-protective infrastructure, such as refuge islands. However, these studies typically rely on virtual-reality simulations to infer speed reductions rather than measure actual reductions in crash incidence, and their highly controlled experimental settings raise concerns regarding external validity. This study addresses these limitations by exploiting Taiwan's large-scale Pedestrian-Protective Infrastructure (PPI) initiative in a quasi-experimental setting. Using nationwide administrative traffic accident records and an inverse probability weighting difference-in-differences framework, this study estimates the causal impact of the PPI on traffic accidents. The analysis finds that the PPI significantly reduces non-fatal traffic accidents, with particularly pronounced benefits for pedestrians. The effects are heterogeneous across road-user types, and townships that implement more substantial improvements experience the largest reductions in accidents. The benefit-cost analysis further shows that each dollar spent on PPI construction yields a return of approximately NT$3.5. The findings of this paper demonstrate that although the PPI is designed primarily to enhance pedestrian safety, its benefits extend to reducing vehicle-related accidents as well.</p></div>
+<div class="bibtex-box"><pre><code>@article{liou2026ppi,
+  title   = {The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety},
+  author  = {Liou, Yu-You and Chang, Hung-Hao},
+  journal = {Transport Policy},
+  year    = {2026},
+  note    = {Advance online publication},
+  doi     = {10.1016/j.tranpol.2026.104468},
+}</code></pre></div>
 ```
 :::::::
 
