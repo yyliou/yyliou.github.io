@@ -197,6 +197,10 @@ Transp. Policy
 ::::::: paper-entry
 ::: paper-tag
 JAERE
+
+```{=html}
+<a href="https://plu.mx/plum/a/?ssrn_id=4984614" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="false"></a>
+```
 :::
 
 ::: paper-title
