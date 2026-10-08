@@ -173,11 +173,11 @@ Transp. Policy
 :::
 
 ::: paper-title
-13\. The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety
+13\. The effects of enhancing pedestrian-protective infrastructure on intersection safety
 :::
 
 ::: paper-meta
-***Transport Policy***, 104468, advance online publication, 2026 (with Hung-Hao Chang). ⁺
+***Transport Policy***, 190, 104468, 2027 (with Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -186,13 +186,13 @@ Transp. Policy
 
 ```{=html}
 <div class="abstract-box"><p>Intersection safety is a major policy concern worldwide. Governments implement a variety of interventions, such as signal-timing optimization, to improve traffic safety. While the effectiveness of these measures is well documented, the existing literature predominantly focuses on vehicle-to-vehicle safety. A smaller strand of research examines pedestrian-protective infrastructure, such as refuge islands. However, these studies typically rely on virtual-reality simulations to infer speed reductions rather than measure actual reductions in crash incidence, and their highly controlled experimental settings raise concerns regarding external validity. This study addresses these limitations by exploiting Taiwan's large-scale Pedestrian-Protective Infrastructure (PPI) initiative in a quasi-experimental setting. Using nationwide administrative traffic accident records and an inverse probability weighting difference-in-differences framework, this study estimates the causal impact of the PPI on traffic accidents. The analysis finds that the PPI significantly reduces non-fatal traffic accidents, with particularly pronounced benefits for pedestrians. The effects are heterogeneous across road-user types, and townships that implement more substantial improvements experience the largest reductions in accidents. The benefit-cost analysis further shows that each dollar spent on PPI construction yields a return of approximately NT$3.5. The findings of this paper demonstrate that although the PPI is designed primarily to enhance pedestrian safety, its benefits extend to reducing vehicle-related accidents as well.</p></div>
-<div class="bibtex-box"><pre><code>@article{liou2026ppi,
-  title   = {The Effects of Enhancing Pedestrian-Protective Infrastructure on Intersection Safety},
+<div class="bibtex-box"><pre><code>@article{liou2027ppi,
+  title   = {The effects of enhancing pedestrian-protective infrastructure on intersection safety},
   author  = {Liou, Yu-You and Chang, Hung-Hao},
   journal = {Transport Policy},
+  volume  = {190},
   pages   = {104468},
-  year    = {2026},
-  note    = {Advance online publication},
+  year    = {2027},
   doi     = {10.1016/j.tranpol.2026.104468},
 }</code></pre></div>
 ```
