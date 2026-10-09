@@ -900,16 +900,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ```{=html}
 <ol class="conf-list" reversed>
-<li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and David Zilberman. 2026. "Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy." 7th World Congress of Environmental and Resource Economists (2026).</li>
-<li><strong>Liou, Yu-You</strong>, and Hung-Hao Chang. 2026. "Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms." AAEA Annual Meeting (2026).</li>
-<li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. 2025. "<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>." 20th EAEA International Convention (2025).</li>
-<li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. 2025. "The causal effects of removing Hook-Turn regulation on road safety." 20th EAEA International Convention (2025).</li>
-<li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and Jeffrey C. Begun. 2025. "Rooftop Solar Energy Adoption and Farm Revenue." 18th Congress of EAAE (2025).</li>
-<li><strong>Liou, Yu-You</strong>, and Hung-Hao Chang. 2025. "Does the Development of Aquavoltaics Production Affect Farmland Price?" 17th CAER-IFPRI Annual Conference (2025).</li>
-<li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. 2024. "<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>." 99th Annual Conference of WEAI (2024).</li>
-<li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. 2024. "<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>." 11th Annual Conference of the IAAE (2024).</li>
-<li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. 2024. "Superstition and Car Accidents – The Case Study of the Dajia Mazu Pilgrimage Event in Taiwan." 19th EAEA International Convention (2024).</li>
-<li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and Jeffrey C. Begun. 2024. "Rooftop Solar Energy Adoption and Farm Revenue." 19th EAEA International Convention (2024).</li>
+<li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and David Zilberman. 2026. "Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy." 7th World Congress of Environmental and Resource Economists (2026), Lisbon.</li>
+<li><strong>Liou, Yu-You</strong>, and Hung-Hao Chang. 2026. "Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms." AAEA Annual Meeting (2026), Kansas City.</li>
+<li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. 2025. "<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>." 20th EAEA International Convention (2025), Manila.</li>
+<li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. 2025. "The causal effects of removing Hook-Turn regulation on road safety." 20th EAEA International Convention (2025), Manila.</li>
+<li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and Jeffrey C. Begun. 2025. "Rooftop Solar Energy Adoption and Farm Revenue." 18th Congress of EAAE (2025), Bonn.</li>
+<li><strong>Liou, Yu-You</strong>, and Hung-Hao Chang. 2025. "Does the Development of Aquavoltaics Production Affect Farmland Price?" 17th CAER-IFPRI Annual Conference (2025), Beijing.</li>
+<li>Chang, Hung-Hao, and <strong>Yu-You Liou</strong>. 2025. "Does the Development of Aquavoltaics Policy Affect Farmland Price?" International Conference on Agricultural, Life and Environmental Sciences (2025), Vienna.</li>
+<li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. 2024. "<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>." 99th Annual Conference of WEAI (2024), Seattle.</li>
+<li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. 2024. "<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>." 11th Annual Conference of the IAAE (2024), Thessaloniki.</li>
+<li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. 2024. "Superstition and Car Accidents – The Case Study of the Dajia Mazu Pilgrimage Event in Taiwan." 19th EAEA International Convention (2024), Bangkok.</li>
+<li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and Jeffrey C. Begun. 2024. "Rooftop Solar Energy Adoption and Farm Revenue." 19th EAEA International Convention (2024), Bangkok.</li>
 <li><strong>劉昱佑</strong>*、李成蔭（2024）。「從眾或課責？運用臺灣選舉調查資料探討 2018 年與 2022 年地方大選結果對於總統滿意度的影響」。第十六屆國會國際學術研討會，臺北。</li>
 <li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. 2023. "The Long-term Effects of Early-life Malaria Exposure on Farm Households' Resource Allocation." International Conference on Agricultural and Environmental Economics (2023), Taipei.</li>
 <li><strong>Liou, Yu-You</strong>*. 2023. "Adaptation Behavior of Public Mobility under Climate Change: Empirical Evidence on Taipei Metro." International Conference on Business and Management for Graduate Students (2023), Taipei.</li>
