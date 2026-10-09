@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
 *附註*：有三筆文獻無法對應至相應年份，因此未納入圖中。
 :::
 
-我的研究成果主要發表於農業經濟學、環境與資源經濟學及運輸經濟學領域之國際期刊，包括知名的 *Food Policy*、*Forest Policy and Economics*、*Journal of the Association of Environmental and Resource Economists*、*Journal of Transport Geography*、*Land Economics*、*Transport Policy* 以及 *Transportation Research Part A* 與 *Part D*。研究成果亦獲 *Cities* 及 *Sustainable Cities and Society* 等期刊引用。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
+我的研究成果主要發表於農業經濟學、環境與資源經濟學及運輸經濟學領域之國際期刊，包括知名的 [*Food Policy*](https://www.sciencedirect.com/journal/food-policy)、[*Forest Policy and Economics*](https://www.sciencedirect.com/journal/forest-policy-and-economics)、[*Journal of the Association of Environmental and Resource Economists*](https://www.journals.uchicago.edu/toc/jaere/current)、[*Journal of Transport Geography*](https://www.sciencedirect.com/journal/journal-of-transport-geography)、[*Land Economics*](https://le.uwpress.org/)、[*Transport Policy*](https://www.sciencedirect.com/journal/transport-policy) 以及 [*Transportation Research Part A*](https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice) 與 [*Part D*](https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment)。研究成果亦多次獲 [*Cities*](https://www.sciencedirect.com/journal/cities) 及 [*Sustainable Cities and Society*](https://www.sciencedirect.com/journal/sustainable-cities-and-society) 等期刊引用。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
 
 ```{=html}
 <div class="quarto-figure quarto-figure-center">
@@ -278,7 +278,7 @@ Transp. Res. A
 
 ::: paper-meta
 ***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Hung-Hao Chang). †\*\^⁺\
-獲獎：國立臺灣大學生物資源暨農學院 114 學年度學生學術論文獎
+獲獎：國立臺灣大學生物資源暨農學院 114 學年度博士班學生學術論文獎 [[證明](https://yyliou.github.io/yyliou/cv/cert/award-2025-student-academic-paper.pdf)]
 :::
 
 ::: paper-links
@@ -875,12 +875,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## **審稿**
 
-- [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297) (5)
+- [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297) (4) [[證明](https://yyliou.github.io/yyliou/cv/cert/referee-agribusiness.pdf)]
 - [*Criminology & Public Policy*](https://onlinelibrary.wiley.com/journal/17459133) (1)
-- [*Food Policy*](https://www.sciencedirect.com/journal/food-policy) (2)
-- [*Frontiers in Climate*](https://www.frontiersin.org/journals/climate) (3)
+- [*Food Policy*](https://www.sciencedirect.com/journal/food-policy) (2) [[證明](https://yyliou.github.io/yyliou/cv/cert/referee-food-policy.pdf)]
+- [*Frontiers in Climate*](https://www.frontiersin.org/journals/climate) (3) [[證明](https://yyliou.github.io/yyliou/cv/cert/referee-frontiers-climate.pdf)]
 - [*Frontiers in Environmental Economics*](https://www.frontiersin.org/journals/environmental-economics) (1)
-- [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1)
+- [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1) [[證明](https://yyliou.github.io/yyliou/cv/cert/referee-frontiers-environmental-science.pdf)]
 - [*Frontiers in Sustainable Food Systems*](https://www.frontiersin.org/journals/sustainable-food-systems) (1)
 - [*Managerial and Decision Economics*](https://onlinelibrary.wiley.com/journal/10991468) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
