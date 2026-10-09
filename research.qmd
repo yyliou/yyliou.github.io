@@ -281,7 +281,7 @@ Transp. Res. A
 
 ::: paper-meta
 ***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Hung-Hao Chang). †\*\^⁺\
-Award: [2025 Doctoral Student Academic Paper Award, College of Bioresources and Agriculture, National Taiwan University](https://yyliou.github.io/yyliou/cv/cert/award-2025-student-academic-paper.pdf).
+Award: 2025 Doctoral Student Academic Paper Award, College of Bioresources and Agriculture, National Taiwan University. [[Certificate](https://yyliou.github.io/yyliou/cv/cert/award-2025-student-academic-paper.pdf)]
 :::
 
 ::: paper-links
@@ -888,7 +888,7 @@ document.addEventListener('DOMContentLoaded', function () {
 - [*Managerial and Decision Economics*](https://onlinelibrary.wiley.com/journal/10991468) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
 
-[Reviewer certificates](https://github.com/yyliou/yyliou/tree/main/cv/cert/referee)
+[[Reviewer certificates](https://yyliou.github.io/yyliou/cv/cert/referee-certificates.pdf)]
 
 ## **Theses**
 

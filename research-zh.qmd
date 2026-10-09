@@ -278,7 +278,7 @@ Transp. Res. A
 
 ::: paper-meta
 ***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Hung-Hao Chang). †\*\^⁺\
-獲獎：[國立臺灣大學生物資源暨農學院 114 學年度博士班學生學術論文獎](https://yyliou.github.io/yyliou/cv/cert/award-2025-student-academic-paper.pdf)
+獲獎：國立臺灣大學生物資源暨農學院 114 學年度博士班學生學術論文獎 [[證明](https://yyliou.github.io/yyliou/cv/cert/award-2025-student-academic-paper.pdf)]
 :::
 
 ::: paper-links
@@ -885,7 +885,7 @@ document.addEventListener('DOMContentLoaded', function () {
 - [*Managerial and Decision Economics*](https://onlinelibrary.wiley.com/journal/10991468) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
 
-[審稿證明](https://github.com/yyliou/yyliou/tree/main/cv/cert/referee)
+[[審稿證明](https://yyliou.github.io/yyliou/cv/cert/referee-certificates.pdf)]
 
 ## **學位論文**
 
