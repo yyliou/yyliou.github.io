@@ -16,3 +16,7 @@ fonts/_backup/
 
 # Full source fonts (site uses -sub.woff2 subsets only)
 fonts/*.otf
+
+# Python bytecode
+__pycache__/
+_to_delete/
