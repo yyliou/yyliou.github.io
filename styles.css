@@ -1559,7 +1559,7 @@ div.quarto-about-trestles .about-entity .about-image {
     border-color: #1a2a3a;
 }
 
-/* Button group: pushed to the far right, immediately left of search */
+/* Button group: pushed to the far right of the navbar */
 .navbar-btn-group {
     display: inline-flex;
     align-items: center;
@@ -1568,7 +1568,6 @@ div.quarto-about-trestles .about-entity .about-image {
     margin-left: auto;
     margin-right: 0.75em;
 }
-#quarto-search { order: 91; }
 
 /* Keep nav links left-aligned, brand at far left */
 .navbar-brand-container.mx-auto { margin-left: 0 !important; }
@@ -1585,17 +1584,13 @@ div.quarto-about-trestles .about-entity .about-image {
 
 /* Mobile (<992px): Quarto gives the collapsing menu order:20, so the
    button group (order:90) gets pushed below the expanded menu. Lower its
-   order so it stays in the top bar, immediately left of the search icon. */
+   order so it stays in the top bar, at the right end. */
 @media (max-width: 991.98px) {
     .navbar-btn-group {
         order: 3;
         margin-left: auto;
         margin-right: 0.4em;
         gap: 0.35em;
-    }
-    .navbar #quarto-search {
-        order: 4;
-        margin-left: 0;
     }
     .navbar-btn-group .navbar-icon-btn {
         width: 32px;

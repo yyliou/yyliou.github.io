@@ -9,6 +9,7 @@ website:
   open-graph: true
   twitter-card: true
   image: pic.png
+  search: false
   description: "Yu-You Liou (劉昱佑) — Ph.D. Student at National Taiwan University and Adjunct Lecturer at Shih Chien University. Research in agricultural economics, environmental and resource economics, transportation economics, regional studies, and real estate analysis."
   navbar:
     title: "Liou"

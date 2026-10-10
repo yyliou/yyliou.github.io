@@ -31,12 +31,8 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <link href="./icon.png" rel="icon" type="image/png">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -48,18 +44,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -187,7 +171,6 @@ function applyLangGlobal() {
 
 // ── Boot ──────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function () {
-  var search = document.querySelector('#quarto-search');
   var btn = document.createElement('button');
   btn.id = 'globalLangToggle';
   btn.className = 'global-lang-toggle';
@@ -210,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   btn.className = 'navbar-icon-btn global-lang-toggle';
 
-  // Wrap both buttons together, insert right before search icon
+  // Group the buttons at the right end of the navbar
   var wrap = document.createElement('div');
   wrap.className = 'navbar-btn-group';
   // Font size toggle button
@@ -234,12 +217,8 @@ document.addEventListener('DOMContentLoaded', function () {
   wrap.appendChild(fontBtn);
   wrap.appendChild(themeBtn);
 
-  if (search && search.parentNode) {
-    search.parentNode.insertBefore(wrap, search);
-  } else {
-    var nb = document.querySelector('.navbar-collapse, .navbar > .container-fluid, .navbar > .container');
-    if (nb) nb.appendChild(wrap);
-  }
+  var navbar = document.querySelector('.navbar-container');
+  if (navbar) navbar.appendChild(wrap);
 
   applyLangGlobal();
 });
@@ -272,7 +251,6 @@ document.addEventListener('DOMContentLoaded', function () {
     <span class="navbar-title">Liou</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>

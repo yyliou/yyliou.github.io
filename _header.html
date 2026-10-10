@@ -111,7 +111,6 @@ function applyLangGlobal() {
 
 // ── Boot ──────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function () {
-  var search = document.querySelector('#quarto-search');
   var btn = document.createElement('button');
   btn.id = 'globalLangToggle';
   btn.className = 'global-lang-toggle';
@@ -134,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   btn.className = 'navbar-icon-btn global-lang-toggle';
 
-  // Wrap both buttons together, insert right before search icon
+  // Group the buttons at the right end of the navbar
   var wrap = document.createElement('div');
   wrap.className = 'navbar-btn-group';
   // Font size toggle button
@@ -158,12 +157,8 @@ document.addEventListener('DOMContentLoaded', function () {
   wrap.appendChild(fontBtn);
   wrap.appendChild(themeBtn);
 
-  if (search && search.parentNode) {
-    search.parentNode.insertBefore(wrap, search);
-  } else {
-    var nb = document.querySelector('.navbar-collapse, .navbar > .container-fluid, .navbar > .container');
-    if (nb) nb.appendChild(wrap);
-  }
+  var navbar = document.querySelector('.navbar-container');
+  if (navbar) navbar.appendChild(wrap);
 
   applyLangGlobal();
 });
