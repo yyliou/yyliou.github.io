@@ -18,7 +18,7 @@ I was born in Taichung, Taiwan. I studied Agricultural Economics and Political S
 
 My work spans agriculture, energy, transportation, and urban economics, using causal inference and large-scale data to study environmental resources, the energy transition, road safety, public transportation, and urban environments.
 
-John Tukey once said, “The best thing about being a statistician is that you get to play in everyone’s backyard.” For me, this is also what makes research interesting.
+John Tukey once said, “The best thing about being a statistician is that you get to play in everyone’s backyard.” I am not a statistician, but for me, this is also what makes research interesting.
 
 Alongside research, I teach statistics, data analysis, and applied programming at Shih Chien University. I hope to continue starting from important questions in the real world and using data and empirical methods to understand how policy shapes our environment and society.
 
@@ -34,20 +34,20 @@ Alongside research, I teach statistics, data analysis, and applied programming a
 
 - **Research & Teaching Assistant**, Department of Agricultural Economics, College of Bioresources and Agriculture, National Taiwan University (2019–)
 - **Research Assistant**, Agricultural Net-Zero Carbon Technology and Management Innovation Research Center, College of Bioresources and Agriculture, National Taiwan University (2024–)
-- **Adjunct Lecturer**, English Taught Program in International Business, International College, Shih Chien University (2024–) [[Appointment letter](https://yyliou.github.io/yyliou/cv/doc/appointment-letters.pdf)]
+- [**Adjunct Lecturer**](https://yyliou.github.io/yyliou/cv/doc/appointment-letters.pdf), English Taught Program in International Business, International College, Shih Chien University (2024–)
 - **Research Assistant**, Ecological Engineering Center, College of Bioresources and Agriculture, National Taiwan University (2021–2022)
 
 ## **Awards & Grants**
 
-- Graduate Research Fellowship, National Science and Technology Council, 2022–2026.
-- [2025 Doctoral Student Academic Paper Award](https://yyliou.github.io/yyliou/cv/cert/award-2025-student-academic-paper.pdf), College of Bioresources and Agriculture, National Taiwan University, 2026.
-- [2025 CMC Outstanding Student Research Award](https://yyliou.github.io/yyliou/cv/cert/award-2025-cmc-outstanding-student-research.pdf), College of Bioresources and Agriculture, National Taiwan University, 2025.
-- [English-Medium Instruction (EMI) Teaching Grant](https://yyliou.github.io/yyliou/cv/cert/award-2025-emi-teaching.pdf), Shih Chien University, 2025.
-- Conference Travel Grant, National Science and Technology Council, 2025.
-- [Conference Travel Scholarship](https://yyliou.github.io/yyliou/cv/cert/award-2025-alumni-conference-travel.pdf), National Alumni Association of the Department of Agricultural Economics, National Taiwan University, 2025.
-- Sun Yun-Suan Memorial Fellowship, National Policy Foundation, 2023.
-- Outstanding Veteran, Penghu Defense Command, Republic of China Army, 2022.
-- [Altruistic Award](https://yyliou.github.io/yyliou/cv/cert/award-2019-altruistic.pdf), National Taiwan University, 2019.
+- **Graduate Research Fellowship**, National Science and Technology Council, 2022–2026.
+- [**2025 Doctoral Student Academic Paper Award**](https://yyliou.github.io/yyliou/cv/cert/award-2025-student-academic-paper.pdf), College of Bioresources and Agriculture, National Taiwan University, 2026.
+- [**2025 CMC Outstanding Student Research Award**](https://yyliou.github.io/yyliou/cv/cert/award-2025-cmc-outstanding-student-research.pdf), College of Bioresources and Agriculture, National Taiwan University, 2025.
+- [**English-Medium Instruction (EMI) Teaching Grant**](https://yyliou.github.io/yyliou/cv/cert/award-2025-emi-teaching.pdf), Shih Chien University, 2025.
+- **Conference Travel Grant**, National Science and Technology Council, 2025.
+- [**Conference Travel Scholarship**](https://yyliou.github.io/yyliou/cv/cert/award-2025-alumni-conference-travel.pdf), National Alumni Association of the Department of Agricultural Economics, National Taiwan University, 2025.
+- **Sun Yun-Suan Memorial Fellowship**, National Policy Foundation, 2023.
+- **Outstanding Veteran**, Penghu Defense Command, Republic of China Army, 2022.
+- [**Altruistic Award**](https://yyliou.github.io/yyliou/cv/cert/award-2019-altruistic.pdf), National Taiwan University, 2019.
 
 ## **Acknowledgement**
 
