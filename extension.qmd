@@ -1,5 +1,7 @@
 ---
 title: "Extension"
+image: accweb-map.png
+image-alt: "Taiwan Crash Atlas, map view"
 ---
 
 Data-driven tools that make Taiwan’s public data easier to explore: interactive visualizations and R packages for government open data.
@@ -8,13 +10,13 @@ Data-driven tools that make Taiwan’s public data easier to explore: interactiv
 
 ::: atlas-figure
 <a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener">
-![Taiwan Crash Atlas, map view](accweb-map.png)
+![Taiwan Crash Atlas, map view](accweb-map.jpg)
 </a>
 :::
 
 ::: atlas-figure
 <a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener">
-![Taiwan Crash Atlas, trends view](accweb-trends.png)
+![Taiwan Crash Atlas, trends view](accweb-trends.jpg)
 </a>
 :::
 

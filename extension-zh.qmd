@@ -1,5 +1,7 @@
 ---
 title: "延伸應用"
+image: accweb-map-zh.png
+image-alt: "臺灣車禍地圖，地圖檢視"
 lang: zh-TW
 ---
 
@@ -9,13 +11,13 @@ lang: zh-TW
 
 ::: atlas-figure
 <a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener">
-![臺灣車禍地圖，地圖檢視](accweb-map-zh.png)
+![臺灣車禍地圖，地圖檢視](accweb-map-zh.jpg)
 </a>
 :::
 
 ::: atlas-figure
 <a href="https://yyliou.github.io/accweb/" target="_blank" rel="noopener">
-![臺灣車禍地圖，趨勢檢視](accweb-trends-zh.png)
+![臺灣車禍地圖，趨勢檢視](accweb-trends-zh.jpg)
 </a>
 :::
 
