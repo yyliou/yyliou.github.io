@@ -643,8 +643,8 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="9" class="wip-list">
-<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Hung-Hao Chang and Karin Wu).（第二輪修訂）</li>
-<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang).（第一輪修訂）</li>
+<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Hung-Hao Chang and Karin Wu).（<em>Food Policy</em> 第二輪修訂）</li>
+<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang).（<em>Technological Forecasting and Social Change</em> 第一輪修訂）</li>
 </ol>
 ```
 
