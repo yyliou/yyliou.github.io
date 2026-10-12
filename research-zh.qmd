@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 ```
 
-## **焦點著作**
+## **代表著作**
 
 ::::::: paper-entry
 ::: paper-tag
