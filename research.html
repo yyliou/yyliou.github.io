@@ -428,6 +428,16 @@ document.addEventListener('DOMContentLoaded', function () {
   if (window.MutationObserver) {
     new MutationObserver(syncVosTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
   }
+  // VOSviewer draws its labels on a canvas before its web font (Roboto) has
+  // loaded, so the first frame falls back to a serif font. A 1px resize after
+  // load makes it redraw with the loaded font.
+  function redrawVos() {
+    frame.style.width = 'calc(100% - 1px)';
+    requestAnimationFrame(function () { frame.style.width = ''; });
+  }
+  frame.addEventListener('load', function () {
+    [800, 2000, 4000].forEach(function (ms) { setTimeout(redrawVos, ms); });
+  });
 })();
 </script>
 <section id="selected-publications" class="level2">
