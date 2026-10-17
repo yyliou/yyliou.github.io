@@ -670,7 +670,7 @@ Qual. & Quant.
 </ol>
 ```
 
-### **撰稿中**
+### **撰稿中與投稿中**
 
 ```{=html}
 <ol reversed start="2" class="wip-list">
