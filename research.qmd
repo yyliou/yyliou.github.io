@@ -668,7 +668,6 @@ Qual. & Quant.
 <ol reversed start="6" class="wip-list">
 <li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Hung-Hao Chang and Hsiao-Chiao Sun).</li>
 <li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Hung-Hao Chang and David Zilberman).</li>
-<li>The Spatial Reach of Metro-led Development: Housing Gains and Traffic-Safety Costs by Station Accessibility (with Hung-Hao Chang).</li>
 <li>Trading Less Often but Trading Thicker: Scheduled Closures in a Hog Auction Market (with Tzong-Haw Lee and Hung-Hao Chang).</li>
 </ol>
 ```
@@ -676,9 +675,10 @@ Qual. & Quant.
 ### **In Preparation & Submitted**
 
 ```{=html}
-<ol reversed start="2" class="wip-list">
+<ol reversed start="3" class="wip-list">
 <li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Hung-Hao Chang).</li>
 <li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Hung-Hao Chang).</li>
+<li>The Spatial Reach of Metro-led Development: Housing Gains and Traffic-Safety Costs by Station Accessibility (with Hung-Hao Chang).</li>
 </ol>
 ```
 
