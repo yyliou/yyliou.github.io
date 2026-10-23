@@ -25,10 +25,10 @@ Alongside research, I teach statistics, data analysis, and applied programming a
 ## **Education**
 
 - **Ph.D. Student** in Agricultural Economics, National Taiwan University (2022–)
-- **MS** in Statistics, National Taiwan University (2020–2021)
-- **MS** in Agricultural Economics, National Taiwan University (2019–2021)
-- **BA** in Political Science, National Taiwan University (2016–2019)
-- **BS** in Agricultural Economics, National Taiwan University (2015–2019)
+- [**MS** in Statistics](https://yyliou.github.io/yyliou/cv/doc/ms-diploma.pdf), National Taiwan University (2020–2021)
+- [**MS** in Agricultural Economics](https://yyliou.github.io/yyliou/cv/doc/ms-diploma.pdf), National Taiwan University (2019–2021)
+- [**BA** in Political Science](https://yyliou.github.io/yyliou/cv/doc/bs-diploma.pdf), National Taiwan University (2016–2019)
+- [**BS** in Agricultural Economics](https://yyliou.github.io/yyliou/cv/doc/bs-diploma.pdf), National Taiwan University (2015–2019)
 
 ## **Employment**
 
