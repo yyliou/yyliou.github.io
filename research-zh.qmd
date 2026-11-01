@@ -883,7 +883,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 ```
 
-## **審稿**
+## [**審稿**](https://yyliou.github.io/yyliou/cv/cert/referee-certificates.pdf)
 
 - [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297) (5)
 - [*Communications Sustainability*](https://www.nature.com/commssustain/) (1)
@@ -896,8 +896,6 @@ document.addEventListener('DOMContentLoaded', function () {
 - [*Frontiers in Sustainable Food Systems*](https://www.frontiersin.org/journals/sustainable-food-systems) (1)
 - [*Managerial and Decision Economics*](https://onlinelibrary.wiley.com/journal/10991468) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
-
-[[審稿證明](https://yyliou.github.io/yyliou/cv/cert/referee-certificates.pdf)]
 
 ## **學位論文**
 
