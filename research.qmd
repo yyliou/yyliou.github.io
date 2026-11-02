@@ -165,7 +165,7 @@ Land Econ.
 :::
 
 ::: paper-links
-[Abstract]{.paper-btn .abs-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[Abstract]{.paper-btn .abs-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -191,7 +191,7 @@ Transp. Policy
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.tranpol.2026.104468){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.tranpol.2026.104468){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -226,7 +226,7 @@ JAERE
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1086/743452){.paper-btn} [Earlier version](https://ssrn.com/abstract=4984614){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[Journal](https://doi.org/10.1086/743452){.paper-btn} [Earlier version](https://ssrn.com/abstract=4984614){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -259,7 +259,7 @@ Food Policy
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -295,7 +295,7 @@ Award: [2025 Doctoral Student Academic Paper Award](https://yyliou.github.io/yyl
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Media]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Media]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -314,6 +314,9 @@ Award: [2025 Doctoral Student Academic Paper Award](https://yyliou.github.io/yyl
 <li><a href="https://news.ltn.com.tw/news/life/breakingnews/5422721" target="_blank" rel="noopener">Liberty Times Net (自由時報): NTU empirical study finds removing the motorcycle hook-turn safer in specific settings</a></li>
 <li><a href="https://www.ettoday.net/news/20260502/3158984.htm" target="_blank" rel="noopener">ETtoday: Accidents down 21% after removing the hook-turn; medical costs cut 4.7%</a></li>
 <li><a href="https://www.chinatimes.com/newspapers/20260412000322-260121" target="_blank" rel="noopener">China Times (中國時報): Removing the motorcycle hook-turn cuts accidents 21%</a></li>
+<li><a href="https://www.storm.mg/article/11126855" target="_blank" rel="noopener">Storm Media (風傳媒): Is removing the motorcycle hook-turn safer? NTU study finds accidents down 21% and medical costs down 4.7%</a></li>
+<li><a href="https://news.tvbs.com.tw/life/3229047" target="_blank" rel="noopener">TVBS: NTU data show accidents fell 20% after Tainan removed the hook-turn; New Power Party urges national traffic reform</a></li>
+<li><a href="https://www.mirrormedia.mg/story/20260613edi026" target="_blank" rel="noopener">Mirror Media (鏡週刊): Hook-turn removal trial cuts accidents by 20%; New Power Party criticizes the government response</a></li>
 </ul></div>
 ```
 :::::::
@@ -336,7 +339,7 @@ Transp. Res. D
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -564,7 +567,7 @@ Agribusiness
 :::
 
 ::: paper-links
-[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [EconLit]{.idx-badge}
+[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -598,7 +601,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-links
-[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [EconLit]{.idx-badge}
+[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge}
 :::
 
 ```{=html}
@@ -650,35 +653,19 @@ Qual. & Quant.
 ```
 :::::::
 
-## **Work in Progress**
-
-### **Revision & Resubmission**
+## **Submitted Papers & Work in Progress**
 
 ```{=html}
 <ol reversed start="9" class="wip-list">
-<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Hung-Hao Chang and Karin Wu). Second-round revision requested by <a href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener"><em>Food Policy</em></a>.</li>
-<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang). First-round revision requested by <a href="https://www.sciencedirect.com/journal/technological-forecasting-and-social-change" target="_blank" rel="noopener"><em>Technological Forecasting and Social Change</em></a>.</li>
-<li>Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Hung-Hao Chang). First-round revision requested by <a href="https://www.sciencedirect.com/journal/ecosystem-services" target="_blank" rel="noopener"><em>Ecosystem Services</em></a>.</li>
-<li>Trading Less Often but Trading Thicker: Scheduled Closures in a Hog Auction Market (with Tzong-Haw Lee and Hung-Hao Chang). First-round revision requested by <a href="https://www.mdpi.com/journal/agriculture" target="_blank" rel="noopener"><em>Agriculture</em></a>.</li>
-</ol>
-```
-
-### **Under Review**
-
-```{=html}
-<ol reversed start="5" class="wip-list">
-<li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Hung-Hao Chang and Hsiao-Chiao Sun).</li>
-<li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Hung-Hao Chang and David Zilberman).</li>
-</ol>
-```
-
-### **In Preparation & Submitted**
-
-```{=html}
-<ol reversed start="3" class="wip-list">
-<li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Hung-Hao Chang).</li>
-<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Hung-Hao Chang).</li>
-<li>The Spatial Reach of Metro-led Development: Housing Gains and Traffic-Safety Costs by Station Accessibility (with Hung-Hao Chang).</li>
+<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Hung-Hao Chang and Karin Wu). (<a href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener"><em>Food Policy</em></a>, second-round revision)</li>
+<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang). (<a href="https://www.sciencedirect.com/journal/technological-forecasting-and-social-change" target="_blank" rel="noopener"><em>Technological Forecasting and Social Change</em></a>, first-round revision)</li>
+<li>Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Hung-Hao Chang). (<a href="https://www.sciencedirect.com/journal/ecosystem-services" target="_blank" rel="noopener"><em>Ecosystem Services</em></a>, first-round revision)</li>
+<li>Trading Less Often but Trading Thicker: Scheduled Closures in a Hog Auction Market (with Tzong-Haw Lee and Hung-Hao Chang). (<a href="https://www.mdpi.com/journal/agriculture" target="_blank" rel="noopener"><em>Agriculture</em></a>, first-round revision)</li>
+<li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Hung-Hao Chang and Hsiao-Chiao Sun). (Under review)</li>
+<li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Hung-Hao Chang and David Zilberman). (Under review)</li>
+<li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Hung-Hao Chang). (In preparation for submission)</li>
+<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Hung-Hao Chang). (In preparation for submission)</li>
+<li>The Spatial Reach of Metro-led Development: Housing Gains and Traffic-Safety Costs by Station Accessibility (with Hung-Hao Chang). (In preparation for submission)</li>
 </ol>
 ```
 
@@ -904,7 +891,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ```{=html}
 <ol class="conf-list" reversed>
-<li><strong>Liou, Yu-You</strong>. "The Environmental Economics of Urban Transport: Three Essays on Fare Policy, Vehicle Electrification, and Transit Disruption in Taiwan." Ph.D. Dissertation (in progress), Department of Agricultural Economics, National Taiwan University.<br><em>Expected defense: 2027. Proposed committee: Hung-Hao Chang, Pei-An Liao, Yessica C. Y. Chung, Wen-Jhan Jane, Tsung-Chen Lee, Chia-Hsuan Wu, and Yungho Weng.</em></li>
+<li><strong>Liou, Yu-You</strong>. "The Environmental Economics of Urban Transport: Three Essays on Fare Policy, Vehicle Electrification, and Transit Disruption in Taiwan." Ph.D. Dissertation (in progress), Department of Agricultural Economics, National Taiwan University.<br><em>Expected defense: February 2027.</em></li>
 <li><strong>Liou, Yu-You</strong>. 2021. "<a href="https://doi.org/10.6342/NTU202102085" target="_blank" rel="noopener">Using Multilevel Linear Modeling to Explore the Moderating Effect of External Attributes on Hotel Room Rates: Empirical Evidence on Public Goods and Industry Environment</a>." Master's Thesis, Master Program in Statistics, National Taiwan University.<br><em>Grade: A+. Committee: Yao-Wen Hsu, Yung-Chih Lien, and Shih-Ping Ho.</em></li>
 <li><strong>劉昱佑</strong>（2021）。「<a href="https://doi.org/10.6342/NTU202101981" target="_blank" rel="noopener">農地價格指數之建構：應用臺灣實價登錄資料的大數據分析</a>」。國立臺灣大學農業經濟學系碩士論文。<br>[Constructing Property Price Indices: Big Data Analyses from Actual Price Registration of Real Estate Transactions in Taiwan. Master's Thesis, Department of Agricultural Economics, National Taiwan University.]<br><em>Grade: A+. Committee: Hung-Hao Chang, Yessica C. Y. Chung, Jiun-Hao Wang, Tzu-Chin Lin, and Sheng-Fu Tsai.</em></li>
 </ol>
@@ -914,15 +901,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ```{=html}
 <ol class="conf-list" reversed>
-<li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and David Zilberman. 2026. "Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy." 7th World Congress of Environmental and Resource Economists (2026), Lisbon.</li>
-<li><strong>Liou, Yu-You</strong>, and Hung-Hao Chang. 2026. "Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms." AAEA Annual Meeting (2026), Kansas City.</li>
 <li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. 2025. "<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>." 20th EAEA International Convention (2025), Manila.</li>
 <li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. 2025. "The causal effects of removing Hook-Turn regulation on road safety." 20th EAEA International Convention (2025), Manila.</li>
 <li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and Jeffrey C. Begun. 2025. "Rooftop Solar Energy Adoption and Farm Revenue." 18th Congress of EAAE (2025), Bonn.</li>
 <li><strong>Liou, Yu-You</strong>, and Hung-Hao Chang. 2025. "Does the Development of Aquavoltaics Production Affect Farmland Price?" 17th CAER-IFPRI Annual Conference (2025), Beijing.</li>
 <li>Chang, Hung-Hao, and <strong>Yu-You Liou</strong>. 2025. "Does the Development of Aquavoltaics Policy Affect Farmland Price?" International Conference on Agricultural, Life and Environmental Sciences (2025), Vienna.</li>
 <li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. 2024. "<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>." 99th Annual Conference of WEAI (2024), Seattle.</li>
-<li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. 2024. "<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>." 11th Annual Conference of the IAAE (2024), Thessaloniki.</li>
 <li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. 2024. "Superstition and Car Accidents – The Case Study of the Dajia Mazu Pilgrimage Event in Taiwan." 19th EAEA International Convention (2024), Bangkok.</li>
 <li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and Jeffrey C. Begun. 2024. "Rooftop Solar Energy Adoption and Farm Revenue." 19th EAEA International Convention (2024), Bangkok.</li>
 <li><strong>劉昱佑</strong>*、李成蔭（2024）。「從眾或課責？運用臺灣選舉調查資料探討 2018 年與 2022 年地方大選結果對於總統滿意度的影響」。第十六屆國會國際學術研討會，臺北。<br>[<strong>Liou, Yu-You</strong>, and Cheng-Yin Lee. 2024. "Conformity or Accountability? An Analysis of Local Election Results on Presidential Satisfaction." 16th International Conference on Parliamentary Studies, Taipei.]</li>
