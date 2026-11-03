@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**應用程式設計**
+**程式設計應用**
 :::
 
 ::: paper-meta
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**資料分析**
+**數據分析**
 :::
 
 ::: paper-meta
