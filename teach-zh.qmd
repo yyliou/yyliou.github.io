@@ -11,7 +11,7 @@ lang: zh-TW
   </div>
   <div class="bib-stat">
     <div class="bib-label">修課人次</div>
-    <div class="bib-number" data-target="488" data-decimals="0">0</div>
+    <div class="bib-number" data-target="513" data-decimals="0">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">教學評量</div>
