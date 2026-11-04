@@ -3,11 +3,11 @@ title: "Yu-You Liou"
 pagetitle: "Yu-You Liou 劉昱佑"
 subtitle: ""
 description: "Ph.D. Student, National Taiwan University<br>Adjunct Lecturer, Shih Chien University"
-description-meta: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and resource management, transportation economics and traffic safety, agricultural economics and real estate analysis, and applied microeconometrics and causal inference."
+description-meta: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and natural resource management, transportation economics and traffic safety, agricultural economics, land and housing markets, and applied microeconometrics and causal inference."
 open-graph:
-  description: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and resource management, transportation economics and traffic safety, agricultural economics and real estate analysis, and applied microeconometrics and causal inference."
+  description: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and natural resource management, transportation economics and traffic safety, agricultural economics, land and housing markets, and applied microeconometrics and causal inference."
 twitter-card:
-  description: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and resource management, transportation economics and traffic safety, agricultural economics and real estate analysis, and applied microeconometrics and causal inference."
+  description: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and natural resource management, transportation economics and traffic safety, agricultural economics, land and housing markets, and applied microeconometrics and causal inference."
 about:
     template: trestles
     image: pic.webp
@@ -34,7 +34,7 @@ Alongside research, I teach statistics, data analysis, and applied programming a
 
 - **Research & Teaching Assistant**, Department of Agricultural Economics, College of Bioresources and Agriculture, National Taiwan University (2019–)
 - **Research Assistant**, Agricultural Net-Zero Carbon Technology and Management Innovation Research Center, College of Bioresources and Agriculture, National Taiwan University (2024–)
-- [**Adjunct Lecturer**](https://yyliou.github.io/yyliou/cv/doc/appointment-letters.pdf), English Taught Program in International Business, International College, Shih Chien University (2024–)
+- [**Adjunct Lecturer**](https://yyliou.github.io/yyliou/cv/doc/appointment-letters.pdf), English Taught Program in International Business, Shih Chien University (2024–)
 - **Research Assistant**, Ecological Engineering Center, College of Bioresources and Agriculture, National Taiwan University (2021–2022)
 
 ## **Awards & Grants**
