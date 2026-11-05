@@ -20,7 +20,7 @@ website:
         text: Research
       - href: teach.qmd
         text: Teaching
-      - href: https://yyliou.github.io/yyliou/cv/cv_metrics.pdf
+      - href: https://yyliou.github.io/yyliou/cv/cv_metrics_noref.pdf
         text: CV
         target: _blank
 
