@@ -2,19 +2,19 @@
 title: "Yu-You Liou"
 pagetitle: "Yu-You Liou 劉昱佑"
 subtitle: ""
-description: "Ph.D. Student, National Taiwan University<br>Adjunct Lecturer, Shih Chien University"
-description-meta: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and natural resource management, transportation economics and traffic safety, agricultural economics, land and housing markets, and applied microeconometrics and causal inference."
+description: "Ph.D. Candidate, National Taiwan University<br>Adjunct Lecturer, Shih Chien University"
+description-meta: "I am a Ph.D. candidate at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and natural resource management, transportation economics and traffic safety, agricultural economics, land and housing markets, and applied microeconometrics and causal inference."
 open-graph:
-  description: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and natural resource management, transportation economics and traffic safety, agricultural economics, land and housing markets, and applied microeconometrics and causal inference."
+  description: "I am a Ph.D. candidate at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and natural resource management, transportation economics and traffic safety, agricultural economics, land and housing markets, and applied microeconometrics and causal inference."
 twitter-card:
-  description: "I am a Ph.D. student at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and natural resource management, transportation economics and traffic safety, agricultural economics, land and housing markets, and applied microeconometrics and causal inference."
+  description: "I am a Ph.D. candidate at National Taiwan University and an adjunct lecturer at Shih Chien University, where I teach undergraduate statistics, data analysis, and applied programming. My research interests are environmental economics and natural resource management, transportation economics and traffic safety, agricultural economics, land and housing markets, and applied microeconometrics and causal inference."
 about:
     template: trestles
     image: pic.webp
     links: []
 ---
 
-I was born in Taichung, Taiwan. I studied Agricultural Economics and Political Science at National Taiwan University, followed by master’s degrees in Agricultural Economics and Statistics. I am currently a Ph.D. student in Agricultural Economics at NTU. My research focuses on environmental and resource economics, with an interest in how policy affects behavior, resource allocation, and social welfare.
+I was born in Taichung, Taiwan. I studied Agricultural Economics and Political Science at National Taiwan University, followed by master’s degrees in Agricultural Economics and Statistics. I am currently a Ph.D. candidate in Agricultural Economics at NTU. My research focuses on environmental and resource economics, with an interest in how policy affects behavior, resource allocation, and social welfare.
 
 My work spans agriculture, energy, transportation, and urban economics, using causal inference and large-scale data to study environmental resources, the energy transition, road safety, public transportation, and urban environments.
 
@@ -24,7 +24,7 @@ Alongside research, I teach statistics, data analysis, and applied programming a
 
 ## **Education**
 
-- **Ph.D. Student** in Agricultural Economics, National Taiwan University (2022–)
+- **Ph.D. Candidate** in Agricultural Economics, National Taiwan University (2022–)
 - [**MS** in Statistics](https://yyliou.github.io/yyliou/cv/doc/ms-diploma.pdf), National Taiwan University (2020–2021)
 - [**MS** in Agricultural Economics](https://yyliou.github.io/yyliou/cv/doc/ms-diploma.pdf), National Taiwan University (2019–2021)
 - [**BA** in Political Science](https://yyliou.github.io/yyliou/cv/doc/bs-diploma.pdf), National Taiwan University (2016–2019)
