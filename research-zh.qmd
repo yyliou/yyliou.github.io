@@ -29,7 +29,7 @@ image: pic.png
 <div class="bib-stats">
   <div class="bib-stat">
     <div class="bib-label">著作數</div>
-    <div class="bib-number" data-target="14">0</div>
+    <div class="bib-number" data-target="15">0</div>
   </div>
   <div class="bib-stat">
     <div class="bib-label">被引次數</div>
@@ -154,7 +154,7 @@ Land Econ.
 :::
 
 ::: paper-title
-14\. Does the Development of Aquavoltaics Policy Affect Farmland Price?
+15\. Does the Development of Aquavoltaics Policy Affect Farmland Price?
 :::
 
 ::: paper-meta
@@ -180,7 +180,7 @@ Transp. Policy
 :::
 
 ::: paper-title
-13\. The effects of enhancing pedestrian-protective infrastructure on intersection safety
+14\. The effects of enhancing pedestrian-protective infrastructure on intersection safety
 :::
 
 ::: paper-meta
@@ -215,7 +215,7 @@ JAERE
 :::
 
 ::: paper-title
-12\. Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day
+13\. Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day
 :::
 
 ::: paper-meta
@@ -248,7 +248,7 @@ Food Policy
 :::
 
 ::: paper-title
-11\. Food traceability systems and the probability of using chemical fertilizers and pesticides − empirical evidence using plot and farm household data from agriculture census
+12\. Food traceability systems and the probability of using chemical fertilizers and pesticides − empirical evidence using plot and farm household data from agriculture census
 :::
 
 ::: paper-meta
@@ -283,7 +283,7 @@ Transp. Res. A
 :::
 
 ::: paper-title
-10\. The causal effects of removing Hook-Turn regulation on road safety
+11\. The causal effects of removing Hook-Turn regulation on road safety
 :::
 
 ::: paper-meta
@@ -328,7 +328,7 @@ Transp. Res. D
 :::
 
 ::: paper-title
-9\. The causal effect of monthly pass programs on public transportation and carbon emissions
+10\. The causal effect of monthly pass programs on public transportation and carbon emissions
 :::
 
 ::: paper-meta
@@ -364,7 +364,7 @@ Forest Policy Econ.
 :::
 
 ::: paper-title
-8\. Forest diversity and the distribution of farm revenue - Empirical evidence from forest farms in Taiwan
+9\. Forest diversity and the distribution of farm revenue - Empirical evidence from forest farms in Taiwan
 :::
 
 ::: paper-meta
@@ -399,7 +399,7 @@ J. Transp. Geogr.
 :::
 
 ::: paper-title
-7\. Does COVID-19 affect metro use in Taipei?
+8\. Does COVID-19 affect metro use in Taipei?
 :::
 
 ::: paper-meta
@@ -442,6 +442,28 @@ J. Transp. Geogr.
 ```
 
 ## **其他著作**
+
+::::::: paper-entry
+::: paper-tag
+Agriculture
+:::
+
+::: paper-title
+7\. Trading Less Often but Trading Thicker: Scheduled Closures in a Hog Auction Market
+:::
+
+::: paper-meta
+***Agriculture***, conditionally accepted (with Tzong-Haw Lee and Hung-Hao Chang). ⁺
+:::
+
+::: paper-links
+[摘要]{.paper-btn .abs-toggle} [SCIE]{.idx-badge}
+:::
+
+```{=html}
+<div class="abstract-box"><p>Wholesale livestock markets close regularly, yet little is known about how scheduled closures reshape trading and market performance. This study examines how these closures affect trading in Taiwan's largest hog auction market, which closes every Sunday and on special days added for festivals and supply adjustments. Using transaction data from 2020 to 2026, we compare the trading days around each closure with reference days in the same week, compare special closures with regular closures in an event difference-in-differences model, and estimate effects on the mean and volatility of daily sales value, head count, and average price. Around the regular Sunday closure, trading is lower before Sunday and higher on Monday, and volatility does not change. Relative to weeks with only the regular closure, festival closures lower quantities by about 12% before and after the closure, raise prices only before it, and raise volatility sharply on the last trading day before the closure. Supply-adjustment closures, imposed when hogs are in short supply, have little effect, and festival closures have much larger effects than supply-adjustment closures of equal length. These effects remain after netting out the rise in demand before festivals on which the market stays open. Fewer suppliers trade before special closures, and fewer buyers trade before and after them.</p></div>
+```
+:::::::
 
 ::::::: paper-entry
 ::: paper-tag
@@ -654,11 +676,10 @@ Qual. & Quant.
 ## **投稿與進行中研究**
 
 ```{=html}
-<ol reversed start="9" class="wip-list">
+<ol reversed start="8" class="wip-list">
 <li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers' Associations (with Hung-Hao Chang and Karin Wu).（<a href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener"><em>Food Policy</em></a>，第二輪修訂中）</li>
 <li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang).（<a href="https://www.sciencedirect.com/journal/technological-forecasting-and-social-change" target="_blank" rel="noopener"><em>Technological Forecasting and Social Change</em></a>，第一輪修訂中）</li>
 <li>Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Hung-Hao Chang).（<a href="https://www.sciencedirect.com/journal/ecosystem-services" target="_blank" rel="noopener"><em>Ecosystem Services</em></a>，第一輪修訂中）</li>
-<li>Trading Less Often but Trading Thicker: Scheduled Closures in a Hog Auction Market (with Tzong-Haw Lee and Hung-Hao Chang).（<a href="https://www.mdpi.com/journal/agriculture" target="_blank" rel="noopener"><em>Agriculture</em></a>，第一輪修訂中）</li>
 <li>Does Adopting a Forest Restoration Program Affect Firms' Financial Performance? A Doubly Robust Machine Learning Approach (with Hung-Hao Chang and Hsiao-Chiao Sun).（已投稿審查中）</li>
 <li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Hung-Hao Chang and David Zilberman).（已投稿審查中）</li>
 <li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Hung-Hao Chang).（撰稿與準備投稿中）</li>
