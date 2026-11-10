@@ -122,3 +122,494 @@ Quantitative Method
 Spring 2020 (Prof. Hung-Hao Chang; English-medium instruction).
 :::
 :::::
+
+## Anonymous Feedback from Students
+
+```{=html}
+<div class="fb-filters" role="group" aria-label="Filter comments by course">
+<button type="button" class="fb-chip is-active" data-filter="featured" aria-pressed="true">Highlights</button>
+<button type="button" class="fb-chip" data-filter="stat" aria-pressed="false">Statistics I &amp; II (18)</button>
+<button type="button" class="fb-chip" data-filter="pa" aria-pressed="false">Programming for Applications (20)</button>
+<button type="button" class="fb-chip" data-filter="da" aria-pressed="false">Data Analysis (18)</button>
+<button type="button" class="fb-chip" data-filter="all" aria-pressed="false">All (56)</button>
+</div>
+```
+
+::::::: fb-grid
+:::: {.fb-card data-course="stat"}
+> I learned how to interpret data and draw basic statistical inferences, and how statistics is used in daily life and in many fields, such as survey analysis and reading data.
+
+::: fb-meta
+Statistics II · Spring 2026 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> Although the course content was challenging, the regular homework assignments helped me review the material, which was very helpful.
+
+::: fb-meta
+Statistics II · Spring 2026
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> He always helps us if we don’t understand something.
+
+::: fb-meta
+Statistics II · Spring 2026
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> The teacher is very kind, and the class atmosphere is relaxed and enjoyable.
+
+::: fb-meta
+Statistics I · Fall 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat" data-featured="true"}
+> He was really nice. Whenever somebody didn’t understand something, he came immediately to help.
+
+::: fb-meta
+Statistics I · Fall 2025
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> There is homework after every class, and it lets me review what we covered. I think that is very good.
+
+::: fb-meta
+Statistics I · Fall 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> Whether in worked examples or in answering questions, the teacher explains things very well.
+
+::: fb-meta
+Statistics II · Spring 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> This semester the course was a little advanced compared to the previous semester, but the teacher tried his best to assist where we needed help, and I must say he’s very good and he knows his work.
+
+::: fb-meta
+Statistics II · Spring 2025
+:::
+::::
+
+:::: {.fb-card data-course="stat" data-featured="true"}
+> It’s not an easy course, but I have learned a lot and have a different view of the course now, in a good way.
+
+::: fb-meta
+Statistics II · Spring 2025
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> All the slide materials the professor used had full explanations, so they were easy to understand.
+
+::: fb-meta
+Statistics II · Spring 2025
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> The teacher explains things in detail.
+
+::: fb-meta
+Statistics II · Spring 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> It helps students think logically.
+
+::: fb-meta
+Statistics II · Spring 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> The teacher puts real care into explaining.
+
+::: fb-meta
+Statistics II · Spring 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> It makes me more confident in judging whether numbers are accurate, and I now know better how to use statistics to calculate correct probabilities.
+
+::: fb-meta
+Statistics I · Fall 2024 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> When I ask the professor questions, I get clear, easy-to-understand answers.
+
+::: fb-meta
+Statistics I · Fall 2024 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> The instructor is loud and clear. He uses easy language and easy vocabulary to communicate with students.
+
+::: fb-meta
+Statistics I · Fall 2024
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> Reviewing statistics again in English.
+
+::: fb-meta
+Statistics I · Fall 2024 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="stat"}
+> Great course. The instructor listens to our cries and struggles, and he helps us.
+
+::: fb-meta
+Statistics I · Fall 2024
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> He helped me to understand RStudio.
+
+::: fb-meta
+Programming for Applications · Spring 2026
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> The instructor explains the topics well.
+
+::: fb-meta
+Programming for Applications · Spring 2026
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> I feel like this is a subject that is very helpful, especially in this AI era, where artificial intelligence is taking over a lot of things and becoming a great part of our lives. I think learning how to code and having more skills for working with AI is definitely helping us build a stronger future career in many ways.
+
+::: fb-meta
+Programming for Applications · Spring 2026
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> Clear and easy to understand.
+
+::: fb-meta
+Programming for Applications · Spring 2026 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> It gave me a better sense of what programming is used for.
+
+::: fb-meta
+Programming for Applications · Spring 2026 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> Every time I have struggled with the course, he’ll come and help me personally.
+
+::: fb-meta
+Programming for Applications · Spring 2026
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> This was the only course that used computers, and I was able to learn many different things through it.
+
+::: fb-meta
+Programming for Applications · Spring 2026
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> Nothing to improve. The teacher is great!
+
+::: fb-meta
+Programming for Applications · Spring 2026 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa" data-featured="true"}
+> The instructor of this class is the best, the legend, hardworking, patient with all the questions that we had or may have, and passionate about teaching. No need to improve.
+
+::: fb-meta
+Programming for Applications · Spring 2026
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> The teacher teaches with real dedication and solves students’ problems right away.
+
+::: fb-meta
+Programming for Applications · Spring 2026 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa" data-featured="true"}
+> The teacher is fun and humorous, and you can feel how dedicated he is to teaching.
+
+::: fb-meta
+Programming for Applications · Spring 2026 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> The professor provided all the materials, and they were easy to understand.
+
+::: fb-meta
+Programming for Applications · Spring 2025
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> I think the teacher teaches with great care and responds promptly whenever students have questions.
+
+::: fb-meta
+Programming for Applications · Spring 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> The way the teacher teaches in class is quite fun and easy to understand.
+
+::: fb-meta
+Programming for Applications · Spring 2025
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> The professor is able to answer all the necessary questions and provides help whenever asked.
+
+::: fb-meta
+Programming for Applications · Spring 2025
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> It showed me how to use programming to make daily life more convenient.
+
+::: fb-meta
+Programming for Applications · Spring 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> Nothing to improve. It’s awesome!
+
+::: fb-meta
+Programming for Applications · Spring 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> The teacher is passionate about teaching and eager to help students who don’t understand.
+
+::: fb-meta
+Programming for Applications · Spring 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> I learned how to use R to collect and analyze data. It is harder than Excel, but once I learned it, I found it is actually not that hard.
+
+::: fb-meta
+Programming for Applications · Spring 2024 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="pa"}
+> I could learn more about using computers.
+
+::: fb-meta
+Programming for Applications · Spring 2024 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> The most impactful part of this subject was the practical application of theoretical concepts. Using real-world case studies allowed me to see how the material functions outside of a textbook, which significantly boosted my engagement and retention.
+
+::: fb-meta
+Data Analysis · Fall 2025
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> Everything was helpful. The teacher is great.
+
+::: fb-meta
+Data Analysis · Fall 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> I gained a deeper understanding of data and R code.
+
+::: fb-meta
+Data Analysis · Fall 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> He is very good at what he does and knows it very well. He keeps us updated about everything regarding the course and explains everything well and clearly.
+
+::: fb-meta
+Data Analysis · Fall 2025
+:::
+::::
+
+:::: {.fb-card data-course="da" data-featured="true"}
+> I think every lecturer has their own way to deliver their material, but what I like the most is how the lecturer tries to turn hard material into an easy one. That is more helpful and helps me learn better. The lecturer’s English usage is good too, no complaints from me.
+
+::: fb-meta
+Data Analysis · Fall 2025
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> I learned how to plug values into formulas to get results. The teaching is also very detailed and easy to understand.
+
+::: fb-meta
+Data Analysis · Fall 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> It deepened my understanding of how to analyze different kinds of data. The teacher also teaches with dedication.
+
+::: fb-meta
+Data Analysis · Fall 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> In this course I really learned that data analysis allows more systematic analysis, so that every piece of data can be clearly explained. At the same time, it takes more time to understand each piece of data and how the code is produced.
+
+::: fb-meta
+Data Analysis · Fall 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> The professor posted everything on TronClass and also helped students when they were struggling with coding.
+
+::: fb-meta
+Data Analysis · Fall 2025
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> Extremely helpful with everything, very understanding, and really wants to see us succeed.
+
+::: fb-meta
+Data Analysis · Fall 2025
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> The course seemed to go very well. I can’t think of any improvements, but there may be some things I’m not seeing.
+
+::: fb-meta
+Data Analysis · Fall 2025
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> I think the teacher explains very clearly, and when students may not have understood, he gives further, more detailed explanations to help them.
+
+::: fb-meta
+Data Analysis · Fall 2025 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="da" data-featured="true"}
+> Very great professor. Every course I’ve had with him has gone well.
+
+::: fb-meta
+Data Analysis · Fall 2025
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> I learned how to put data analysis to use.
+
+::: fb-meta
+Data Analysis · Fall 2024 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> In this class, the feedback on the presentations was the most useful part.
+
+::: fb-meta
+Data Analysis · Fall 2024
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> He helped me outside school hours to reschedule my presentation date.
+
+::: fb-meta
+Data Analysis · Fall 2024
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> Once in a while we need to do presentations, and I think that helps us understand a bit more about the class.
+
+::: fb-meta
+Data Analysis · Fall 2024
+:::
+::::
+
+:::: {.fb-card data-course="da"}
+> The teacher really puts effort into every lecture. Great!
+
+::: fb-meta
+Data Analysis · Fall 2024 · [Translated from Chinese]{.fb-tag}
+:::
+::::
+:::::::
+
+```{=html}
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.fb-chip');
+  var cards = document.querySelectorAll('.fb-card');
+
+  function belongs(card, filter) {
+    if (filter === 'all') return true;
+    if (filter === 'featured') return card.hasAttribute('data-featured');
+    return card.getAttribute('data-course') === filter;
+  }
+
+  function showComments(filter) {
+    cards.forEach(function (card) { card.hidden = !belongs(card, filter); });
+    buttons.forEach(function (button) {
+      var selected = button.getAttribute('data-filter') === filter;
+      button.classList.toggle('is-active', selected);
+      button.setAttribute('aria-pressed', String(selected));
+    });
+  }
+
+  buttons.forEach(function (button) {
+    button.addEventListener('click', function () { showComments(button.getAttribute('data-filter')); });
+  });
+  showComments('featured');
+})();
+</script>
+```
