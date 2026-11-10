@@ -126,10 +126,10 @@ document.addEventListener('DOMContentLoaded', function () {
 ```{=html}
 <div class="fb-filters" role="group" aria-label="依課程篩選意見">
 <button type="button" class="fb-chip is-active" data-filter="featured" aria-pressed="true">精選</button>
-<button type="button" class="fb-chip" data-filter="stat" aria-pressed="false">統計學 (1) &amp; (2)（18）</button>
+<button type="button" class="fb-chip" data-filter="stat" aria-pressed="false">統計學 (1) &amp; (2)（17）</button>
 <button type="button" class="fb-chip" data-filter="pa" aria-pressed="false">程式設計應用（20）</button>
-<button type="button" class="fb-chip" data-filter="da" aria-pressed="false">數據分析（18）</button>
-<button type="button" class="fb-chip" data-filter="all" aria-pressed="false">全部（56）</button>
+<button type="button" class="fb-chip" data-filter="da" aria-pressed="false">數據分析（17）</button>
+<button type="button" class="fb-chip" data-filter="all" aria-pressed="false">全部（54）</button>
 </div>
 ```
 
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 ::::
 
-:::: {.fb-card data-course="stat" data-featured="true"}
+:::: {.fb-card data-course="stat"}
 > 老師人很好，只要有人聽不懂，他都會馬上過來幫忙。
 
 ::: fb-meta
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 ::::
 
-:::: {.fb-card data-course="stat"}
+:::: {.fb-card data-course="stat" data-featured="true"}
 > 這學期的課比上學期難一些，但老師盡全力在我們需要的地方提供協助。我必須說老師很厲害，對自己的專業也很熟悉。
 
 ::: fb-meta
@@ -263,14 +263,6 @@ document.addEventListener('DOMContentLoaded', function () {
 ::::
 
 :::: {.fb-card data-course="stat"}
-> 用英文重新複習統計。
-
-::: fb-meta
-統計學 (1) · 113 學年上學期
-:::
-::::
-
-:::: {.fb-card data-course="stat"}
 > 很棒的課。老師會聽我們訴苦、了解我們的困難，也會幫助我們。
 
 ::: fb-meta
@@ -294,7 +286,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 ::::
 
-:::: {.fb-card data-course="pa"}
+:::: {.fb-card data-course="pa" data-featured="true"}
 > 我覺得這門課非常有幫助，尤其在這個 AI 時代，人工智慧正在取代很多事情，也成為我們生活中很重要的一部分。我認為學會寫程式、具備更多與 AI 協作的能力，一定能在許多方面幫助我們建立更穩固的未來職涯。
 
 ::: fb-meta
@@ -335,7 +327,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ::::
 
 :::: {.fb-card data-course="pa"}
-> 沒有，老師很棒！
+> 沒有（需要改進的），老師很棒！
 
 ::: fb-meta
 程式設計應用 · 114 學年下學期
@@ -358,7 +350,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 ::::
 
-:::: {.fb-card data-course="pa" data-featured="true"}
+:::: {.fb-card data-course="pa"}
 > 老師很有趣幽默，感受得到很認真投入教學。
 
 ::: fb-meta
@@ -407,7 +399,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ::::
 
 :::: {.fb-card data-course="pa"}
-> 沒有，超讚！
+> 沒有（需要改進的），超讚！
 
 ::: fb-meta
 程式設計應用 · 113 學年下學期
@@ -438,7 +430,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 ::::
 
-:::: {.fb-card data-course="da"}
+:::: {.fb-card data-course="da" data-featured="true"}
 > 這門課影響我最深的，是把理論概念實際應用出來。透過真實世界的案例，我看到課程內容在課本之外如何運作，這大幅提升了我的投入程度，也讓我記得更牢。
 
 ::: fb-meta
@@ -447,7 +439,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ::::
 
 :::: {.fb-card data-course="da"}
-> 皆很有幫助，老師很棒。
+> （課程內容）皆很有幫助，老師很棒。
 
 ::: fb-meta
 數據分析 · 114 學年上學期
@@ -534,7 +526,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 ::::
 
-:::: {.fb-card data-course="da" data-featured="true"}
+:::: {.fb-card data-course="da"}
 > 非常棒的老師，我修過他的每一門課都很順利。
 
 ::: fb-meta
@@ -552,14 +544,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::: {.fb-card data-course="da"}
 > 這門課最有用的部分，是老師對報告給的回饋。
-
-::: fb-meta
-數據分析 · 113 學年上學期 · [譯自英文]{.fb-tag}
-:::
-::::
-
-:::: {.fb-card data-course="da"}
-> 老師在上課時間以外幫我調整報告日期。
 
 ::: fb-meta
 數據分析 · 113 學年上學期 · [譯自英文]{.fb-tag}

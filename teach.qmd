@@ -128,10 +128,10 @@ Spring 2020 (Prof. Hung-Hao Chang; English-medium instruction).
 ```{=html}
 <div class="fb-filters" role="group" aria-label="Filter comments by course">
 <button type="button" class="fb-chip is-active" data-filter="featured" aria-pressed="true">Highlights</button>
-<button type="button" class="fb-chip" data-filter="stat" aria-pressed="false">Statistics I &amp; II (18)</button>
+<button type="button" class="fb-chip" data-filter="stat" aria-pressed="false">Statistics I &amp; II (17)</button>
 <button type="button" class="fb-chip" data-filter="pa" aria-pressed="false">Programming for Applications (20)</button>
-<button type="button" class="fb-chip" data-filter="da" aria-pressed="false">Data Analysis (18)</button>
-<button type="button" class="fb-chip" data-filter="all" aria-pressed="false">All (56)</button>
+<button type="button" class="fb-chip" data-filter="da" aria-pressed="false">Data Analysis (17)</button>
+<button type="button" class="fb-chip" data-filter="all" aria-pressed="false">All (54)</button>
 </div>
 ```
 
@@ -168,7 +168,7 @@ Statistics I · Fall 2025 · [Translated from Chinese]{.fb-tag}
 :::
 ::::
 
-:::: {.fb-card data-course="stat" data-featured="true"}
+:::: {.fb-card data-course="stat"}
 > He was really nice. Whenever somebody didn’t understand something, he came immediately to help.
 
 ::: fb-meta
@@ -192,7 +192,7 @@ Statistics II · Spring 2025 · [Translated from Chinese]{.fb-tag}
 :::
 ::::
 
-:::: {.fb-card data-course="stat"}
+:::: {.fb-card data-course="stat" data-featured="true"}
 > This semester the course was a little advanced compared to the previous semester, but the teacher tried his best to assist where we needed help, and I must say he’s very good and he knows his work.
 
 ::: fb-meta
@@ -265,14 +265,6 @@ Statistics I · Fall 2024
 ::::
 
 :::: {.fb-card data-course="stat"}
-> Reviewing statistics again in English.
-
-::: fb-meta
-Statistics I · Fall 2024 · [Translated from Chinese]{.fb-tag}
-:::
-::::
-
-:::: {.fb-card data-course="stat"}
 > Great course. The instructor listens to our cries and struggles, and he helps us.
 
 ::: fb-meta
@@ -296,7 +288,7 @@ Programming for Applications · Spring 2026
 :::
 ::::
 
-:::: {.fb-card data-course="pa"}
+:::: {.fb-card data-course="pa" data-featured="true"}
 > I feel like this is a subject that is very helpful, especially in this AI era, where artificial intelligence is taking over a lot of things and becoming a great part of our lives. I think learning how to code and having more skills for working with AI is definitely helping us build a stronger future career in many ways.
 
 ::: fb-meta
@@ -360,7 +352,7 @@ Programming for Applications · Spring 2026 · [Translated from Chinese]{.fb-tag
 :::
 ::::
 
-:::: {.fb-card data-course="pa" data-featured="true"}
+:::: {.fb-card data-course="pa"}
 > The teacher is fun and humorous, and you can feel how dedicated he is to teaching.
 
 ::: fb-meta
@@ -440,7 +432,7 @@ Programming for Applications · Spring 2024 · [Translated from Chinese]{.fb-tag
 :::
 ::::
 
-:::: {.fb-card data-course="da"}
+:::: {.fb-card data-course="da" data-featured="true"}
 > The most impactful part of this subject was the practical application of theoretical concepts. Using real-world case studies allowed me to see how the material functions outside of a textbook, which significantly boosted my engagement and retention.
 
 ::: fb-meta
@@ -536,7 +528,7 @@ Data Analysis · Fall 2025 · [Translated from Chinese]{.fb-tag}
 :::
 ::::
 
-:::: {.fb-card data-course="da" data-featured="true"}
+:::: {.fb-card data-course="da"}
 > Very great professor. Every course I’ve had with him has gone well.
 
 ::: fb-meta
@@ -554,14 +546,6 @@ Data Analysis · Fall 2024 · [Translated from Chinese]{.fb-tag}
 
 :::: {.fb-card data-course="da"}
 > In this class, the feedback on the presentations was the most useful part.
-
-::: fb-meta
-Data Analysis · Fall 2024
-:::
-::::
-
-:::: {.fb-card data-course="da"}
-> He helped me outside school hours to reschedule my presentation date.
 
 ::: fb-meta
 Data Analysis · Fall 2024
