@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::::: paper-entry
 ::: paper-title
-**Statistics I & II**
+Statistics I & II
 :::
 
 ::: paper-meta
@@ -63,7 +63,7 @@ A two-semester introduction to statistical reasoning, covering descriptive stati
 
 :::::::: paper-entry
 ::: paper-title
-**Programming for Applications**
+Programming for Applications
 :::
 
 ::: paper-meta
@@ -77,7 +77,7 @@ An introduction to programming fundamentals in R, emphasizing how to translate p
 
 :::::::: paper-entry
 ::: paper-title
-**Data Analysis**
+Data Analysis
 :::
 
 ::: paper-meta
@@ -95,7 +95,7 @@ Practical data analysis and communication in the modern R ecosystem, centered on
 
 ::::: paper-entry
 ::: paper-title
-**Agricultural Policy and Performance Evaluation**
+Agricultural Policy and Performance Evaluation
 :::
 
 ::: paper-meta
@@ -105,7 +105,7 @@ Spring 2024, Fall 2026 (Prof. Hung-Hao Chang).
 
 ::::: paper-entry
 ::: paper-title
-**Agricultural Regulations (A)**
+Agricultural Regulations (A)
 :::
 
 ::: paper-meta
@@ -115,7 +115,7 @@ Spring 2022 (Prof. Cheng-Wei Chen).
 
 ::::: paper-entry
 ::: paper-title
-**Quantitative Method**
+Quantitative Method
 :::
 
 ::: paper-meta

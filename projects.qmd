@@ -8,7 +8,7 @@ title: "Projects"
 
 ::::: paper-entry
 ::: paper-title
-23\. **Strategies for Promoting the Net-Zero Transition of Organic Agriculture in the Hualien–Taitung Region**
+23\. Strategies for Promoting the Net-Zero Transition of Organic Agriculture in the Hualien–Taitung Region
 :::
 
 ::: paper-meta
@@ -18,7 +18,7 @@ Sep–Dec 2026 · Agriculture and Food Agency, Ministry of Agriculture
 
 ::::: paper-entry
 ::: paper-title
-22\. **Market Competition and Regulation of Professional Services — A Retrospective and Prospective Analysis of Lawyers, Accountants, Architects, and Engineers**
+22\. Market Competition and Regulation of Professional Services — A Retrospective and Prospective Analysis of Lawyers, Accountants, Architects, and Engineers
 :::
 
 ::: paper-meta
@@ -32,7 +32,7 @@ Jan–Aug 2026 · Fair Trade Commission · FTC-115-G01
 
 ::::: paper-entry
 ::: paper-title
-21\. **Enhancement of the Greenhouse Gas Voluntary Reduction System and Capacity Building for Natural Carbon Sinks**
+21\. Enhancement of the Greenhouse Gas Voluntary Reduction System and Capacity Building for Natural Carbon Sinks
 :::
 
 ::: paper-meta
@@ -42,7 +42,7 @@ May–Dec 2026 · Climate Change Administration, Ministry of Environment
 
 ::::: paper-entry
 ::: paper-title
-20\. **Adaptation of Food and Agricultural System to Net Zero Policies (III)**
+20\. Adaptation of Food and Agricultural System to Net Zero Policies (III)
 :::
 
 ::: paper-meta
@@ -56,7 +56,7 @@ Mar 2026 · National Science and Technology Council · NSTC114-2119-M002-014
 
 ::::: paper-entry
 ::: paper-title
-19\. **The Impact of Aquavoltaics Policy on Farmland Price — the Case of Taiwan**
+19\. The Impact of Aquavoltaics Policy on Farmland Price — the Case of Taiwan
 :::
 
 ::: paper-meta
@@ -70,7 +70,7 @@ Jan–Feb, Apr, Aug–Oct 2026 · National Science and Technology Council · NST
 
 ::::: paper-entry
 ::: paper-title
-18\. **Policy Cost-Benefit Analysis and Strategic Recommendations for Enhancing Carbon Sink Capacity in Taiwan: A Case Study on Soil-Optimized Agricultural Production Models**
+18\. Policy Cost-Benefit Analysis and Strategic Recommendations for Enhancing Carbon Sink Capacity in Taiwan: A Case Study on Soil-Optimized Agricultural Production Models
 :::
 
 ::: paper-meta
@@ -84,7 +84,7 @@ Jul–Dec 2025 · Ministry of Agriculture · 114農科-13.1.1-永-04
 
 ::::: paper-entry
 ::: paper-title
-17\. **Applied Analysis of the Farmland Price Index in Response to National Land Planning**
+17\. Applied Analysis of the Farmland Price Index in Response to National Land Planning
 :::
 
 ::: paper-meta
@@ -94,7 +94,7 @@ May–Jun 2025 · Ministry of Agriculture · 114農基金-永續-11
 
 ::::: paper-entry
 ::: paper-title
-16\. **Adaptation of Food and Agricultural System to Net Zero Policies (II)**
+16\. Adaptation of Food and Agricultural System to Net Zero Policies (II)
 :::
 
 ::: paper-meta
@@ -108,7 +108,7 @@ Jan–Mar 2025 · National Science and Technology Council · NSTC113-2119-M002-0
 
 ::::: paper-entry
 ::: paper-title
-15\. **Farm Labor Supply in Online Job-Matching Platforms — the Case of Taiwan**
+15\. Farm Labor Supply in Online Job-Matching Platforms — the Case of Taiwan
 :::
 
 ::: paper-meta
@@ -122,7 +122,7 @@ Oct–Dec 2024, Apr–Jun 2025 · National Science and Technology Council · NST
 
 ::::: paper-entry
 ::: paper-title
-14\. **Establishing a Framework for Ecosystem Services in Organic Agriculture: Value Investigation and Quantification Model for Vegetables and Rice**
+14\. Establishing a Framework for Ecosystem Services in Organic Agriculture: Value Investigation and Quantification Model for Vegetables and Rice
 :::
 
 ::: paper-meta
@@ -132,7 +132,7 @@ Jul–Dec 2024 · Agriculture and Food Agency, Ministry of Agriculture · 113農
 
 ::::: paper-entry
 ::: paper-title
-13\. **Cost Assessments and Policy Suggestions for Carbon-Sink-Increasing Strategies in Taiwan**
+13\. Cost Assessments and Policy Suggestions for Carbon-Sink-Increasing Strategies in Taiwan
 :::
 
 ::: paper-meta
@@ -146,7 +146,7 @@ May–Jun 2024, Oct–Dec 2024 · Ministry of Agriculture · 113前瞻-18.4.1-�
 
 ::::: paper-entry
 ::: paper-title
-12\. **Research on Electric Vehicle Industry Policies and Competition Law Regulations**
+12\. Research on Electric Vehicle Industry Policies and Competition Law Regulations
 :::
 
 ::: paper-meta
@@ -160,7 +160,7 @@ Jan–Aug 2024 · Fair Trade Commission · FTC-113-G02
 
 ::::: paper-entry
 ::: paper-title
-11\. **Economic Evaluation of Circular Economy Using Agricultural By-Products**
+11\. Economic Evaluation of Circular Economy Using Agricultural By-Products
 :::
 
 ::: paper-meta
@@ -174,7 +174,7 @@ Jan–Apr 2024 · Ministry of Science and Technology · MOST110-2621-M002-018-MY
 
 ::::: paper-entry
 ::: paper-title
-10\. **Adaptation of Food and Agricultural System to Net Zero Policies (I)**
+10\. Adaptation of Food and Agricultural System to Net Zero Policies (I)
 :::
 
 ::: paper-meta
@@ -188,7 +188,7 @@ Jan–Apr 2024 · National Science and Technology Council · NSTC112-2119-M002-0
 
 ::::: paper-entry
 ::: paper-title
-9\. **Cost Assessments and Policy Suggestions for Carbon-Sink-Increasing Strategies in Taiwan**
+9\. Cost Assessments and Policy Suggestions for Carbon-Sink-Increasing Strategies in Taiwan
 :::
 
 ::: paper-meta
@@ -202,7 +202,7 @@ Oct–Dec 2023 · Council of Agriculture, Executive Yuan · 112前瞻-18.4.1-氣
 
 ::::: paper-entry
 ::: paper-title
-8\. **Evaluation and Establishment of Farmland Price Indices for Decision-making on Sustainable Farmland Use**
+8\. Evaluation and Establishment of Farmland Price Indices for Decision-making on Sustainable Farmland Use
 :::
 
 ::: paper-meta
@@ -212,7 +212,7 @@ Oct–Dec 2023 · Council of Agriculture, Executive Yuan · 112農基金-1.1-企
 
 ::::: paper-entry
 ::: paper-title
-7\. **University Social Responsibility Program: "Partnership with Yunlin — Deepening Industrial Linkages in Specialty Agricultural Production Areas"**
+7\. University Social Responsibility Program: "Partnership with Yunlin — Deepening Industrial Linkages in Specialty Agricultural Production Areas"
 :::
 
 ::: paper-meta
@@ -222,7 +222,7 @@ Aug–Dec 2023 · Ministry of Education · 112L5A001B
 
 ::::: paper-entry
 ::: paper-title
-6\. **Economic Analysis of Farm Succession — a Case Study of Taiwan**
+6\. Economic Analysis of Farm Succession — a Case Study of Taiwan
 :::
 
 ::: paper-meta
@@ -236,7 +236,7 @@ Jan–Jul 2023 · Ministry of Science and Technology · MOST111-2410-H002-230
 
 ::::: paper-entry
 ::: paper-title
-5\. **Evaluation and Establishment of Farmland Price Indices for Decision Evaluation of Farmland Resources and Sustainable Uses**
+5\. Evaluation and Establishment of Farmland Price Indices for Decision Evaluation of Farmland Resources and Sustainable Uses
 :::
 
 ::: paper-meta
@@ -246,7 +246,7 @@ Aug–Dec 2022 · Council of Agriculture, Executive Yuan · 111農科-3.1.3-企-
 
 ::::: paper-entry
 ::: paper-title
-4\. **Food Accessibility, Market Competition and Housing Prices — Empirical Evidence of Convenience Stores in Taiwan**
+4\. Food Accessibility, Market Competition and Housing Prices — Empirical Evidence of Convenience Stores in Taiwan
 :::
 
 ::: paper-meta
@@ -260,7 +260,7 @@ Feb–Jul 2022 · Ministry of Science and Technology · MOST110-2410-H002-219
 
 ::::: paper-entry
 ::: paper-title
-3\. **Economic Analysis of Farmer Occupational Injury Insurance Program in Taiwan**
+3\. Economic Analysis of Farmer Occupational Injury Insurance Program in Taiwan
 :::
 
 ::: paper-meta
@@ -274,7 +274,7 @@ Jan–Jul 2021 · Ministry of Science and Technology · MOST109-2410-H002-128
 
 ::::: paper-entry
 ::: paper-title
-2\. **Impact of Rural Regeneration Programs on Farm Labor and Leisure Agriculture Participation**
+2\. Impact of Rural Regeneration Programs on Farm Labor and Leisure Agriculture Participation
 :::
 
 ::: paper-meta
@@ -284,7 +284,7 @@ Mar–Jul 2020, Aug–Dec 2020 · Council of Agriculture, Executive Yuan · 109�
 
 ::::: paper-entry
 ::: paper-title
-1\. **Impact of Sharing Economy on Farmland Price in Taiwan**
+1\. Impact of Sharing Economy on Farmland Price in Taiwan
 :::
 
 ::: paper-meta

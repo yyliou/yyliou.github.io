@@ -1221,6 +1221,13 @@ body {
     padding: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    /* GenWanMin2TW declares a descent of 0.12em, but the tails of g, j, p, q and y
+       reach 0.27em. Safari repaints a line only within the declared descent, so a
+       line that moved after it was painted (web-font shards arriving on the Chinese
+       pages, PlumX widgets, an abstract opening) could keep clipped tails. A
+       transparent shadow 0.25em below the text enlarges that repaint area and is
+       never visible; it changes no layout. */
+    text-shadow: 0 0.25em 0 transparent;
 }
 
 .container {

@@ -45,7 +45,7 @@ Taiwan's government open data is a rich resource, but it is rarely tidy: formats
 
 :::::::: paper-entry
 ::: paper-title
-**agrstat**
+agrstat
 :::
 
 ::: paper-meta
@@ -63,7 +63,7 @@ Retrieves data from the Ministry of Agriculture's *Agricultural Statistics Dynam
 
 :::::::: paper-entry
 ::: paper-title
-**twweather**
+twweather
 :::
 
 ::: paper-meta
@@ -81,7 +81,7 @@ Downloads Taiwan's historical weather observations from the Central Weather Admi
 
 :::::::: paper-entry
 ::: paper-title
-**twhotel**
+twhotel
 :::
 
 ::: paper-meta
@@ -99,7 +99,7 @@ Builds a hotel-by-month panel from the Taiwan Tourism Administration's monthly *
 
 :::::::: paper-entry
 ::: paper-title
-**plvr**
+plvr
 :::
 
 ::: paper-meta
@@ -117,7 +117,7 @@ Retrieves Taiwan's actual real-estate transaction records (實價登錄) from th
 
 :::::::: paper-entry
 ::: paper-title
-**twcovid**
+twcovid
 :::
 
 ::: paper-meta
@@ -135,7 +135,7 @@ Retrieves Taiwan CDC's COVID-19 open data — confirmed cases and deaths — and
 
 :::::::: paper-entry
 ::: paper-title
-**scen**
+scen
 :::
 
 ::: paper-meta

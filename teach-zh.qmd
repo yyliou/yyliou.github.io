@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**統計學 (1) & (2)**
+統計學 (1) & (2)
 :::
 
 ::: paper-meta
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**程式設計應用**
+程式設計應用
 :::
 
 ::: paper-meta
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**數據分析**
+數據分析
 :::
 
 ::: paper-meta
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**農業政策與績效評估**
+農業政策與績效評估
 :::
 
 ::: paper-meta
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**農業法規甲**
+農業法規甲
 :::
 
 ::: paper-meta
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::::: paper-entry
 ::: paper-title
-**數量方法**
+數量方法
 :::
 
 ::: paper-meta

@@ -25,7 +25,8 @@ John Tukey 曾說：「The best thing about being a statistician is that you get
 
 ## **學歷**
 
-- 國立臺灣大學農業經濟學系博士候選人（111 年–）
+- 國立臺灣大學農業經濟學系博士候選人（115 年–）
+- 國立臺灣大學農業經濟學系博士生（111 年–115 年）
 - 國立臺灣大學[統計碩士](https://yyliou.github.io/yyliou/cv/doc/ms-diploma-zh.pdf)（109 年–110 年）
 - 國立臺灣大學[農業經濟學碩士](https://yyliou.github.io/yyliou/cv/doc/ms-diploma-zh.pdf)（108 年–110 年）
 - 國立臺灣大學[政治學學士](https://yyliou.github.io/yyliou/cv/doc/bs-diploma-zh.pdf)（105 年–108 年）
