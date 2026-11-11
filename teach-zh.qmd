@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ::::
 
 :::: {.fb-card data-course="stat"}
-> 向教授詢問相關的問題，可以獲得清楚和容易瞭解的解答。
+> 向老師詢問相關的問題，可以獲得清楚和容易瞭解的解答。
 
 ::: fb-meta
 統計學 (1) · 113 學年上學期
