@@ -56,6 +56,22 @@ Alongside research, I teach statistics, data analysis, and applied programming a
 - [Youth Commissioner, Issue Group](https://yyliou.github.io/yyliou/cv/cert/service-2019-taichung-youth-advisory.pdf), 1st Youth Affairs Advisory Committee, Taichung City Government, 2019–2021.
 - [Youth Representative](https://yyliou.github.io/yyliou/cv/cert/service-2018-taichung-youth-review.pdf), 3rd Youth Affairs Review Committee, Taichung City Government, 2018–2019.
 
+## **References**
+
+- [**Chad D. Meyerhoefer, Ph.D.**](https://business.lehigh.edu/directory/chad-d-meyerhoefer) (Co-author)\
+  Arthur F. Searing Professor and Chairperson, Department of Economics, Lehigh University\
+  [chm308@lehigh.edu](mailto:chm308@lehigh.edu)
+- [**Hung-Hao Chang, Ph.D.**](https://sites.google.com/view/hh-chang) (Ph.D. and M.S. Advisor)\
+  Distinguished Professor, Department of Agricultural Economics, and Associate Dean, College of Bioresources and Agriculture, National Taiwan University\
+  [hunghaochang@ntu.edu.tw](mailto:hunghaochang@ntu.edu.tw)
+- [**Pei-An Liao, Ph.D.**](https://uscetp.usc.edu.tw/var/file/102/1102/img/149873815.pdf) (Doctoral Committee Member and Teaching Reference)\
+  Professor, English Taught Program in International Business, and Dean, College of Management, Shih Chien University\
+  [paliao@g2.usc.edu.tw](mailto:paliao@g2.usc.edu.tw)
+
+::: paper-note
+*Note*: Listed in alphabetical order.
+:::
+
 ## **Acknowledgement**
 
 I am profoundly grateful to Professor [**Hung-Hao Chang**](https://sites.google.com/view/hh-chang) for his academic guidance and personal support throughout my master's and doctoral journey. His mentorship has left a lasting impact for which I will always be thankful.

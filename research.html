@@ -59,6 +59,27 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
+// ── Landing language (before-paint) ───────────────────
+// The home page follows the visitor's last-read language, or else the browser's
+// first language (zh* → Chinese home page); every page remembers its language.
+(function () {
+  var page = location.pathname.split('/').pop() || 'index.html';
+  var lang = page.indexOf('-zh') !== -1 ? 'zh' : 'en';
+  var saved = null;
+  try { saved = localStorage.getItem('lang'); } catch (e) {}
+  if (page === 'index.html') {
+    var first = (navigator.languages && navigator.languages[0]) || navigator.language || '';
+    var wanted = saved || (/^zh/i.test(first) ? 'zh' : 'en');
+    if (wanted === 'zh') {
+      location.replace('index-zh.html' + location.search + location.hash);
+      return;
+    }
+  }
+  try { localStorage.setItem('lang', lang); } catch (e) {}
+})();
+</script>
+
+<script>
 // ── Theme (before-paint) ──────────────────────────────
 (function () {
   // Manual choice lasts for this visit only; otherwise follow the clock (07:00-19:00 = light)
@@ -100,6 +121,7 @@ var PAGE_PAIRS = {
 function toggleLangGlobal() {
   var page = location.pathname.split('/').pop() || 'index.html';
   if (!page.endsWith('.html')) page = page + '.html';
+  try { localStorage.setItem('lang', getLang() === 'zh' ? 'en' : 'zh'); } catch (e) {}
   var target = PAGE_PAIRS[page];
   if (target && target !== page) {
     location.href = target;
@@ -139,7 +161,7 @@ function applyLangGlobal() {
     'teach.html':    { href: 'teach-zh.html',     text: '教學' },
     'projects.html': { href: 'projects-zh.html',  text: '計畫' },
     'extension.html': { href: 'extension-zh.html', text: '延伸應用' },
-    'cv_metrics_noref.pdf': { href: 'cv_zh_metrics_noref.pdf', text: '履歷' },
+    'cv_metrics.pdf': { href: 'cv_zh_metrics.pdf', text: '履歷' },
   };
   var NAVBAR_EN = {
     'about-zh.html':    { href: 'about.html',    text: 'About' },
@@ -147,7 +169,7 @@ function applyLangGlobal() {
     'teach-zh.html':    { href: 'teach.html',    text: 'Teaching' },
     'projects-zh.html': { href: 'projects.html', text: 'Projects' },
     'extension-zh.html': { href: 'extension.html', text: 'Extension' },
-    'cv_zh_metrics_noref.pdf': { href: 'cv_metrics_noref.pdf', text: 'CV' },
+    'cv_zh_metrics.pdf': { href: 'cv_metrics.pdf', text: 'CV' },
   };
   var navTable = lang === 'zh' ? NAVBAR_ZH : NAVBAR_EN;
   var currentPage = window.location.pathname.split('/').pop() || 'index.html';
@@ -269,7 +291,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://yyliou.github.io/yyliou/cv/cv_metrics_noref.pdf" target="_blank"> 
+    <a class="nav-link" href="https://yyliou.github.io/yyliou/cv/cv_metrics.pdf" target="_blank"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -1123,7 +1145,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="site-footer-col">
       <p class="footer-heading" data-en="Elsewhere" data-zh="連結">Elsewhere</p>
       <div class="site-footer-links">
-        <a href="https://yyliou.github.io/yyliou/cv/cv_metrics_noref.pdf" data-href-zh="https://yyliou.github.io/yyliou/cv/cv_zh_metrics_noref.pdf" target="_blank" rel="noopener" data-en="Curriculum Vitae" data-zh="履歷">Curriculum Vitae</a>
+        <a href="https://yyliou.github.io/yyliou/cv/cv_metrics.pdf" data-href-zh="https://yyliou.github.io/yyliou/cv/cv_zh_metrics.pdf" target="_blank" rel="noopener" data-en="Curriculum Vitae" data-zh="履歷">Curriculum Vitae</a>
         <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&amp;hl=en" data-href-zh="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&amp;hl=zh-TW" target="_blank" rel="noopener" data-en="Google Scholar" data-zh="Google 學術">Google Scholar</a>
         <a href="https://github.com/yyliou" target="_blank" rel="noopener" data-en="GitHub" data-zh="GitHub">GitHub</a>
       </div>
