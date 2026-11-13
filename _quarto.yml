@@ -30,6 +30,11 @@ format:
       - cosmo
     css: styles.css
     toc: false
+    # Site pages open in place; PDFs and other sites open in a new tab.
+    # Character classes instead of backslashes: Quarto copies the pattern into a JS string.
+    link-external-newwindow: true
+    link-external-icon: false
+    link-external-filter: '^https?://yyliou[.]github[.]io/?(?:[A-Za-z0-9_-]+[.]html)?(?:[?#].*)?$'
     include-in-header: _header.html
     include-after-body: _footer.html
 
