@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-大學部，上學期：113 學年、114 學年、115 學年；下學期：113 學年、114 學年
+大學部，2 學分；上學期：113 學年、114 學年、115 學年；下學期：113 學年、114 學年
 :::
 
 ::: paper-desc
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-大學部，下學期：112 學年、113 學年、114 學年
+大學部，2 學分；下學期：112 學年、113 學年、114 學年
 :::
 
 ::: paper-desc
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-大學部，上學期：113 學年、114 學年、115 學年
+大學部，2 學分；上學期：113 學年、114 學年、115 學年
 :::
 
 ::: paper-desc
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-112 學年下學期、115 學年上學期（張宏浩特聘教授）
+EMBA，3 學分；112 學年下學期、115 學年上學期（張宏浩教授）
 :::
 ::::::
 
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-110 學年下學期（陳政位副教授）
+大學部，3 學分；110 學年下學期（陳政位副教授）
 :::
 ::::::
 
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-108 學年下學期（張宏浩特聘教授，全英語授課）
+碩士國際專班，3 學分；108 學年下學期（張宏浩教授，全英語授課）
 :::
 ::::::
 

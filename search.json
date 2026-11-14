@@ -60,7 +60,7 @@
     "href": "about.html#references",
     "title": "Yu-You Liou",
     "section": "References",
-    "text": "References\n\nChad D. Meyerhoefer, Ph.D. (Co-author)\nArthur F. Searing Professor and Chairperson, Department of Economics, Lehigh University\nchm308@lehigh.edu\nHung-Hao Chang, Ph.D. (Ph.D. and M.S. Advisor)\nDistinguished Professor, Department of Agricultural Economics, and Associate Dean, College of Bioresources and Agriculture, National Taiwan University\nhunghaochang@ntu.edu.tw\nPei-An Liao, Ph.D. (Doctoral Committee Member and Teaching Reference)\nProfessor, English Taught Program in International Business, and Dean, College of Management, Shih Chien University\npaliao@g2.usc.edu.tw\n\n\nNote: Listed in alphabetical order."
+    "text": "References\n\nChad D. Meyerhoefer (Co-author)\nArthur F. Searing Professor and Chairperson, Department of Economics, Lehigh University\nchm308@lehigh.edu\nHung-Hao Chang (Ph.D. and M.S. Advisor)\nProfessor, Department of Agricultural Economics, and Associate Dean, College of Bioresources and Agriculture, National Taiwan University\nhunghaochang@ntu.edu.tw\nPei-An Liao (Doctoral Committee Member and Teaching Reference)\nProfessor, English Taught Program in International Business, and Dean, College of Management, Shih Chien University\npaliao@g2.usc.edu.tw\n\n\nNote: Listed in alphabetical order."
   },
   {
     "objectID": "about.html#acknowledgement",
@@ -109,7 +109,7 @@
     "href": "about-zh.html#推薦人",
     "title": "劉昱佑",
     "section": "推薦人",
-    "text": "推薦人\n\n張宏浩博士（博碩士論文指導教授）\n國立臺灣大學農業經濟學系特聘教授兼生物資源暨農學院副院長\nhunghaochang@ntu.edu.tw\n廖培安博士（博士論文口試委員、教學推薦人）\n實踐大學國際企業英語學士學位學程教授兼管理學院院長\npaliao@g2.usc.edu.tw\nChad D. Meyerhoefer 博士（合著者）\n美國理海大學（Lehigh University）經濟學系 Arthur F. Searing 講座教授兼系主任\nchm308@lehigh.edu\n\n\n附註：依姓氏筆畫排列，外籍推薦人列於最後。"
+    "text": "推薦人\n\n張宏浩（博碩士論文指導教授）\n國立臺灣大學農業經濟學系教授兼生物資源暨農學院副院長\nhunghaochang@ntu.edu.tw\n廖培安（博士論文口試委員、教學推薦人）\n實踐大學國際企業英語學士學位學程教授兼管理學院院長\npaliao@g2.usc.edu.tw\nChad D. Meyerhoefer（合著者）\n美國理海大學（Lehigh University）經濟學系 Arthur F. Searing 講座教授兼系主任\nchm308@lehigh.edu\n\n\n附註：依姓氏筆畫排列，外籍推薦人列於最後。"
   },
   {
     "objectID": "about-zh.html#致謝",
@@ -151,14 +151,14 @@
     "href": "teach-zh.html#實踐大學",
     "title": "教學",
     "section": "實踐大學",
-    "text": "實踐大學\n國際企業英語學士學位學程\n\n\n統計學 (1) & (2)\n\n\n大學部，上學期：113 學年、114 學年、115 學年；下學期：113 學年、114 學年\n\n\n兩學期的統計學基礎課程，涵蓋敘述統計、機率，以及假設檢定、迴歸與變異數分析等統計推論方法。每週以觀念講授搭配實作練習進行。\n\n\n\n\n程式設計應用\n\n\n大學部，下學期：112 學年、113 學年、114 學年\n\n\n以 R 為主的程式設計入門課程，著重將商業與資料問題轉化為可執行的程式，並透過每週課堂實作累積經驗。\n\n\n\n\n數據分析\n\n\n大學部，上學期：113 學年、114 學年、115 學年\n\n\n以現代 R 生態系為核心的實務資料分析課程，著重以 ggplot2 與圖形文法（grammar of graphics）進行資料視覺化，將分析結果轉化為清楚的視覺敘事。"
+    "text": "實踐大學\n國際企業英語學士學位學程\n\n\n統計學 (1) & (2)\n\n\n大學部，2 學分；上學期：113 學年、114 學年、115 學年；下學期：113 學年、114 學年\n\n\n兩學期的統計學基礎課程，涵蓋敘述統計、機率，以及假設檢定、迴歸與變異數分析等統計推論方法。每週以觀念講授搭配實作練習進行。\n\n\n\n\n程式設計應用\n\n\n大學部，2 學分；下學期：112 學年、113 學年、114 學年\n\n\n以 R 為主的程式設計入門課程，著重將商業與資料問題轉化為可執行的程式，並透過每週課堂實作累積經驗。\n\n\n\n\n數據分析\n\n\n大學部，2 學分；上學期：113 學年、114 學年、115 學年\n\n\n以現代 R 生態系為核心的實務資料分析課程，著重以 ggplot2 與圖形文法（grammar of graphics）進行資料視覺化，將分析結果轉化為清楚的視覺敘事。"
   },
   {
     "objectID": "teach-zh.html#國立臺灣大學",
     "href": "teach-zh.html#國立臺灣大學",
     "title": "教學",
     "section": "國立臺灣大學",
-    "text": "國立臺灣大學\n農業經濟學系 — 教學助理\n\n\n農業政策與績效評估\n\n\n112 學年下學期、115 學年上學期（張宏浩特聘教授）\n\n\n\n\n農業法規甲\n\n\n110 學年下學期（陳政位副教授）\n\n\n\n\n數量方法\n\n\n108 學年下學期（張宏浩特聘教授，全英語授課）"
+    "text": "國立臺灣大學\n農業經濟學系 — 教學助理\n\n\n農業政策與績效評估\n\n\nEMBA，3 學分；112 學年下學期、115 學年上學期（張宏浩教授）\n\n\n\n\n農業法規甲\n\n\n大學部，3 學分；110 學年下學期（陳政位副教授）\n\n\n\n\n數量方法\n\n\n碩士國際專班，3 學分；108 學年下學期（張宏浩教授，全英語授課）"
   },
   {
     "objectID": "teach-zh.html#學生匿名回饋",
@@ -305,14 +305,14 @@
     "href": "teach.html#shih-chien-university",
     "title": "Teaching",
     "section": "Shih Chien University",
-    "text": "Shih Chien University\nEnglish Taught Program in International Business\n\n\nStatistics I & II\n\n\nUndergraduate. Fall 2024, 2025, 2026; Spring 2025, 2026.\n\n\nA two-semester introduction to statistical reasoning, covering descriptive statistics, probability, and inference through hypothesis testing, regression, and ANOVA. Each week pairs a concept lecture with a hands-on lab session.\n\n\n\n\nProgramming for Applications\n\n\nUndergraduate. Spring 2024, 2025, 2026.\n\n\nAn introduction to programming fundamentals in R, emphasizing how to translate practical business and data problems into working code through weekly in-class exercises.\n\n\n\n\nData Analysis\n\n\nUndergraduate. Fall 2024, 2025, 2026.\n\n\nPractical data analysis and communication in the modern R ecosystem, centered on the grammar of graphics and data visualization with ggplot2, turning analytical findings into clear visual narratives."
+    "text": "Shih Chien University\nEnglish Taught Program in International Business\n\n\nStatistics I & II\n\n\nUndergraduate, 2 credits. Fall 2024, 2025, 2026; Spring 2025, 2026.\n\n\nA two-semester introduction to statistical reasoning, covering descriptive statistics, probability, and inference through hypothesis testing, regression, and ANOVA. Each week pairs a concept lecture with a hands-on lab session.\n\n\n\n\nProgramming for Applications\n\n\nUndergraduate, 2 credits. Spring 2024, 2025, 2026.\n\n\nAn introduction to programming fundamentals in R, emphasizing how to translate practical business and data problems into working code through weekly in-class exercises.\n\n\n\n\nData Analysis\n\n\nUndergraduate, 2 credits. Fall 2024, 2025, 2026.\n\n\nPractical data analysis and communication in the modern R ecosystem, centered on the grammar of graphics and data visualization with ggplot2, turning analytical findings into clear visual narratives."
   },
   {
     "objectID": "teach.html#national-taiwan-university",
     "href": "teach.html#national-taiwan-university",
     "title": "Teaching",
     "section": "National Taiwan University",
-    "text": "National Taiwan University\nDepartment of Agricultural Economics — Teaching Assistant\n\n\nAgricultural Policy and Performance Evaluation\n\n\nSpring 2024, Fall 2026 (Prof. Hung-Hao Chang).\n\n\n\n\nAgricultural Regulations (A)\n\n\nSpring 2022 (Prof. Cheng-Wei Chen).\n\n\n\n\nQuantitative Method\n\n\nSpring 2020 (Prof. Hung-Hao Chang; English-medium instruction)."
+    "text": "National Taiwan University\nDepartment of Agricultural Economics — Teaching Assistant\n\n\nAgricultural Policy and Performance Evaluation\n\n\nEMBA, 3 credits. Spring 2024, Fall 2026 (Prof. Hung-Hao Chang).\n\n\n\n\nAgricultural Regulations (A)\n\n\nUndergraduate, 3 credits. Spring 2022 (Prof. Cheng-Wei Chen).\n\n\n\n\nQuantitative Method\n\n\nInternational Master’s Program, 3 credits. Spring 2020 (Prof. Hung-Hao Chang; English-medium instruction)."
   },
   {
     "objectID": "teach.html#anonymous-feedback-from-students",

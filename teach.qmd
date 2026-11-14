@@ -53,7 +53,7 @@ Statistics I & II
 :::
 
 ::: paper-meta
-Undergraduate. Fall 2024, 2025, 2026; Spring 2025, 2026.
+Undergraduate, 2 credits. Fall 2024, 2025, 2026; Spring 2025, 2026.
 :::
 
 ::: paper-desc
@@ -67,7 +67,7 @@ Programming for Applications
 :::
 
 ::: paper-meta
-Undergraduate. Spring 2024, 2025, 2026.
+Undergraduate, 2 credits. Spring 2024, 2025, 2026.
 :::
 
 ::: paper-desc
@@ -81,7 +81,7 @@ Data Analysis
 :::
 
 ::: paper-meta
-Undergraduate. Fall 2024, 2025, 2026.
+Undergraduate, 2 credits. Fall 2024, 2025, 2026.
 :::
 
 ::: paper-desc
@@ -99,7 +99,7 @@ Agricultural Policy and Performance Evaluation
 :::
 
 ::: paper-meta
-Spring 2024, Fall 2026 (Prof. Hung-Hao Chang).
+EMBA, 3 credits. Spring 2024, Fall 2026 (Prof. Hung-Hao Chang).
 :::
 :::::
 
@@ -109,7 +109,7 @@ Agricultural Regulations (A)
 :::
 
 ::: paper-meta
-Spring 2022 (Prof. Cheng-Wei Chen).
+Undergraduate, 3 credits. Spring 2022 (Prof. Cheng-Wei Chen).
 :::
 :::::
 
@@ -119,7 +119,7 @@ Quantitative Method
 :::
 
 ::: paper-meta
-Spring 2020 (Prof. Hung-Hao Chang; English-medium instruction).
+International Master’s Program, 3 credits. Spring 2020 (Prof. Hung-Hao Chang; English-medium instruction).
 :::
 :::::
 
