@@ -149,7 +149,7 @@ My research has primarily been published in international journals within the fi
 </script>
 ```
 
-## **Selected Publications**
+## **Selected Refereed Publications**
 
 ::::::: paper-entry
 ::: paper-tag
@@ -444,7 +444,7 @@ J. Transp. Geogr.
 </div>
 ```
 
-## **Additional Publications**
+## **Other Refereed Publications**
 
 ::::::: paper-entry
 ::: paper-tag

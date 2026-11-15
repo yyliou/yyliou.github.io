@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 ```
 
-## **主要著作**
+## **主要期刊論文**
 
 ::::::: paper-entry
 ::: paper-tag
@@ -441,7 +441,7 @@ J. Transp. Geogr.
 </div>
 ```
 
-## **其他著作**
+## **其他期刊論文**
 
 ::::::: paper-entry
 ::: paper-tag
