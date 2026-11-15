@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-EMBA，3 學分；112 學年下學期、115 學年上學期（張宏浩教授）
+碩士在職專班，3 學分；112 學年下學期、115 學年上學期（張宏浩教授）
 :::
 ::::::
 
