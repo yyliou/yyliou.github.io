@@ -52,7 +52,10 @@ Alongside research, I teach statistics, data analysis, and applied programming a
 
 ## **Media Citations**
 
+- TVBS, “[Tainan removes the hook-turn and the accident rate falls 20%; Ministry of Transportation warns against over-interpretation](https://cars.tvbs.com.tw/life/330988),” July 8, 2026.
 - Mirror Media, “[Hook-turn removal trial cuts accidents by 20%; New Power Party criticizes the government response](https://www.mirrormedia.mg/story/20260613edi026),” June 13, 2026.
+- ETtoday, “[Accidents fall sharply in Tainan’s trial removal of the mandatory hook-turn; New Power Party urges the Ministry of Transportation to take notice](https://www.ettoday.net/news/20260613/3182661.htm),” June 13, 2026.
+- Taiwan News, “[NPP urges government to set timeline for motorcycle left-turn reform](https://www.taiwannews.com.tw/en/news/6382187),” June 12, 2026.
 - Liberty Times, “[Full removal of the motorcycle hook-turn under consideration; New Power Party calls for a concrete plan and timeline](https://news.ltn.com.tw/news/politics/breakingnews/5470256),” June 12, 2026.
 - Newtalk, “[Hook-turn removal trial cuts accidents by 21%; New Power Party urges the Ministry of Transportation to address road equity](https://newtalk.tw/news/view/2026-06-12/1041008),” June 12, 2026.
 - TVBS, “[NTU data show accidents fell 20% after Tainan removed the hook-turn; New Power Party urges national traffic reform](https://news.tvbs.com.tw/life/3229047),” June 12, 2026.
@@ -65,7 +68,7 @@ Alongside research, I teach statistics, data analysis, and applied programming a
 - CNEWS, “[Hualien county councilor calls for science-based traffic policy in review of the motorcycle hook-turn rule](https://cnews.com.tw/250260224a05/),” February 24, 2026.
 
 ::: paper-note
-*Note*: The articles are in Chinese; titles are translated.
+*Note*: Except for Taiwan News, the articles are in Chinese; titles are translated.
 :::
 
 ## **Public Service**
