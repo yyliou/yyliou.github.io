@@ -322,7 +322,6 @@ Award: [2025 Doctoral Student Academic Paper Award](https://yyliou.github.io/yyl
 <li><a href="https://www.chinatimes.com/newspapers/20260412000322-260121" target="_blank" rel="noopener">China Times (中國時報): Removing the motorcycle hook-turn cuts accidents 21%</a></li>
 <li><a href="https://cnews.com.tw/250260224a05/" target="_blank" rel="noopener">CNEWS (匯流新聞網): Hualien county councilor calls for science-based traffic policy in review of the motorcycle hook-turn rule</a></li>
 </ul></div>
-</ul></div>
 ```
 :::::::
 

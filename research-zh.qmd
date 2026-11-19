@@ -319,7 +319,6 @@ Transp. Res. A
 <li><a href="https://www.chinatimes.com/newspapers/20260412000322-260121" target="_blank" rel="noopener">中國時報：機車兩段式左轉取消 事故降21%</a></li>
 <li><a href="https://cnews.com.tw/250260224a05/" target="_blank" rel="noopener">匯流新聞網：檢討機車二段式左轉制存廢　魏嘉賢主張以科學重塑花蓮交通政策</a></li>
 </ul></div>
-</ul></div>
 ```
 :::::::
 
