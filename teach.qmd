@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## Shih Chien University
 
-**English Taught Program in International Business**
+**Adjunct Lecturer — English Taught Program in International Business**
 
 :::::::: paper-entry
 ::: paper-title
@@ -91,7 +91,7 @@ Practical data analysis and communication in the modern R ecosystem, centered on
 
 ## National Taiwan University
 
-**Department of Agricultural Economics — Teaching Assistant**
+**Teaching Assistant — Department of Agricultural Economics**
 
 ::::: paper-entry
 ::: paper-title

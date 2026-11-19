@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ```
 
 ::: paper-note
-*附註*：有三筆文獻無法對應至相應年份，因此未納入圖中。
+*註*：有三筆文獻無法對應至相應年份，因此未納入圖中。
 :::
 
 我的研究成果主要發表於農業經濟學、環境與資源經濟學及運輸經濟學領域之國際期刊，包括知名的 [*Food Policy*](https://www.sciencedirect.com/journal/food-policy)、[*Forest Policy and Economics*](https://www.sciencedirect.com/journal/forest-policy-and-economics)、[*Journal of the Association of Environmental and Resource Economists*](https://www.journals.uchicago.edu/toc/jaere/current)、[*Journal of Transport Geography*](https://www.sciencedirect.com/journal/journal-of-transport-geography)、[*Land Economics*](https://le.uwpress.org/)、[*Transport Policy*](https://www.sciencedirect.com/journal/transport-policy) 以及 [*Transportation Research Part A*](https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice) 與 [*Part D*](https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment)。研究成果亦多次獲 [*Cities*](https://www.sciencedirect.com/journal/cities) 及 [*Sustainable Cities and Society*](https://www.sciencedirect.com/journal/sustainable-cities-and-society) 等期刊引用。詳細研究成果請參閱[研究自述](https://yyliou.github.io/yyliou/rs/rs_zh.pdf)。
@@ -154,7 +154,7 @@ Land Econ.
 :::
 
 ::: paper-title
-15\. Does the Development of Aquavoltaics Policy Affect Farmland Price?
+15\. Does the development of aquavoltaics policy affect farmland price?
 :::
 
 ::: paper-meta
@@ -207,7 +207,7 @@ Transp. Policy
 
 ::::::: paper-entry
 ::: paper-tag
-JAERE
+J. Assoc. Environ. Resour. Econ.
 
 ```{=html}
 <a href="https://plu.mx/plum/a/?ssrn_id=4984614" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="false"></a>
@@ -215,7 +215,7 @@ JAERE
 :::
 
 ::: paper-title
-13\. Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day
+13\. Air pollution during religious holidays: Evidence from Tomb-Sweeping Day
 :::
 
 ::: paper-meta
@@ -307,7 +307,7 @@ Transp. Res. A
   doi     = {10.1016/j.tra.2026.104860},
 }</code></pre></div>
 <div class="abstract-box media-box"><ul>
-<li><a href="https://cars.tvbs.com.tw/life/330988" target="_blank" rel="noopener">TVBS 地球黃金線：台南取消兩段式左轉「事故率降2成」，交通部冷回：勿過度解讀</a></li>
+<li><a href="https://cars.tvbs.com.tw/life/330988" target="_blank" rel="noopener">TVBS：台南取消兩段式左轉「事故率降2成」，交通部冷回：勿過度解讀</a></li>
 <li><a href="https://www.mirrormedia.mg/story/20260613edi026" target="_blank" rel="noopener">鏡週刊：試辦「取消兩段式左轉」事故大減2成！ 政府回應遭時力重砲</a></li>
 <li><a href="https://www.ettoday.net/news/20260613/3182661.htm" target="_blank" rel="noopener">ETtoday：台南試辦「取消強制兩段式左轉」事故數大降 時力籲交通部正視</a></li>
 <li><a href="https://www.taiwannews.com.tw/en/news/6382187" target="_blank" rel="noopener">Taiwan News：NPP urges government to set timeline for motorcycle left-turn reform</a></li>
@@ -432,7 +432,7 @@ J. Transp. Geogr.
 :::::::
 
 ::: paper-note
-*附註*：† 國科會區域研究及地理學門推薦國際期刊；\* 國科會經濟學門 B+ 國際期刊；\^ 國科會管理二學門推薦國際期刊；⁺ Q1 期刊（期刊影響因子位於該領域前 25%）。國科會推薦期刊之認定參照[國科會人文及社會科學研究發展處各學門審查參考原則](https://www.nstc.gov.tw/hum/ch/detail/da71f59b-9ab8-41f4-ae93-5973e0701cc7)。
+*註*：† 國科會區域研究及地理學門推薦國際期刊；\* 國科會經濟學門 B+ 國際期刊；\^ 國科會管理二學門推薦國際期刊；⁺ Q1 期刊（期刊影響因子位於該領域前 25%）。國科會推薦期刊之認定參照[國科會人文及社會科學研究發展處各學門審查參考原則](https://www.nstc.gov.tw/hum/ch/detail/da71f59b-9ab8-41f4-ae93-5973e0701cc7)。
 :::
 
 ```{=html}
@@ -460,7 +460,7 @@ Agriculture
 :::
 
 ::: paper-title
-7\. Trading Less Often but Trading Thicker: Scheduled Closures in a Hog Auction Market
+7\. Trading less often but trading thicker: Scheduled closures in a hog auction market
 :::
 
 ::: paper-meta
@@ -520,7 +520,7 @@ J. Tour. Manag. Res.
 
 ::::::: paper-entry
 ::: paper-tag
-ATR Empir. Insights
+Ann. Tour. Res. Empir. Insights
 
 ```{=html}
 <a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.annale.2026.100209" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="false"></a>
@@ -564,7 +564,7 @@ Agriculture
 :::
 
 ::: paper-title
-4\. Is Solar Panel Adoption a Win–Win Strategy for Chicken Farms? Evidence from Agriculture Census Data
+4\. Is solar panel adoption a win–win strategy for chicken farms? Evidence from agriculture census data
 :::
 
 ::: paper-meta
@@ -600,7 +600,7 @@ Agribusiness
 :::
 
 ::: paper-title
-3\. Rooftop Photovoltaics Adoption and Farm Revenue
+3\. Rooftop photovoltaics adoption and farm revenue
 :::
 
 ::: paper-meta
@@ -660,7 +660,7 @@ Singapore Econ. Rev.
 
 ::::::: paper-entry
 ::: paper-tag
-Qual. & Quant.
+Qual. Quant.
 
 ```{=html}
 <a href="https://plu.mx/plum/a/?doi=10.1007%2Fs11135-024-01915-9" class="plumx-plum-print-popup" data-popup="right" data-size="large" data-site="plum" data-hide-when-empty="false"></a>
@@ -698,14 +698,14 @@ Qual. & Quant.
 
 ```{=html}
 <ol reversed start="8" class="wip-list">
-<li>Do Consumption Vouchers Benefit Agricultural Cooperatives? Causal Evidence from Farmers’ Associations (with Hung-Hao Chang and Karin Wu).（<a href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener"><em>Food Policy</em></a>，第二輪修訂中）</li>
-<li>Technology Adoption of Environmentally Controlled Housing System and the Distribution of Farm Revenue (with Hung-Hao Chang).（<a href="https://www.sciencedirect.com/journal/technological-forecasting-and-social-change" target="_blank" rel="noopener"><em>Technological Forecasting and Social Change</em></a>，第一輪修訂中）</li>
-<li>Green Gentrification beyond the City: The Impacts of Ecosystem Investment on Housing Markets and Agricultural Community Dynamics (with Hung-Hao Chang).（<a href="https://www.sciencedirect.com/journal/ecosystem-services" target="_blank" rel="noopener"><em>Ecosystem Services</em></a>，第一輪修訂中）</li>
-<li>Does Adopting a Forest Restoration Program Affect Firms’ Financial Performance? A Doubly Robust Machine Learning Approach (with Hung-Hao Chang and Hsiao-Chiao Sun).（審查中）</li>
-<li>Cleaner Air and Smaller Transfers: Housing-Market Responses to a Coal-Reduction Policy (with Hung-Hao Chang and David Zilberman).（審查中）</li>
-<li>From Gasoline to Electric: Economic and Environmental Impacts of Taxi Electrification (with Hung-Hao Chang).（準備投稿中）</li>
-<li>Pension Policy Reform of the Minimum Contribution Period and Intra-household Succession of Family Farms (with Hung-Hao Chang).（準備投稿中）</li>
-<li>The Spatial Reach of Metro-led Development: Housing Gains and Traffic-Safety Costs by Station Accessibility (with Hung-Hao Chang).（準備投稿中）</li>
+<li>Do consumption vouchers benefit agricultural cooperatives? Causal evidence from farmers’ associations (with Hung-Hao Chang and Karin Wu).（<a href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener"><em>Food Policy</em></a>，第二輪修訂中）</li>
+<li>Technology adoption of environmentally controlled housing system and the distribution of farm revenue (with Hung-Hao Chang).（<a href="https://www.sciencedirect.com/journal/technological-forecasting-and-social-change" target="_blank" rel="noopener"><em>Technological Forecasting and Social Change</em></a>，第一輪修訂中）</li>
+<li>Green gentrification beyond the city: The impacts of ecosystem investment on housing markets and agricultural community dynamics (with Hung-Hao Chang).（<a href="https://www.sciencedirect.com/journal/ecosystem-services" target="_blank" rel="noopener"><em>Ecosystem Services</em></a>，第一輪修訂中）</li>
+<li>Does adopting a forest restoration program affect firms’ financial performance? A doubly robust machine learning approach (with Hung-Hao Chang and Hsiao-Chiao Sun).（審查中）</li>
+<li>Cleaner air and smaller transfers: Housing-market responses to a coal-reduction policy (with Hung-Hao Chang and David Zilberman).（審查中）</li>
+<li>From gasoline to electric: Economic and environmental impacts of taxi electrification (with Hung-Hao Chang).（準備投稿中）</li>
+<li>Pension policy reform of the minimum contribution period and intra-household succession of family farms (with Hung-Hao Chang).（準備投稿中）</li>
+<li>The spatial reach of metro-led development: Housing gains and traffic-safety costs by station accessibility (with Hung-Hao Chang).（準備投稿中）</li>
 </ol>
 ```
 
@@ -816,7 +816,7 @@ Qual. & Quant.
 :::
 
 ::: paper-note
-*附註*：西文姓名依字母順序排列，中文姓名依姓氏筆畫排列。
+*註*：西文姓名依字母順序排列，中文姓名依姓氏筆畫排列。
 :::
 
 ```{=html}
@@ -915,24 +915,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ## [**審稿**](https://yyliou.github.io/yyliou/cv/cert/referee-certificates.pdf)
 
-- [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297) (5)
-- [*Communications Sustainability*](https://www.nature.com/commssustain/) (1)
-- [*Criminology & Public Policy*](https://onlinelibrary.wiley.com/journal/17459133) (1)
-- [*Food Policy*](https://www.sciencedirect.com/journal/food-policy) (2)
-- [*Frontiers in Climate*](https://www.frontiersin.org/journals/climate) (3)
-- [*Frontiers in Environmental Economics*](https://www.frontiersin.org/journals/environmental-economics) (1)
-- [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1)
-- [*Frontiers in Nutrition*](https://www.frontiersin.org/journals/nutrition) (1)
-- [*Frontiers in Sustainable Food Systems*](https://www.frontiersin.org/journals/sustainable-food-systems) (1)
-- [*Managerial and Decision Economics*](https://onlinelibrary.wiley.com/journal/10991468) (1)
-- [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
+- [*Agribusiness*](https://onlinelibrary.wiley.com/journal/15206297)（5）
+- [*Communications Sustainability*](https://www.nature.com/commssustain/)（1）
+- [*Criminology & Public Policy*](https://onlinelibrary.wiley.com/journal/17459133)（1）
+- [*Food Policy*](https://www.sciencedirect.com/journal/food-policy)（2）
+- [*Frontiers in Climate*](https://www.frontiersin.org/journals/climate)（3）
+- [*Frontiers in Environmental Economics*](https://www.frontiersin.org/journals/environmental-economics)（1）
+- [*Frontiers in Environmental Science*](https://www.frontiersin.org/journals/environmental-science)（1）
+- [*Frontiers in Nutrition*](https://www.frontiersin.org/journals/nutrition)（1）
+- [*Frontiers in Sustainable Food Systems*](https://www.frontiersin.org/journals/sustainable-food-systems)（1）
+- [*Managerial and Decision Economics*](https://onlinelibrary.wiley.com/journal/10991468)（1）
+- [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20)（1）
 
 ## **學位論文**
 
 ```{=html}
 <ol class="conf-list" reversed>
-<li><strong>Liou, Yu-You</strong>. “The Environmental Economics of Urban Transport: Three Essays on Fare Policy, Vehicle Electrification, and Transit Disruption in Taiwan.” Ph.D. Dissertation (in progress), Department of Agricultural Economics, National Taiwan University.</li>
-<li><strong>Liou, Yu-You</strong>. 2021. “<a href="https://doi.org/10.6342/NTU202102085" target="_blank" rel="noopener">Using Multilevel Linear Modeling to Explore the Moderating Effect of External Attributes on Hotel Room Rates: Empirical Evidence on Public Goods and Industry Environment</a>.” Master’s Thesis, Master Program in Statistics, National Taiwan University.<br>成績：A+。口試委員：<a href="https://management.ntu.edu.tw/faculty/teacher/sn/196" target="_blank" rel="noopener">許耀文</a>、<a href="https://management.ntu.edu.tw/faculty/teacher/sn/198" target="_blank" rel="noopener">連勇智</a>、<a href="https://scholars.lib.ntu.edu.tw/entities/person/cad9a046-6517-4d54-83a5-08910925909a" target="_blank" rel="noopener">荷世平</a>。</li>
+<li><strong>Liou, Yu-You</strong>. “The environmental economics of urban transport: Three essays on fare policy, vehicle electrification, and transit disruption in Taiwan.” Ph.D. Dissertation (in progress), Department of Agricultural Economics, National Taiwan University.</li>
+<li><strong>Liou, Yu-You</strong>. 2021. “<a href="https://doi.org/10.6342/NTU202102085" target="_blank" rel="noopener">Using multilevel linear modeling to explore the moderating effect of external attributes on hotel room rates: Empirical evidence on public goods and industry environment</a>.” Master’s Thesis, Master Program in Statistics, National Taiwan University.<br>成績：A+。口試委員：<a href="https://management.ntu.edu.tw/faculty/teacher/sn/196" target="_blank" rel="noopener">許耀文</a>、<a href="https://management.ntu.edu.tw/faculty/teacher/sn/198" target="_blank" rel="noopener">連勇智</a>、<a href="https://scholars.lib.ntu.edu.tw/entities/person/cad9a046-6517-4d54-83a5-08910925909a" target="_blank" rel="noopener">荷世平</a>。</li>
 <li><strong>劉昱佑</strong>（2021）。「<a href="https://doi.org/10.6342/NTU202101981" target="_blank" rel="noopener">農地價格指數之建構：應用臺灣實價登錄資料的大數據分析</a>」。國立臺灣大學農業經濟學系碩士論文。<br>成績：A+。口試委員：<a href="https://sites.google.com/view/hh-chang" target="_blank" rel="noopener">張宏浩</a>、<a href="https://fps.npust.edu.tw/teacher/yessicachung/" target="_blank" rel="noopener">鍾秋悅</a>、<a href="https://bicd.ntu.edu.tw/Member?PJ_ID=PJ20250501&amp;modal=2&amp;id=7" target="_blank" rel="noopener">王俊豪</a>、<a href="https://ah.lib.nccu.edu.tw/scholar?id=7023" target="_blank" rel="noopener">林子欽</a>、<a href="https://www.agec.ntu.edu.tw/zh_tw/teacher/teacher2/%E8%94%A1%E6%98%87%E7%94%AB-50981658" target="_blank" rel="noopener">蔡昇甫</a>。</li>
 </ol>
 ```
@@ -941,14 +941,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 ```{=html}
 <ol class="conf-list" reversed>
-<li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. “<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day</a>.”<br>20th EAEA International Convention (2025), Manila.<br>99th Annual Conference of WEAI (2024), Seattle.</li>
+<li>Chang, Hung-Hao, <strong>Yu-You Liou</strong>, and Chad D. Meyerhoefer. “<a href="https://ssrn.com/abstract=4984614" target="_blank" rel="noopener">Air pollution during religious holidays: Evidence from Tomb-Sweeping Day</a>.”<br>20th EAEA International Convention (2025), Manila.<br>99th Annual Conference of WEAI (2024), Seattle.</li>
 <li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. “The causal effects of removing Hook-Turn regulation on road safety.”<br>20th EAEA International Convention (2025), Manila.</li>
-<li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and Jeffrey C. Begun. “Rooftop Solar Energy Adoption and Farm Revenue.”<br>18th Congress of EAAE (2025), Bonn.<br>19th EAEA International Convention (2024), Bangkok.</li>
-<li>Chang, Hung-Hao, and <strong>Yu-You Liou</strong>. “Does the Development of Aquavoltaics Policy Affect Farmland Price?”<br>17th CAER-IFPRI Annual Conference (2025), Beijing.<br>International Conference on Agricultural, Life and Environmental Sciences (2025), Vienna.</li>
-<li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. “Superstition and Car Accidents – The Case Study of the Dajia Mazu Pilgrimage Event in Taiwan.”<br>19th EAEA International Convention (2024), Bangkok.</li>
+<li><strong>Liou, Yu-You</strong>, Hung-Hao Chang, and Jeffrey C. Begun. “Rooftop solar energy adoption and farm revenue.”<br>18th Congress of EAAE (2025), Bonn.<br>19th EAEA International Convention (2024), Bangkok.</li>
+<li>Chang, Hung-Hao, and <strong>Yu-You Liou</strong>. “Does the development of aquavoltaics policy affect farmland price?”<br>17th CAER-IFPRI Annual Conference (2025), Beijing.<br>International Conference on Agricultural, Life and Environmental Sciences (2025), Vienna.</li>
+<li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. “Superstition and car accidents – The case study of the Dajia Mazu Pilgrimage event in Taiwan.”<br>19th EAEA International Convention (2024), Bangkok.</li>
 <li><strong>劉昱佑</strong>*、李成蔭。「從眾或課責？運用臺灣選舉調查資料探討 2018 年與 2022 年地方大選結果對於總統滿意度的影響」。<br>第十六屆國會國際學術研討會（2024），臺北。</li>
-<li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. “The Long-term Effects of Early-life Malaria Exposure on Farm Households’ Resource Allocation.”<br>International Conference on Agricultural and Environmental Economics (2023), Taipei.</li>
-<li><strong>Liou, Yu-You</strong>*. “Adaptation Behavior of Public Mobility under Climate Change: Empirical Evidence on Taipei Metro.”<br>International Conference on Business and Management for Graduate Students (2023), Taipei.</li>
+<li><strong>Liou, Yu-You</strong>*, and Hung-Hao Chang. “The long-term effects of early-life malaria exposure on farm households’ resource allocation.”<br>International Conference on Agricultural and Environmental Economics (2023), Taipei.</li>
+<li><strong>Liou, Yu-You</strong>*. “Adaptation behavior of public mobility under climate change: Empirical evidence on Taipei Metro.”<br>International Conference on Business and Management for Graduate Students (2023), Taipei.</li>
 <li><strong>劉昱佑</strong>*。「選舉投票行為的時、空路徑依賴：2022 年臺北市長選舉的實證分析」。<br>第十五屆國會國際學術研討會（2023），臺北。</li>
 <li>何驊哲、<strong>劉昱佑</strong>。「新人光環對於當選可能之影響：2009-2022 年臺灣縣市議員選舉的實證研究」。<br>第十五屆國會國際學術研討會（2023），臺北。</li>
 <li><strong>劉昱佑</strong>*、張宏浩。「以非階層式群集分析研究農產品之消費行為——農產品銷售平台的實證分析」。<br>2020 年臺灣農村經濟學會年會暨學術研討會，臺北。</li>
@@ -957,5 +957,5 @@ document.addEventListener('DOMContentLoaded', function () {
 ```
 
 ::: paper-note
-*附註*：標\*者為本人口頭報告。
+*註*：標\*者為本人口頭報告。
 :::
