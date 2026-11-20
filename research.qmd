@@ -161,7 +161,7 @@ Land Econ.
 :::
 
 ::: paper-meta
-***Land Economics***, forthcoming, 103(3), 2027 (with Hung-Hao Chang). †\*
+[***Land Economics***](https://le.uwpress.org/), forthcoming, 103(3), 2027 (with Hung-Hao Chang). †\*
 :::
 
 ::: paper-links
@@ -187,7 +187,7 @@ Transp. Policy
 :::
 
 ::: paper-meta
-***Transport Policy***, 190, 104468, 2027 (with Hung-Hao Chang). ⁺
+[***Transport Policy***](https://www.sciencedirect.com/journal/transport-policy), 190, 104468, 2027 (with Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -222,7 +222,7 @@ J. Assoc. Environ. Resour. Econ.
 :::
 
 ::: paper-meta
-***Journal of the Association of Environmental and Resource Economists***, forthcoming (with Hung-Hao Chang and Chad D. Meyerhoefer). ⁺
+[***Journal of the Association of Environmental and Resource Economists***](https://www.journals.uchicago.edu/journals/jaere), forthcoming (with Hung-Hao Chang and Chad D. Meyerhoefer). ⁺
 :::
 
 ::: paper-links
@@ -255,7 +255,7 @@ Food Policy
 :::
 
 ::: paper-meta
-***Food Policy***, 143, 103148, 2026 (with Hung-Hao Chang). ⁺
+[***Food Policy***](https://www.sciencedirect.com/journal/food-policy), 143, 103148, 2026 (with Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -290,7 +290,7 @@ Transp. Res. A
 :::
 
 ::: paper-meta
-***Transportation Research Part A: Policy and Practice***, 205, 104860, 2026 (with Hung-Hao Chang). †\*\^⁺\
+[***Transportation Research Part A: Policy and Practice***](https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice), 205, 104860, 2026 (with Hung-Hao Chang). †\*\^⁺\
 Award: [2025 Doctoral Student Academic Paper Award](https://yyliou.github.io/yyliou/cv/cert/award-2025-student-academic-paper.pdf), College of Bioresources and Agriculture, National Taiwan University.
 :::
 
@@ -342,7 +342,7 @@ Transp. Res. D
 :::
 
 ::: paper-meta
-***Transportation Research Part D: Transport and Environment***, 146, 104903, 2025 (with Man-Keun Kim, Hung-Hao Chang, and Ruey-Wan Liou). †\^⁺\
+[***Transportation Research Part D: Transport and Environment***](https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment), 146, 104903, 2025 (with Man-Keun Kim, Hung-Hao Chang, and Ruey-Wan Liou). †\^⁺\
 Award: [2026 Research Report Data Utilization Award, Excellence Award](https://rdec.gov.taipei/News_Content.aspx?n=AD685BA70CE9DD0C&sms=78D644F2755ACCAA&s=DFE94DB1BD7F3D54), Taipei City Government.
 :::
 
@@ -378,7 +378,7 @@ Forest Policy Econ.
 :::
 
 ::: paper-meta
-***Forest Policy and Economics***, 171, 103411, 2025 (with Tzong-Haw Lee and Hung-Hao Chang). ⁺
+[***Forest Policy and Economics***](https://www.sciencedirect.com/journal/forest-policy-and-economics), 171, 103411, 2025 (with Tzong-Haw Lee and Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -413,7 +413,7 @@ J. Transp. Geogr.
 :::
 
 ::: paper-meta
-***Journal of Transport Geography***, 91, 102954, 2021 (with Hung-Hao Chang, Brian Lee, and Feng-An Yang). †\^⁺
+[***Journal of Transport Geography***](https://www.sciencedirect.com/journal/journal-of-transport-geography), 91, 102954, 2021 (with Hung-Hao Chang, Brian Lee, and Feng-An Yang). †\^⁺
 :::
 
 ::: paper-links
@@ -467,7 +467,7 @@ Agriculture
 :::
 
 ::: paper-meta
-***Agriculture***, 16(22), 2489, 2026 (with Tzong-Haw Lee and Hung-Hao Chang). ⁺
+[***Agriculture***](https://www.mdpi.com/journal/agriculture), 16(22), 2489, 2026 (with Tzong-Haw Lee and Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -499,7 +499,7 @@ J. Tour. Manag. Res.
 :::
 
 ::: paper-meta
-***Journal of Tourism Management Research***, 13(1), 148–162, 2026 (with Man-Keun Kim and Hung-Hao Chang).
+[***Journal of Tourism Management Research***](https://www.conscientiabeam.com/journal/31), 13(1), 148–162, 2026 (with Man-Keun Kim and Hung-Hao Chang).
 :::
 
 ::: paper-links
@@ -535,7 +535,7 @@ Ann. Tour. Res. Empir. Insights
 :::
 
 ::: paper-meta
-***Annals of Tourism Research Empirical Insights***, 7(1), 100209, 2026 (with Hung-Hao Chang). ⁺
+[***Annals of Tourism Research Empirical Insights***](https://www.sciencedirect.com/journal/annals-of-tourism-research-empirical-insights), 7(1), 100209, 2026 (with Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -571,7 +571,7 @@ Agriculture
 :::
 
 ::: paper-meta
-***Agriculture***, 15(20), 2124, 2025 (with Tzong-Haw Lee and Hung-Hao Chang). ⁺
+[***Agriculture***](https://www.mdpi.com/journal/agriculture), 15(20), 2124, 2025 (with Tzong-Haw Lee and Hung-Hao Chang). ⁺
 :::
 
 ::: paper-links
@@ -607,7 +607,7 @@ Agribusiness
 :::
 
 ::: paper-meta
-***Agribusiness***, advance online publication, 2025 (with Hung-Hao Chang and Jeffrey C. Begun).
+[***Agribusiness***](https://onlinelibrary.wiley.com/journal/15206297), advance online publication, 2025 (with Hung-Hao Chang and Jeffrey C. Begun).
 :::
 
 ::: paper-links
@@ -641,7 +641,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-meta
-***The Singapore Economic Review***, advance online publication, 2025 (with Hung-Hao Chang and Jeffrey C. Begun).
+[***The Singapore Economic Review***](https://www.worldscientific.com/worldscinet/ser), advance online publication, 2025 (with Hung-Hao Chang and Jeffrey C. Begun).
 :::
 
 ::: paper-links
@@ -675,7 +675,7 @@ Qual. Quant.
 :::
 
 ::: paper-meta
-***Quality & Quantity***, 58(6), 5737–5754, 2024 (with Hung-Hao Chang and David R. Just).
+[***Quality & Quantity***](https://link.springer.com/journal/11135), 58(6), 5737–5754, 2024 (with Hung-Hao Chang and David R. Just).
 :::
 
 ::: paper-links
