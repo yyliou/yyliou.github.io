@@ -940,6 +940,15 @@ document.addEventListener('DOMContentLoaded', function () {
 </ol>
 ```
 
+## **Invited Talks**
+
+```{=html}
+<ol class="conf-list" reversed>
+<li><strong>Liou, Yu-You</strong>*. “The environmental economics of urban transport: Three essays on fare policy, vehicle electrification, and transit disruption in Taiwan.”<br>Seminar, Department of Agricultural Economics, National Taiwan University (November 2026), Taipei.<br>Guest lecture, Agricultural Policy, Department of Agricultural Economics, National Taiwan University (October 2026), Taipei.</li>
+<li><strong>劉昱佑</strong>*。「所得分配的空間相關性：以臺中市為例」。<br>[<strong>Liou, Yu-You</strong>. “Spatial correlation of income distribution: Evidence from Taichung City.”]<br>Closing talk, Mingdao High School Winter Intro-MUN (February 2022), Taichung.</li>
+</ol>
+```
+
 ## **Refereed Conference Presentations**
 
 ```{=html}

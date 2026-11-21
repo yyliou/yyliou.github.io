@@ -937,6 +937,15 @@ document.addEventListener('DOMContentLoaded', function () {
 </ol>
 ```
 
+## **受邀演講**
+
+```{=html}
+<ol class="conf-list" reversed>
+<li><strong>Liou, Yu-You</strong>*. “The environmental economics of urban transport: Three essays on fare policy, vehicle electrification, and transit disruption in Taiwan.”<br>國立臺灣大學農業經濟學系專題討論（2026 年 11 月），臺北。<br>國立臺灣大學農業經濟學系農業政策課程（2026 年 10 月），臺北。</li>
+<li><strong>劉昱佑</strong>*。「所得分配的空間相關性：以臺中市為例」。<br>私立明道高級中學寒假 Intro-MUN 閉幕演講（2022 年 2 月），臺中。</li>
+</ol>
+```
+
 ## **審查制研討會論文發表**
 
 ```{=html}
