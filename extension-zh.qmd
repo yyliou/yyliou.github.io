@@ -50,7 +50,7 @@ agrstat
 :::
 
 ::: paper-meta
-R 套件，115 年
+R 套件，115年
 :::
 
 ::: paper-desc
@@ -68,7 +68,7 @@ twweather
 :::
 
 ::: paper-meta
-R 套件，115 年
+R 套件，115年
 :::
 
 ::: paper-desc
@@ -86,7 +86,7 @@ twhotel
 :::
 
 ::: paper-meta
-R 套件，115 年
+R 套件，115年
 :::
 
 ::: paper-desc
@@ -104,7 +104,7 @@ plvr
 :::
 
 ::: paper-meta
-R 套件，115 年
+R 套件，115年
 :::
 
 ::: paper-desc
@@ -122,7 +122,7 @@ twcovid
 :::
 
 ::: paper-meta
-R 套件，115 年
+R 套件，115年
 :::
 
 ::: paper-desc
@@ -140,7 +140,7 @@ scen
 :::
 
 ::: paper-meta
-R 套件，115 年
+R 套件，115年
 :::
 
 ::: paper-desc
