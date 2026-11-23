@@ -165,7 +165,7 @@ Land Econ.
 :::
 
 ::: paper-links
-[Abstract]{.paper-btn .abs-toggle} [SSCI]{.idx-badge} [Scopus]{.idx-badge} [EconLit]{.idx-badge} [ABDC A]{.idx-badge} [AJG 3]{.idx-badge}
+[Abstract]{.paper-btn .abs-toggle} [SSCI]{.idx-badge} [ABDC A]{.idx-badge} [AJG 3]{.idx-badge}
 :::
 
 ```{=html}
@@ -191,7 +191,7 @@ Transp. Policy
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.tranpol.2026.104468){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [Scopus]{.idx-badge} [ABDC A]{.idx-badge} [AJG 2]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.tranpol.2026.104468){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [ABDC A]{.idx-badge} [AJG 2]{.idx-badge}
 :::
 
 ```{=html}
@@ -226,7 +226,7 @@ J. Assoc. Environ. Resour. Econ.
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1086/743452){.paper-btn} [Earlier version](https://ssrn.com/abstract=4984614){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [Scopus]{.idx-badge} [EconLit]{.idx-badge} [ABDC A\*]{.idx-badge} [AJG 3]{.idx-badge}
+[Journal](https://doi.org/10.1086/743452){.paper-btn} [Earlier version](https://ssrn.com/abstract=4984614){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [ABDC A\*]{.idx-badge} [AJG 3]{.idx-badge}
 :::
 
 ```{=html}
@@ -259,7 +259,7 @@ Food Policy
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [Scopus]{.idx-badge} [EconLit]{.idx-badge} [ABDC B]{.idx-badge} [AJG 3]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.foodpol.2026.103148){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [ABDC B]{.idx-badge} [AJG 3]{.idx-badge}
 :::
 
 ```{=html}
@@ -295,7 +295,7 @@ Award: [2025 Doctoral Student Academic Paper Award](https://yyliou.github.io/yyl
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Media]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [Scopus]{.idx-badge} [EconLit]{.idx-badge} [ABDC A\*]{.idx-badge} [AJG 3]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.tra.2026.104860){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Media]{.paper-btn .media-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [ABDC A\*]{.idx-badge} [AJG 3]{.idx-badge}
 :::
 
 ```{=html}
@@ -347,7 +347,7 @@ Award: [2026 Research Report Data Utilization Award, Excellence Award](https://r
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [Scopus]{.idx-badge} [EconLit]{.idx-badge} [ABDC A]{.idx-badge} [AJG 3]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.trd.2025.104903){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [ABDC A]{.idx-badge} [AJG 3]{.idx-badge}
 :::
 
 ```{=html}
@@ -382,7 +382,7 @@ Forest Policy Econ.
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [Scopus]{.idx-badge} [ABDC B]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.forpol.2024.103411){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [ABDC B]{.idx-badge}
 :::
 
 ```{=html}
@@ -417,7 +417,7 @@ J. Transp. Geogr.
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [Scopus]{.idx-badge} [ABDC A]{.idx-badge} [AJG 2]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.jtrangeo.2021.102954){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [ABDC A]{.idx-badge} [AJG 2]{.idx-badge}
 :::
 
 ```{=html}
@@ -471,7 +471,7 @@ Agriculture
 :::
 
 ::: paper-links
-[Journal](https://www.mdpi.com/2077-0472/16/22/2489){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SCIE]{.idx-badge} [Scopus]{.idx-badge}
+[Journal](https://www.mdpi.com/2077-0472/16/22/2489){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -539,7 +539,7 @@ Ann. Tour. Res. Empir. Insights
 :::
 
 ::: paper-links
-[Journal](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge} [Scopus]{.idx-badge} [ABDC B]{.idx-badge}
+[Journal](https://doi.org/10.1016/j.annale.2026.100209){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ESCI]{.idx-badge} [ABDC B]{.idx-badge}
 :::
 
 ```{=html}
@@ -575,7 +575,7 @@ Agriculture
 :::
 
 ::: paper-links
-[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SCIE]{.idx-badge} [Scopus]{.idx-badge}
+[Journal](https://www.mdpi.com/2077-0472/15/20/2124){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SCIE]{.idx-badge}
 :::
 
 ```{=html}
@@ -611,7 +611,7 @@ Agribusiness
 :::
 
 ::: paper-links
-[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [Scopus]{.idx-badge} [EconLit]{.idx-badge} [ABDC C]{.idx-badge}
+[Journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.70035){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [SCIE]{.idx-badge} [ABDC C]{.idx-badge}
 :::
 
 ```{=html}
@@ -645,7 +645,7 @@ Singapore Econ. Rev.
 :::
 
 ::: paper-links
-[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [Scopus]{.idx-badge} [EconLit]{.idx-badge} [ABDC B]{.idx-badge}
+[Journal](https://www.worldscientific.com/doi/10.1142/S0217590825500328){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [SSCI]{.idx-badge} [ABDC B]{.idx-badge}
 :::
 
 ```{=html}
@@ -679,7 +679,7 @@ Qual. Quant.
 :::
 
 ::: paper-links
-[Journal](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [Scopus]{.idx-badge} [ABDC B]{.idx-badge}
+[Journal](https://link.springer.com/article/10.1007/s11135-024-01915-9){.paper-btn} [Abstract]{.paper-btn .abs-toggle} [BibTeX]{.paper-btn .bib-toggle} [ABDC B]{.idx-badge}
 :::
 
 ```{=html}
@@ -922,9 +922,9 @@ document.addEventListener('DOMContentLoaded', function () {
 - [*Communications Sustainability*](https://www.nature.com/commssustain/) (1)
 - [*Criminology & Public Policy*](https://onlinelibrary.wiley.com/journal/17459133) (1)
 - [*Food Policy*](https://www.sciencedirect.com/journal/food-policy) (2)
-- *Frontiers in*: [*Climate*](https://www.frontiersin.org/journals/climate) (3), [*Environmental Economics*](https://www.frontiersin.org/journals/environmental-economics) (1), [*Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1), [*Nutrition*](https://www.frontiersin.org/journals/nutrition) (1), [*Political Science*](https://www.frontiersin.org/journals/political-science) (1), [*Sustainable Food Systems*](https://www.frontiersin.org/journals/sustainable-food-systems) (1)
 - [*Managerial and Decision Economics*](https://onlinelibrary.wiley.com/journal/10991468) (1)
 - [*Traffic Injury Prevention*](https://www.tandfonline.com/journals/gcpi20) (1)
+- *Frontiers in*: [*Climate*](https://www.frontiersin.org/journals/climate) (3), [*Environmental Economics*](https://www.frontiersin.org/journals/environmental-economics) (1), [*Environmental Science*](https://www.frontiersin.org/journals/environmental-science) (1), [*Nutrition*](https://www.frontiersin.org/journals/nutrition) (1), [*Political Science*](https://www.frontiersin.org/journals/political-science) (1), [*Sustainable Food Systems*](https://www.frontiersin.org/journals/sustainable-food-systems) (1)
 
 ## **Dissertation and Theses**
 
