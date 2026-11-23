@@ -697,7 +697,7 @@ Qual. Quant.
 ## **投稿與進行中研究**
 
 ```{=html}
-<ol reversed start="8" class="wip-list">
+<ol reversed start="9" class="wip-list">
 <li>Do consumption vouchers benefit agricultural cooperatives? Causal evidence from farmers’ associations (with Hung-Hao Chang and Karin Wu).（<a href="https://www.sciencedirect.com/journal/food-policy" target="_blank" rel="noopener"><em>Food Policy</em></a>，第二輪修訂中）</li>
 <li>Technology adoption of environmentally controlled housing system and the distribution of farm revenue (with Hung-Hao Chang).（<a href="https://www.sciencedirect.com/journal/technological-forecasting-and-social-change" target="_blank" rel="noopener"><em>Technological Forecasting and Social Change</em></a>，第一輪修訂中）</li>
 <li>Green gentrification beyond the city: The impacts of ecosystem investment on housing markets and agricultural community dynamics (with Hung-Hao Chang).（<a href="https://www.sciencedirect.com/journal/ecosystem-services" target="_blank" rel="noopener"><em>Ecosystem Services</em></a>，第一輪修訂中）</li>
@@ -706,6 +706,7 @@ Qual. Quant.
 <li>From gasoline to electric: Economic and environmental impacts of taxi electrification (with Hung-Hao Chang).（準備投稿中）</li>
 <li>Pension policy reform of the minimum contribution period and intra-household succession of family farms (with Hung-Hao Chang).（準備投稿中）</li>
 <li>The spatial reach of metro-led development: Housing gains and traffic-safety costs by station accessibility (with Hung-Hao Chang).（準備投稿中）</li>
+<li>Farm profitability, risk premium, and carbon emissions of organic rice farming: Implications for optimal policy design (with Hung-Hao Chang).（準備投稿中）</li>
 </ol>
 ```
 
