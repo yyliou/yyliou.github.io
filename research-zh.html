@@ -376,37 +376,50 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <div class="cite-chart">
-  <div class="cite-chart-title">歷年被引次數</div>
+  <div class="cite-chart-title">累計被引次數</div>
   <div class="cite-bars">
-    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="40"><span class="cite-bar-val" data-val="8">0</span></div></div><span class="cite-bar-year">2021</span></div>
-    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="80"><span class="cite-bar-val" data-val="16">0</span></div></div><span class="cite-bar-year">2022</span></div>
-    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="100"><span class="cite-bar-val" data-val="20">0</span></div></div><span class="cite-bar-year">2023</span></div>
-    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="95"><span class="cite-bar-val" data-val="19">0</span></div></div><span class="cite-bar-year">2024</span></div>
-    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="80"><span class="cite-bar-val" data-val="16">0</span></div></div><span class="cite-bar-year">2025</span></div>
-    <div class="cite-bar-col"><div class="cite-bar-track"><div class="cite-bar" data-h="90"><span class="cite-bar-val" data-val="18">0</span></div></div><span class="cite-bar-year">2026</span></div>
+    <div class="cite-bar-col" data-cites="11"><div class="cite-bar-track"><div class="cite-bar"><span class="cite-bar-val">0</span></div></div><span class="cite-bar-year">2021</span></div>
+    <div class="cite-bar-col" data-cites="16"><div class="cite-bar-track"><div class="cite-bar"><span class="cite-bar-val">0</span></div></div><span class="cite-bar-year">2022</span></div>
+    <div class="cite-bar-col" data-cites="20"><div class="cite-bar-track"><div class="cite-bar"><span class="cite-bar-val">0</span></div></div><span class="cite-bar-year">2023</span></div>
+    <div class="cite-bar-col" data-cites="19"><div class="cite-bar-track"><div class="cite-bar"><span class="cite-bar-val">0</span></div></div><span class="cite-bar-year">2024</span></div>
+    <div class="cite-bar-col" data-cites="16"><div class="cite-bar-track"><div class="cite-bar"><span class="cite-bar-val">0</span></div></div><span class="cite-bar-year">2025</span></div>
+    <div class="cite-bar-col" data-cites="18"><div class="cite-bar-track"><div class="cite-bar"><span class="cite-bar-val">0</span></div></div><span class="cite-bar-year">2026</span></div>
   </div>
 </div>
 
 <script>
+// Each column holds its own year's citations (data-cites); the bars show the running total.
 document.addEventListener('DOMContentLoaded', function () {
   var chart = document.querySelector('.cite-chart');
   if (!chart) return;
   var duration = 1100;
 
-  function animate() {
-    chart.querySelectorAll('.cite-bar').forEach(function (bar) {
-      bar.style.height = (parseFloat(bar.getAttribute('data-h')) || 0) + '%';
+  function runningTotals(cols) {
+    var sum = 0;
+    return cols.map(function (col) {
+      sum += parseInt(col.getAttribute('data-cites'), 10) || 0;
+      return sum;
     });
-    chart.querySelectorAll('.cite-bar-val').forEach(function (el) {
-      var target = parseInt(el.getAttribute('data-val'), 10) || 0;
-      var start = performance.now();
-      function step(now) {
-        var p = Math.min((now - start) / duration, 1);
-        var eased = 1 - Math.pow(1 - p, 3);
-        el.textContent = Math.round(eased * target);
-        if (p < 1) requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
+  }
+
+  function countUp(el, target) {
+    var start = performance.now();
+    function step(now) {
+      var p = Math.min((now - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(eased * target);
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  function animate() {
+    var cols = Array.from(chart.querySelectorAll('.cite-bar-col'));
+    var totals = runningTotals(cols);
+    var tallest = totals[totals.length - 1] || 1;
+    cols.forEach(function (col, i) {
+      col.querySelector('.cite-bar').style.height = (100 * totals[i] / tallest) + '%';
+      countUp(col.querySelector('.cite-bar-val'), totals[i]);
     });
   }
 
@@ -423,7 +436,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 <div class="paper-note">
-<p><em>註</em>：有三筆文獻無法對應至相應年份，因此未納入圖中。</p>
+<p><em>註</em>：有三筆文獻無法對應至相應年份，計入2021年。</p>
 </div>
 <p>我的研究成果主要發表於農業經濟學、環境與資源經濟學及運輸經濟學領域之國際期刊，包括知名的 <a href="https://www.sciencedirect.com/journal/food-policy"><em>Food Policy</em></a>、<a href="https://www.sciencedirect.com/journal/forest-policy-and-economics"><em>Forest Policy and Economics</em></a>、<a href="https://www.journals.uchicago.edu/toc/jaere/current"><em>Journal of the Association of Environmental and Resource Economists</em></a>、<a href="https://www.sciencedirect.com/journal/journal-of-transport-geography"><em>Journal of Transport Geography</em></a>、<a href="https://le.uwpress.org/"><em>Land Economics</em></a>、<a href="https://www.sciencedirect.com/journal/transport-policy"><em>Transport Policy</em></a> 以及 <a href="https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice"><em>Transportation Research Part A</em></a> 與 <a href="https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment"><em>Part D</em></a>。研究成果亦多次獲 <a href="https://www.sciencedirect.com/journal/cities"><em>Cities</em></a> 及 <a href="https://www.sciencedirect.com/journal/sustainable-cities-and-society"><em>Sustainable Cities and Society</em></a> 等期刊引用。詳細研究成果請參閱<a href="https://yyliou.github.io/yyliou/rs/rs_zh.pdf">研究自述</a>。</p>
 <div class="quarto-figure quarto-figure-center">
@@ -1151,6 +1164,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <div class="site-footer-links">
         <a href="https://yyliou.github.io/yyliou/cv/cv.pdf" data-href-zh="https://yyliou.github.io/yyliou/cv/cv_zh.pdf" target="_blank" rel="noopener" data-en="Curriculum Vitae" data-zh="履歷">Curriculum Vitae</a>
         <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&amp;hl=en" data-href-zh="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&amp;hl=zh-TW" target="_blank" rel="noopener" data-en="Google Scholar" data-zh="Google 學術">Google Scholar</a>
+        <a href="https://www.researchgate.net/profile/Yu-You-Liou/research" target="_blank" rel="noopener" data-en="ResearchGate" data-zh="ResearchGate">ResearchGate</a>
         <a href="https://github.com/yyliou" target="_blank" rel="noopener" data-en="GitHub" data-zh="GitHub">GitHub</a>
       </div>
     </div>
@@ -1185,14 +1199,21 @@ document.addEventListener('DOMContentLoaded', function () {
       footer.querySelectorAll('a[data-page]').forEach(function (a) {
         var href = a.getAttribute('href') || '';
         if (href.indexOf('-zh') === -1) {
-          a.setAttribute('href', href.replace('.html', '-zh.html'));
+          setHref(a, href.replace('.html', '-zh.html'));
         }
       });
       // External links with a Chinese variant (e.g. CV)
       footer.querySelectorAll('a[data-href-zh]').forEach(function (a) {
-        a.setAttribute('href', a.getAttribute('data-href-zh'));
+        setHref(a, a.getAttribute('data-href-zh'));
       });
     }
+  }
+
+  // quarto-nav.js keeps each link's first href in data-original-href, and Quarto's
+  // external-link pass later puts that copy back, so a new href goes to both.
+  function setHref(a, href) {
+    a.setAttribute('href', href);
+    a.dataset.originalHref = href;
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initFooter);

@@ -24,6 +24,7 @@ page-layout: custom
       <a href="https://yyliou.github.io/yyliou/cv/cv_zh.pdf" target="_blank">履歷</a>
       <a href="mailto:d10627008@ntu.edu.tw">電子郵件</a>
       <a href="https://scholar.google.com/citations?user=PXyiL0oAAAAJ&hl=zh-TW" target="_blank">Google 學術</a>
+      <a href="https://www.researchgate.net/profile/Yu-You-Liou/research" target="_blank">ResearchGate</a>
       <a href="https://github.com/yyliou" target="_blank">GitHub</a>
     </nav>
   </div>
