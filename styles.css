@@ -2706,10 +2706,9 @@ body:has(.landing) .site-footer {
     text-align: left;
 }
 
-/* Pages + Elsewhere: paired columns on the right, right-aligned, tops level */
+/* Pages + Elsewhere: paired columns on the right, right-aligned */
 .site-footer-col {
     text-align: right;
-    align-self: start;
 }
 
 .site-footer-name {
