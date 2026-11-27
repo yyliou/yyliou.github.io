@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 :::
 
 ::: paper-meta
-碩士在職專班，3 學分；112學年下學期、115學年上學期（[張宏浩](https://sites.google.com/view/hh-chang)教授）
+碩士在職專班，3 學分；112學年下學期、115學年下學期（[張宏浩](https://sites.google.com/view/hh-chang)教授、[陳郁蕙](https://www.agec.ntu.edu.tw/zh_tw/teacher/teacher1/%E9%99%B3%E9%83%81%E8%95%99-39134296)教授合授）
 :::
 ::::::
 
